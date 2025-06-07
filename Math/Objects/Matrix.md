@@ -16,12 +16,29 @@ a_{21} & a_{22} & \cdots & a_{2n} \\
 a_{n1} & a_{n2} & \cdots & a_{nn}
 \end{pmatrix}
 $$
+- Symmetric Matrix $$
+A = \begin{pmatrix}
+a_{11} & a_{12} & \cdots & a_{1n} \\
+a_{12} & a_{22} & \cdots & a_{2n} \\
+\vdots & \vdots & \ddots & \vdots \\
+a_{1n} & a_{2n} & \cdots & a_{nn}
+\end{pmatrix}
+$$
+
 - Diagonal Matrix $$
 D = \begin{pmatrix}
 d_{1} & 0      & \cdots & 0      \\
 0     & d_{2}  & \cdots & 0      \\
 \vdots& \vdots & \ddots & \vdots \\
 0     & 0      & \cdots & d_{n}
+\end{pmatrix}
+$$
+- Identity Matrix $$
+I_n = \begin{pmatrix}
+1 & 0 & \cdots & 0 \\
+0 & 1 & \cdots & 0 \\
+\vdots & \vdots & \ddots & \vdots \\
+0 & 0 & \cdots & 1
 \end{pmatrix}
 $$
 - Upper Triangular Matrix $$
@@ -40,11 +57,9 @@ l_{21} & l_{22} & \cdots & 0 \\
 l_{n1} & l_{n2} & \cdots & l_{nn}
 \end{pmatrix}
 $$
-- Identity Matrix $$
-I_n = \begin{pmatrix}
-1 & 0 & \cdots & 0 \\
-0 & 1 & \cdots & 0 \\
-\vdots & \vdots & \ddots & \vdots \\
-0 & 0 & \cdots & 1
+- Block Matrix $$
+A = \begin{pmatrix}
+A_{11} & A_{12} \\
+A_{21} & A_{22}
 \end{pmatrix}
 $$
