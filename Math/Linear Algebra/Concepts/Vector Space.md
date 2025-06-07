@@ -15,17 +15,24 @@
 
 ## Examples
 -  R
-1) $a,b\in R$, $a+b\in R, ca \in R$
--  $C^0(R)$ = {continuous functions} 
-1) (f+g)(x) = f(x) + g(x)
-2) (cf)(x) = cf(x)
--  $C^1(R)$ = {cont. functions with cont. derivatives}
--  $M_{mxn}$, componentwise addition and scalar multiplication
--  Let S be a non-empty set
--  $\mathcal{F}(S)$ = {f: S --> R}
-1) (f+g)(s) = f(s) + g(s)
-2) (cf)(s) = cf(s)
+	1. $a,b\in R$, $a+b\in R, ca \in R$
 
+-  $C^0(R)$ = {continuous functions} 
+	1) (f+g)(x) = f(x) + g(x)
+	2) (cf)(x) = cf(x)
+	
+-  $C^1(R)$ = {cont. functions with cont. derivatives}
+
+-  $M_{m\times n}$, component wise addition and scalar multiplication
+
+Let S be a non-empty set 
+-  $\mathcal{F}(S)$ = {f: S --> R}
+	1) (f+g)(s) = f(s) + g(s)
+	2) (cf)(s) = cf(s)
+
+- $\mathcal{F}(N)$ = {$\sigma$: N --> R} logically equivalent to:
+- V = {{$a_{n}$}} // Set of Sequences
+	1. {$a_{n}$} + {$b_{n}$} = {}
 ## Non-examples
 - Non-example 1: ...
 - Non-example 2: ...
