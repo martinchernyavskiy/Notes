@@ -1,8 +1,3 @@
-
-Matrices - collection of entries from a field in a rectangular shape with general form of:
-
-A = ($a_{11},a_{12}\dots a_{1n}$) = ($a_ {ij}$) 
-
 ## Definition
 ?
 *A vector space is a set of V, equipped with two operations: addition and scalar multiplication s.t the following 8 properties hold:*
@@ -54,12 +49,5 @@ A = ($a_{11},a_{12}\dots a_{1n}$) = ($a_ {ij}$)
 - What are the defining properties of a vector space?
 - Give an example of a vector space over ℝ.
 - What is the additive identity in a vector space?
-
-## Flashcards
-Q: State the definition of a vector space.  
-A: ...
-
-Q: List the 8 properties of vector spaces.  
-A: ...
 
 #linear-algebra
