@@ -1,38 +1,38 @@
 ## Definition
 ?
 *A vector space is a set of V, equipped with two operations: addition and scalar multiplication s.t the following 8 properties hold:*
+<!--SR:!2025-06-11,4,270-->
 
 ## Properties / Axioms
 ?
 1. u + v = v + u
 2. u + (v+w) = (u+v) + w
-3. $\exists$ 0 s.t u + 0 = u 
+3. $\exists$ 0 s.t u + 0 = u
 4. $\exists$ w s.t u + w = 0
-5. 1v = v 
+5. 1v = v
 6. (ab)v = a(bv)
 7. a(u+v) = au + av
 8. (a+b)v = av + bv
+<!--SR:!2025-06-11,4,270-->
 
 ## Examples
+?
 -  R
 	1. $a,b\in R$, $a+b\in R, ca \in R$
-
 -  $C^0(R)$ = {continuous functions} 
 	1) (f+g)(x) = f(x) + g(x)
 	2) (cf)(x) = cf(x)
-	
 -  $C^1(R)$ = {cont. functions with cont. derivatives}
-
 -  $M_{m\times n}$, component wise addition and scalar multiplication
-
 Let S be a non-empty set 
 -  $\mathcal{F}(S)$ = {f: S --> R}
 	1) (f+g)(s) = f(s) + g(s)
 	2) (cf)(s) = cf(s)
-
 - $\mathcal{F}(N)$ = {$\sigma$: N --> R} logically equivalent to:
 - V = {{$a_{n}$}} // Set of Sequences
-	1. {$a_{n}$} + {$b_{n}$} = {}
+	1. {$a_{n}$} + {$b_{n}$} = {$a_{n} + b_{n}$}
+	2. c{$a_{n}$} = {$ca_{n}$}
+
 ## Non-examples
 - Non-example 1: ...
 - Non-example 2: ...
