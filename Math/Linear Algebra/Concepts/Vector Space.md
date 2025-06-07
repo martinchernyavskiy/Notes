@@ -19,24 +19,25 @@
 ?
 - $\mathbb{R}$
 	$a, b \in \mathbb{R}, \quad a + b \in \mathbb{R}, \quad c a \in \mathbb{R}$
-?
+‎ 
 - **$C^0(\mathbb{R})$** — continuous functions  
 	$(f+g)(x) = f(x) + g(x), \quad (c f)(x) = c f(x)$
-
+‎ 
 - **$C^1(\mathbb{R})$** — continuously differentiable functions  
   Same as above.
-
+‎ 
 - **$\mathbb{M}_{m \times n}$** — matrices, component-wise addition and scalar multiplication.
-
+‎ 
 - **$\mathcal{F}(S)$** where $S$ is non-empty: $f : S \to \mathbb{R}$  
 	$(f+g)(s) = f(s) + g(s),\quad(c f)(s) = c f(s)$
-
+‎ 
 - **$\mathcal{F}(\mathbb{N})$** — functions $\sigma : \mathbb{N} \to \mathbb{R}$
-
+‎ 
 - **$V = \{ \{ a_n \} \}$** — set of sequences  
 	$\{ a_n \} + \{ b_n \} = \{ a_n + b_n \}, \quad c \{ a_n \} = \{ c a_n \}$
 
-
+- $P_{n}$ = {{polynomial}s f(x) of degree at most n}
+	adding / multiplying by scalar the coefficients. 
 ## Non-examples
 - Non-example 1: ...
 - Non-example 2: ...
