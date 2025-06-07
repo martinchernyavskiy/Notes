@@ -15,23 +15,27 @@
 8. $(a+b)v = av + bv$
 <!--SR:!2025-06-11,4,270-->
 
-## Examples
+## ## Examples
 ?
--  R
-	1. $a,b\in R$, $a+b\in R, ca \in R$
--  $C^0(R)$ = {continuous functions} 
-	1) (f+g)(x) = f(x) + g(x)
-	2) (cf)(x) = cf(x)
--  $C^1(R)$ = {cont. functions with cont. derivatives}
--  $M_{m\times n}$, component wise addition and scalar multiplication
-Let S be a non-empty set 
--  $\mathcal{F}(S)$ = {f: S --> R}
-	1) (f+g)(s) = f(s) + g(s)
-	2) (cf)(s) = cf(s)
-- $\mathcal{F}(N)$ = {$\sigma$: N --> R} logically equivalent to:
-- V = {{$a_{n}$}} // Set of Sequences
-	1. {$a_{n}$} + {$b_{n}$} = {$a_{n} + b_{n}$}
-	2. c{$a_{n}$} = {$ca_{n}$}
+- $\mathbb{R}$
+	$a, b \in \mathbb{R}, \quad a + b \in \mathbb{R}, \quad c a \in \mathbb{R}$
+?
+- **$C^0(\mathbb{R})$** — continuous functions  
+	$(f+g)(x) = f(x) + g(x), \quad (c f)(x) = c f(x)$
+
+- **$C^1(\mathbb{R})$** — continuously differentiable functions  
+  Same as above.
+
+- **$\mathbb{M}_{m \times n}$** — matrices, component-wise addition and scalar multiplication.
+
+- **$\mathcal{F}(S)$** where $S$ is non-empty: $f : S \to \mathbb{R}$  
+	$(f+g)(s) = f(s) + g(s),\quad(c f)(s) = c f(s)$
+
+- **$\mathcal{F}(\mathbb{N})$** — functions $\sigma : \mathbb{N} \to \mathbb{R}$
+
+- **$V = \{ \{ a_n \} \}$** — set of sequences  
+	$\{ a_n \} + \{ b_n \} = \{ a_n + b_n \}, \quad c \{ a_n \} = \{ c a_n \}$
+
 
 ## Non-examples
 - Non-example 1: ...
