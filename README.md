@@ -1,2 +1,1 @@
-# Notes
 My Obsidian Notes :)
