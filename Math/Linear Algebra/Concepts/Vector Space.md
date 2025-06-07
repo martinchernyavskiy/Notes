@@ -14,7 +14,7 @@
 8. (a+b)v = av + bv
 
 ## Examples
--  $\mathbb{R}$
+-  R
 1) $a,b\in R$, $a+b\in R, ca \in R$
 -  $C^0(R)$ = {continuous functions} 
 1) (f+g)(x) = f(x) + g(x)
