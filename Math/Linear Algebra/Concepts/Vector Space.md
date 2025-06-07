@@ -5,14 +5,14 @@
 
 ## Properties / Axioms
 ?
-1. u + v = v + u
-2. u + (v+w) = (u+v) + w
+1. $u + v = v + u$
+2. $u + (v+w) = (u+v) + w$
 3. $\exists$ 0 s.t u + 0 = u
 4. $\exists$ w s.t u + w = 0
-5. 1v = v
-6. (ab)v = a(bv)
-7. a(u+v) = au + av
-8. (a+b)v = av + bv
+5. $1v = v$
+6. $(ab)v = a(bv)$
+7. $a(u+v) = au + av$
+8. $(a+b)v = av + bv$
 <!--SR:!2025-06-11,4,270-->
 
 ## Examples
