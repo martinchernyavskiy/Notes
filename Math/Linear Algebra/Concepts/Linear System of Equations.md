@@ -25,15 +25,19 @@ Where $(x_{1},x_{2},\dots,x_{n})$ are variables and $(a_{1},a_{2},\dots a_{n})$ 
 - Augmented Matrix w/ elementary row operations that mimic the basic equation operations.
 	$m\times(n+1)$ form, right-most being answers to equations.
 ‎.
-- REF form of augmented matrix
+- REF form of Augmented Matrix
 	All zero rows are below all non-zero rows
 	The leading entry of each row is to the right of the row above it
 ‎ .
 - RREF form of Augmented Matrix
+	Leading entries are all 1s
+	Leading Entries are only non-zero entry in their columns
 
-## Worked-examples
+## Remarks
 ?
-- Example 1
+- If leading entry is the rightmost column, then system is inconsistent
+.
+- If system has columns without leading entries and it's valid REF, then the system has infinitely many solutions
 
 ## Non-examples
 ?
@@ -42,6 +46,7 @@ Where $(x_{1},x_{2},\dots,x_{n})$ are variables and $(a_{1},a_{2},\dots a_{n})$ 
 
 ## Theorems
 - [[Basic Operations Don't Change Set of Solutions]]
+- [[Every Matrix Can Be Put In RREF]]
 
 ## Questions
 - ...
