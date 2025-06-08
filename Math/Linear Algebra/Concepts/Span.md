@@ -11,11 +11,11 @@ $Span(S) = \{a_{1}v_{1}+\dots a_{k}v_{k}|a_{1},\dots,a_{k} \in R, u_{1},\dots u_
 
 ## Examples
 ?
-- Example 1: ...
+- $S=\{\vec{0}\}, \quad Span(S) = \{\vec{0}\}$
+‎.
+- $S=V, \quad Span(S) = V$
 ‎ 
-- Example 2: ...
-‎ 
-- Example 3: ...
+- $Span(\{(1,0),(0,1)\}) = \{a_{1}(1,0)+a_{2}(0,1)|a_{1},a_{2} \in R\}$
 
 ## Worked-examples
 ?
