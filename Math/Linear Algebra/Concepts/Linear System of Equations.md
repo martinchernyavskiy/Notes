@@ -39,7 +39,7 @@ Where $(x_{1},x_{2},\dots,x_{n})$ are variables and $(a_{1},a_{2},\dots a_{n})$ 
 .
 - If system has columns without leading entries and it's valid REF, then the system has infinitely many solutions.
 	- In this case we parameterize the columns with missing leading entry and solve the system.
-
+. 
 ## Worked-Out Example
 ?
 - Non-example 1: ...

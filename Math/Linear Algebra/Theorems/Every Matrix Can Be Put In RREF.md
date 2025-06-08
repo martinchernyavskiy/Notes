@@ -37,9 +37,25 @@ $$
 \end{pmatrix}
 $$
 The matrix is now in REF $\checkmark$
-Now we need 
+Now we need to make a backward pass from REF to RREF
+We now want ensure that all leading entries are 1s and are the only non-zero entries in their appropriate columns. Thus we multiply 3rd column by $\frac{1}{2}$ and subtract it from first equation and 3 times of it from the second equation, giving:
+$$
+\begin{pmatrix}
+1 & 1 & 1 & 0 \\
+0 & 1 & 2 & 0 \\
+0 & 0 & 0 & 1
+\end{pmatrix}
+$$
+Now subtract 2nd equation from the first.
+$$
+\begin{pmatrix}
+1 & 0 & -1 & 0 \\
+0 & 1 & 2 & 0 \\
+0 & 0 & 0 & 1
+\end{pmatrix}
+$$
+This Augmented Matrix is now in RREF, thus by construction we've shown that any matrix can be put in RREF.
 This completes the proof. $\square$
-
 ### Immediately follow:
 
 #### 1.RREF of a matrix is unique

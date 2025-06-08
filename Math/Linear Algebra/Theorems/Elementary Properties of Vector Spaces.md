@@ -14,7 +14,7 @@ u & = u + \vec{0} \quad (3) \\
   & =  v\quad (3)
 \end{aligned}
 $$
-This completes the proof. $\blacksquare$
+This completes the proof. $\square$
 ### Immediately follow:
 #### $0v = \vec{0}$
 #### $\vec{0}$ is uniquely defined by (3)
