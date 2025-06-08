@@ -44,17 +44,17 @@ $$
 
 ## $S \subset V$ generates V if Span(S) = V
 ?
-	Examples of generative subsets:
+- Examples of generative subsets:
 	1. {(1,0), (0,1)}, generates $R^2$
 	2. $\{\begin{pmatrix}1 & 0 \\ 0 & 0\end{pmatrix}, \begin{pmatrix}0 & 0 \\ 0 & 1\end{pmatrix}, \begin{pmatrix}0 & 1 \\ 1 & 0\end{pmatrix}\}$, generates v.s of $2\times_{2}$ symmetric matrices:
     A = $\begin{pmatrix} a_{11} & a_{12} \\ a_{12} & a_{22}\end{pmatrix}$ = $a_{11}\begin{pmatrix}1 & 0 \\ 0 & 0\end{pmatrix} + a_{21}\begin{pmatrix}0 & 0 \\ 0 & 1\end{pmatrix} + a_{12}\begin{pmatrix}0 & 1 \\ 1 & 0\end{pmatrix}$
 
-## $S \subset V$ generates V if Span(S) = V
+## Column Space of Matrix
 ?
-	Examples of generative subsets:
-	1. {(1,0), (0,1)}, generates $R^2$
-	2. $\{\begin{pmatrix}1 & 0 \\ 0 & 0\end{pmatrix}, \begin{pmatrix}0 & 0 \\ 0 & 1\end{pmatrix}, \begin{pmatrix}0 & 1 \\ 1 & 0\end{pmatrix}\}$, generates v.s of $2\times_{2}$ symmetric matrices:
-    A = $\begin{pmatrix} a_{11} & a_{12} \\ a_{12} & a_{22}\end{pmatrix}$ = $a_{11}\begin{pmatrix}1 & 0 \\ 0 & 0\end{pmatrix} + a_{21}\begin{pmatrix}0 & 0 \\ 0 & 1\end{pmatrix} + a_{12}\begin{pmatrix}0 & 1 \\ 1 & 0\end{pmatrix}$
+- Consider an arbitrary [[Matrix (Matrices)]] $A \in M_{m\times n}$
+- View it as a collection of n-column vectors in $R^m$
+- Then $Col(A) = Span\{\begin{pmatrix}a_{11} \\ \vdots  \\ a_{m1}\end{pmatrix} \dots \begin{pmatrix}a_{1n}\end{pmatrix}\}$
+
 
 
 ## Theorems
