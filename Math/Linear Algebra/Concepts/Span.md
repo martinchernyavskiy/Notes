@@ -24,7 +24,9 @@ $Span(S) = \{a_{1}v_{1}+\dots a_{k}v_{k}|a_{1},\dots,a_{k} \in R, u_{1},\dots u_
 
 ## Worked-examples
 ?
-- Example 1
+- Is $x^3-3x+5$ in $Span(\{x^3+2x^2-x+1, x^3+3x^2-1\})?$
+	$x^3-3x+5=a_{1}(x^3+2x^2-x+1)+a_{2}(x^3+3x^2-1)$
+	$x^3-3x+5$
 
 ## Non-examples
 ?
