@@ -18,15 +18,16 @@
 	$f,g$ continuous $\to f+g$ continuous $\checkmark$
 	$f$ continuous $\to cf$ continuous $\checkmark$
 .
-- $W$ = {symmetric [[Matrix (Matrices)]]} $\subset M_{n\times n}$ 
+- $W$ = {symmetric [[Matrix (Matrices)]]} $\subset M_{n\times n}$
 	$\vec{0}=\vec{0^t} \in W \quad \checkmark$
 	.
 	Need $A, B \in W \to A+B \in W$. Recall $A=(a_{ij}),B=(b_{ij})$, then:
 	$(a_{ij})=(a_{ji}),(b_{ij})=(b_{ji}) \quad \forall i,j$
 	$\to a_{ij}+b_{ij}=a_{ji}+b_{ji} \to (A+B) = (A+B)^t \in W \quad \checkmark$
 	.
-	Need $A \in W \to cA \in W, \quad \forall c\in R$. 
-	Since $A \in W, (a_{ij})=(a{ji})$. Multiplying each side by an arbitrary scalar doesn't alter the equation, so $(ca_{ij})=(ca_{ji}) \to cA = (cA)^t \to cA \in W \quad \checkmark$ 
+	Need $A \in W \to cA \in W, \quad \forall c\in R$.
+	Since $A \in W, (a_{ij})=(a{ji})$. Multiplying each side by an arbitrary scalar doesn't alter the equation, so $(ca_{ij})=(ca_{ji}) \to cA = (cA)^t \to cA \in W \quad \checkmark$
+<!--SR:!2025-06-12,4,272-->
 
 ## Worked-examples
 ?
@@ -35,7 +36,7 @@
 	$\vec{0} = (0,0,0),\quad t_{1}=t_{2}=0 \to(0,0,0) \in W \quad \checkmark$
 	Let $(t_{1}+t_{2}, t_{1}+t_{2}, t_{1})$ and $(s_{1}+s_{2}, s_{1}+s_{2}, s_{1})$ be elements of $W$. Then: $(t_{1}+t_{2}, t_{1}+t_{2}, t_{1}) + (s_{1}+s_{2}, s_{1}+s_{2} = ((t_{1}+s_{1})+(t_{2}+s_{2}), (t_{1}+s_{1})-(t_{2}+s_{2}),t_{1}+s_{1}) \in W \quad \checkmark$
 	$c(t_{1}+t_{2}, t_{1}-t_{2}, t_{1}) = (ct_{1}+ct_{2}, ct_{1}-ct_{2}, ct_{1}) \in W \quad \checkmark$
-.
+<!--SR:!2025-06-12,4,272-->
 
 ## Non-examples
 ?
