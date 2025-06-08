@@ -1,11 +1,11 @@
 
 ## Definition
-*Let W be a subset of a vector space V. W is a subspace if:*
+*A subspace is a subset of a vector space such that 0 vector is in it and it's closed under addition and scalar multiplication*
 
 ## Properties / Axioms
-1. $$
-2. ...
-3. ...
+1. $\vec{0}\in W$
+2. $\forall w_{1},w_{2} \in W, \quad w_{1}+w_{2} \in W$
+3. $\forall c \in F,\forall w \in W, \quad  cw\in W$
 
 ## Examples
 - Example 1: ...
@@ -13,7 +13,7 @@
 - Example 3: ...
 
 ## Non-examples
-- Non-example 1: ...
+- $W=[0,1] \subset\mathbb{R}$, since $$
 - Non-example 2: ...
 
 ## Theorems
