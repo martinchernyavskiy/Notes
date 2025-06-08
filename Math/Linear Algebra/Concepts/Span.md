@@ -26,7 +26,16 @@ $Span(S) = \{a_{1}v_{1}+\dots a_{k}v_{k}|a_{1},\dots,a_{k} \in R, u_{1},\dots u_
 ?
 - Is $x^3-3x+5$ in $Span(\{x^3+2x^2-x+1, x^3+3x^2-1\})?$
 	$x^3-3x+5=a_{1}(x^3+2x^2-x+1)+a_{2}(x^3+3x^2-1)$
-	$x^3-3x+5$
+	$x^3-3x+5=(a_{1}+a_{2})x^3+(2a_{1}+3a_{2})x^2-a_{1}x+(a_{1}-a_{2})$
+	Converting to Augmented Matrix gives:
+	$$\begin{pmatrix}
+	1 & 1 & 1 \\
+	1 & 1 & 1 \\
+	3 & 2 & 1 \\
+    1 & -1 & 
+	\end{pmatrix}
+	$$
+	
 
 ## Non-examples
 ?
