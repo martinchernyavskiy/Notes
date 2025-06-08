@@ -39,20 +39,28 @@ Where $(x_{1},x_{2},\dots,x_{n})$ are variables and $(a_{1},a_{2},\dots a_{n})$ 
 .
 - If system has columns without leading entries and it's valid REF, then the system has infinitely many solutions.
 	- In this case we parameterize the columns with missing leading entry and solve the system.
-. 
+.
+- The rank of a matrix is n-k, where n is number of columns and k is number of columns without a leading entry. If k = 0, there is one solution, if k > 0 and there is a solution, there are inf. many solutions. 
 ## Worked-Out Example
 ?
-- Non-example 1: ...
-- Non-example 2: ...
-
+- Consider an Augmented Matrix in REF: 
+$$\begin{pmatrix}
+1 & 2 & 0 & 1 & 0 & 2 \\
+0 & 0 & 1 & 3 & 0 & 3 \\
+0 & 0 & 0 & 0 & 1 & 4
+\end{pmatrix}
+$$
+$\to$
+$$
+\begin{array}{l}
+x_{1}+2x_{2}+x_{4}=2 & \\
+x_{3}+3x_{4}=3 & \\
+x_{5}=4 
+\end{array}
+$$
 ## Theorems
 - [[Basic Operations Don't Change Set of Solutions]]
 - [[Every Matrix Can Be Put In RREF]]
-
-## Questions
-- ...
-- ...
-- ...
 
 
 
