@@ -20,13 +20,16 @@ Where $(x_{1},x_{2},\dots,x_{n})$ are variables and $(a_{1},a_{2},\dots a_{n})$ 
 	2. $E_{i} \leftrightarrow cE_{i}$
 	3. $E_{i} \leftrightarrow E_{i} + cE_{j}$
 
-## Examples
+## Representations
 ?
-- Example 1: ...
-‎ 
-- Example 2: ...
-‎ 
-- Example 3: ...
+- Augmented Matrix w/ elementary row operations that mimic the basic equation operations.
+	$m\times(n+1)$ form, right-most being answers to equations.
+‎.
+- REF form of augmented matrix
+	All zero rows are below all non-zero rows
+	The leading entry of each row is to the right of the row above it
+‎ .
+- RREF form of Augmented Matrix
 
 ## Worked-examples
 ?
