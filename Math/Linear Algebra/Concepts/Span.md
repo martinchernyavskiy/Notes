@@ -19,8 +19,8 @@ $Span(S) = \{a_{1}v_{1}+\dots a_{k}v_{k}|a_{1},\dots,a_{k} \in R, u_{1},\dots u_
 .
 - $Span(\{(1,m)\}) = \{a_{1}(1,m)|a_{1} \in R\} = \{(a_{1},ma_{1})|a_{1} \in R\} = L_{m}$
 .
-- $Span(\{(1,0,0),(0,0,1)\})=\{(a_{1},0,a_{2})|a_{1},a_{2} \in R\} =$ 
-xz-plane in $R^3$
+- $Span(\{(1,0,0),(0,0,1)\})=\{(a_{1},0,a_{2})|a_{1},a_{2} \in R\}$
+	= xz-plane in $R^3$
 
 ## Worked-examples
 ?
