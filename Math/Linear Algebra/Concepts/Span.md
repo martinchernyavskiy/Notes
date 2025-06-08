@@ -51,7 +51,7 @@ $Span(S) = \{a_{1}v_{1}+\dots a_{k}v_{k}|a_{1},\dots,a_{k} \in R, u_{1},\dots u_
 $$
 	Since there are solutions, the vector is in the span.
 
-## Non-examples
+## Remarks 
 ?
 - Non-example 1: ...
 - Non-example 2: ...

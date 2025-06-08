@@ -41,7 +41,7 @@
 	$P(x) + G(x) = a_{n}+b_{n}x^n+\dots+(a_{0}+b_{0})$
 	$cP(x) = ca_{n}x^n+\dots+ca_{0}$
 	$\vec{0} = 0 = 0x^n+\dots+0x+0$
-<!--SR:!2025-06-12,4,276-->
+
 
 ## Non-examples
 ?
@@ -49,7 +49,7 @@
 	$(a_{1},a_{2})+(b_{1},b_{2}) = (a_{1}+b_{1}, a_{2}b_{2})$
 	$c(a_{1},a_{2})=(ca_{1},a_{2})$
 	8th property doesn't hold
-<!--SR:!2025-06-12,4,274-->
+
 
 ## Theorems
 - [[Elementary Properties of Vector Spaces]]

@@ -18,4 +18,3 @@ a_{11}x_{1}+\dots a_{1n}x_{n}=b_{1} \\
 $$
 Since 1,2 don't change the set of solutions, 3 doesn't either as we can derive either of the initial equations by subtracting the second from it.
 This completes the proof. $\square$
-<!--SR:!2025-06-12,4,270-->
