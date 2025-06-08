@@ -25,7 +25,36 @@ u_{1} = -\frac{a_{2}}{a_{1}}u_{2} \end{array}$$
 
 ## Worked-examples
 ?
-- Example 1
+- Determine if $\{u_{1},u_{2},u_{3}\} = \{(-1, 1, 2), (1, 2, 1), (5,1,-4)\}$ is linearly dependent or not.
+	$a_{1}(-1,1,2)+a_{2}(1,2,1)+a_{3}(5,1,-4)=(0,0,0)$$$
+\begin{align}
+-a_{1}+a_{2}+5a_{3}=0 \\
+a_{1}+2a_{2}+a_{3}=0 \\
+2a_{1}+a_{2}-4a_{3}=0
+\end{align}
+$$
+	Convert into Augmented Matrix we get:	$$\begin{pmatrix}
+	1 & 1 & 1 \\
+	2 & 3 & 0 \\
+	-1 & 0 & -3 \\
+    1 & -1 & 5
+	\end{pmatrix}
+	\to
+	\begin{pmatrix}
+	1 & 1 & 1 \\
+	0 & 1 & -2 \\
+	0 & 1 & -2 \\
+    0 & -2 & 4
+	\end{pmatrix}
+	\to
+	\begin{pmatrix}
+	1 & 1 & 1 \\
+	0 & -1 & -2 \\
+	0 & 0 & 0 \\
+    0 & 0 & 0
+	\end{pmatrix}
+$$
+	
 
 ## Non-examples
 ?
