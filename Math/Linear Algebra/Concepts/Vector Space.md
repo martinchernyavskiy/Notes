@@ -26,7 +26,9 @@
 - **$C^1(\mathbb{R})$** — continuously differentiable functions  
   Same as above.
 ‎ 
-- **$\mathbb{M}_{m \times n}$** — [[matrices]], component-wise addition and scalar multiplication.
+- **$\mathbb{M}_{m \times n}$** — set of m by n [[matrices]]
+	component-wise addition and scalar multiplication.
+	
 ‎ 
 - **$\mathcal{F}(S)$** where $S$ is non-empty: $f : S \to \mathbb{R}$  
 	$(f+g)(s) = f(s) + g(s),\quad(c f)(s) = c f(s)$
@@ -37,7 +39,9 @@
 	$\{ a_n \} + \{ b_n \} = \{ a_n + b_n \}, \quad c \{ a_n \} = \{ c a_n \}$
 
 - $P_{n}$ = {[[polynomial]]s f(x) of degree at most n}
-	$a_{n}+b_{n}x^n+$
+	$P(x) + G(x) = a_{n}+b_{n}x^n+\dots+(a_{0}+b_{0})$
+	$cP(x) = ca_{n}x^n+\dots+ca_{0}$
+	$\vec{0} = 0 = 0x^n+\dots+0x+0$
 ## Non-examples
 - Non-example 1: ...
 - Non-example 2: ...
