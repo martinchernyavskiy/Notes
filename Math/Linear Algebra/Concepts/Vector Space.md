@@ -20,7 +20,7 @@
 - $\mathbb{R}$
 	$a, b \in \mathbb{R}, \quad a + b \in \mathbb{R}, \quad c a \in \mathbb{R}$
 ‎
-- $\mathbb{R^n}$, same as above but 
+- $\mathbb{R^n}$, same as above but add/multiply each tuple
 ‎
 - **$C^0(\mathbb{R})$** — continuous functions
 	$(f+g)(x) = f(x) + g(x), \quad (c f)(x) = c f(x)$
