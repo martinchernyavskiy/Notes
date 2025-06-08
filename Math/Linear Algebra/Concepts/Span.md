@@ -1,6 +1,7 @@
 ## Definition
 ?
-*A clear, concise definition using MathJax where needed.*
+*Let $S \subset V$ be a subset, then Span(S) is the set of all linear combinations of elements in S in the form:
+$Span(S) = \{a_{1}v_{1}+\dots a_{k}v_{k}|a_{1},\dots,a_{k} \in R, u_{1},\dots u_{k} \in S\}$*
 
 ## Properties / Axioms
 ?
@@ -26,7 +27,7 @@
 - Non-example 2: ...
 
 ## Theorems
-- [[Theorem Name 1]]
+- [[Span of a non-empty subset is a subspace]]
 - [[Theorem Name 2]]
 
 ## Questions
