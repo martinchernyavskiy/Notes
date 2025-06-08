@@ -30,12 +30,26 @@ $Span(S) = \{a_{1}v_{1}+\dots a_{k}v_{k}|a_{1},\dots,a_{k} \in R, u_{1},\dots u_
 	Converting to Augmented Matrix gives:
 	$$\begin{pmatrix}
 	1 & 1 & 1 \\
-	1 & 1 & 1 \\
-	3 & 2 & 1 \\
-    1 & -1 & 
+	2 & 3 & 0 \\
+	-1 & 0 & -3 \\
+    1 & -1 & 5
 	\end{pmatrix}
-	$$
-	
+	\to
+	\begin{pmatrix}
+	1 & 1 & 1 \\
+	0 & 1 & -2 \\
+	0 & 1 & -2 \\
+    0 & -2 & 4
+	\end{pmatrix}
+	\to
+	\begin{pmatrix}
+	1 & 1 & 1 \\
+	0 & -1 & -2 \\
+	0 & 0 & 0 \\
+    0 & 0 & 0
+	\end{pmatrix}
+$$
+	Since there are solutions, the vector is in the span.
 
 ## Non-examples
 ?
