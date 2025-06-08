@@ -16,12 +16,11 @@
 - $\{u\}$ where $u\neq \vec{0}$, is linearly independent since only way to get the linear combination to equate to $\vec{0}$ is by multiplying u by 0
 .
 - $\{u_{1},u_{2}\}$ is linearly dependent iff one is a scalar multiple of another.
-	Proof: Suppose $\{u_{1},u_{2}\}$ is linearly dependent. Then,$$\begin{array}{l}
+	Suppose $\{u_{1},u_{2}\}$ is linearly dependent. Then, assuming $a_{1} \neq 0$
+	$$\begin{array}{l}
 a_{1}u_{1}+a_{2}u_{2} = \vec{0} \\
-u_{1}+\frac{a_{1}}{a_{2}}u_{2}=\vec{0} \quad \text{Assuming a_1_}
-\end{array}$$
-	
-‎ 
+u_{1}+\frac{a_{2}}{a_{1}}u_{2}=\vec{0} \\
+u_{1} = -\frac{a_{2}}{a_{1}}u_{2} \end{array}$$
 - Example 3: ...
 
 ## Worked-examples
@@ -38,9 +37,8 @@ u_{1}+\frac{a_{1}}{a_{2}}u_{2}=\vec{0} \quad \text{Assuming a_1_}
 - [[Theorem Name 2]]
 
 ## Questions
-- ...
-- ...
-- ...
+?
+- Suppose W is a subspace of V. What is the smallest number of vectors such that taking span of those vectors generates W?
 
 
 
