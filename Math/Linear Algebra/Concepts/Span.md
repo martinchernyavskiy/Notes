@@ -13,7 +13,7 @@ $Span(S) = \{a_{1}v_{1}+\dots a_{k}v_{k}|a_{1},\dots,a_{k} \in R, u_{1},\dots u_
 - $Span(\{(1,0,0),(0,0,1)\})=\{(a_{1},0,a_{2})|a_{1},a_{2} \in R\}$
 	= xz-plane in $R^3$
 
-## Worked-examples
+## Worked-out examples
 ?
 - Is $x^3-3x+5$ in $Span(\{x^3+2x^2-x+1, x^3+3x^2-1\})?$
 	$x^3-3x+5=a_{1}(x^3+2x^2-x+1)+a_{2}(x^3+3x^2-1)$
@@ -53,19 +53,11 @@ $$
 ?
 - Consider an arbitrary [[Matrix (Matrices)]] $A \in M_{m\times n}$
 - View it as a collection of n-column vectors in $R^m$
-- Then $Col(A) = Span\{\begin{pmatrix}a_{11} \\ \vdots  \\ a_{m1}\end{pmatrix} \dots \begin{pmatrix}a_{1n}\end{pmatrix}\}$
-
-
+- Then $Col(A) = Span\{\begin{pmatrix}a_{11} \\ \vdots  \\ a_{m1}\end{pmatrix} \dots \begin{pmatrix}a_{1n}  \\ \vdots  \\ a_{mn}\end{pmatrix}\}$, a subspace of $R^m$
+- ![[Pasted image 20250608180710.png]]
 
 ## Theorems
 - [[Span of a non-empty subset is a subspace]]
-- [[Theorem Name 2]]
-
-## Questions
-- ...
-- ...
-- ...
-
 
 
 #linear-algebra
