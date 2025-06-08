@@ -28,7 +28,7 @@
 ‎ 
 - **$\mathbb{M}_{m \times n}$** — set of m by n [[matrices]]
 	component-wise addition and scalar multiplication.
-	
+	0 vector is matrix with all 0 entries
 ‎ 
 - **$\mathcal{F}(S)$** where $S$ is non-empty: $f : S \to \mathbb{R}$  
 	$(f+g)(s) = f(s) + g(s),\quad(c f)(s) = c f(s)$
@@ -37,17 +37,18 @@
 ‎ 
 - **$V = \{ \{ a_n \} \}$** — set of sequences  
 	$\{ a_n \} + \{ b_n \} = \{ a_n + b_n \}, \quad c \{ a_n \} = \{ c a_n \}$
-
+ 
 - $P_{n}$ = {[[polynomial]]s f(x) of degree at most n}
 	$P(x) + G(x) = a_{n}+b_{n}x^n+\dots+(a_{0}+b_{0})$
 	$cP(x) = ca_{n}x^n+\dots+ca_{0}$
 	$\vec{0} = 0 = 0x^n+\dots+0x+0$
 ## Non-examples
-- Non-example 1: ...
-- Non-example 2: ...
+- Consider $\mathbb{R}^2$ equipped with 
+	$(a_{1},a_{2})+(b_{1},b_{2}) = (a_{1}+b_{1}, a_{2}b_{2})$
+	$c(a_{1},a_{2})=(ca_{1},a_{2})$
 
 ## Theorems
-- [[Theorem Name 1]]
+- [[Elementary Property of Vector Spaces]]
 - [[Theorem Name 2]]
 
 ## Proof Sketches (if relevant)
