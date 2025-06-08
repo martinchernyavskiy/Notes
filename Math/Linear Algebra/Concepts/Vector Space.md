@@ -37,7 +37,7 @@
 	$\{ a_n \} + \{ b_n \} = \{ a_n + b_n \}, \quad c \{ a_n \} = \{ c a_n \}$
 
 - $P_{n}$ = {[[polynomial]]s f(x) of degree at most n}
-	adding / multiplying by scalar the coefficients. 
+	$a_{n}+b_{n}x^n+$
 ## Non-examples
 - Non-example 1: ...
 - Non-example 2: ...
@@ -49,9 +49,6 @@
 ## Proof Sketches (if relevant)
 *Outline any relevant proof ideas or tricks.*
 
-## Applications
-- Application 1
-- Application 2
 
 ## Connections / Related Concepts
 - [[Related Concept 1]]
