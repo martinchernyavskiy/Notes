@@ -54,11 +54,6 @@
 - [[Elementary Property of Vector Spaces]]
 - [[Theorem Name 2]]
 
-
-## Connections / Related Concepts
-- [[Related Concept 1]]
-- [[Related Concept 2]]
-
 ## Questions
 - What are the defining properties of a vector space?
 - Give an example of a vector space over ℝ.
