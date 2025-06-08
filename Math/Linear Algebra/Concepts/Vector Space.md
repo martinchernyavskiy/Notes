@@ -52,7 +52,6 @@
 
 ## Theorems
 - [[Elementary Property of Vector Spaces]]
-- [[Theorem Name 2]]
 
 ## Questions
 - What are the defining properties of a vector space?

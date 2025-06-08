@@ -1,9 +1,9 @@
 
 ## Definition
-*A clear, concise definition using MathJax where needed.*
+*Let W be a subset of a vector space V. W is a subspace if:*
 
 ## Properties / Axioms
-1. ...
+1. $$
 2. ...
 3. ...
 
