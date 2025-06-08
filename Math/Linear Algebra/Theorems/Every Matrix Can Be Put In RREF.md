@@ -1,9 +1,16 @@
 ### Theorem: Every matrix can be put in RREF by a finite sequence of elementary row operations
 ?
 #### Proof: 
-...
-...
-...
+The elementary row operations in question are:
+1. 
+We will proof by construction (Gauss Elimination).
+Consider matrix: $$\begin{pmatrix}
+0 & 1 & 2 & 3 \\
+1 & 1 & 1 & 1 \\
+3 & 2 & 1 & 2
+\end{pmatrix}
+$$
+
 
 This completes the proof. $\square$
 
