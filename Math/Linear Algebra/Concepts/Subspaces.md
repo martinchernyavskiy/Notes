@@ -13,8 +13,8 @@
 - Example 3: ...
 
 ## Non-examples
-- $W=[0,1] \subset\mathbb{R}$, since $$
-- Non-example 2: ...
+- $W=[0,1] \subset\mathbb{R}$, since $1+1\not\in W$
+- $W = \mathbb{Z}\subset \mathbb{R}$, since $\pi*z\not\in \mathbb{Z}$
 
 ## Theorems
 - [[Theorem Name 1]]
