@@ -21,7 +21,7 @@ Where $(x_{1},x_{2},\dots,x_{n})$ are variables and $(a_{1},a_{2},\dots a_{n})$ 
 
 ## Representations
 ?
-- Augmented Matrix w/ elementary row operations that mimic the basic equation operations.
+- Augmented [[Matrix (Matrices)]] w/ elementary row operations that mimic the basic equation operations.
 	$m\times(n+1)$ form, right-most being answers to equations.
 ‎.
 - REF form of Augmented Matrix
