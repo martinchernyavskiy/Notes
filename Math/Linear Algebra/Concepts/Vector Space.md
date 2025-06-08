@@ -20,11 +20,13 @@
 - $\mathbb{R}$
 	$a, b \in \mathbb{R}, \quad a + b \in \mathbb{R}, \quad c a \in \mathbb{R}$
 ‎
+- $\mathbb{R^n}$, same as above but 
+‎
 - **$C^0(\mathbb{R})$** — continuous functions
 	$(f+g)(x) = f(x) + g(x), \quad (c f)(x) = c f(x)$
 ‎
 - **$C^1(\mathbb{R})$** — continuously differentiable functions
-  Same as above.
+  Same as above. 
 ‎
 - **$\mathbb{M}_{m \times n}$** — set of m by n [[matrices]]
 	component-wise addition and scalar multiplication.
