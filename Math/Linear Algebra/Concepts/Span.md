@@ -53,8 +53,11 @@ $$
 
 ## Remarks 
 ?
-- Non-example 1: ...
-- Non-example 2: ...
+- $S \subset V$ generates V if Span(S) = V
+	Examples of generative subsets:
+		1. {(1,0), (0,1)}, generates $R^2$
+		2. {(), (), ()}, generates v.s of $2\times_{2}$ symmetric matrices
+			A = $\begin{pmatrix} a_{11} & a_{12} \\ a_{12} & a_{22}\end{pmatrix}$ = $a_{11}\begin{pmatrix}1 & 0 \\ 0 & 0\end{pmatrix} + a_{21}\begin{pmatrix}0 & 0 \\ 0 & 1\end{pmatrix} + a_{12}\begin{pmatrix}0 & 1 \\ 1 & 0\end{pmatrix}$
 
 ## Theorems
 - [[Span of a non-empty subset is a subspace]]
