@@ -56,7 +56,7 @@ $$
 
 ## Theorems
 - [[Linearly Dependent Subset Vector as Linear Combination of Others]]
-- [[Theorem Name 2]]
+- [[Refinement Theorem]]
 
 ## Questions
 ?
