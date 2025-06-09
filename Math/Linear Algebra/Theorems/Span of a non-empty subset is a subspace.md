@@ -2,7 +2,6 @@
 ?
 #### Proof: 
 $Span(S) = \{a_{1}v_{1}+\dots a_{k}v_{k}|a_{1},\dots,a_{k} \in R, u_{1},\dots u_{k} \in S\}$.
-
 a) Choose $u \in S$, then $0u \in Span(S)$ since this is a linear combination of vector u in S, so $\vec{0} \in Span(S) \quad \checkmark$
 b) Need $u,v \in Span(S) \to u+v \in Span(S)$
 Let $u = a_{1}u_{1}+\dots+a_{k}u_{k}$, $v=b_{1}v_{1}+\dots+b_{k}u_{k}$
