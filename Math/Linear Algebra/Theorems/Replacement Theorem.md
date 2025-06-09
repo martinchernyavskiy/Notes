@@ -31,4 +31,8 @@ Case 1: Generating subset is a basis
 	In this case the difference in number of vectors is 0, and all basis should have same number of vectors, hence U is a basis also, generating V.
 Case 2: U is empty, hence taking union with the whole subset S spans V.
 Case 3: Intermediate
-	
+	Assuming true for j, we need to show that it's true for j+1
+	U has j+1 number of vectors, hence we need to show that that number of vectors is less than n and taking the span of those vectors and n-j-1 vectors from S spans V.
+	From hypothesis, U must be linearly independent, we know that if we remove a vector from linearly independent subset, then that subset is still linearly independent, Hence $U_{j}$ is linearly independent.
+	Thus, by inductive hypothesis, taking span of vectors in $U_{j}$ with n-j vectors from S spans V.
+	We know however than 
