@@ -18,8 +18,7 @@ $Span(S) = \{a_{1}v_{1}+\dots a_{k}v_{k}|a_{1},\dots,a_{k} \in R, u_{1},\dots u_
 - Is $x^3-3x+5$ in $Span(\{x^3+2x^2-x+1, x^3+3x^2-1\})?$
 	$x^3-3x+5=a_{1}(x^3+2x^2-x+1)+a_{2}(x^3+3x^2-1)$
 	$x^3-3x+5=(a_{1}+a_{2})x^3+(2a_{1}+3a_{2})x^2-a_{1}x+(a_{1}-a_{2})$
-	Converting to Augmented Matrix gives:
-	$$
+	Converting to Augmented Matrix gives:$$
 	\begin{pmatrix}
 	1 & 1 & 1 \\
 	2 & 3 & 0 \\
@@ -41,7 +40,6 @@ $Span(S) = \{a_{1}v_{1}+\dots a_{k}v_{k}|a_{1},\dots,a_{k} \in R, u_{1},\dots u_
     0 & 0 & 0
 	\end{pmatrix}
 $$
-
 	Since there are solutions, the vector is in the span.
 
 ## $S \subset V$ generates V if Span(S) = V
@@ -50,6 +48,7 @@ $$
 	1. {(1,0), (0,1)}, generates $R^2$
 	2. $\{\begin{pmatrix}1 & 0 \\ 0 & 0\end{pmatrix}, \begin{pmatrix}0 & 0 \\ 0 & 1\end{pmatrix}, \begin{pmatrix}0 & 1 \\ 1 & 0\end{pmatrix}\}$, generates v.s of $2\times_{2}$ symmetric matrices:
     A = $\begin{pmatrix} a_{11} & a_{12} \\ a_{12} & a_{22}\end{pmatrix}$ = $a_{11}\begin{pmatrix}1 & 0 \\ 0 & 0\end{pmatrix} + a_{21}\begin{pmatrix}0 & 0 \\ 0 & 1\end{pmatrix} + a_{12}\begin{pmatrix}0 & 1 \\ 1 & 0\end{pmatrix}$
+<!--SR:!2025-06-13,4,270-->
 
 ## Column Space of Matrix
 ?
@@ -57,6 +56,7 @@ $$
 - View it as a collection of n-column vectors in $R^m$
 - Then $Col(A) = Span\{\begin{pmatrix}a_{11} \\ \vdots  \\ a_{m1}\end{pmatrix} \dots \begin{pmatrix}a_{1n}  \\ \vdots  \\ a_{mn}\end{pmatrix}\}$, a subspace of $R^m$
 - ![[Pasted image 20250608180710.png]]
+<!--SR:!2025-06-12,3,250-->
 
 ## Theorems
 - [[Span of a non-empty subset is a subspace]]

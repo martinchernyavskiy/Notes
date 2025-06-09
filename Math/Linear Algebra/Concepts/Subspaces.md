@@ -27,6 +27,7 @@
 	.
 	Need $A \in W \to cA \in W, \quad \forall c\in R$.
 	Since $A \in W, (a_{ij})=(a{ji})$. Multiplying each side by an arbitrary scalar doesn't alter the equation, so $(ca_{ij})=(ca_{ji}) \to cA = (cA)^t \to cA \in W \quad \checkmark$
+<!--SR:!2025-06-13,4,276-->
 
 
 ## Worked-examples
@@ -43,6 +44,7 @@
 - $W=[0,1] \subset\mathbb{R}$, since $1+1\not\in W$
 - $W = \mathbb{Z}\subset \mathbb{R}$, since $\pi*z\not\in \mathbb{Z}$
 - $W=\{(t_{1}+t_{2}, t_{1}-t_{2}, t_{1}+1) | t_{1},t_{2}\in R\}$, since $\vec{0} \not \in W$
+<!--SR:!2025-06-13,4,276-->
 
 
 ## Theorems

@@ -5,6 +5,7 @@
 ## Properties / Axioms
 1. $\beta$ is linearly independent
 2. $Span(\beta)=V$
+<!--SR:!2025-06-13,4,270-->
 
 ## Examples
 - Example 1: ...
