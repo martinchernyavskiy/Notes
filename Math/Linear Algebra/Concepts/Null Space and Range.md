@@ -17,7 +17,7 @@ $R(T) = \{ T(v) | v \in V \} \subset W$*
 ## Examples
 ?
 - $N(T_{a}^{b}) = \{ \text{functions in } C^0(\mathbb{R}) \text{ whose average over } [a,b] \text{ is } 0 \}$
-- 
+- $R(T_{a}^b) =\mathbb{R} \quad (T_{a}^b \text{ is onto})$
 ‎ 
 - Example 2: ...
 ‎ 
@@ -33,7 +33,7 @@ $R(T) = \{ T(v) | v \in V \} \subset W$*
 - Non-example 2: ...
 
 ## Theorems
-- [[Theorem Name 1]]
+- [[Kernel and Range are Subspaces given a Linear Transformation]]
 - [[Theorem Name 2]]
 
 ## Questions
