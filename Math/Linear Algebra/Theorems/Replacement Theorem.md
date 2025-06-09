@@ -38,4 +38,5 @@ Case 3: Intermediate
 	We know however that $u_{j+1}$ vector belongs to V since it can be expressed as a linear combination of that union subset. 
 	So $u_{j+1} = a_{1}u_{1}+\dots+a_{j}u_{j}+b_{1}s_{1}+\dots+b_{n-j}s_{n-j}$
 	coefficients of s vectors must not all be zero
-Since vectors in $U_{j}$ are linearly independent, $u_{j+1}$ can't be expressed as a linear combination of them. 
+	Then assuming $b_{n-j}\neq 0$, $n-k\geq 1 \leftrightarrow n-j-1 \geq 0 \to j+1$
+	
