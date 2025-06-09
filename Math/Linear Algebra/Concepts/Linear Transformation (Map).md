@@ -67,10 +67,6 @@ $$
 - $L_{A}: \mathbb{R}^n \to \mathbb{R}^m$
 		$\bar{x} \to A\bar{x}$ is linear
 
-## Worked-Out Examples
-?
-- Example 1
-
 ## Non-examples
 ?
 - Non-example 1: ...
@@ -79,11 +75,6 @@ $$
 ## Theorems
 - [[Theorem Name 1]]
 - [[Theorem Name 2]]
-
-## Questions
-- ...
-- ...
-- ...
 
 
 
