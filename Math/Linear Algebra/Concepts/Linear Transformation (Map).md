@@ -10,7 +10,20 @@
 	$T(v_{1}+cv_{2}) = T(v_{1})+cT(v_{2})$ for $v_{1},v_{2} \in V \text{ and } c \in \mathbb{R}$
 	. 
 	Short proof: 
-	$
+	$\to$ Assume T is linear, (1, 2 hold)
+$$
+\begin{aligned}
+T(v_{1}+cv_{2}) &= T(v_{1})+T(cv_{2}) \\
+&= T(v_{1}) + cT(v_{2})
+\end{aligned}
+$$
+	$\leftarrow$ Assume $T(v_{1}+cv_{2}) = T(v_{1})+cT(v_{2})$
+$$
+\begin{aligned}
+T(v_{1}+v_{2}) = T(v_{1}+(1)v_{2}) = T(v_{1})+(1)T
+\end{aligned}
+$$
+
 
 ## Examples
 ?
