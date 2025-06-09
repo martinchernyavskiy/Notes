@@ -9,12 +9,12 @@ Given $a_{1}v_{1}+\dots+a_{j}v_{j}+\dots+a_{k}v_{k}$, need to show that this is 
 $$
 \begin{array}{l} \\
 a_{1}v_{1}+\dots+a_jv_{j}+\dots +a_{k}v_{k} \\
-= a_{1}v_{1}+\dots+a_{j}(b_{1}v_{1}+\dots+b_{k}v_{k})+\dots+a_{k}v_{k}
+= a_{1}v_{1}+\dots+a_{j}(b_{1}v_{1}+\dots+b_{k}v_{k})+\dots+a_{k}v_{k} \\
+= (a_{1}+a_{j}b_{1})u_{1}+\dots+(a_{k}+a_{j}b_{k})u_{k \\}
 \end{array}
 $$
+Claim is verified.
+If $\{u_{1},\dots,u_{j-1},u_{j+1},\dots,u_{k}\}$ is linearly independent, we stop, otherwise find another $u_{i}$ to remove.
+Eventually this has to stop.
+
 This completes the proof. $\square$
-
-### Immediately follow:
-
-#### 1.
-#### 2.
