@@ -12,10 +12,11 @@
 ## Examples
 ?
 - $dim\mathbb{R}^n=n$
-‎ 
-- $dimM_{m\times n}=mn, \{ E_{ij} \in M_{m \times n}|a_{ij} \text{ of } E_{ij}=1, \text{} \}$
-‎ 
-- Example 3: ...
+- $dimM_{m\times n}=mn, \{ E_{ij} \in M_{m \times n}|a_{ij} \text{ of } E_{ij}=1, \text{ all others 0} \}$
+.
+- $dimP_{n}=n+1$
+.
+- $dimP=\infty$
 
 ## Worked-Out Examples
 ?
@@ -27,7 +28,7 @@
 - Non-example 2: ...
 
 ## Theorems
-- [[Theorem Name 1]]
+- [[Dimension of Subspace Is At Most The Dimension of Vector Space]]
 - [[Theorem Name 2]]
 
 ## Questions
