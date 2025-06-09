@@ -25,7 +25,7 @@
 - Non-example 2: ...
 
 ## Theorems
-- [[Theorem Name 1]]
+- [[Vector Unique Expression of Linear Combination of Basis Vectors]]
 - [[Theorem Name 2]]
 
 ## Questions
