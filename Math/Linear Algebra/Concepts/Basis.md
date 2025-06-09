@@ -26,7 +26,8 @@
 
 ## Theorems
 - [[Vector Unique Expression of Linear Combination of Basis Vectors]]
-- [[]]
+- [[V has a finite basis if it has a finite generating set]]
+- [[Replacement Theorem]]
 
 ## Questions
 - ...
