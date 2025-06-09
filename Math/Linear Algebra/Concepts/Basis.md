@@ -30,7 +30,7 @@
 - [[Vector Unique Expression of Linear Combination of Basis Vectors]]
 - [[V has a finite basis if it has a finite generating set]]
 - [[Replacement Theorem]]
-- [[v has a finite basis, then any basis of V has sameth]]
+- [[V has a finite basis, then any basis of V has the same number of elements]]
 
 ## Questions
 - ...
