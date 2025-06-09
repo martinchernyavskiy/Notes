@@ -2,7 +2,7 @@
 ?
 #### Proof: 
 By induction on k: 
-**Base case:** k=0, i.e $\mathcal{U}=\emptyset$, there $k\leq n$, since $n-k=n$ and $\mathcal{T}=S$
+**Base case:** k=0, i.e $\mathcal{U}=\emptyset$, there $k\leq n$, since $n-k=n$ and $\mathcal{T}=S$, $Span(\mathcal{U}\cup \mathcal{T})=V$
 **Inductive Step:** Assume true for j. Need to show true for j+1.
 Given $\mathcal{U}_{j+1}=\{u_{1},\dots,u_{j+1} \}$ linearly independent. We need $j+1\leq n$ and $\mathcal{T}_{j+1}\subset S$ such that $Span(\mathcal{U}_{j+1}\cup \mathcal{T}_{j+1})=V$ where size $\mathcal{T}_{j+1}=n-j-1$ 
 Note $\mathcal{U}_j=\{u_1,\ldots,u_j\}$ is linearly independent.
