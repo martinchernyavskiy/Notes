@@ -51,6 +51,7 @@ $$\begin{pmatrix}
 	\end{pmatrix}
 $$
 Since the Augmented Matrix is in REF and has a column without a leading entry, this is linearly independent set. If k=0, then there is only one solution to the system which is for all coefficients to be zero.
+<!--SR:!2025-06-12,3,254-->
 
 ## Theorems
 - [[Linearly Dependent Subset Vector as Linear Combination of Others]]

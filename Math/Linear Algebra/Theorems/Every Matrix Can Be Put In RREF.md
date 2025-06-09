@@ -6,7 +6,8 @@ The elementary row operations in question are:
 2. $R_{i} \leftrightarrow cR_{i}, (c\neq 0)$
 3. $R_{j} \leftrightarrow R_{i} + cR_{j}$
 We will proof by construction (Gauss Elimination).
-Consider matrix: $$\begin{pmatrix}
+Consider matrix:
+$$\begin{pmatrix}
 0 & 1 & 2 & 3 \\
 1 & 1 & 1 & 1 \\
 3 & 2 & 1 & 2
@@ -59,3 +60,4 @@ This completes the proof. $\square$
 ### Immediately follow:
 #### 1.RREF of a matrix is unique
 #### 2. Solution set of a linear system w/ augmented matrix in RREF is easily described in a standard way
+<!--SR:!2025-06-13,4,270-->
