@@ -5,8 +5,7 @@
 1. $T(v_{1}+v_{2}) = T(v_{1})+T(v_{2})$
 2. $T(cv_{1}) = cT(v_{1})$
 	.
-	Following the 2 properties, the transformation is linear iff:
-	$T(v_{1}+cv_{2}) = T(v_{1})+cT(v_{2})$ for $v_{1},v_{2} \in V \text{ and } c \in \mathbb{R}$
+	Following the 2 properties, the transformation is linear iff: $T(v_{1}+cv_{2}) = T(v_{1})+cT(v_{2})$ for $v_{1},v_{2} \in V \text{ and } c \in \mathbb{R}$
 	. 
 	Short proof: 
 	$\to$ Assume T is linear, (1, 2 hold)
@@ -34,6 +33,7 @@ $$
 &= T(\vec{0_{V}}) + \cancel{T(\vec{0_{V}})}
 \end{aligned}
 $$
+	Last small remark is that 
 
 ## Examples
 ?
