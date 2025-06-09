@@ -1,4 +1,3 @@
-
 ## Definition
 *A subspace is a subset of a vector space such that 0 vector is in it and it's closed under addition and scalar multiplication*
 
