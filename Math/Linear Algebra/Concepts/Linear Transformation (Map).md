@@ -76,10 +76,6 @@ T_{a}^{b}(f+cg)=\int_{a}^{b}(f(x)+cg(x))dx \\ \\
 \end{array}
 $$
 
-## Definitions
-?
-- $Def^n$: Suppose $T:V \to W$ is linear. 
-
 ## Non-examples
 ?
 - Non-example 1: ...
