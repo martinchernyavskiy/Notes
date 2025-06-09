@@ -51,7 +51,17 @@ $$
 		$u \to u$
 - $T:\mathbb{R}^2 \to \mathbb{R}^2$
 		$(x, y) \to (-y, x)$ (rotate 90deg left)
-		$T((x_{1},y_{1}+c(x_{2},y_{2}))=T(())$
+$$
+\begin{aligned}
+T((x_{1},y_{1})+c(x_{2},y_{2})) &=T((x_{1}+cx_{2},y_{1}+cy_{2})) \\
+&= (-y_{1}-cy_{2}, x_{1}+cx_{2}) \\
+\\
+T((x_{1},y_{1}))+cT((x_{2},y_{2})) &=(-y_{1},x_{1})+c(-y_{2},x_{2}) \\
+&= (-y_{1},-cy_{2}, x_{1}+cx_{2})
+\end{aligned}
+$$
+- $T:P \to P$
+		$f$
 
 ## Worked-Out Examples
 ?
