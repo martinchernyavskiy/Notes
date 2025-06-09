@@ -61,7 +61,11 @@ T((x_{1},y_{1}))+cT((x_{2},y_{2})) &=(-y_{1},x_{1})+c(-y_{2},x_{2}) \\
 \end{aligned}
 $$
 - $T:P \to P$
-		$f$
+		$f(x) \to f^1(x)$ is linear
+- $T: P_{n} \to P_{n-1}$
+		$f(x) \to f^1(x)$
+- $L_{A}: \mathbb{R}^n \to \mathbb{R}^m$
+		$\bar{x} \to A\bar{x}$ is linear
 
 ## Worked-Out Examples
 ?
