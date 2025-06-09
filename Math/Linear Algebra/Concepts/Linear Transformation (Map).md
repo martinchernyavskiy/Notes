@@ -31,7 +31,7 @@ $$
 \vec{0_{W}} + \cancel{T(\vec{0_{V}})} &= T(\vec{0_{V}}) \\ 
 &= T(\vec{0_{V}}+1\times\vec{0_{V}}) \\
 &= T(\vec{0_{V}}) + 1T(\vec{0_{V}}) \\
-&= T(\vec{0_{V}} + \cancel{T\vec{0_{V}}})
+&= T(\vec{0_{V}}) + \cancel{T(\vec{0_{V}})}
 \end{aligned}
 $$
 
