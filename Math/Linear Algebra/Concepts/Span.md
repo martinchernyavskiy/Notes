@@ -2,6 +2,7 @@
 ?
 *Let $S \subset V$ be a subset, then Span(S) is the set of all linear combinations of elements in S in the form:
 $Span(S) = \{a_{1}v_{1}+\dots a_{k}v_{k}|a_{1},\dots,a_{k} \in R, u_{1},\dots u_{k} \in S\}$*
+<!--SR:!2025-06-13,4,272-->
 
 ## Examples
 ?
@@ -12,6 +13,7 @@ $Span(S) = \{a_{1}v_{1}+\dots a_{k}v_{k}|a_{1},\dots,a_{k} \in R, u_{1},\dots u_
 .
 - $Span(\{(1,0,0),(0,0,1)\})=\{(a_{1},0,a_{2})|a_{1},a_{2} \in R\}$
 	= xz-plane in $R^3$
+<!--SR:!2025-06-13,4,272-->
 
 ## Worked-Out Examples
 ?

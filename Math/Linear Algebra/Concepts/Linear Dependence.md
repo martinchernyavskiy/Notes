@@ -17,11 +17,13 @@ u_{1} = -\frac{a_{2}}{a_{1}}u_{2} \end{array}$$
 - $\{\sin x,\cos x\}\subset \mathcal{F}(R)$
 	$\sin x=a\cos x$ for $a\neq 0$
 	At $x = 0, 0 = a$, however since $a\neq 0$, the functions aren't same and thus the subset is linearly independent
+<!--SR:!2025-06-12,3,252-->
 
 ## Worked-Out Examples
 ?
 - Determine if $\{u_{1},u_{2},u_{3}\} = \{(-1, 1, 2), (1, 2, 1), (5,1,-4)\}$ is linearly dependent or not.
-	$a_{1}(-1,1,2)+a_{2}(1,2,1)+a_{3}(5,1,-4)=(0,0,0)$$$
+	$a_{1}(-1,1,2)+a_{2}(1,2,1)+a_{3}(5,1,-4)=(0,0,0)$
+$$
 \begin{align}
 -a_{1}+a_{2}+5a_{3}=0 \\
 a_{1}+2a_{2}+a_{3}=0 \\
