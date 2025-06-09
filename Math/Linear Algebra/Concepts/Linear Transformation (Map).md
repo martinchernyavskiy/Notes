@@ -2,7 +2,6 @@
 ?
 *A map T from a vector space V to a vector space W $(T: V \to W)$ is linear for all $v_{1},v_{2} \in V \text{ and } c \in \mathbb{R}$. if the following hold:*
 ## Properties / Axioms
-?
 1. $T(v_{1}+v_{2}) = T(v_{1})+T(v_{2})$
 2. $T(cv_{1}) = cT(v_{1})$
 	.
@@ -20,10 +19,11 @@ $$
 	$\leftarrow$ Assume $T(v_{1}+cv_{2}) = T(v_{1})+cT(v_{2})$
 $$
 \begin{aligned}
-T(v_{1}+v_{2}) = T(v_{1}+(1)v_{2}) = T(v_{1})+(1)T
+T(v_{1}+v_{2}) &= T(v_{1}+(1)v_{2}) = T(v_{1})+(1)T(v_{2}) \\
+&= T(v_{1}) + T(v_{2}) \\
+T(cv_{1}) &= T(\vec{0} + cv_{1}) = T(\vec{0_{V}})+cT(v_{1})
 \end{aligned}
 $$
-
 
 ## Examples
 ?
