@@ -22,3 +22,10 @@ This completes the proof. $\square$
 
 #### 1.
 #### 2.
+
+Notes:
+
+There is a subset of V that generates it and there is a linearly independent subset for which taking the union of the excess of the vectors in the generating subset, generates the same vector space. 
+
+Case 1: Generating subset is a basis
+	In this case the difference in number of vectors is 0, and by 
