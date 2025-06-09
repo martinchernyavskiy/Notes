@@ -35,4 +35,7 @@ Case 3: Intermediate
 	U has j+1 number of vectors, hence we need to show that that number of vectors is less than n and taking the span of those vectors and n-j-1 vectors from S spans V.
 	From hypothesis, U must be linearly independent, we know that if we remove a vector from linearly independent subset, then that subset is still linearly independent, Hence $U_{j}$ is linearly independent.
 	Thus, by inductive hypothesis, taking span of vectors in $U_{j}$ with n-j vectors from S spans V.
-	We know however than 
+	We know however that $u_{j+1}$ vector belongs to V since it can be expressed as a linear combination of that union subset. 
+	So $u_{j+1} = a_{1}u_{1}+\dots+a_{j}u_{j}+b_{1}s_{1}+\dots+b_{n-j}s_{n-j}$
+	coefficients of s vectors must not all be zero
+Since vectors in $U_{j}$ are linearly independent, $u_{j+1}$ can't be expressed as a linear combination of them. 
