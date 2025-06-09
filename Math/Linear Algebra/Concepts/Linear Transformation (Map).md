@@ -69,7 +69,16 @@ $$
 - For $a<b$ define:
 	$T_{a}^b: C^0(\mathbb{R}) \to \mathbb{R}$ 
 		$f \to \int_{a}^{b}f(x)dx$
-	$T_{a}^{b}(f+cg)=\int_{a}^{b}(f(x)+cg(x))dx\overset{calculus}{\operatorname*{\operatorname*{\operatorname*{\operatorname*{=}}}}}\int_{a}^{b}f(x)dx+c\int_{a}^{b}g(x)dx=T_{a}^{b}(f)+cT_{a}^{b}(g).$
+$$
+\begin{array}{l}
+T_{a}^{b}(f+cg)=\int_{a}^{b}(f(x)+cg(x))dx \\ \\
+\overset{calculus}{\operatorname*{\operatorname*{\operatorname*{\operatorname*{=}}}}}\int_{a}^{b}f(x)dx+c\int_{a}^{b}g(x)dx=T_{a}^{b}(f)+cT_{a}^{b}(g).
+\end{array}
+$$
+
+## Definitions
+?
+- $Def^n$: Suppose $T:V \to W$ is linear. 
 
 ## Non-examples
 ?
