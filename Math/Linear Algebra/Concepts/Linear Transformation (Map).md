@@ -24,6 +24,13 @@ T(v_{1}+v_{2}) &= T(v_{1}+(1)v_{2}) = T(v_{1})+(1)T(v_{2}) \\
 T(cv_{1}) &= T(\vec{0} + cv_{1}) = T(\vec{0_{V}})+cT(v_{1})
 \end{aligned}
 $$
+	Done if $T(\vec{0_{V}}) + \vec{0_{W}}$
+	Want $(c) \to T(\vec{0_{V}}) =\vec{0_{W}}$
+	$$
+\begin{aligned}
+\vec{0_{W}} + \cancel{T(\vec{0})}
+\end{aligned}
+$$
 
 ## Examples
 ?
