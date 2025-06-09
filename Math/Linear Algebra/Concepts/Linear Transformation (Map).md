@@ -66,6 +66,8 @@ $$
 		$f(x) \to f^1(x)$
 - $L_{A}: \mathbb{R}^n \to \mathbb{R}^m$
 		$\bar{x} \to A\bar{x}$ is linear
+- For $a<b$ define:
+	$T_{a}^b: C^0\int_{a}^{b}$
 
 ## Non-examples
 ?
