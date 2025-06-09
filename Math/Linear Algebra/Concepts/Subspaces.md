@@ -37,6 +37,7 @@
 	$\vec{0} = (0,0,0),\quad t_{1}=t_{2}=0 \to(0,0,0) \in W \quad \checkmark$
 	Let $(t_{1}+t_{2}, t_{1}+t_{2}, t_{1})$ and $(s_{1}+s_{2}, s_{1}+s_{2}, s_{1})$ be elements of $W$. Then: $(t_{1}+t_{2}, t_{1}+t_{2}, t_{1}) + (s_{1}+s_{2}, s_{1}+s_{2} = ((t_{1}+s_{1})+(t_{2}+s_{2}), (t_{1}+s_{1})-(t_{2}+s_{2}),t_{1}+s_{1}) \in W \quad \checkmark$
 	$c(t_{1}+t_{2}, t_{1}-t_{2}, t_{1}) = (ct_{1}+ct_{2}, ct_{1}-ct_{2}, ct_{1}) \in W \quad \checkmark$
+<!--SR:!2025-06-13,4,276-->
 
 
 ## Non-examples

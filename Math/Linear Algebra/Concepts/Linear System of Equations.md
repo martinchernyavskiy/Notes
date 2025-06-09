@@ -66,6 +66,7 @@ $E_{1} \to x_{1}=2-2t_{1}-t_{2}$
 $E_{2} \to x_{3}=3-3t_{2}$
 So the solution set for the system is:
 $\{(2-2t_{1}-t_{2}, t_{1}, 3-t_{2}, t_{2}, 4) | t_{1},t_{2} \in R\}$}
+<!--SR:!2025-06-13,4,276-->
 
 
 ## Theorems
