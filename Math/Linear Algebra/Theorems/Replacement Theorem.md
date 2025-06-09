@@ -18,7 +18,3 @@ $\mathcal{T}_{j+1}=\{s_1,\ldots,s_{n-j-1}\}$
 done
 This completes the proof. $\square$
 
-### Immediately follow:
-
-#### 1.
-#### 2.
