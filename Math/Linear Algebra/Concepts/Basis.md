@@ -26,7 +26,7 @@
 
 ## Theorems
 - [[Vector Unique Expression of Linear Combination of Basis Vectors]]
-- [[If V has ]]
+- [[]]
 
 ## Questions
 - ...
