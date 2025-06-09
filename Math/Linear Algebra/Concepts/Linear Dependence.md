@@ -1,4 +1,3 @@
-
 ## Definition
 ?
 *A subset $\{v_{1},\dots,v_{k}\}$ is linearly dependent if there are scalars $a_{1},\dots,a_{k}$ not all zero, such that $a_{1}v_{1}+\dots+a_{k}v_{k}=\vec{0}$, else it's linearly independent*
@@ -49,11 +48,6 @@ $$
 $$
 	Since the Augmented Matrix is in REF and has a column without a leading entry, this is linearly independent set. If k=0, then there is only one solution to the system which is for all coefficients to be zero.
 
-## Non-examples
-?
-- Non-example 1: ...
-- Non-example 2: ...
-
 ## Theorems
 - [[Linearly Dependent Subset Vector as Linear Combination of Others]]
 - [[Refinement Theorem]]
@@ -61,7 +55,6 @@ $$
 ## Questions
 ?
 - Suppose W is a subspace of V. What is the smallest number of vectors such that taking span of those vectors generates W?
-
-
+<!--SR:!2025-06-13,4,270-->
 
 #linear-algebra

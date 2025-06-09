@@ -2,6 +2,7 @@
 *A vector space is a set of V, equipped with two operations: addition and scalar multiplication s.t the following 8 properties hold:*
 
 ## Properties / Axioms
+?
 1. $u + v = v + u$
 2. $u + (v+w) = (u+v) + w$
 3. $\exists$ 0 s.t u + 0 = u
