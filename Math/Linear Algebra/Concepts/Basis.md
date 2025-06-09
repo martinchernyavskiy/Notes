@@ -8,7 +8,7 @@
 <!--SR:!2025-06-13,4,270-->
 
 ## Examples
-- Example 1: ...
+- $\beta = \{ e_{1},\dots,e_{n} \}$, where $e_{1=}$
 ‎ 
 - Example 2: ...
 ‎ 
