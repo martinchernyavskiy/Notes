@@ -1,6 +1,6 @@
 ###### Definition
 ?
-*collection of entries from a field in a rectangular shape with general form of:*
+*A map T from a vector space V to a vector space W ($T: V \to W$)*
 <!--SR:!2025-06-12,4,270-->
 
 ##### Special Types:
