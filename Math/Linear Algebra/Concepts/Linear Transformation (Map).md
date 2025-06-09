@@ -39,15 +39,19 @@ $$
 ?
 - Transpose: $M_{m\times n} \to M_{n\times m}$
 	Given a general [[Matrix (Matrices)]], transpose of this matrix depicted as $A^t$ = ($a^t_{ij}=a_{ji}$)
-‎ 
+‎ .
 - For $V,W$ the map:
 	$T_{0}:V \to W$ is linear
 	$u \to \vec{0_{W}}$
 	Proof: Need $T_{0}(v_{1}+cv_{2})=T_{0}(v_{1})+cT_{0}(v_{2})$
 	$T_{0}(v_{1}+cv_{2})=\vec{0_{W}}$
-	$T_{0}(v_{1})+cT_{0}(v_{2})=\vec{0_{W}}+c_{\vec{0}}$
-‎ 
-- Example 3: ...
+	$T_{0}(v_{1})+cT_{0}(v_{2})=\vec{0_{W}}+c \vec{0_{W}}=\vec{0_{W}}$
+‎ .
+- For any V, the map $I_{V}:V \to V$ is linear
+		$u \to u$
+- $T:\mathbb{R}^2 \to \mathbb{R}^2$
+		$(x, y) \to (-y, x)$ (rotate 90deg left)
+		$T((x_{1},y_{1}+c(x_{2},y_{2}))=T(())$
 
 ## Worked-Out Examples
 ?
