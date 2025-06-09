@@ -33,14 +33,19 @@ $$
 &= T(\vec{0_{V}}) + \cancel{T(\vec{0_{V}})}
 \end{aligned}
 $$
-	Last small remark is that 
+	Last small remark is that applying linear transformation to a linear combination is a linear combination of transformations applied to each vector
 
 ## Examples
 ?
 - Transpose: $M_{m\times n} \to M_{n\times m}$
 	Given a general [[Matrix (Matrices)]], transpose of this matrix depicted as $A^t$ = ($a^t_{ij}=a_{ji}$)
 ‎ 
-- Example 2: ...
+- For $V,W$ the map:
+	$T_{0}:V \to W$ is linear
+	$u \to \vec{0_{W}}$
+	Proof: Need $T_{0}(v_{1}+cv_{2})=T_{0}(v_{1})+cT_{0}(v_{2})$
+	$T_{0}(v_{1}+cv_{2})=\vec{0_{W}}$
+	$T_{0}(v_{1})+cT_{0}(v_{2})=\vec{0_{W}}+c_{\vec{0}}$
 ‎ 
 - Example 3: ...
 
