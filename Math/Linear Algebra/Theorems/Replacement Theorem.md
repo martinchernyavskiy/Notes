@@ -18,3 +18,6 @@ $\mathcal{T}_{j+1}=\{s_1,\ldots,s_{n-j-1}\}$
 done
 This completes the proof. $\square$
 
+Notes:
+
+Theorem: Suppose there is a subset that generates V (it can be either basis or lin dependent). Then if there is another linearly independent subset (one that is or isn't generating V), then the number of
