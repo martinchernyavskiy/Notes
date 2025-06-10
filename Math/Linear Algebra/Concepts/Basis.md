@@ -1,4 +1,3 @@
-
 ## Definition
 ?
 *$\beta \subset V$ is a basis of V if:*
