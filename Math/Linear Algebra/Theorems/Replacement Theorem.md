@@ -20,4 +20,4 @@ This completes the proof. $\square$
 
 Notes:
 
-Theorem: Suppose there is a subset that generates V (it can be either basis or lin dependent). Then if there is another linearly independent subset (one that is or isn't generating V), then the number of
+Theorem: Suppose there is a subset S that generates V (it can be either basis or linearly dependent). Then if there is another linearly independent subset U (one that is or isn't generating V), then the number of vectors in S must be at least the number of vectors in U since ... and if you select excess vectors from S and take a union of that subset with U, then the span of this generates V
