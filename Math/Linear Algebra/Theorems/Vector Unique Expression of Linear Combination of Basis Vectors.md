@@ -15,8 +15,3 @@ By linear independence of $\beta$, all coefficients are 0, thus $a_{1}=b_{1},\do
 Therefore, every vector in V can be expressed in a unique way as element of $Span(\beta)$
 This completes the proof. $\square$
 <!--SR:!2025-06-13,4,270-->
-
-### Immediately follow:
-
-#### 1.
-#### 2.
