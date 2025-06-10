@@ -18,24 +18,10 @@
 .
 - $\mathcal{F}(\mathbb{R})$ has a basis
 
-## Worked-Out Examples
-- Example 1
-
-## Non-examples
-- Non-example 1: ...
-- Non-example 2: ...
-
 ## Theorems
 - [[Vector Unique Expression of Linear Combination of Basis Vectors]]
 - [[V has a finite basis if it has a finite generating set]]
 - [[Replacement Theorem]]
 - [[V has a finite basis, then any basis of V has the same number of elements]]
-
-## Questions
-- ...
-- ...
-- ...
-
-
 
 #linear-algebra
