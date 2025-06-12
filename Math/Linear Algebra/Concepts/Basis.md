@@ -8,7 +8,7 @@
 
 ## Examples
 ?
-- $\beta = \{ e_{1},\dots,e_{n} \}$, where $e_{1}=(1,0,\dots,0),e_{2}=(0,1,0\dots,0),e_{n}=(0,\dots,0,1)$ is a basis of $\mathbb{R}^2$
+- $\beta = \{ e_{1},\dots,e_{n} \}$, where $e_{1}=(1,0,\dots,0),e_{2}=(0,1,0\dots,0),e_{n}=(0,\dots,0,1)$ is a basis of $\mathbb{R}^n$
 ‎ .
 - $\beta = \{ 1,x,x^2 ,\dots,x^n\}$ is a basis of $P_{n}$
 ‎ .
