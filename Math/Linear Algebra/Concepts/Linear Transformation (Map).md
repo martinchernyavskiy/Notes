@@ -76,15 +76,5 @@ T_{a}^{b}(f+cg)=\int_{a}^{b}(f(x)+cg(x))dx \\ \\
 \end{array}
 $$
 
-## Non-examples
-?
-- Non-example 1: ...
-- Non-example 2: ...
-
-## Theorems
-- [[Theorem Name 1]]
-- [[Theorem Name 2]]
-
-
 
 #linear-algebra
