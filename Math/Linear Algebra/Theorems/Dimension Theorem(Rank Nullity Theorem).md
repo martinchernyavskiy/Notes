@@ -21,10 +21,10 @@ $\to a_{1}=0,\dots, a_{n-k}=0$ since $\{ u_{1},\dots,u_{k},v_{1},\dots v_{n-k} \
 Need to show $Span(\{ T(v_{1}),\dots,T(v_{n-k}) \}= R(T))$
 $R(T)=\{ T(v)|v \in V \}$
 $$
-\begin{aligned}
-&= \{ T \}\\
-&=
-\end{aligned}
+\begin{array}{l}
+= \{ T(a_{1}u_{1}+\dots+a_{k}u_{k}+b_{1}v_{1}+\dots+a_{n-k}v_{n-k}) \\|a_{1},\dots a_{k} \in \mathbb{R}, b_{1}\dots,b_{n-k} \in \mathbb{R} \}\\
+= \{ a_{1}T(u_{1})+\dots+a_{k}T(u_{k})+b_{1}T(v_{1})+\dots+b_{n-k}T(n-k) \} \\
+\end{array}
 $$
 This completes the proof. $\square$
 
