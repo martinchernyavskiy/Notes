@@ -42,7 +42,7 @@ $Span(S) = \{a_{1}v_{1}+\dots a_{k}v_{k}|a_{1},\dots,a_{k} \in R, u_{1},\dots u_
     0 & 0 & 0
 	\end{pmatrix}$$
 	Since there are solutions, the vector is in the span.
-<!--SR:!2025-06-13,4,276-->
+<!--SR:!2025-06-29,16,296-->
 
 ## $S \subset V$ generates V if Span(S) = V
 ?
@@ -58,7 +58,7 @@ $Span(S) = \{a_{1}v_{1}+\dots a_{k}v_{k}|a_{1},\dots,a_{k} \in R, u_{1},\dots u_
 - View it as a collection of n-column vectors in $R^m$
 - Then $Col(A) = Span\{\begin{pmatrix}a_{11} \\ \vdots  \\ a_{m1}\end{pmatrix} \dots \begin{pmatrix}a_{1n}  \\ \vdots  \\ a_{mn}\end{pmatrix}\}$, a subspace of $R^m$
 - ![[Pasted image 20250608180710.png]]
-<!--SR:!2025-06-12,3,250-->
+<!--SR:!2025-06-24,11,270-->
 
 ## Theorems
 - [[Span of a non-empty subset is a subspace]]
