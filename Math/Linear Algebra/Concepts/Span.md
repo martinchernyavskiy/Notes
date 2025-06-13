@@ -2,7 +2,7 @@
 ?
 *Let $S \subset V$ be a subset, then Span(S) is the set of all linear combinations of elements in S in the form:
 $Span(S) = \{a_{1}v_{1}+\dots a_{k}v_{k}|a_{1},\dots,a_{k} \in R, u_{1},\dots u_{k} \in S\}$*
-<!--SR:!2025-06-13,4,272-->
+<!--SR:!2025-06-28,15,292-->
 
 ## Examples
 ?
@@ -13,7 +13,7 @@ $Span(S) = \{a_{1}v_{1}+\dots a_{k}v_{k}|a_{1},\dots,a_{k} \in R, u_{1},\dots u_
 .
 - $Span(\{(1,0,0),(0,0,1)\})=\{(a_{1},0,a_{2})|a_{1},a_{2} \in R\}$
 	= xz-plane in $R^3$
-<!--SR:!2025-06-13,4,272-->
+<!--SR:!2025-06-28,15,292-->
 
 ## Worked-Out Examples
 ?
@@ -50,7 +50,7 @@ $Span(S) = \{a_{1}v_{1}+\dots a_{k}v_{k}|a_{1},\dots,a_{k} \in R, u_{1},\dots u_
 	1. {(1,0), (0,1)}, generates $R^2$
 	2. $\{\begin{pmatrix}1 & 0 \\ 0 & 0\end{pmatrix}, \begin{pmatrix}0 & 0 \\ 0 & 1\end{pmatrix}, \begin{pmatrix}0 & 1 \\ 1 & 0\end{pmatrix}\}$, generates v.s of $2\times_{2}$ symmetric matrices:
     A = $\begin{pmatrix} a_{11} & a_{12} \\ a_{12} & a_{22}\end{pmatrix}$ = $a_{11}\begin{pmatrix}1 & 0 \\ 0 & 0\end{pmatrix} + a_{21}\begin{pmatrix}0 & 0 \\ 0 & 1\end{pmatrix} + a_{12}\begin{pmatrix}0 & 1 \\ 1 & 0\end{pmatrix}$
-<!--SR:!2025-06-13,4,270-->
+<!--SR:!2025-06-29,16,290-->
 
 ## Column Space of Matrix
 ?
