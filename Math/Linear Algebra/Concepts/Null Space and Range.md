@@ -11,7 +11,8 @@ $R(T) = \{ T(v) | v \in V \} \subset W$*
 ## Additional Definitions
 ?
 - $T:V \to W$ is onto if $R(T)=W$ or $\forall w \in W, \exists v \in V$ s.t $T(v)=w$
-- $T:V $
+- $T:V \to W$ is 1-1 if
+  $T(v_{1})=T(v_{2}) \to v_{1}=v_{2}$
 
 ## Examples
 ?
@@ -32,6 +33,7 @@ $R(T) = \{ T(v) | v \in V \} \subset W$*
 ## Theorems
 - [[Kernel and Range are Subspaces given a Linear Transformation]]
 - [[Dimension Theorem(Rank Nullity Theorem)]]
+- [[Transformation is 1-1 iff N(T) consists only of 0 vector]]
 
 ## Questions
 - ...
