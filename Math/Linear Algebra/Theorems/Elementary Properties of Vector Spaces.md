@@ -19,5 +19,5 @@ This completes the proof. $\square$
 #### $0v = \vec{0}$
 #### $\vec{0}$ is uniquely defined by (3)
 #### For v, the w s.t $v+w=\vec{0}$ is unique. In fact, $w=-v \leftrightarrow w=-1(v)$
-<!--SR:!2025-06-13,4,272-->
+<!--SR:!2025-06-29,16,292-->
 

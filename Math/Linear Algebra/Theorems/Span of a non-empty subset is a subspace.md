@@ -10,4 +10,4 @@ c) Need $u \in Span(S) \to cu \in Span(S)$
 $u = a_{1}u_{1}+\dots+a_{k}u_{k}$
 $cu = (ca_{1})u_{1}+\dots+(ca_{k})u_{k}$ since this is a linear combination of u in S, $cu \in Span(S) \quad \checkmark$
 This completes the proof. $\square$
-<!--SR:!2025-06-13,4,270-->
+<!--SR:!2025-06-27,14,290-->
