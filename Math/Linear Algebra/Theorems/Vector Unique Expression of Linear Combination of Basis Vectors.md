@@ -14,4 +14,4 @@ $$
 By linear independence of $\beta$, all coefficients are 0, thus $a_{1}=b_{1},\dots a_{k}=b_{k},b_{k+1}=0,\dots,b_{l}=0$
 Therefore, every vector in V can be expressed in a unique way as element of $Span(\beta)$
 This completes the proof. $\square$
-<!--SR:!2025-06-13,4,270-->
+<!--SR:!2025-06-27,14,290-->
