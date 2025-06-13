@@ -8,11 +8,9 @@ Range (Image) of $T$ is:
 $R(T) = \{ T(v) | v \in V \} \subset W$*
 
 
-## Properties / Axioms
+## Additional Definitions
 ?
-1. ...
-2. ...
-3. ...
+- $T:V \to W$ is onto if $R(T)=W$ or $\forall w $
 
 ## Examples
 ?
@@ -29,15 +27,6 @@ $R(T) = \{ T(v) | v \in V \} \subset W$*
   $dimN(T)+dimR(T)=(n-m)+m=n=dim\mathbb{R}^n$
 ‎ 
 - Example 3: ...
-
-## Worked-Out Examples
-?
-- Example 1
-
-## Non-examples
-?
-- Non-example 1: ...
-- Non-example 2: ...
 
 ## Theorems
 - [[Kernel and Range are Subspaces given a Linear Transformation]]
