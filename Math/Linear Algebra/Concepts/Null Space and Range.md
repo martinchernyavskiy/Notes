@@ -10,7 +10,8 @@ $R(T) = \{ T(v) | v \in V \} \subset W$*
 
 ## Additional Definitions
 ?
-- $T:V \to W$ is onto if $R(T)=W$ or $\forall w $
+- $T:V \to W$ is onto if $R(T)=W$ or $\forall w \in W, \exists v \in V$ s.t $T(v)=w$
+- $T:V $
 
 ## Examples
 ?
