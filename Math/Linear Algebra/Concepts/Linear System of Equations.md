@@ -31,7 +31,7 @@ Where $(x_{1},x_{2},\dots,x_{n})$ are variables and $(a_{1},a_{2},\dots a_{n})$ 
 - RREF form of Augmented Matrix
 	Leading entries are all 1s
 	Leading Entries are only non-zero entry in their columns
-<!--SR:!2025-06-13,4,276-->
+<!--SR:!2025-06-28,15,296-->
 
 
 ## Remarks
@@ -42,7 +42,7 @@ Where $(x_{1},x_{2},\dots,x_{n})$ are variables and $(a_{1},a_{2},\dots a_{n})$ 
 	- In this case we parameterize the columns with missing leading entry and solve the system.
 .
 - The rank of a matrix is n-k, where n is number of columns and k is number of columns without a leading entry. If k = 0, there is one solution, if k > 0 and there is a solution, there are inf. many solutions.
-<!--SR:!2025-06-13,4,276-->
+<!--SR:!2025-06-29,16,296-->
 
 
 ## Worked-Out Example
@@ -66,7 +66,7 @@ $E_{1} \to x_{1}=2-2t_{1}-t_{2}$
 $E_{2} \to x_{3}=3-3t_{2}$
 So the solution set for the system is:
 $\{(2-2t_{1}-t_{2}, t_{1}, 3-t_{2}, t_{2}, 4) | t_{1},t_{2} \in R\}$}
-<!--SR:!2025-06-13,4,276-->
+<!--SR:!2025-06-29,16,296-->
 
 
 ## Theorems
