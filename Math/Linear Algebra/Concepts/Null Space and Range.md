@@ -21,7 +21,9 @@ $R(T) = \{ T(v) | v \in V \} \subset W$*
 ‎ 
 - For [[Dimension Theorem(Rank Nullity Theorem)]]
   $T:\mathbb{R}^n \to \mathbb{R}^n$
-  $(x_{1},\dots,x_{n})$
+  $(x_{1},\dots,x_{n}) \to (x_{1},\dots,x_{m},0,\dots,0) \quad (m<n)$
+  $N(T)=\{ (x_{1},\dots,x_{n})|x_{1}=0,\dots,x_{m}=0 \}$
+  $dim(N(T))=n-m$
 ‎ 
 - Example 3: ...
 
