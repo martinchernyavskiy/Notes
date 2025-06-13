@@ -22,6 +22,7 @@
 ## Worked-Out Examples
 ?
 - Example 1
+<!--SR:!2025-06-16,3,250-->
 
 ## Non-examples
 ?
