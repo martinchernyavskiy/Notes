@@ -9,9 +9,14 @@ $\to w_{1}+w_{2} = T(v_{1})+T(v_{2})$
 $\to w_{1}+w_{2} = T(v_{1}+v_{2})$
 $\to w_{1}+w_{2} = R(T)$
 c) Need $cw_{1} \in R(T) \space \forall c\in R$
+$w_{1} \in R(T) \to w_{1}=T(v_{1})$
+$cw_{1}=c(T(v_{1}))$
+$cw_{1}=T(cv_{1})$
+$cw_{1} \in R(T)$
 
 For N(T)
-
+a) Need $\vec{0} \in N(T) \to$ need $T(\vec{0_{V}})=\vec{0_{W}}$. Since T is linear, this is true by definition
+b) Need $v_{1},v_{2} \in N(T) \to v_{1}+v_{2} \in N(T) \to$ need $T(v_{1})$
 This completes the proof. $\square$
 
 ### Immediately follow:
