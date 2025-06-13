@@ -6,8 +6,8 @@
 2. $T(cv_{1}) = cT(v_{1})$
 	.
 	Following the 2 properties, the transformation is linear iff: $T(v_{1}+cv_{2}) = T(v_{1})+cT(v_{2})$ for $v_{1},v_{2} \in V \text{ and } c \in \mathbb{R}$
-	. 
-	Short proof: 
+	.
+	Short proof:
 	$\to$ Assume T is linear, (1, 2 hold)
 $$
 \begin{aligned}
@@ -27,13 +27,14 @@ $$
 	Want $(c) \to T(\vec{0_{V}}) =\vec{0_{W}}$
 	$$
 \begin{aligned}
-\vec{0_{W}} + \cancel{T(\vec{0_{V}})} &= T(\vec{0_{V}}) \\ 
+\vec{0_{W}} + \cancel{T(\vec{0_{V}})} &= T(\vec{0_{V}}) \\
 &= T(\vec{0_{V}}+1\times\vec{0_{V}}) \\
 &= T(\vec{0_{V}}) + 1T(\vec{0_{V}}) \\
 &= T(\vec{0_{V}}) + \cancel{T(\vec{0_{V}})}
 \end{aligned}
 $$
 	Last small remark is that applying linear transformation to a linear combination is a linear combination of transformations applied to each vector
+<!--SR:!2025-06-17,4,270-->
 
 ## Examples
 ?

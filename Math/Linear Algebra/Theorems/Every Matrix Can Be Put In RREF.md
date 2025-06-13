@@ -60,4 +60,4 @@ This completes the proof. $\square$
 ### Immediately follow:
 #### 1.RREF of a matrix is unique
 #### 2. Solution set of a linear system w/ augmented matrix in RREF is easily described in a standard way
-<!--SR:!2025-06-13,4,270-->
+<!--SR:!2025-06-27,14,290-->

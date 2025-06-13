@@ -10,4 +10,4 @@ u_{j}=-\frac{a_{1}}{a_{j}}-\dots-\frac{a_{j-1}}{a_{j}}a_{j-1}-\frac{a_{j+1}}{a_{
 \end{align}
 $$
 This completes the proof. $\square$
-<!--SR:!2025-06-13,4,270-->
+<!--SR:!2025-06-28,15,290-->
