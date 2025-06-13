@@ -24,6 +24,8 @@ $R(T) = \{ T(v) | v \in V \} \subset W$*
   $(x_{1},\dots,x_{n}) \to (x_{1},\dots,x_{m},0,\dots,0) \quad (m<n)$
   $N(T)=\{ (x_{1},\dots,x_{n})|x_{1}=0,\dots,x_{m}=0 \}$
   $dim(N(T))=n-m$
+  $R(T)=\{ (x_{1},\dots,x_{m},0,\dots,0) \}$
+  $dim(N(T)) = m$
 ‎ 
 - Example 3: ...
 
