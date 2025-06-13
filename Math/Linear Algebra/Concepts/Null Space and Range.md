@@ -19,7 +19,9 @@ $R(T) = \{ T(v) | v \in V \} \subset W$*
 - $N(T_{a}^{b}) = \{ \text{functions in } C^0(\mathbb{R}) \text{ whose average over } [a,b] \text{ is } 0 \}$
 - $R(T_{a}^b) =\mathbb{R} \quad (T_{a}^b \text{ is onto})$
 ‎ 
-- Example 2: ...
+- For [[Dimension Theorem(Rank Nullity Theorem)]]
+  $T:\mathbb{R}^n \to \mathbb{R}^n$
+  $(x_{1},\dots,x_{n})$
 ‎ 
 - Example 3: ...
 
@@ -34,7 +36,7 @@ $R(T) = \{ T(v) | v \in V \} \subset W$*
 
 ## Theorems
 - [[Kernel and Range are Subspaces given a Linear Transformation]]
-- [[Theorem Name 2]]
+- [[Dimension Theorem(Rank Nullity Theorem)]]
 
 ## Questions
 - ...
