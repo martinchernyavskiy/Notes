@@ -2,13 +2,7 @@
 ## Definition
 ?
 *A vector space V is finite dimensional if it has a finite basis. The number of elements in any basis (since all basis have same number of vectors) is the dimension of V, $dim V$. Otherwise, V is infinite dimensional*
-
-## Properties / Axioms
-?
-1. ...
-2. ...
-3. ...
-
+<!--SR:!2025-06-17,4,270-->
 ## Examples
 ?
 - $dim\mathbb{R}^n=n$
@@ -19,24 +13,8 @@
 - $dimP=\infty$
 <!--SR:!2025-06-17,4,270-->
 
-## Worked-Out Examples
-?
-- Example 1
-<!--SR:!2025-06-16,3,250-->
-
-## Non-examples
-?
-- Non-example 1: ...
-- Non-example 2: ...
-
 ## Theorems
 - [[Dimension of Subspace Is At Most The Dimension of Vector Space]]
-- [[Theorem Name 2]]
-
-## Questions
-- ...
-- ...
-- ...
 
 
 

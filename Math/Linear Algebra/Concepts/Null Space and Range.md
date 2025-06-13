@@ -37,11 +37,5 @@ $R(T) = \{ T(v) | v \in V \} \subset W$*
 - [[Dimension Theorem(Rank Nullity Theorem)]]
 - [[Transformation is 1-1 iff N(T) consists only of 0 vector]]
 
-## Questions
-- ...
-- ...
-- ...
-
-
 
 #linear-algebra
