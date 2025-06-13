@@ -17,6 +17,7 @@
 - $dimP_{n}=n+1$
 .
 - $dimP=\infty$
+<!--SR:!2025-06-17,4,270-->
 
 ## Worked-Out Examples
 ?

@@ -17,6 +17,7 @@
 - $\beta=\{ 1,x,x^2,x^3,\dots \}$ is a basis of $P = \{ \text{polynomials of all degrees} \}$
 .
 - $\mathcal{F}(\mathbb{R})$ has a basis
+<!--SR:!2025-06-16,3,254-->
 
 ## Theorems
 - [[Vector Unique Expression of Linear Combination of Basis Vectors]]
