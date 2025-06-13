@@ -13,10 +13,14 @@ $w_{1} \in R(T) \to w_{1}=T(v_{1})$
 $cw_{1}=c(T(v_{1}))$
 $cw_{1}=T(cv_{1})$
 $cw_{1} \in R(T)$
-
+.
 For N(T)
 a) Need $\vec{0} \in N(T) \to$ need $T(\vec{0_{V}})=\vec{0_{W}}$. Since T is linear, this is true by definition
-b) Need $v_{1},v_{2} \in N(T) \to v_{1}+v_{2} \in N(T) \to$ need $T(v_{1})$
+b) Need $v_{1},v_{2} \in N(T) \to v_{1}+v_{2} \in N(T)$. Since $v_{1},v_{2} \in N(T)$, $T(v_{1}) = \vec{0_{W}},T(v_{2})=\vec{0_{W}}$
+$T(v_{1})+T(v_{2})=\vec{0_{W}}+\vec{0_{W}}=\vec{0_{W}=T(v_{1}+v_{2})}$
+c) Need $v_{1} \in N(T) \to cv_{1} \in N(T)$
+$v_{1} \in N(T) \to T(v_{1})=\vec{0_{W}}$
+$T(cv_{1})=cT(v_{1})=c \vec{0_{W}}=\vec{0_{W}}$
 This completes the proof. $\square$
 
 ### Immediately follow:
