@@ -13,6 +13,7 @@ Any linear map between finite dimensional vector spaces can be represented by a 
 .
 - Consider $T: V \to W$ linear, V, W finite dimensional
 		Let $\beta = \{ v_{1},\dots,v_{n} \}$ be a basis for V and let $\gamma = \{ w_{1},\dots ,w_{m} \}$ be a basis for W
+		For $v \in V$ we then have $T(v)= a_{1}w_{1}+\dots+a_{m}w_{m}$
 
 
 ## Examples
