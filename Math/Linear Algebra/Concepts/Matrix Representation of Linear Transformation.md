@@ -8,6 +8,7 @@ Any linear map between finite dimensional vector spaces can be represented by a 
 ## Additional Definitions
 ?
 - $[v]_{\beta}=(a_{1},\dots,a_{n}) \in \mathbb{R}^n$ is a coordinate expression for v with respect to $\beta$
+- Each basis $\beta$ of V (w/ dim(V) = n) gives a map that identifies V with $\mathbb{R}^n$
 
 
 ## Examples
@@ -44,6 +45,7 @@ Ex: $T_{i}: P_{2} \to P_{3}$
 0 & 1 & \frac{1}{2}
 \end{pmatrix}
 $$
+	$[]_{\beta}: V \to \mathbb{R}^n$ is linear, 1-1 and onto
 ## Worked-Out Examples
 ?
 - Example 1
