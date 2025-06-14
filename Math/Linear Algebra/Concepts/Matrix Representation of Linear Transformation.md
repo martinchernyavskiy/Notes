@@ -7,7 +7,7 @@ Any linear map between finite dimensional vector spaces can be represented by a 
 
 ## Additional Definitions
 ?
-- $[v]_{\beta}=(a_{1},\dots,a_{n} \in \mathbb{R}^n)$ is a coordinate expression for v with respect to $\beta$
+- $[v]_{\beta}=(a_{1},\dots,a_{n}) \in \mathbb{R}^n$ is a coordinate expression for v with respect to $\beta$
 
 
 ## Examples
@@ -16,8 +16,10 @@ Ex: $T_{d}: P_{3} \to P_{2}$
 	$f \to f^1$
 Ex: $T_{i}: P_{2} \to P_{3}$
 	$f \to \int_{0}^x{f(t)dt}$
-‎Ex: 
-
+‎Ex: $V = \mathbb{R}^2$, $v=(2,1)$
+	$\beta=\{ (1,0),(0,1) \}$
+	$\beta^1=\{ (1,1),(1,-1) \}$
+	$\left[ v_{\beta}=(2,1), [v_{\beta^1}]=(a_{1},a_{2})=\left( \frac{3}{2}, \frac{1}{2} \right) \right]$
 ## Worked-Out Examples
 ?
 - Example 1
