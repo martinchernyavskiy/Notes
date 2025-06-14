@@ -14,7 +14,9 @@ Any linear map between finite dimensional vector spaces can be represented by a 
 - Consider $T: V \to W$ linear, V, W finite dimensional
 		Let $\beta = \{ v_{1},\dots,v_{n} \}$ be a basis for V and let $\gamma = \{ w_{1},\dots ,w_{m} \}$ be a basis for W
 		For $v \in V$ we then have $T(v)= a_{1}w_{1}+\dots+a_{m}w_{m}$
-
+		For $v_{j}$, we have $T(v_{j})=a_{1j}w_{1}+\dots+a_{mj}w_{m}$
+		$[T]_{\beta}^\gamma = (a_{ij})$ $i=1,\dots,m$, $j=1,\dots,n$
+- $[T]_{\beta}^\gamma$ is a matrix representation o T with respect to the b
 
 ## Examples
 ?
