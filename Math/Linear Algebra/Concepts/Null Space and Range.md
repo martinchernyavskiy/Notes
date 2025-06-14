@@ -36,6 +36,7 @@ $R(T) = \{ T(v) | v \in V \} \subset W$*
 - [[Kernel and Range are Subspaces given a Linear Transformation]]
 - [[Dimension Theorem(Rank Nullity Theorem)]]
 - [[Transformation is 1-1 iff N(T) consists only of 0 vector]]
+- [[Linear Map Between Vector Spaces With Same Finite Dimension is a Bijection]]
 
 
 #linear-algebra
