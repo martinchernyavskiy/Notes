@@ -19,7 +19,31 @@ Ex: $T_{i}: P_{2} \to P_{3}$
 ‎Ex: $V = \mathbb{R}^2$, $v=(2,1)$
 	$\beta=\{ (1,0),(0,1) \}$
 	$\beta^1=\{ (1,1),(1,-1) \}$
-	$\left[ v_{\beta}=(2,1), [v_{\beta^1}]=(a_{1},a_{2})=\left( \frac{3}{2}, \frac{1}{2} \right) \right]$
+	$[v_{\beta}]=(2,1), [v_{\beta^1}]=(a_{1},a_{2})=(\frac{3}{2}, \frac{1}{2})$
+	$(2,1)=a_{1}(1,1)+a_{2}(1,-1)$
+	$a_{1}+a_{2}=2$
+	$a_{1}-a_{2}=1$
+	$$
+\begin{pmatrix}
+1 & 1 & 2 \\
+1 & -1 & 1
+\end{pmatrix}
+\to
+\begin{pmatrix}
+1 & 1 & 2 \\
+0 & -2 & -1
+\end{pmatrix}
+\to
+\begin{pmatrix}
+1 & 1 & 2 \\
+0 & 1 & \frac{1}{2}
+\end{pmatrix}
+\to
+\begin{pmatrix}
+1 & 0 & \frac{3}{2} \\
+0 & 1 & \frac{1}{2}
+\end{pmatrix}
+$$
 ## Worked-Out Examples
 ?
 - Example 1
