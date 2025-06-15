@@ -40,7 +40,7 @@
 	$\{ a_n \} + \{ b_n \} = \{ a_n + b_n \}, \quad c \{ a_n \} = \{ c a_n \}$
 .
 - $P_{n}$ = {[[polynomial]]s f(x) of degree at most n}
-	$P(x) + G(x) = a_{n}+b_{n}x^n+\dots+(a_{0}+b_{0})$
+	$P(x) + G(x) = (a_{n}+b_{n})x^n+\dots+(a_{0}+b_{0})$
 	$cP(x) = ca_{n}x^n+\dots+ca_{0}$
 	$\vec{0} = 0 = 0x^n+\dots+0x+0$
 <!--SR:!2025-06-29,16,296-->
