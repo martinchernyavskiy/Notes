@@ -60,22 +60,22 @@ Ex: $T_{d}: P_{3} \to P_{2}$
 	$\gamma = \{ 1, x, x^2 \}$
 	$[T_{d}]_{\beta}^\gamma=$
 $${\begin{array}{l}
-[T_{d}(1)]_{\beta}= [0]_{\beta} = \begin{pmatrix}
+[T_{d}(1)]_{\gamma}= [0]_{\gamma} = \begin{pmatrix}
 0 \\
 0 \\
 0
 \end{pmatrix}\\
-[T_{d}(x)]_{\beta}= [1]_{\beta} = \begin{pmatrix}
+[T_{d}(x)]_{\gamma}= [1]_{\gamma} = \begin{pmatrix}
 1 \\
 0 \\
 0
 \end{pmatrix}\\
-[T_{d}(x^2)]_{\beta}= [2x]_{\beta} = \begin{pmatrix}
+[T_{d}(x^2)]_{\gamma}= [2x]_{\gamma} = \begin{pmatrix}
 0 \\
 2 \\
 0
 \end{pmatrix}\\
-[T_{d}(x^3)]_{\beta}= [3x^2]_{\beta} = \begin{pmatrix}
+[T_{d}(x^3)]_{\gamma}= [3x^2]_{\gamma} = \begin{pmatrix}
 0 \\
 0 \\
 3
@@ -87,6 +87,8 @@ $${\begin{array}{l}
 \end{pmatrix}
 \end{array}}
 $$
+Ex: $T_{i}: P_{2} \to P_{3}$
+	$[T_{i}]_{\beta}^\gamma = \begin{pmatrix}0 & 0 & 0  \\ 1 & 0 & 0 \\ 0 & \frac{1}{2} & 0 \\ 0 & 0 & \frac{1}{3}\end{pmatrix}$
 ## Worked-Out Examples
 ?
 - Example 1
