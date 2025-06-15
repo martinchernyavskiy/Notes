@@ -100,7 +100,7 @@ $${\begin{array}{l}
 \end{array}}
 $$
 Ex: $T_{i}: P_{2} \to P_{3}$
-	$[T_{i}]_{\beta}^\gamma = \begin{pmatrix}0 & 0 & 0  \\ 1 & 0 & 0 \\ 0 & \frac{1}{2} & 0 \\ 0 & 0 & \frac{1}{3}\end{pmatrix}$
+	$[T_{i}]_{\gamma}^\beta = \begin{pmatrix}0 & 0 & 0  \\ 1 & 0 & 0 \\ 0 & \frac{1}{2} & 0 \\ 0 & 0 & \frac{1}{3}\end{pmatrix}$
 
 ## Non-examples
 ?
@@ -110,11 +110,6 @@ Ex: $T_{i}: P_{2} \to P_{3}$
 ## Theorems
 - [[Matrix Representation Relation]]
 - [[Theorem Name 2]]
-
-## Questions
-- ...
-- ...
-- ...
 
 
 
