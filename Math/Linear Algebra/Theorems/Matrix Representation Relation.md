@@ -16,5 +16,6 @@ a_{n}
 \end{align}
 $$
 Since T and and $[]_{\gamma}$ are linear transformations
-
+.
+In other words, all coordinate expressions of images of T can be expressed as a matrix multiplication of matrix representation of T and coordinate expression of the vector.x
 This completes the proof. $\square$
