@@ -55,6 +55,38 @@ Ex: $T_{i}: P_{2} \to P_{3}$
 $$
 	$[]_{\beta}: V \to \mathbb{R}^n$ is linear, 1-1 and onto
 .
+Ex: $T_{d}: P_{3} \to P_{2}$
+	$\beta = \{ 1,x,x^2,x^3 \}$
+	$\gamma = \{ 1, x, x^2 \}$
+	$[T_{d}]_{\beta}^\gamma=$
+$${\begin{array}{l}
+[T_{d}(1)]_{\beta}= [0]_{\beta} = \begin{pmatrix}
+0 \\
+0 \\
+0
+\end{pmatrix}\\
+[T_{d}(x)]_{\beta}= [1]_{\beta} = \begin{pmatrix}
+1 \\
+0 \\
+0
+\end{pmatrix}\\
+[T_{d}(x^2)]_{\beta}= [2x]_{\beta} = \begin{pmatrix}
+0 \\
+2 \\
+0
+\end{pmatrix}\\
+[T_{d}(x^3)]_{\beta}= [3x^2]_{\beta} = \begin{pmatrix}
+0 \\
+0 \\
+3
+\end{pmatrix} \\
+[T_{d}]_{\beta}^\gamma = \begin{pmatrix}
+0 & 1 & 0 & 0 \\
+0 & 0 & 2 & 0 \\
+0 & 0 & 0 & 3
+\end{pmatrix}
+\end{array}}
+$$
 ## Worked-Out Examples
 ?
 - Example 1
