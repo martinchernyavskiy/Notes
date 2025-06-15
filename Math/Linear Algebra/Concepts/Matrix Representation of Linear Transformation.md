@@ -54,6 +54,7 @@ Ex: $T_{i}: P_{2} \to P_{3}$
 \end{pmatrix}
 $$
 	$[]_{\beta}: V \to \mathbb{R}^n$ is linear, 1-1 and onto
+.
 ## Worked-Out Examples
 ?
 - Example 1
@@ -64,7 +65,7 @@ $$
 - Non-example 2: ...
 
 ## Theorems
-- [[Theorem Name 1]]
+- [[Matrix Representation Relation]]
 - [[Theorem Name 2]]
 
 ## Questions
