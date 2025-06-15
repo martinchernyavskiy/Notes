@@ -1,6 +1,9 @@
 ### Theorem: $[T \circ S]_{\alpha}^\gamma = [T]_{\beta}^\gamma [S]_{\alpha}^\beta$
 
 #### Proof:
+$\alpha = \{ (x_{1},\dots,x_{n}) \}$
+$[T \circ S]_{\alpha}^\gamma=([T \circ S(x_{1})]_{\gamma} \dots[T \circ S(x_{n})]_{\gamma})$
+$= ([(T(S(x_{1}))]_{\gamma}\dots[(T(S(x_{n}))]_{\gamma})$
 
 This completes the proof. $\square$
 
