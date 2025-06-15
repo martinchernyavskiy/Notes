@@ -111,7 +111,6 @@ Ex: $T_{i}: P_{2} \to P_{3}$
 
 ## Theorems
 - [[Matrix Representation Relation]]
-- [[Theorem Name 2]]
 
 
 
