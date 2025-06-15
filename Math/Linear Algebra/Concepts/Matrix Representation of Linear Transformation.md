@@ -29,6 +29,7 @@ Ex: $T_{i}: P_{2} \to P_{3}$
 	$f \to \int_{0}^x{f(t)dt}$
 ‎Ex: $A \in M_{m \times n} \to L_{A}: \mathbb{R}^n \to \mathbb{R}^m$
 	Claim: If $\beta$ and $\gamma$ are standard bases for $\mathbb{R}^n, \mathbb{R}^m$ respectively, then $[L_{A}]_{\beta}^\gamma = A$
+	Pr
 
 .
 
