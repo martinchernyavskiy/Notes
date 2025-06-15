@@ -1,5 +1,10 @@
 ### Theorem: $[T \circ S]_{\alpha}^\gamma = [T]_{\beta}^\gamma [S]_{\alpha}^\beta$
 
+#### Proof:
+
+This completes the proof. $\square$
+
+
 #### Example Showcase: 
 $A \in M_{m \times n} \to L_{A}:\mathbb{R}^n \to \mathbb{R}^m$
 $B \in M_{p \times m} \to L_{B}: \mathbb{R}^m \to \mathbb{R}^p$
