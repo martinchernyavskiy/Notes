@@ -12,7 +12,7 @@
 ‎ .
 - $\beta = \{ 1,x,x^2 ,\dots,x^n\}$ is a basis of $P_{n}$
 ‎ .
-- $\beta =\{ e_{1},e_{2},\dots \}$ where $e_{j}$ is a sequence $0,0,\dots,0,1,0,\dots,0,.,..$ where 1 is $j^{th}$ term, is a basis of $V=\{ \{ a_{n} \} \}$
+- $\beta =\{ e_{1},e_{2},\dots \}$ where $e_{j}$ is a sequence $0,0,\dots,0,1,0,\dots,0,...$ where 1 is $j^{th}$ term, is a basis of $V=\{ \{ a_{n} \} \}$
 .
 - $\beta=\{ 1,x,x^2,x^3,\dots \}$ is a basis of $P = \{ \text{polynomials of all degrees} \}$
 .
