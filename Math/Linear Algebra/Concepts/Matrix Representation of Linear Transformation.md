@@ -29,8 +29,10 @@ Ex: $T_{i}: P_{2} \to P_{3}$
 	$f \to \int_{0}^x{f(t)dt}$
 ‎Ex: $A \in M_{m \times n} \to L_{A}: \mathbb{R}^n \to \mathbb{R}^m$
 	Claim: If $\beta$ and $\gamma$ are standard bases for $\mathbb{R}^n, \mathbb{R}^m$ respectively, then $[L_{A}]_{\beta}^\gamma = A$
-	Proof: $\beta = \{ e_{1},\dots,e_{n} \} = \begin{pmatrix}1 \\ 0 \\ \vdots \\ 0\end{pmatrix}$
-	
+	Proof: $\beta = \{ e_{1},\dots,e_{n} \}, e_{1} = \begin{pmatrix}1 \\ 0 \\ \vdots \\ 0\end{pmatrix}$
+	$[L_{A}]_{\beta}^\gamma=([L_{A}(e_{1})]_{\gamma}\dots[L_{A}(e_{n})]_{\gamma})$
+	$[L_{A}(e_{1})]_{\gamma} = [Ae_{1}]_{\gamma}=Ae_{1}$, the first column of A, etc.
+	$\begin{pmatrix}2 \\ 1 \end{pmatrix} = 2\begin{pmatrix}1 \\ 0\end{pmatrix}+1\begin{pmatrix}0 \\ 1\end{pmatrix}$
 
 .
 
