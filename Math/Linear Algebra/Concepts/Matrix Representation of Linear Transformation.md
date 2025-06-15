@@ -7,9 +7,9 @@ Any linear map between finite dimensional vector spaces can be represented by a 
 
 ## Additional Definitions
 ?
-- $[v]_{\beta}=(a_{1},\dots,a_{n}) \in \mathbb{R}^n$ is a coordinate expression for v with respect to $\beta$
-.
 - Each basis $\beta$ of V (w/ dim(V) = n) gives a map that identifies V with $\mathbb{R}^n$
+.
+- $[v]_{\beta}=(a_{1},\dots,a_{n}) \in \mathbb{R}^n$ is a coordinate expression for v with respect to $\beta$
 .
 - $[]_{\beta}: V \to \mathbb{R}^n$ is linear, 1-1 and onto
 .
