@@ -17,4 +17,3 @@ $${\begin{array}{l}
 \end{array}}
 $$
 - #### How are $[S]_{\alpha}^\beta[T]_{\beta}^\gamma$ and $[T \circ S]_{\alpha}^\gamma$ related? Define matrix multiplication
-- 
