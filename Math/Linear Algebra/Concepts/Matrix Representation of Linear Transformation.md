@@ -34,14 +34,12 @@ Ex: $T_{i}: P_{2} \to P_{3}$
 	$[L_{A}(e_{1})]_{\gamma} = [Ae_{1}]_{\gamma}=Ae_{1}$, the first column of A, etc.
 	$\begin{pmatrix}2 \\ 1 \end{pmatrix} = 2\begin{pmatrix}1 \\ 0\end{pmatrix}+1\begin{pmatrix}0 \\ 1\end{pmatrix}$
 
-.
-
 ## Worked-Out Examples
 ?
 Ex: $V = \mathbb{R}^2$, $v=(2,1)$
 	$\beta=\{ (1,0),(0,1) \}$
 	$\beta^1=\{ (1,1),(1,-1) \}$
-	$[v_{\beta}]=(2,1), [v_{\beta^1}]=(a_{1},a_{2})=(?, ?)$
+	$[v]_{\beta}=(2,1), [v_{\beta^1}]=(a_{1},a_{2})=(?, ?)$
 	$(2,1)=a_{1}(1,1)+a_{2}(1,-1)$
 	$a_{1}+a_{2}=2$
 	$a_{1}-a_{2}=1$
