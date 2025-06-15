@@ -102,14 +102,7 @@ $$
 Ex: $T_{i}: P_{2} \to P_{3}$
 	$[T_{i}]_{\gamma}^\beta = \begin{pmatrix}0 & 0 & 0  \\ 1 & 0 & 0 \\ 0 & \frac{1}{2} & 0 \\ 0 & 0 & \frac{1}{3}\end{pmatrix}$
 
-## Non-examples
-?
-- Non-example 1: ...
-- Non-example 2: ...
-
 ## Theorems
 - [[Matrix Representation Relation]]
-
-
 
 #linear-algebra
