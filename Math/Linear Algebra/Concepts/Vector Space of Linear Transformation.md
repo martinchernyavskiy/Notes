@@ -31,7 +31,7 @@ $\mathcal{L}(V,W)=\{ T: V \to W \}$* *which is the set of all linear maps from V
 - Non-example 2: ...
 
 ## Theorems
-- [[Theorem Name 1]]
+- [[Composition of Linear Transformations is Linear]]
 - [[Theorem Name 2]]
 
 ## Questions
