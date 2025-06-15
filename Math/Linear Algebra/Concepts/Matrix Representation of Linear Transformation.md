@@ -16,7 +16,7 @@ Any linear map between finite dimensional vector spaces can be represented by a 
 		For $v \in V$ we then have $T(v)= a_{1}w_{1}+\dots+a_{m}w_{m}$
 		For $v_{j}$, we have $T(v_{j})=a_{1j}w_{1}+\dots+a_{mj}w_{m}$
 		$[T]_{\beta}^\gamma = (a_{ij})$ $i=1,\dots,m$, $j=1,\dots,n$
-- $[T]_{\beta}^\gamma$ is a matrix representation o T with respect to the bases $\beta, \gamma$
+- $[T]_{\beta}^\gamma$ is a matrix representation of T with respect to the bases $\beta, \gamma$
 - $[T]_{\beta}^\gamma = \begin{pmatrix}| &  & | \\ [T(v_{1})]_{\gamma} & \dots & [T(v_{n})]_{\gamma} \\ | &  & |\end{pmatrix}$
 
 ## Examples
