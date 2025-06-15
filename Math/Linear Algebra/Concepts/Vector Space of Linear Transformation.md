@@ -1,8 +1,8 @@
 
 ## Definition
 ?
-*Given vector spaces V, W, we define:
-$\mathcal{L}(V,W)=\{ T: V \to W \}$* *with T linear is a vector space*
+*Given vector spaces V, W, we define a vector space:
+$\mathcal{L}(V,W)=\{ T: V \to W \}$* *which is the set of all linear maps from V to W*
 
 ## Properties / Axioms
 ?
@@ -12,7 +12,10 @@ $\mathcal{L}(V,W)=\{ T: V \to W \}$* *with T linear is a vector space*
 
 ## Examples
 ?
-- Example 1: ...
+- $S \in \mathcal{L}(X, Y)$ and $T \in \mathcal{L}(Y, Z)$
+	$X \xrightarrow{S} Y \xrightarrow{T} Z$ can define a composition
+	$T\circ S: X \to Z$
+	$x \to T(S(v))$
 ‎ 
 - Example 2: ...
 ‎ 
