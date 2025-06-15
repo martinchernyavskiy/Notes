@@ -21,7 +21,10 @@ From [[Composition of Linear Transformations is Linear]], we define Matrix Multi
 
 ## Worked-Out Examples
 ?
-- 
+- $A = \begin{pmatrix}1 & 2 & 3 \\ 4 & 5 & 6\end{pmatrix}, B = \begin{pmatrix}1 & 2 \\ 1 & 2 \\ 2 & 1\end{pmatrix}$
+  $A \bar{b_{1}} = \begin{pmatrix}1 & 2 & 3 \\ 4 & 5 & 6\end{pmatrix}\begin{pmatrix}1 \\ 1 \\ 2\end{pmatrix} =1\begin{pmatrix}1 \\ 4\end{pmatrix}+1\begin{pmatrix}2 \\ 5\end{pmatrix}+2\begin{pmatrix}3 \\ 6\end{pmatrix} = \begin{pmatrix}9 \\ 21\end{pmatrix}$
+  $A \bar{b_{2}} = \begin{pmatrix}1 & 2 & 3 \\ 4 & 5 & 6\end{pmatrix}\begin{pmatrix}2 \\ 2 \\ 1\end{pmatrix} = \begin{pmatrix}9 \\ 24\end{pmatrix}$
+  $AB = \begin{pmatrix} 9 & 9 \\ 21 & 24\end{pmatrix}$
 ## Theorems
 - [[Composition of Linear Transformations is Linear]]
 
