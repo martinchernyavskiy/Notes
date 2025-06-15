@@ -6,6 +6,8 @@ $[T \circ S]_{\alpha}^\gamma=([T \circ S(x_{1})]_{\gamma} \dots[T \circ S(x_{n})
 $= ([(T(S(x_{1}))]_{\gamma}\dots[(T(S(x_{n}))]_{\gamma})$
 By [[Matrix Representation Relation]],
 $= ([T]_{\beta}^\gamma[S(x_{1})]_{\beta} \dots [T]_{\beta}^\gamma [S(x_{n})]_{\beta})$
+$= [T]_{\beta}^\gamma[S(x_{1})]_{\beta}\dots[S(x_{n})]_{\beta}$
+$=[T]_{\beta}^\gamma[S]_{\alpha}^\beta$
 This completes the proof. $\square$
 
 
