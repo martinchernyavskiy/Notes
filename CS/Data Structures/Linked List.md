@@ -1,5 +1,10 @@
 ## Definition:
-*Arrays(Lists) are fundamental data structure in programming which is use to store multiple values in a single variable*
+*Data structure used to store a sequence of elements. Contrary to arrays which store elements contiguously in memory, a linked lists consists of nodes (a block of memory), where each node contains the data as well as a reference (link) to the next node in the sequence.*
+
+## Benefits
+
+
+## Code snippets
 
 ```python
 array = []
@@ -75,4 +80,5 @@ Integer[] numbers = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
 
 ## Real World examples
 
-- 
+- An engineer at Spotify might use a linked list to build a playlist, where each node is a song.
+- Users of WhatsApp are able to delete messages, so a linked list could be used to store chat history. Updating the linked list with new/deleted messages and maintaining the chronological order.
