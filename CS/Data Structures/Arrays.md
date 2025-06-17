@@ -4,9 +4,24 @@
 ```python
 array = []
 
-# Adding to array
+# Adding elements to list
 array.append(1)
 array.append(2) 
+array.append(3)
+
+# Removes last element of list
+array.pop()
+
+array[index] # access element at given index
+
+# Removes element at given index of the list
+array.pop(index)
+
+# Slashing 
+print(array[1:]) # everything from first index and onwards
+
+# Prints list in console
+print(array)
 ```
 
 ```Java
