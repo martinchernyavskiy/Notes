@@ -29,4 +29,4 @@
 
 - Faster devices require more hardware (cost more and use more power)
 - Cheaper devices use less silicon or fit fewer transistors than more expensive ones, so they don't have as much specialized hardware or parallel structures that increase performance)
-- Low-power devices cannot have as high clock-rate as high-power devices because of lower voltage which lowers the clock rat
+- Low-power devices cannot have as high clock-rate as high-power devices because of lower voltage, thus lower the clock rate
