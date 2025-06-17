@@ -2,6 +2,7 @@
 *Arrays(Lists) are fundamental data structure in programming which is use to store multiple values in a single variable*
 
 ```python
+# array initialization
 array = []
 
 # Adding elements to list
@@ -62,6 +63,7 @@ Integer[] numbers = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
 
 - Dynamic size acts like array list in Java
 - Can contain various types of objects
+- Length is the size of array itself, there is no capacity
 
 # Java
 ## Notes:
@@ -75,4 +77,5 @@ Integer[] numbers = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
 
 ## Real World examples
 
-- 
+- An engineer at Apple working on image processing algorithms for Iphone cameras might use arrays over files to represent pixel data. Storing images this way makes it easier and faster to perform operations
+- A front-end developer at Google working on Gmail might use arrays to manage email threads or conversations. They might even store it as a list of JSON objects with info like author, timestamp, message, receiver, etc.
