@@ -3,8 +3,10 @@
 
 ```python
 array = []
+
+# Adding to array
 array.append(1)
-array.append(2)
+array.append(2) 
 ```
 
 ```Java
@@ -18,15 +20,23 @@ String[] animals = new String[] {"Dog", "Cat", "Elephant"};
 Integer[] numbers = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
 ```
 
+## Complexity:
+
+- Random Access - O(1)
+- Traverse - O(n)
+- Remove from beginning O(n)
+- Remove from the end O(1)# Python
+
+# Python
+## Notes
+
+- Dynamic size acts like array list in Java
+- Can contain various types of objects
+
 # Java
 ## Notes:
 
 - Fixed size
 - Can create shadow array to expand
 - Contiguous
-## Complexity:
-
-- Random Access - O(1)
-- Traverse - O(n)
-- Remove from beginning O(n)
-- Remove from the end O(1)
+- Must contain same type of objects 
