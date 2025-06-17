@@ -1,5 +1,5 @@
 ## Definition:
-*Arrays are fundamental data structure in programming which is use to store multiple values in a single variable*
+*Arrays(Lists) are fundamental data structure in programming which is use to store multiple values in a single variable*
 
 ```python
 array = []
@@ -19,6 +19,16 @@ array.pop(index)
 
 # Slashing 
 print(array[1:]) # everything from first index and onwards
+
+# Getting length of the list
+print(len(array))
+
+# Getting sum of the elements
+print(sum(array))
+
+# Looping through the list
+for element in array 
+	print(element)
 
 # Prints list in console
 print(array)
@@ -42,6 +52,11 @@ Integer[] numbers = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
 - Remove from beginning O(n)
 - Remove from the end O(1)# Python
 
+# CPP
+## Notes
+
+- 
+
 # Python
 ## Notes
 
@@ -55,3 +70,9 @@ Integer[] numbers = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
 - Can create shadow array to expand
 - Contiguous
 - Must contain same type of objects 
+- Some data structures utilizing array keep a private field to keep track of the size changes as by default there is no way to retrieve that information apart from the total length of the array (its capacity)
+
+
+## Real World examples
+
+- 
