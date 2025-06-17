@@ -1,8 +1,12 @@
 ## Categories:
 
 - ### Software
-	-
+	Analogous to the UTM's "description of required behavior", representing a away to control the hardware to perform whatever computations are needed.
 
 - ### Hardware
 	Physical part of the computer, we focus on the [[processor]] part.
 
+## Abstraction levels:
+
+- ### Instruction Set Architecture (ISA)
+	Lies at the boundary of abstraction and specifies the hardware capabilities and how it can be controlled by software
