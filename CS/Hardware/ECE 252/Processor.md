@@ -1,0 +1,1 @@
+*Central Processing Unit (CPU), is what does the bulk of computation in the computer, often referred to its brain. It executes applications that have been broken down into sequences of simple instructions *
