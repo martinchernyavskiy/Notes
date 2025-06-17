@@ -3,6 +3,8 @@
 
 ## Benefits
 
+**
+
 
 ## Code snippets
 
@@ -52,10 +54,14 @@ Integer[] numbers = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
 
 ## Complexity:
 
-- Random Access - O(1)
-- Traverse - O(n)
-- Remove from beginning O(n)
-- Remove from the end O(1)# Python
+- Traverse O(n)
+- Insertion
+	- At the head - O(1)
+	- At the tail - O(1) if doubly, O(n) otherwise
+- Removal
+	- Head - O(1)
+	- Tail - O(1) if doubly, O(n) otherwise
+	- Arbitrary - O(n) since need to traverse to find
 
 # CPP
 ## Notes
