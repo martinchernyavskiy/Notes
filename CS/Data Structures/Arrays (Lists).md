@@ -2,7 +2,7 @@
 *Arrays(Lists) are fundamental data structure in programming which is use to store multiple values in a single variable*
 
 ```python
-# array initialization
+# Array Initialization
 array = []
 
 # Adding elements to list
@@ -36,7 +36,10 @@ print(array)
 ```
 
 ```Java
+// Array Initialization
 String[] array = new String[3];
+
+// Adding elements to the array
 array[0] = "First";
 array[1] = "Second";
 array[2] = "Third";
