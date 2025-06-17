@@ -8,4 +8,5 @@
 
 ## Role in computers
 
-*All data in computers is represented using binary digits (bits)*
+*All data in computers is represented using binary digits (bits), which are either 0 or 1. 8 bits grouped together form a byte. Bytes are the fundamental units of storage and manipulation in computers.*
+
