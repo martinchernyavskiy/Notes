@@ -1,0 +1,5 @@
+## Data types
+
+- ### Digital
+- ### Analog
+- 

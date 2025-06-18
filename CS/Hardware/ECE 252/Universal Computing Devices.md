@@ -19,6 +19,7 @@
 	1. Time
 	2. Cost
 	3. Power/Energy
+<!--SR:!2025-06-22,4,270-->
 
 ## What makes computer "faster"
 ?

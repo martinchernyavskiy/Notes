@@ -29,13 +29,15 @@
 	Lower-level details where designers need to think analog again.
 	Focus on transistors that respond to voltage levels.
 	Relationships between voltage, current, power, speed, and heat, as well as other details.
+<!--SR:!2025-06-21,3,250-->
 
 
 ## Key theme:
 ?
-- Transition between abstraction layers, starting at the top and traverse to the bottom. 
-- Compiler itself a program is the one that converts program to sequences of binary values, representing single small step to be executed by the processor. It is a program that runs on the processor itself and is designed based on the ISA 
+- Transition between abstraction layers, starting at the top and traverse to the bottom.
+- Compiler itself a program is the one that converts program to sequences of binary values, representing single small step to be executed by the processor. It is a program that runs on the processor itself and is designed based on the ISA
 - Hardware description language (HDL) is used to describe the hardware and extensive simulation tools are used to test hardware before moving to the devices layer.
-- The transformation to the device level is done with complex computer-aided design software tools, implementing processors with billions or more transistors. 
-- These tools have enormous computational and memory requirements that manufactures use dedicated server farms 
+- The transformation to the device level is done with complex computer-aided design software tools, implementing processors with billions or more transistors.
+- These tools have enormous computational and memory requirements that manufactures use dedicated server farms
 - ![[Pasted image 20250618115613.png]]
+<!--SR:!2025-06-21,3,250-->
