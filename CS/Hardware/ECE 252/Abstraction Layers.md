@@ -33,4 +33,6 @@
 ## Key theme:
 
 - Transition between abstraction layers, starting at the top and traverse to the bottom. 
+- Compiler itself a program is the one that converts program to sequences of binary values, representing single small step to be executed by the processor. It is a program that runs on the processor itself and is designed based on the ISA 
+- Hardware description language (HDL) is used to describe the hardware and extensive simulation tools are used to test hardware before moving to the devices lay
 - ![[Pasted image 20250618115613.png]]
