@@ -28,3 +28,8 @@
 	Lower-level details where designers need to think analog again.
 	Focus on transistors that respond to voltage levels.
 	Relationships between voltage, current, power, speed, and heat, as well as other details.
+
+
+## Key theme:
+
+- Transition between abstraction layers, starting at the top and traverse to the bottom. 
