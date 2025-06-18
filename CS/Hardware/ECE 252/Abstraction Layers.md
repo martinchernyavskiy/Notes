@@ -33,3 +33,4 @@
 ## Key theme:
 
 - Transition between abstraction layers, starting at the top and traverse to the bottom. 
+- ![[Pasted image 20250618115613.png]]
