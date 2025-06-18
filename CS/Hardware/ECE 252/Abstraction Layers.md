@@ -1,3 +1,6 @@
+*Used for managing complexity which allows to design more and more complex systems and software.*
+
+
 ## Categories:
 
 - ### Software
