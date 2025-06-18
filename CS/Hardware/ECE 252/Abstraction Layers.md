@@ -16,7 +16,10 @@
 - ### Algorithm
 	Procedures used to perform a particular task, not specific to a particular processor or programming language
 - ### Program
-	Realization of problem statement, implemented in a particular programming language, implementing algorithm(s)
+	Realization of problem statement, implemented in a particular programming language, implementing algorithm(s).
+	Languages are split into two types: low-level and high-level. 
+	Low-level is closely tied to computer hardware and instruction set.
+	High-level is more abstract from hardware and is more portable across different systems.
 - ### Instruction Set Architecture (ISA)
 	Lies at the boundary of abstraction and specifies the hardware capabilities and how it can be controlled by software.
 	Each different ISA defines a particular "machine language". If software is written to speak that language, then it can control any processor designed to listen to it
