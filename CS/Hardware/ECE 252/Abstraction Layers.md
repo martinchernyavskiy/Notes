@@ -22,5 +22,9 @@
 - ### Microarchitecture
 	High-level organization of a processor, determining number of logic circuits, special hard-ware based circuits
 - ### Logic Circuits
-	Determines the type of circuits to use to accomplish a computation. Designers create structures out of small building blocks, called logic gates, which operates on 1s and 0s, each of which contain multiple transistors. T
+	Determines the type of circuits to use to accomplish a computation. Designers create structures out of small building blocks, called logic gates, which operates on 1s and 0s, each of which contain multiple transistors. These logic gates produce 1s and 0s as their outputs based on the 1s and 0s as their inputs. (voltage levels are represented with symbols 1 and 0).
+	Using logic gates, we can build logic circuit for a specific single function, but there are multiple ways to do so which is a choice of design in the logic circuits layer
 - ### Devices
+	Lower-level details where designers need to think analog again.
+	Focus on transistors that respond to voltage levels.
+	Relationships between voltage, current, power, speed, and heat, as well as other details.
