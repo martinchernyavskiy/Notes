@@ -20,6 +20,8 @@
 	Languages are split into two types: low-level and high-level. 
 	Low-level is closely tied to computer hardware and instruction set.
 	High-level is more abstract from hardware and is more portable across different systems.
+	Compiler translates high-level programming languages into machine code.
+	Assembler translates low-level language into machine code.
 - ### Instruction Set Architecture (ISA)
 	Lies at the boundary of abstraction and specifies the hardware capabilities and how it can be controlled by software.
 	Each different ISA defines a particular "machine language". If software is written to speak that language, then it can control any processor designed to listen to it
