@@ -11,4 +11,5 @@
 ## Abstraction levels:
 ?
 - ### Instruction Set Architecture (ISA)
-	Lies at the boundary of abstraction and specifies the hardware capabilities and how it can be controlled by software
+	Lies at the boundary of abstraction and specifies the hardware capabilities and how it can be controlled by software.
+	Each different ISA defines a particular "machine language". If software is written to speak that language, then it can control any processor designed to listen to it
