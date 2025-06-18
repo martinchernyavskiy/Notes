@@ -1,4 +1,5 @@
-*Used for managing complexity which allows to design more and more complex systems and software.*
+?
+*Used for managing complexity which allows to design more and more complex systems and software. Allows for specialized teams to focus on designing one part and not the whole thing.*
 
 
 ## Categories:
