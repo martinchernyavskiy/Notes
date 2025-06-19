@@ -4,6 +4,7 @@
 
 - Weight of each digit is determined by its position and base
 - Digit value can be at most one less than the base
+- Value is a particular quantity, while number is a way to represent this value
 
 - ### Decimal (Base 10)
 	- Value of digit depends on its position
@@ -31,3 +32,4 @@
 ## Why use different bases?
 
 - Hexadecimal (and octal) makes it easier for humans to deal with large binary numbers
+- Each hex digit is a substitute for 4 bits of the binary number
