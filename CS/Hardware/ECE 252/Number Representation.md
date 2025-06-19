@@ -25,4 +25,5 @@
 	- Max digit value is 7
 
 - ### Hexadecimal (Hex)
-- 
+	- Each position represents power of eight
+	- Max digit is 15, digits 10-15 are A,B,C,D,E,F respectively
