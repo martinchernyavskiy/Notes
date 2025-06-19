@@ -1,5 +1,9 @@
 ## Bases
 
+- ### General Notes
+
+- Weight of each digit is determined by its position and base
+
 - ### Decimal (Base 10)
 	- Value of digit depends on its position
 	- Each position represents a power of ten
@@ -8,3 +12,5 @@
 	- Right-most digit position is 0, called least-significant digit.
 	- Left-most digit is called most-significant digit
 	- Each digit represents a power of the base (radix) of the number
+
+- ### Binary
