@@ -27,3 +27,7 @@
 - ### Hexadecimal (Hex)
 	- Each position represents power of eight
 	- Max digit is 15, digits 10-15 are A,B,C,D,E,F respectively
+
+## Why use different bases?
+
+- Hexadecimal (and octal) makes it easier for humans to deal with large binary numbers
