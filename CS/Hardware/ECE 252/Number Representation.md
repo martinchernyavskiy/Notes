@@ -3,6 +3,7 @@
 - ### General Notes
 
 - Weight of each digit is determined by its position and base
+- Digit value can be at most one less than the base
 
 - ### Decimal (Base 10)
 	- Value of digit depends on its position
@@ -14,3 +15,14 @@
 	- Each digit represents a power of the base (radix) of the number
 
 - ### Binary
+	- Each position represents power of two
+	- Possible digits are 0 through 1 
+	- Bit - binary digit
+	- Digit values represent how many of that power of two
+
+- ### Octal 
+	- Each position represents power of eight
+	- Max digit value is 7
+
+- ### Hexadecimal (Hex)
+- 
