@@ -4,4 +4,8 @@
 ### Binary
 - The most-significant bit is the sign (1 is negative)
 - Remaining bits are number's magnitude (0010 for +2, 1010 for -2)
-- Easy for humans, hard for computers
+- Easy for humans, hard for computers since it affects arithmetic
+
+
+### 2-s Complement Representation
+- Ignore any carry from the most-significant bit position
