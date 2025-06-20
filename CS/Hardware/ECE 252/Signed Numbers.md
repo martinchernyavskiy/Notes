@@ -27,4 +27,7 @@
 
 ### Subtraction of 2-s Complement Representation
 
-- Same as addition 
+- Same as addition but add the negation of the value we wish to subtract from
+
+
+### Operands bitwidths 
