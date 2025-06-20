@@ -6,4 +6,6 @@
 - Logic for using fewer bits works the same, but make sure the sign bit remains intact 
 
 ### Overflow
-- Answer to computation is not representable in the number of digits the answer has
+- Answer to computation is not representable in the number of digits the answer has.
+- "Is the answer correct?" - Yes/No
+- 
