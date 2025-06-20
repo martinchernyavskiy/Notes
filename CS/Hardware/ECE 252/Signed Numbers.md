@@ -18,4 +18,5 @@
 	So $0010_{2} \to 1101_{2} + 1_{2} = 1110$*
 	*To know what negative number value we have, we first apply bitwise complement and add 1 to get a positive number representation which is the initial negative value, but positive.*
 
- - Unsigned binary represents whole 
+ - Unsigned binary represent non-negative values
+ - In 2-s complement representation, half of the sequences represent same non-negative values, while the other half represents negative values, so we need to know the format.
