@@ -9,3 +9,8 @@
 
 ### 2-s Complement Representation
 - Ignore any carry from the most-significant bit position
+- For N-bit number, the sum looks like 2^N
+- Positive numbers always start with 0 an use normal positional notation
+- Negative numbers always start with 1.
+	For humans it's easiest to use negative to determine binary sequence for a negative number
+	To negate: $-X = 2^N - X$, since actual sum  
