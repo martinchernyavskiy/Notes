@@ -16,4 +16,6 @@
 	To negate: $-X = 2^N - X$, since number and its negative sum to 2^N, however there is an easier way.
 	*Complement each bit and then add 1.
 	So $0010_{2} \to 1101_{2} + 1_{2} = 1110$*
-	*To know what negative number we have, we first apply bitwise complement and add 1 to get a positive *
+	*To know what negative number value we have, we first apply bitwise complement and add 1 to get a positive number representation which is the initial negative value, but positive.*
+
+ - Unsigned binary represents whole 
