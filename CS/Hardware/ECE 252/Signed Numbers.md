@@ -9,8 +9,11 @@
 
 ### 2-s Complement Representation
 - Ignore any carry from the most-significant bit position
-- For N-bit number, the sum looks like 2^N
+- For N-bit number, the sum looks like 2^N 
 - Positive numbers always start with 0 an use normal positional notation
 - Negative numbers always start with 1.
 	For humans it's easiest to use negative to determine binary sequence for a negative number
-	To negate: $-X = 2^N - X$, since actual sum  
+	To negate: $-X = 2^N - X$, since number and its negative sum to 2^N, however there is an easier way.
+	*Complement each bit and then add 1.
+	So $0010_{2} \to 1101_{2} + 1_{2} = 1110$*
+	*To know what negative number we have, we first apply bitwise complement and add 1 to get a positive *
