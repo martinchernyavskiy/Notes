@@ -8,6 +8,7 @@
 
 
 ### 2-s Complement Representation
+- Can represent both positive and negative values
 - Ignore any carry from the most-significant bit position
 - For N-bit number, the sum looks like 2^N 
 - Positive numbers always start with 0 an use normal positional notation
