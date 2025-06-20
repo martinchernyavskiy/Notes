@@ -20,3 +20,11 @@
 
  - Unsigned binary represent non-negative values
  - In 2-s complement representation, half of the sequences represent same non-negative values, while the other half represents negative values, so we need to know the format.
+
+### Addition of 2-s Complement Representation
+
+- Works the same as for unsigned binary numbers, however carryout is omitted 
+
+### Subtraction of 2-s Complement Representation
+
+- Same as addition 
