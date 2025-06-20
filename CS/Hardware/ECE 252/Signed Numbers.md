@@ -30,4 +30,5 @@
 - Same as addition but add the negation of the value we wish to subtract from
 
 
-### Operands bitwidths 
+### Operands bit-widths must match
+- In order for math to work for 2-s complement arithmetic, operands and results must have the same number of bits which can be accomplished by [[Sign-Extension and Overflow]]
