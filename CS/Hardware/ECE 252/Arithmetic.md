@@ -10,4 +10,3 @@
 ### Division Methodology
 - Opposite of multiplication, instead when dividing by the power of the base we shift number right.
 - 0s get cut off from the number while other numbers are shifted past dot (radix point), representing fractional values
-- 
