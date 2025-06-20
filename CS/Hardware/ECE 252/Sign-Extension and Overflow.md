@@ -9,3 +9,5 @@
 - Answer to computation is not representable in the number of digits the answer has.
 - "Is the answer correct?" - Yes/No
 - In signed binary overflow, carry-out doesn't mean there has been an overflow
+	If numbers have opposite signs, overflow cannot occur since the result must be in the interval between them
+	If numbers have the same sign, but the sign is different, then the result overflowed
