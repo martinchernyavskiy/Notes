@@ -8,4 +8,4 @@
 ### Overflow
 - Answer to computation is not representable in the number of digits the answer has.
 - "Is the answer correct?" - Yes/No
-- 
+- In signed binary overflow, carry-out doesn't mean there has been an overflow
