@@ -20,4 +20,5 @@
 	Same as to Hex, but substitute octal digit for a 3-bit binary number and vice versa
 
 
-- ### Converting between 
+- ### Converting between Octal and Hex
+	Use binary as intermediate form
