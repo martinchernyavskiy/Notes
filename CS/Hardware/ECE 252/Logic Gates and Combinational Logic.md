@@ -23,3 +23,5 @@
 ### Designing Logic Circuits
 - More abstract than devices abstraction layer, hence we worry about only the boolean values
 - Logic gates correspond to basic boolean operations
+
+### Types of Logic Gates
