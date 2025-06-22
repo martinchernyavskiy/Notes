@@ -33,3 +33,5 @@
 - CoutS = A + B + Cin
 - Connecting series of full adders creates a ripple carry adder (Cout from first connects to Cin of next)
 - Ripple since a carry can occur at any bit position and move towards the most significant bit
+- In unsigned operands, if we only consider the 3 sum bits and have a Cout from the most significant position, then we have overflow since the sum couldn't be represented in the given number of digits
+- But since computers use 2-s complement and the operands were regarded as such, the result is correct in this video example
