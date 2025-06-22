@@ -29,3 +29,9 @@
 - AND gate (elongated capital D)
 - OR gate (3 curved sides, sharp shield-like)
 - XOR gate (similar to OR but additional curved line on the input side)
+- Note: Boolean variables are actually voltage signals sent from gate to gate over wires, so logic function is itself a signal
+- Points at which the wires connect to the gates are called pins
+- Gates that are complements of basic operations have same symbols, but with a bubble
+
+### Combinational Circuits
+- Logic circuit whose output depends only on the current values of its inputs, not any past behavior
