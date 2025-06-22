@@ -18,4 +18,8 @@
 - Power = voltage as logic 1
 - Ground = voltage as logic 0
 - NOT gate = inverter
-	- Made of PFET and NFET. If input is 0, PFET connects 
+	- Made of PFET and NFET. If input is 0, PFET connects the output to the power supply voltage, while NFET is not conducting. If input is 1, then it's the opposite and NFET connects output to ground
+
+### Designing Logic Circuits
+- More abstract than devices abstraction layer, hence we worry about only the boolean values
+- Logic gates correspond to basic boolean operations
