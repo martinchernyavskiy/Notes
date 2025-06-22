@@ -15,4 +15,5 @@
 ### Operator Precedence
 - And > or > not
 - Parentheses force order of evaluation
-- Not alters everything which is below the overbar. And turns into or, or turns into 
+- Not alters everything which is below the bar. And turns into or, or turns into end. Implies parantheses
+- XOR (exclusive or), (plus sign in circle)
