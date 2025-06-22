@@ -37,3 +37,8 @@
 - Logic circuit whose output depends only on the current values of its inputs, not any past behavior
 - A simple example of a combinational circuit is a logic gate itself, since it's an electrical circuit made up of transistors
 - We can represent the values of signals in a "waveform" graph. In span of time, as input values change, so does the value of the function
+
+### Logic Circuits and Logic Functions
+- Circuit gates and connections directly follow from the Boolean logic function
+- The precedence determines the way a combination circuit is constructed
+- Since there are logically-equivalent functions, this means that there are different ways of creating multiple logically-equivalent circuits
