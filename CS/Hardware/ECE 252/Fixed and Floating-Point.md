@@ -37,7 +37,7 @@
 
 ### Format Comparison
 - Max range is greater for float-signed numbers
-- Range = leftmost to rightmost representable val
+- Range = leftmost to rightmost representable values on the number line
 - Precision = number of significant digits
 - All digits in integer and fixed-point formats are significant
 - In floating-point number, precision is number of digits in significand plus the hidden bit (1)

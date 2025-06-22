@@ -1,0 +1,1 @@
+Encoding = process of translation between information that humans can understand to machine language
