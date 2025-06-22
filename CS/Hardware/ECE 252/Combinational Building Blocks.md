@@ -7,6 +7,9 @@
 	1-2 decoder
 	2-4 decoder
 	3-8 decoder
+- Outputs are labeled with the value of the input code
+- Inputs are labeled based on how they should be arranged to form a binary number
+- 
 
 
 ### Multiplexers
