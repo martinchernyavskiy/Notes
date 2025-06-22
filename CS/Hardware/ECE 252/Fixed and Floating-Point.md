@@ -19,4 +19,12 @@
 
 
 ### Floating-Point
-- Can encode radix point location into the number
+- Can encode radix point location into the number (not fixed in one place)
+- Scientific notation is an example of a floating point where the exponent determines the position of the radix point. 
+- Scientific notation is normalized, meaning there is exactly one non-zero digit left of the written radix point
+
+### IEEE 32-Bit Floating-Point
+- Float programming datatype refers to this format
+- Most significant bit is signed bit
+- Signed-magnitude format
+- 
