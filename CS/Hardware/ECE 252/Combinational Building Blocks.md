@@ -28,3 +28,5 @@
 ### Adders
 - Combinational circuit that produces the sum of two binary numbers
 - A full adder takes 3 inputs, 2 bits from the addends and 1 for carry value from bit position to the right. Outputs a sum bit and a carry value to send to the next position to the left
+- A half-adder is a combinational circuit that accepts two addend bits but no carry value
+- Adding a pair of multi-bit addends requires to connect as many full adders together as there are bit positions in both addends
