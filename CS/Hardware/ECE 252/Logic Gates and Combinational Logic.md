@@ -7,4 +7,8 @@
 - Can be in series (row) (and) or parallel (or) (not acting on each other)
 - FET (field-effect transistor) is a transistor that is controlled by a voltage
 	- N-type FET
-	- P-type 
+		- Input "1" makes it a closed switch, making electrical connection between its two other terminals
+		- Input "0" makes it an open switch, disconnecting those terminals
+	- P-type FET
+		- Input "1" disconnects terminals
+		- Input "0" bridges the terminals
