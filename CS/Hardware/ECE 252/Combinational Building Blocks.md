@@ -10,10 +10,12 @@
 - Outputs are labeled with the value of the input code
 - Inputs are labeled based on how they should be arranged to form a binary number
 - Input value matches the output value
-- Input label numbers depict the position of the n-binary digit 
+- Input label numbers depict the position of the n-bit
+- Labeling inside the symbol is based on the fundamental operation of that structure, whereas signal names (values) outside of the symbol are based on how we choose to use the structure in a digital circuit
 
 
 ### Multiplexers
+- 
 
 
 ### Adders
