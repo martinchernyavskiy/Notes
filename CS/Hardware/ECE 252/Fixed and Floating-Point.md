@@ -10,4 +10,13 @@
 
 ### Fixed-Point Binary
 - Format defines a fixed position for radix point.
-- We can also multiply the number to make it whole, calculate the value and divide by t
+- We can also multiply the number to make it whole, calculate the value and divide by the same of what we multiplied by (base^n)
+- Converting decimal to a fixed point binary number is the same, we just include negative exponents
+- Need to determine in advance how many fractional bits we need
+
+### Radix point isn't visible
+- It's defined by a particular format, not encoded in the number itself. Thus, there is a need for instruction 
+
+
+### Floating-Point
+- Can encode radix point location into the number
