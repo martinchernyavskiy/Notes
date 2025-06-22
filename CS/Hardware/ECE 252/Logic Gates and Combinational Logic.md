@@ -17,11 +17,15 @@
 - Electric circuit that contains transistors that connect the output to power or ground based on the input voltage(s)
 - Power = voltage as logic 1
 - Ground = voltage as logic 0
-- NOT gate = inverter
-	- Made of PFET and NFET. If input is 0, PFET connects the output to the power supply voltage, while NFET is not conducting. If input is 1, then it's the opposite and NFET connects output to ground
+
 
 ### Designing Logic Circuits
 - More abstract than devices abstraction layer, hence we worry about only the boolean values
 - Logic gates correspond to basic boolean operations
 
 ### Types of Logic Gates
+- NOT gate = inverter (triangle with bubble)
+	- Made of PFET and NFET. If input is 0, PFET connects the output to the power supply voltage, while NFET is not conducting. If input is 1, then it's the opposite and NFET connects output to ground
+- AND gate (elongated capital D)
+- OR gate (3 curved sides, sharp shield-like)
+- XOR gate (similar to OR but additional curved line on the input side)
