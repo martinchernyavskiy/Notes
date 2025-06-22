@@ -25,6 +25,8 @@
 
 ### IEEE 32-Bit Floating-Point
 - Float programming datatype refers to this format
-- Most significant bit is signed bit
+- Most significant bit is signed bit (31)
 - Signed-magnitude format
+- Exponent field (30-23), remaining bits are used for significand
+- Equation: $(-1)^{sign} \times 1.significand \times 2^{exponent-bias}$
 - 
