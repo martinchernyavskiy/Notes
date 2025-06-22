@@ -12,3 +12,6 @@
 	- P-type FET
 		- Input "1" disconnects terminals
 		- Input "0" bridges the terminals
+
+### Logic Gate
+- Electric circuit that contains transistors that connect the output to power or ground based on the input voltage(s)
