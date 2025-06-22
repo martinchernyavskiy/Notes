@@ -32,5 +32,13 @@
 - Bias equals to 127
 - Standardizes format to facilitate exchange of data, however leading one for significand prevents from representing zero
 - Special cases include:
-	Zero, infinities, NaN values. For 0, s
+	Zero, infinities, NaN values. For 0, significand and exponent must all be 0
 - Bias helps to be used instead of 2-s complement so that comparison is easier
+
+### Format Comparison
+- Max range is greater for float-signed numbers
+- Range = leftmost to rightmost representable val
+- Precision = number of significant digits
+- All digits in integer and fixed-point formats are significant
+- In floating-point number, precision is number of digits in significand plus the hidden bit (1)
+- 
