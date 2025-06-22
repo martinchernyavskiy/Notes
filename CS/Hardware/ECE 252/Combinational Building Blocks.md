@@ -19,8 +19,10 @@
 - Selects input which is used to drive the output.
 - There are a total of n select lines and 2^n data input lines, but one output
 - Named by input-output(1) ration.
-- Select input 
-- Analogy is a selection of tv channels
+- Select input selects the data input channel which drives the output. Data input is a particular signal 
+- Analogy is a selection of tv channel
+
+- There is a decoder inside the multiplexer, helping to decode the select input
 
 
 ### Adders
