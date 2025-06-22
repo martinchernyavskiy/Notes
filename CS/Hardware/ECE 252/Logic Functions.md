@@ -3,6 +3,7 @@
 - Called logic circuits because they process and produce boolean results
 
 ### Logic Operators
-- AND (dot)
-- OR
-- NOT
+- Logic functions are statements using logical operators for given operand values
+- AND (dot or omitted)
+- OR (plus)
+- NOT (overbar)
