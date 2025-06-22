@@ -26,3 +26,4 @@
 
 
 ### Adders
+- Combinational circuit that produces the sum of two binary numbers
