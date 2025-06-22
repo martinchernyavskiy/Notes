@@ -18,6 +18,9 @@
 - Combinational logic circuit that performs a selection
 - Selects input which is used to drive the output.
 - There are a total of n select lines and 2^n data input lines, but one output
+- Named by input-output(1) ration.
+- Select input 
+- Analogy is a selection of tv channels
 
 
 ### Adders
