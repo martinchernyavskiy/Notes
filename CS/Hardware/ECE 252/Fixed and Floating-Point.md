@@ -32,4 +32,5 @@
 - Bias equals to 127
 - Standardizes format to facilitate exchange of data, however leading one for significand prevents from representing zero
 - Special cases include:
-	Zero, infinities, NaN values
+	Zero, infinities, NaN values. For 0, s
+- Bias helps to be used instead of 2-s complement so that comparison is easier
