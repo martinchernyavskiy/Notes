@@ -22,3 +22,4 @@
 
 ### Bitwise Logic Functions
 - Bitwise operation computes each bit of result based on the values in the corresponding position of the N'bit operand(s)
+- Boolean Operator vs. Bitwise Operator
