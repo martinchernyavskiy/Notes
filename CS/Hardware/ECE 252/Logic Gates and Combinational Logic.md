@@ -15,3 +15,5 @@
 
 ### Logic Gate
 - Electric circuit that contains transistors that connect the output to power or ground based on the input voltage(s)
+- Power = voltage as logic 1
+- Ground = voltage as logic 0
