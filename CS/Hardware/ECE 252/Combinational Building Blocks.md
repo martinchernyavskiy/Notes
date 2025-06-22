@@ -9,7 +9,8 @@
 	3-8 decoder
 - Outputs are labeled with the value of the input code
 - Inputs are labeled based on how they should be arranged to form a binary number
-- 
+- Input value matches the output value
+- Input label numbers depict the position of the n-binary digit 
 
 
 ### Multiplexers
