@@ -26,7 +26,7 @@
 	- Max digit value is 7
 
 - ### Hexadecimal (Hex)
-	- Each position represents power of eight
+	- Each position represents power of sixteen
 	- Max digit is 15, digits 10-15 are A,B,C,D,E,F respectively
 
 ## Why use different bases?
