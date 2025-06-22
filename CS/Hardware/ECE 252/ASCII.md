@@ -10,4 +10,8 @@ Encoding = process of translation between information that humans can understand
 ### Coding standards used today
 - Unicode (UTF-16), 16-bit coding scheme, extended to 32 bits (UTF-32)
 - In both, first 128 code values are ASCII character set.
-- 
+- Sophisticated encoding scheme which represents characters, glyphs, sequences and more.
+- UTF-8 (Unicode Transformation Format 8-bit)
+	- Encodes each unicode character as 1-4 bytes
+	- ASCII represented by single byte
+	- Default for XML encoding 
