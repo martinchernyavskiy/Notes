@@ -35,3 +35,5 @@
 
 ### Combinational Circuits
 - Logic circuit whose output depends only on the current values of its inputs, not any past behavior
+- A simple example of a combinational circuit is a logic gate itself, since it's an electrical circuit made up of transistors
+- We can represent the values of signals in a "waveform" graph. In span of time, as input values change, so does the value of the function
