@@ -31,3 +31,5 @@
 - A half-adder is a combinational circuit that accepts two addend bits but no carry value
 - Adding a pair of multi-bit addends requires to connect as many full adders together as there are bit positions in both addends
 - CoutS = A + B + Cin
+- Connecting series of full adders creates a ripple carry adder (Cout from first connects to Cin of next)
+- Ripple since a carry can occur at any bit position and move towards the most significant bit
