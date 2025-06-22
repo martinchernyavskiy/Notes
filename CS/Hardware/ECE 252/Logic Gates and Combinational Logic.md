@@ -3,4 +3,8 @@
 - We focus primarily on the boolean representation of the inputs values and boolean results
 
 ### Role of Transistors
-- Acts like a mocroscopic switch, either allowing or disallowing curr
+- Acts like a microscopic switch, either allowing or disallowing current to flow, depending on the voltage of its input
+- Can be in series (row) (and) or parallel (or) (not acting on each other)
+- FET (field-effect transistor) is a transistor that is controlled by a voltage
+	- N-type FET
+	- P-type 
