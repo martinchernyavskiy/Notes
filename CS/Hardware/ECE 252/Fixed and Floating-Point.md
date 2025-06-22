@@ -29,4 +29,7 @@
 - Signed-magnitude format
 - Exponent field (30-23), remaining bits are used for significand
 - Equation: $(-1)^{sign} \times 1.significand \times 2^{exponent-bias}$
-- 
+- Bias equals to 127
+- Standardizes format to facilitate exchange of data, however leading one for significand prevents from representing zero
+- Special cases include:
+	Zero, infinities, NaN values
