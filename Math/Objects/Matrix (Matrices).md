@@ -9,6 +9,7 @@ a_{21} & a_{22} & \cdots & a_{2n} \\
 a_{m1} & a_{m2} & \cdots & a_{mn}
 \end{pmatrix} = (a_{ij})
 $$
+*Trace of a matrix, denoted Tr(A) is the sum of all diagonal entries of that matrix*
 ##### Special Types:
 ?
 - Square Matrix ($n\times n$)
