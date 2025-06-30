@@ -11,4 +11,4 @@
 
 
 ### D flip-flop
-- One bit data input and output
+- One bit data input, one bit data output, and a special input called "clock" that controls when flip-flop can store a new value
