@@ -95,3 +95,6 @@ grandmentor(?X, xunzi)
 ### Program Synthesis
 - Specification $\to$ Program
 - Compared to LLMs: ensuring correctness
+
+### Formal Semantics
+- Operational , denotational, axiomatic semantics 
