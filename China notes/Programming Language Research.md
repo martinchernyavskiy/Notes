@@ -10,7 +10,7 @@
 
 ### Functional Programming Languages
 - Functional and logical programming languages are a separate family
-- Describe goal $\to$ computer finds the right computation
+- Use functions to describe goal $\to$ computer finds the right computation
 - Program: input $\to$ output
 - Functional programming language takes the mathematics form of functions
 - f(a, b) = a+b is supporte, but f(a+1, b+1) = a+b-2 has a limited support though pattern matching
@@ -53,3 +53,17 @@ main = do
 	- Java, C++, etc have labmda expressions
 - New programming languages are functional
 	- Scala, Kotlin, Swift, Rust
+
+### Logic Programming Languages
+- Describe with formal logic
+- Let computer solve a problem described in logic 
+
+
+### Example of Logic Programming
+
+```Lua
+grandmentor(X,Y) :- mentor(X,Z), mentor(Z,Y).
+mentor(kongzi, mengzi).
+mentor(mengzi, xunzi).
+grandmentor(?X, xunzi)
+```
