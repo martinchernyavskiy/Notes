@@ -76,3 +76,16 @@ grandmentor(?X, xunzi)
 	- Dealing with cross-cutting concerns (want to write code only once and reuse it)
 - Point cut: matching code
 - Advice: modification to the code
+
+### Domain-specific Languages (DSLs)
+- Domain-specific tasks
+- Database query language: SQL
+- XML query language: XQuery
+- Differentiable programming languages:
+  - TensorFlow/Pytorch
+
+### Probabilistic Programming Languages
+- For building probabilistic models
+- Standard R-code like
+
+### 
