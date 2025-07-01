@@ -73,6 +73,6 @@ grandmentor(?X, xunzi)
 ### Large Scale Projects
 - Maintenance and Reusability $\to$ Object-Oriented Programming
 - Aspect-Oriented Programming
-	- Dealing with cross-cutting concerns
+	- Dealing with cross-cutting concerns (want to write code only once and reuse it)
 - Point cut: matching code
 - Advice: modification to the code
