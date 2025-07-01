@@ -40,7 +40,7 @@ main = do
 ### Modern Features of Functional Programming
 - High-Order Functions:
 	- (MapReduce divides bigger task into smaller task, two standard functions in standard function map (+1) [1,2,3]] = [2.3.4]
-- reduce (+) [1,2,3] = 1+2+3 = 6)
+	- reduce (+) [1,2,3] = 1+2+3 = 6)
 - Algebraic data Types
 - Structural Type System
 - Functional Data Structures:
@@ -67,3 +67,5 @@ mentor(kongzi, mengzi).
 mentor(mengzi, xunzi).
 grandmentor(?X, xunzi)
 ```
+
+- Very much similar to lambda expressions
