@@ -20,4 +20,7 @@
 
 ### Flip-Flop Behavior 
 - D flip-flop updates when the clock transitions from 0 to 1, thus it's edge sensitive
+
+### Finite State Machines
+- Flip-flops are a representation of the state machine state currently
 - 
