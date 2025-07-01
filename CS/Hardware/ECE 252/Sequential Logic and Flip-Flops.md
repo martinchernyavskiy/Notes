@@ -19,5 +19,5 @@
 - Flip-flop can update its stored value only on the positive (rising) edge of the clock signal
 
 ### Flip-Flop Behavior 
-- D flip-flop updates when the clock transitions from 0 to 1
+- D flip-flop updates when the clock transitions from 0 to 1, thus it's edge sensitive
 - 
