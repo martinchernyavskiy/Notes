@@ -69,3 +69,10 @@ grandmentor(?X, xunzi)
 ```
 
 - Very much similar to lambda expressions
+
+### Large Scale Projects
+- Maintenance and Reusability $\to$ Object-Oriented Programming
+- Aspect-Oriented Programming
+	- Dealing with cross-cutting concerns
+- Point cut: matching code
+- Advice: modification to the code
