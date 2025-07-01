@@ -88,4 +88,6 @@ grandmentor(?X, xunzi)
 - For building probabilistic models
 - Standard R-code like
 
-### 
+### Meta Programming
+- Makes DSLs programming easier
+- SAT solver is an algorithm that finds whether a logical statement is true
