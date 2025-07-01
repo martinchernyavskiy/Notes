@@ -91,3 +91,7 @@ grandmentor(?X, xunzi)
 ### Meta Programming
 - Makes DSLs programming easier
 - SAT solver is an algorithm that finds whether a logical statement is true
+
+### Program Synthesis
+- Specification $\to$ Program
+- Compared to LLMs: ensuring correctness
