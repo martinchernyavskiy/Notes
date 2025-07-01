@@ -21,10 +21,24 @@
 
 ### Example of Functional Programming
 ```Haskell
-quicksort[] = [] // 
-quicksort(p:xs) = (quicksort lesser) ++ [p] ++ (quicksort greater)
+quicksort[] = []
+	quicksort(p:xs) = (quicksort lesser) ++ [p] ++ (quicksort greater)
 	where
-	lesser = filter (< p) xs
-	greater = filter (>= p) xs
+		lesser = filter (< p) xs
+		greater = filter (>= p) xs
 
 ``` 
+
+```Haskell
+main = do
+	let file = "abc.txt"
+	contnets <- readFile file
+	putStrLn contents
+```
+
+
+### Modern Features of Functional Programming
+- High-Order Functions (MapReduce divides bigger task into smaller task, two standard functions in standard function map (+1) [1,2,3])
+- Algebraic data Types
+- Structural Type System
+- Functional Data Structures
