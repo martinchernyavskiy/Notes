@@ -44,8 +44,10 @@ main = do
 - Algebraic data Types
 - Structural Type System
 - Functional Data Structures:
-	- [1,2,3,4, ...]
-	- 
+	- arr1 = [1,2,3,4, ...]
+	- arr2 = change3rd(arr1)
+	- Implementing functional arrays allows for an almost O(1) operation of changing an element in the array which is equipped with searching the element.
+	- Backtracking (changing to initial state) is also reduced from O(n) to O(1)
 
 - Modern programming languages are all functional
 	- Java, C++, etc have labmda expressions
