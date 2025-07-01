@@ -38,7 +38,16 @@ main = do
 
 
 ### Modern Features of Functional Programming
-- High-Order Functions (MapReduce divides bigger task into smaller task, two standard functions in standard function map (+1) [1,2,3])
+- High-Order Functions:
+	- (MapReduce divides bigger task into smaller task, two standard functions in standard function map (+1) [1,2,3]] = [2.3.4]
+- reduce (+) [1,2,3] = 1+2+3 = 6)
 - Algebraic data Types
 - Structural Type System
-- Functional Data Structures
+- Functional Data Structures:
+	- [1,2,3,4, ...]
+	- 
+
+- Modern programming languages are all functional
+	- Java, C++, etc have labmda expressions
+- New programming languages are functional
+	- Scala, Kotlin, Swift, Rust
