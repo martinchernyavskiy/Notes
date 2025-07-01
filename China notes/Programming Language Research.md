@@ -13,8 +13,18 @@
 - Describe goal $\to$ computer finds the right computation
 - Program: input $\to$ output
 - Functional programming language takes the mathematics form of functions
-- f(a, b) = a+b is supporte, but f(a+1, b+1) = a+b-2 has a limited support
+- f(a, b) = a+b is supporte, but f(a+1, b+1) = a+b-2 has a limited support though pattern matching
 - Families:
-  - Lisp family
-  - ML family
+  - Lisp family (standard lisp, scheme, racket)
+  - ML family (ML, Ocaml, F#)
   - Haskell
+
+### Example of Functional Programming
+```Haskell
+quicksort[] = [] // 
+quicksort(p:xs) = (quicksort lesser) ++ [p] ++ (quicksort greater)
+	where
+	lesser = filter (< p) xs
+	greater = filter (>= p) xs
+
+``` 
