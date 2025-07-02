@@ -28,3 +28,5 @@
 		- Different views on schema for users
 - Physical Structure
 	- Organization on disk, indices, etc.
+
+### Steps of b uilding database application
