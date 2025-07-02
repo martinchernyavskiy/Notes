@@ -27,4 +27,6 @@
 - Machine that has a finite number of states, thus sequential circuit is this type of a machine.
 - State of the machine is its current status (contents of flip-flops)
 
-### Stat
+### State Diagram
+- Represents possible states of the machine and transitions between them
+- Represented by a circle where N flip-flops represent 2^N different states
