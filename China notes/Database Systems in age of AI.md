@@ -71,3 +71,18 @@ FROM STUDENT s, Takes t, COURSE c
 WHERE s.sid = t.sID and t.cID = c.cid and 
 c.semester = "25 Fall"
 ```
+
+
+```SQL
+SELECT *
+FROM COURSE c
+ORDER BY CID
+```
+
+```SQL
+SELECT * FROM COORSE c WHERE CID = 1
+
+UNION
+
+SELECT * FROM COURSE c WHERE Semester = "25 Fall"
+```
