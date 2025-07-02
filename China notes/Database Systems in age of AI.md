@@ -52,4 +52,13 @@
 
 ### Defining and implementing schema in DB
 - SQL
-- DML (data manipulation language) & DDL (data definition language) <-- for defining and implementing schema
+- DML (data manipulation language) & DDL (data definition language) 
+- DDL - for defining and implementing schema
+- DML - querying data (retrieving and managing information)
+
+### Example
+```SQL
+SELECT *
+FROM COURSE
+WHERE semester = "25 Fall"
+```
