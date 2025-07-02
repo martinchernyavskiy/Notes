@@ -7,3 +7,8 @@
 ### DBSM
 - Database management system, stores and manages databases
 - Ensures the data is kept and not lost
+- Querying interface
+- Merge table data by common column
+- SQL based
+
+
