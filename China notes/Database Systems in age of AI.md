@@ -86,3 +86,12 @@ UNION
 
 SELECT * FROM COURSE c WHERE Semester = "25 Fall"
 ```
+
+### Iterator-Based Query Execution
+- Has a form of a tree
+- Starts at root and propagate calls to children
+- May call multiple children next
+
+### Basic Operators in Query Execution
+- One-pass operators
+	- 
