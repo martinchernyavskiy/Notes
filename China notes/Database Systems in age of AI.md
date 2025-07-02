@@ -68,5 +68,6 @@ if SELECT CID, Name, selects only specific columns
 ```SQL
 SELECT *
 FROM STUDENT s, Takes t, COURSE c
-WHERE s.sid = t.sID and t.cI
+WHERE s.sid = t.sID and t.cID = c.cid and 
+c.semester = "25 Fall"
 ```
