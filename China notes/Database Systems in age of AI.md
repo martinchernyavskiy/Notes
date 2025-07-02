@@ -94,4 +94,5 @@ SELECT * FROM COURSE c WHERE Semester = "25 Fall"
 
 ### Basic Operators in Query Execution
 - One-pass operators
-	- 
+	- Select - done while scanning a file
+	- Indexing can speed up the process. Indexing can take a form of hash indexing or B+ Tree
