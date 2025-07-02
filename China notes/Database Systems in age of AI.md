@@ -39,5 +39,8 @@
 2. Design & Implement relational schema
 		Design and codify in SQL the relations/tables
 		Do physical layout - indexes
+
+	- Schema of the table describes the information of the table (name of the table and fields/column names)
+	- Instance of a table = row, with entries in each field
 3. Import / load the data
 4. Write queries & applications using DBMS and other tools
