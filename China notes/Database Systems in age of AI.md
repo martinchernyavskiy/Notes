@@ -29,4 +29,15 @@
 - Physical Structure
 	- Organization on disk, indices, etc.
 
-### Steps of b uilding database application
+### Steps of building database application
+1. Start with conceptual model
+		E-R diagrams
+		Entity (real world object), unique with specific attributes
+		Relationship - association among 2 or more entities
+		Diagram shows the relationship between entities
+		
+2. Design & Implement relational schema
+		Design and codify in SQL the relations/tables
+		Do physical layout - indexes
+3. Import / load the data
+4. Write queries & applications using DBMS and other tools
