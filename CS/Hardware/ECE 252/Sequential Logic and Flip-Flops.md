@@ -20,7 +20,9 @@
 
 ### Flip-Flop Behavior 
 - D flip-flop updates when the clock transitions from 0 to 1, thus it's edge sensitive
+- Current state: value currently stored in flip-flops
+- Next state: value that will be stored at the next triggering clock edge
 
 ### Finite State Machines
-- Flip-flops are a representation of the state machine state currently
-- 
+- Machine that has a finite number of states, thus sequential circuit is this type of a machine.
+- State of the machine is its current status (contents of flip-flops)
