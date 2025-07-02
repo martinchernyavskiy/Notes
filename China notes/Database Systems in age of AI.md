@@ -98,4 +98,6 @@ SELECT * FROM COURSE c WHERE Semester = "25 Fall"
 	- Indexing can speed up the process. Indexing can take a form of hash indexing or B+ Tree
 	- B+ Tree has a very small depth which holds a lot of records, thus it permits for nearly O(1) time complexity
 - Multi-Pass Opeartors 
-	- Join 
+	- Nested loop join
+	- Sort merge join
+	- Hash join
