@@ -42,5 +42,14 @@
 
 	- Schema of the table describes the information of the table (name of the table and fields/column names)
 	- Instance of a table = row, with entries in each field
-3. Import / load the data
-4. Write queries & applications using DBMS and other tools
+
+
+- Primary key - values are unique 
+- Foreign key - references primary keys (relationship between primary keys (entities))
+1. Import / load the data
+2. Write queries & applications using DBMS and other tools
+
+
+### Defining and implementing schema in DB
+- SQL
+- DML (data manipulation language) & DDL (data definition language) <-- for defining and implementing schema
