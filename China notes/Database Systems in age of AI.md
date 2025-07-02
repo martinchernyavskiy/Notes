@@ -101,3 +101,9 @@ SELECT * FROM COURSE c WHERE Semester = "25 Fall"
 	- Nested loop join
 	- Sort merge join
 	- Hash join
+
+
+### Query optimization problems
+- Cardinality estimation
+- Join order optimization
+- Index representation
