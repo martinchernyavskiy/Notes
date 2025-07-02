@@ -62,3 +62,11 @@ SELECT *
 FROM COURSE
 WHERE semester = "25 Fall"
 ```
+Selects all rows where semester equals to 25 Fall and creates a separate table
+if SELECT CID, Name, selects only specific columns
+
+```SQL
+SELECT *
+FROM STUDENT s, Takes t, COURSE c
+WHERE s.sid = t.sID and t.cI
+```
