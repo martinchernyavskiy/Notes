@@ -13,3 +13,11 @@
 - Scale variance, view variance, appearance diversity, occlusion, complex background, motion blur, noise
 - Hard to select from a rich image or image distortion/problems
 - Computationally intensive
+
+### CV tasks
+- Object detection
+- Image impenitent
+- Pose estimation
+- Color generation
+- Depth estimation
+- 
