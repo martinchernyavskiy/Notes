@@ -14,3 +14,7 @@
 
 - Computational notions - considering future vision of the past and interpreting the visions in the current context
 ### Context Awareness
+- Context-aware computing systems are aware of physical and social situations they are embedded in (location, proximity, time, etc.)
+- Exmmples
+	- Automatic door
+	- Motion-based lighting
