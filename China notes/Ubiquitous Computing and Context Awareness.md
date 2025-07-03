@@ -18,3 +18,5 @@
 - Exmmples
 	- Automatic door
 	- Motion-based lighting
+
+- Context - information that can be used to describe a situation of an entity
