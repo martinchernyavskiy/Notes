@@ -21,4 +21,9 @@
 	- All bits are accessed simultaneously
 - Capacity of memory is the total number of bits it can store (2^M * N)
 - Only one location can be accessed at a time in scope of the class
-- Write enable signal (WE) controls whether addressed locat
+- Write enable signal (WE) controls whether addressed location should be read from or written to
+- Writing to a location updates its storage elements to new value with prior information lost
+- 
+- Memory is array of registers
+- Indexing into array by specific register's address
+- To write, supply address, data to be written,m and set WE to 1
