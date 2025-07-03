@@ -12,4 +12,5 @@
 	- Personal Computer (one person uses one computer)
 	- Ubiquitous Computing (one person uses many computers)
 
+- Computational notions - considering future vision of the past and interpreting the visions in the current context
 ### Context Awareness
