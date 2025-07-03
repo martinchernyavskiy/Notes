@@ -51,4 +51,6 @@
 	- How can it be used for human respiration sensing
 
 - Define fresnel zones which are signal elipses zones that surround transmitter and receiver.
-- Objects in odd fresnel zones enchance the signal, while objects in even fresnel zones weaken the signal
+- Objects in odd fresnel zones enhance the signal, while objects in even fresnel zones weaken the signal
+
+- Previous finding allows for human respirat
