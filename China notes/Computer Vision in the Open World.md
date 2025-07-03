@@ -21,3 +21,4 @@
 - Color generation
 - Depth estimation
 - Most of the modern tasks are solved via deep learning 
+
