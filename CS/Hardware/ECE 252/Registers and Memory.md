@@ -17,3 +17,4 @@
 - Memory has locations where data is stored
 - Each location has a unique address
 	- M-bit number that specifies which of the 2^M locations to access
+	- Stores a single N-bit word (where N is number of bits referred as a data size of memory)
