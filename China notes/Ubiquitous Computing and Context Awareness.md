@@ -5,4 +5,6 @@
 - Ubiquity: computing available at anytime
 - Transparency: invisible, assist people in the background
 
+- Human-centered & Application-driven
+
 ### Context Awareness
