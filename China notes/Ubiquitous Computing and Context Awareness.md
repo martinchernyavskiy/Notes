@@ -39,3 +39,4 @@
 
 ### Millimeter-scale Contactless Sensing with Wi-Fi/4G/5G Signals
 - Internet signals could enable sensing applications
+- Since they are waves, they will propagate and reflect from around objects to the receiver from the transmitter
