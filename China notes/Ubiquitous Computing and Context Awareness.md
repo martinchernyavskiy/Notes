@@ -44,4 +44,8 @@
 - Signal patterns allow for detection of a particular context
 - Wi-Fi signal passes through the walls and it is able to detect whether a person behind the wall is moving or not
 
-- Since signal is prone to changes from a lot of factors, there is a huge effort
+- Since signal is prone to changes from a lot of factors, there is a huge effort of data collection for pattern recognition
+- Is there a general sensing model and theory?
+
+- Fresnel Penetration Model (FPM)
+	- How can it be used for human respiration sensing
