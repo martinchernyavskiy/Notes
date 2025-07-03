@@ -16,3 +16,4 @@
 - "Output logic" computes circuit's outputs baesd on the current state
 
 ### State Tables
+- Used to characterize a sequential circuit
