@@ -21,3 +21,13 @@
 
 - Context - information that can be used to describe a situation of an entity
 - (who, what, when, where)
+
+- context-aware applications use context to provide relevant information of the user to perform a relevant task to the user. Examples inckude:
+	- Showcase context
+	- Use context to perform a task
+	- Tag information
+
+
+### Human Context Perception
+- Perception & Cognitive
+- There are a lot of sensors that are built for a specif
