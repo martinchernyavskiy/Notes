@@ -30,4 +30,9 @@
 
 ### Human Context Perception
 - Perception & Cognitive
-- There are a lot of sensors that are built for a specif
+- There are a lot of sensors that are built for a specific perception
+- Some sensors can provide discrete measurement
+
+- Method 1: Rule based approach
+	- Fixed small set of rules that specify context
+	- Machine learning approach
