@@ -43,3 +43,5 @@
 - When human moves (even breathing), this reflects signal in a unique way to the receiver, so when a human body doesn't move, the signal reflect of a human body is static
 - Signal patterns allow for detection of a particular context
 - Wi-Fi signal passes through the walls and it is able to detect whether a person behind the wall is moving or not
+
+- Since signal is prone to changes from a lot of factors, there is a huge effort
