@@ -38,4 +38,4 @@
 	- Machine learning approach
 
 ### Millimeter-scale Contactless Sensing with Wi-Fi/4G/5G Signals
-- 
+- Internet signals could enable sensing applications
