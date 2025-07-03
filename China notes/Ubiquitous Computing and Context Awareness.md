@@ -53,4 +53,4 @@
 - Define fresnel zones which are signal elipses zones that surround transmitter and receiver.
 - Objects in odd fresnel zones enhance the signal, while objects in even fresnel zones weaken the signal
 
-- Previous finding allows for human respirat
+- Previous finding allows for human respiration modeling which has to be precise since the displacement from human respiration is very small
