@@ -49,3 +49,5 @@
 
 - Fresnel Penetration Model (FPM)
 	- How can it be used for human respiration sensing
+
+- Define fresnel zones which are signal elipses zones that surround transmitter and receiver.
