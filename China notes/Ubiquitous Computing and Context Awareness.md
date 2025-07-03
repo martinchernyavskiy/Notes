@@ -40,3 +40,6 @@
 ### Millimeter-scale Contactless Sensing with Wi-Fi/4G/5G Signals
 - Internet signals could enable sensing applications
 - Since they are waves, they will propagate and reflect from around objects to the receiver from the transmitter
+- When human moves (even breathing), this reflects signal in a unique way to the receiver, so when a human body doesn't move, the signal reflect of a human body is static
+- Signal patterns allow for detection of a particular context
+- Wi-Fi signal passes through the walls and it is able to detect whether a person behind the wall is moving or not
