@@ -9,5 +9,5 @@
 - We might want a register to hold a value for longer than just one clock period
 - Add a multiplexer to choose to store a new value or the value already in the flip-flop, since there is no way to stop clocking the flip-flops reliably
 - Selection signal in this multiplexer is called "enable"
-	- EN = 0, keep Q
-	- 
+	- EN = 0, keep current state
+	- EN = 1, switch to next state
