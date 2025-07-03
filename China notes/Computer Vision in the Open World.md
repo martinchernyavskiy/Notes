@@ -7,3 +7,9 @@
 - Images without colors have only 1 channel (matrix)
 - If image has color, it has 3 channel tensor (RGB)
 - Goal is for computer to interpret images
+
+
+### Challenges 
+- Scale variance, view variance, appearance diversity, occlusion, complex background, motion blur, noise
+- Hard to select from a rich image or image distortion/problems
+- 
