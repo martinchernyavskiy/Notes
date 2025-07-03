@@ -7,4 +7,9 @@
 
 - Human-centered & Application-driven
 
+- Waves
+	- Mainframe (many people use one computer)
+	- Personal Computer (one person uses one computer)
+	- Ubiquitous Computing (one person uses many computers)
+
 ### Context Awareness
