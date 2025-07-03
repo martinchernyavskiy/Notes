@@ -3,3 +3,7 @@
 - All of flip-flops in a register are controlled by the same clock signal 
   Drawn at a higher level of abstraction
 - Input and output pins that are not single bits are labeled with a slash and number of bits and drawn as a heavier line than the single bit wires and are called buses
+- Ripple full adders can also be represented as a block and both of them can be used to represent larger bit counters
+
+### Registers with Enable
+- We might want a register to hold a value for longer than just one clock period
