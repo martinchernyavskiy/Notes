@@ -18,3 +18,7 @@
 - Each location has a unique address
 	- M-bit number that specifies which of the 2^M locations to access
 	- Stores a single N-bit word (where N is number of bits referred as a data size of memory)
+	- All bits are accessed simultaneously
+- Capacity of memory is the total number of bits it can store (2^M * N)
+- Only one location can be accessed at a time in scope of the class
+- Write enable signal (WE) controls whether addressed locat
