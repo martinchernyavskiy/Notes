@@ -7,4 +7,5 @@
 ### Shorthand Notation
 - 2-bit counter can always count upon a rising edge without a particular input (transition arrows are not labeled and there is only one of each state). 
 - The transition that is not influenced by the input values is an unconditional transition
+- Unconditional transitions may or may not be labeled
 ### State Tables
