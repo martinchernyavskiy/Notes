@@ -66,3 +66,5 @@
 - Telecom 
 - Automotive
 - Computational Finance
+- Medical Imaging
+- Datacenters
