@@ -89,3 +89,11 @@
 - Each processor element contains AIE core and AIE buffer 
 - 
 
+### Performance Prediction Models
+- Compiler Tuning
+	- Tuning compiler pass and factors
+	- with performance feedback
+- Work Partition
+	- AIE and PL 
+
+- Thus we need an accurate, fast, and effective prediction model
