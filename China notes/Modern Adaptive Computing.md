@@ -68,3 +68,11 @@
 - Computational Finance
 - Medical Imaging
 - Datacenters
+- Databases 
+
+
+### FPGA Architecture
+- SRAM
+- Consists of a sea of logic blocks
+- Each of logic block consists of more small blocks with each having a 4-input LUT, muax, and flip-flop
+- Each group of logic blocks have outputs connecting to a wire system (routing track) which is regulated by a programmable routing switch
