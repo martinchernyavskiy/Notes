@@ -76,3 +76,7 @@
 - Consists of a sea of logic blocks
 - Each of logic block consists of more small blocks with each having a 4-input LUT, muax, and flip-flop
 - Each group of logic blocks have outputs connecting to a wire system (routing track) which is regulated by a programmable routing switch
+
+### FPGA design flow
+- First use RTL code
+- Use logic synthesis for netlist and then place & route to FPGA to generate bitstream & debug and run
