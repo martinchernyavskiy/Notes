@@ -32,5 +32,15 @@
 - Consists of AI Engines
 
 ### Timing and Power
+- clock-to-Q
+- routing delay; logic delay
+- setup time; (hold time)
+- (clock skew)
 - $P_{tot}=P_{D}+P_{I}+P_{S}$, where 
+
+### Verilog
+- "Verification" + "Logic"
+- Used to describe use of circuits, originally designed for simulation/verification purposes, but became synthesizable afterwards
+- SystemVerilog is the successor
+- Synchronous FIFO 
 - 
