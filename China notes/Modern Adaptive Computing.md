@@ -17,3 +17,6 @@
 	- FPGA prototyping 
 	- Hybrid emulation platform
 	- (ASIC-tapeout)
+
+### FPGA prototyping
+- Before manufacturing a chip, we're able to emulate it first
