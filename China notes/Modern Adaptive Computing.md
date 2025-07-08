@@ -63,4 +63,6 @@
 
 ### FPGA Application Categories
 - Chip design for prototyping
-- 
+- Telecom 
+- Automotive
+- Computational Finance
