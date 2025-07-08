@@ -32,3 +32,4 @@
 - A memory of 4 locations, each storing 3 bit numbers can be represented as a rectangle with 3-bit bus DI, 2-bit bus A for the address, WE and 3 bit bus for DO
 
 - Inside are 4 registers with following structure:
+ ![[Pasted image 20250708134441.png]]
