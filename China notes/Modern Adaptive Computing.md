@@ -80,3 +80,7 @@
 ### FPGA design flow
 - First use RTL code
 - Use logic synthesis for netlist and then place & route to FPGA to generate bitstream & debug and run
+
+### FPGA vs. CPU
+- CPU allows only for one instruction to be executed at a time
+- Multiple functions can be executed simultaneously in the FPGA
