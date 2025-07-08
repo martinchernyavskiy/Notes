@@ -11,7 +11,6 @@
 - Selection signal in this multiplexer is called "enable"
 	- EN = 0, keep current state
 	- EN = 1, switch to next state
-- Question for later, is every flip-flop equipped with a multiplexer then in a register?
 
 ### Memory concepts
 - Memory has locations where data is stored
