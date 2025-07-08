@@ -43,4 +43,9 @@
 - Used to describe use of circuits, originally designed for simulation/verification purposes, but became synthesizable afterwards
 - SystemVerilog is the successor
 - Synchronous FIFO 
+	- Construct module with given depth and data width
+	- Include the inputs and outputs 
+	- Set default values
+	- Code reading and writing data from/to FIFO
+	- 
 - 
