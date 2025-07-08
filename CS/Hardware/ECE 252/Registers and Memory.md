@@ -26,3 +26,7 @@
 - Memory is array of registers
 - Indexing into array by specific register's address
 - To write, supply address, data to be written,m and set WE to 1
+- Reading value from a particular register requires supplying the address of the location of that register and setting WE to 0
+
+### Memory example
+- A memory of 4 locations, each storing 3 bit numbers can be represented as a rectangle with 3-bit bus DI, 2-bit bus A for the address, WE and 3 bit bus for DO
