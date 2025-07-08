@@ -48,4 +48,11 @@
 	- Set default values
 	- Code reading and writing data from/to FIFO
 	- 
-- 
+
+
+### FPGA vs. ASIC
+- FPGA is more flexible, but worse in terms of power
+- FPGA is better at NRE, time to market, design flow, barrier to entry
+- ASIC is better at performance, cost per unit 
+
+### CPU vs. GPU vs. 
