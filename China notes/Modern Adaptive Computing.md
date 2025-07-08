@@ -30,3 +30,7 @@
 ### AI Engine Array
 - Array of very-long-inst-word (VIW) cores
 - Consists of AI Engines
+
+### Timing and Power
+- $P_{tot}=P_{D}+P_{I}+P_{S}$, where 
+- 
