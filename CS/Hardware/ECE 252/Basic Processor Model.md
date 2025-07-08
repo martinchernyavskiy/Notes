@@ -7,4 +7,8 @@
 - The logic operations are bitwise in ALU 
 - All logic structures work in parallel, however for one step of a program only one result of those operations is needed
 - *Use multiplexers to select the result*
-- 
+
+
+### Register File
+- Small memory located near the ALU
+- Contains multiple registers which can be written to / read from
