@@ -12,3 +12,4 @@
 ### Register File
 - Small memory located near the ALU
 - Contains multiple registers which can be written to / read from
+- Allows for reading from multiple locations simultaneously by having multiple read ports, but write to only one location 
