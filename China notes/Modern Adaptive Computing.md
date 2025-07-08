@@ -56,4 +56,11 @@
 - ASIC is better at performance, cost per unit (high volume), energy efficiency, analog blocks
 
 ### CPU vs. GPU vs. FPGA
+- GPU has highest computing performance
+- CPU has highest development efficiency and low & fluctuating latency
+- GPU has high latency and medium development efficiency
+- FPGA is in between, has low and stable latency and low development efficiency
+
+### FPGA Application Categories
+- Chip design for prototyping
 - 
