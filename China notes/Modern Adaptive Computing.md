@@ -84,3 +84,6 @@
 ### FPGA vs. CPU
 - CPU allows only for one instruction to be executed at a time
 - Multiple functions can be executed simultaneously in the FPGA
+
+### 
+
