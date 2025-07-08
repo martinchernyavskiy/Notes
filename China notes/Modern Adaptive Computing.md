@@ -85,5 +85,7 @@
 - CPU allows only for one instruction to be executed at a time
 - Multiple functions can be executed simultaneously in the FPGA
 
-### 
+### AI Engine Array
+- Each processor element contains AIE core and AIE buffer 
+- 
 
