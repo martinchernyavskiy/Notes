@@ -20,3 +20,13 @@
 
 ### FPGA prototyping
 - Before manufacturing a chip, we're able to emulate it first
+- The architecture of the chip involves fine grain and coarse grain 
+- Fine grain:
+	- bit-level network of LUTS and FFs
+	- combination and sequential circuits
+- Coarse grain:
+	- world-level network of VLIW PEs
+
+### AI Engine Array
+- Array of very-long-inst-word (VIW) cores
+- Consists of AI Engines
