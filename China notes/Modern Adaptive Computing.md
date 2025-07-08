@@ -53,6 +53,7 @@
 ### FPGA vs. ASIC
 - FPGA is more flexible, but worse in terms of power
 - FPGA is better at NRE, time to market, design flow, barrier to entry
-- ASIC is better at performance, cost per unit 
+- ASIC is better at performance, cost per unit (high volume), energy efficiency, analog blocks
 
-### CPU vs. GPU vs. 
+### CPU vs. GPU vs. FPGA
+- 
