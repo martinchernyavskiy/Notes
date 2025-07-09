@@ -19,4 +19,9 @@
 - Contains ALU and the register file and does main computational work of a processor
 
 ### Control Unit
-- Analyzes instruction and orchestrates other computer resources to execute 
+- Analyzes instructions and orchestrates other computer resources to execute the instruction
+- Instructions are held in memory
+
+### Stored program computer
+- Allows for executing different programs by writing different program into memory (which stores its set of instructions to be executed).
+- Assume computer executes one instruction at a time
