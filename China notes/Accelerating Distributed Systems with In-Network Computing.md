@@ -11,3 +11,12 @@
 	- High throughput
 	- Sub-RTT latency
 	- High computation speed
+
+
+### INC architecture
+- Changes network architecture
+
+
+Traditional networks:
+- Need a layered architecture which evolves independently, support the Internet ecosystem, but is not efficient
+- 
