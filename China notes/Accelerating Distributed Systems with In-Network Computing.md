@@ -25,3 +25,8 @@ Traditional networks:
 	- Everything belongs to a single party (no ecostystem)
 	- Each layer is programmable
 	- Promotes efficiency
+
+### Need new infrastructure for this ecosystem
+- Separate application-network codesign
+- Build universal libraries for developers
+- Build new devices for INC
