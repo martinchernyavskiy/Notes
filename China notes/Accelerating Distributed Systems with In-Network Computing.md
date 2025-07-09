@@ -19,4 +19,9 @@
 
 Traditional networks:
 - Need a layered architecture which evolves independently, support the Internet ecosystem, but is not efficient
-- 
+
+
+- Trend of large clusters
+	- Everything belongs to a single party (no ecostystem)
+	- Each layer is programmable
+	- Promotes efficiency
