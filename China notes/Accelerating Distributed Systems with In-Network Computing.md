@@ -30,3 +30,16 @@ Traditional networks:
 - Separate application-network codesign
 - Build universal libraries for developers
 - Build new devices for INC
+
+
+### Accelerating Machine Learning (ASPLOS23, NSDI21)
+
+
+- #### Learning algorithm
+	- Each iteration computs a gradient
+	- Updates the model
+	- $W^{t+1}:= W^t - \alpha \nabla J(W^t, D^t)$
+- #### Distributed Training (data parallel)
+	- Each workers computes a gradient
+	- Aggregate all workers' gradients and send result back (AllReduce)
+	- Work updates model
