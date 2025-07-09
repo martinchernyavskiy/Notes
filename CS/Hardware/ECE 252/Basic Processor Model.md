@@ -13,3 +13,10 @@
 - Small memory located near the ALU
 - Contains multiple registers which can be written to / read from
 - Allows for reading from multiple locations simultaneously by having multiple read ports, but write to only one location 
+- ![[Pasted image 20250709075603.png]]
+
+### Processing Unit
+- Contains ALU and the register file and does main computational work of a processor
+
+### Control Unit
+- Analyzes instruction and orchestrates other computer resources to execute 
