@@ -43,3 +43,4 @@ Traditional networks:
 	- Each workers computes a gradient
 	- Aggregate all workers' gradients and send result back (AllReduce)
 	- Work updates model
+
