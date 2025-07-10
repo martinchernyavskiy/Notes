@@ -26,7 +26,9 @@
 	- Semantic Features
 	- Use probability by analyzing features to pre-cache content to specific regions
 
-
+- Tile-based 360-degree Video Streaming
+	- Rendering unseen elements of the 360 video wastes the bandwitch
+	- Thus, we need to predict which direction is oreferred 
 ## Content Transmission
 
 ## Content Recommendations
