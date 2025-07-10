@@ -29,6 +29,8 @@
 - Tile-based 360-degree Video Streaming
 	- Rendering unseen elements of the 360 video wastes the bandwidth
 	- Thus, we need to predict which direction is preferred to be seen by users --> moving objects
+
+
 ## Content Transmission
 
 ## Content Recommendations
