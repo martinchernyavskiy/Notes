@@ -3,7 +3,7 @@
 ## Content Distribution
 
 - Data Center --> Edge Server --> Device
-- S
+- Distribution Streaming is between edge server and device
 
 ## Content Transmission
 
