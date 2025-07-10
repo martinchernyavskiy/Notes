@@ -10,6 +10,11 @@
 
 - *Proactive Cache by AI*
 	- CDN (content distribution network built on the modern network infrastructure)
+	- ISP (internet service provider)
+
+- How do ISPs charge video-service companies?
+	- *Charge by overall throughput*
+	- *In China, charge is by daily peak bandwith consumption*
 
 ## Content Transmission
 
