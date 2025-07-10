@@ -6,7 +6,7 @@
 - Computational multi-functional structure in a processor that performs arithmetic or logical operations
 - The logic operations are bitwise in ALU 
 - All logic structures work in parallel, however for one step of a program only one result of those operations is needed
-- *Use multiplexers to select the result*
+- *Use multiplexers to select the result*, which are controlled by a select signal mode to choose which logic structure output to select.
 
 
 ### Register File
