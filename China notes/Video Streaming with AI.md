@@ -25,6 +25,8 @@
 	- Contextual Features
 	- Semantic Features
 	- Use probability by analyzing features to pre-cache content to specific regions
+
+
 ## Content Transmission
 
 ## Content Recommendations
