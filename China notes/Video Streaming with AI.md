@@ -26,19 +26,21 @@
 	- Semantic Features
 	- Use probability by analyzing features to pre-cache content to specific regions
 
+- 
+## Content Transmission
+
 ### Video Streaming for VR
 
 - Tile-based 360-degree Video Streaming
 	- Rendering unseen elements of the 360 video wastes the bandwidth
 	- Thus, we need to predict which direction is preferred to be seen by users --> moving objects
 
-### Video Streaming with super resolution
+### Video Streaming with super resolution (2D)
 - Computer Graphs (graph super resolution). Given a low resolution, can enhance via super resolutions to high resolution
 - From low-rate to high-rate frame
 
-### Video Streaming with Multiple Paths
-
+### Video Streaming with Multiple Paths (2D with multipath 4/5G + WiFi)
+- Use both WiFi and Cellular Network to stream videos (multi-path), the problem is that most phones do not support a multi-path transmission
 - 
-## Content Transmission
 
 ## Content Recommendations
