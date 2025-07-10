@@ -33,7 +33,8 @@
 	- Thus, we need to predict which direction is preferred to be seen by users --> moving objects
 
 ### Video Streaming with super resolution
--
+- Computer Graphs (graph super resolution). Given a low resolution, can enhance via super resolutions to high resolution
+- From low-rate to high-rate frame
 - 
 ## Content Transmission
 
