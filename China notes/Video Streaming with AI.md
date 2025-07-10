@@ -14,8 +14,17 @@
 
 - How do ISPs charge video-service companies?
 	- *Charge by overall throughput*
-	- *In China, charge is by daily peak bandwith consumption*
+	- *In China, charge is by daily peak bandwidth consumption*
+		- Thus companies want to lower the peak bandwidth usage to lower the costs for renting servers from ISP
 
+- What is the solution for lowering peak bandwidth?
+	- Predict content popularity in different regions (use neural networks)
+	- Pre-cache popular content at edge at off-peak time
+
+- Machine learning helps in predicting the content popularity
+	- Contextual Features
+	- Semantic Features
+	- Use probability by analyzing features to pre-cache content to specific regions
 ## Content Transmission
 
 ## Content Recommendations
