@@ -26,11 +26,15 @@
 	- Semantic Features
 	- Use probability by analyzing features to pre-cache content to specific regions
 
+### Video Streaming for VR
+
 - Tile-based 360-degree Video Streaming
 	- Rendering unseen elements of the 360 video wastes the bandwidth
 	- Thus, we need to predict which direction is preferred to be seen by users --> moving objects
 
-
+### Video Streaming with super resolution
+-
+- 
 ## Content Transmission
 
 ## Content Recommendations
