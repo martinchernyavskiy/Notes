@@ -1,0 +1,46 @@
+- Kaigui Bian
+
+## Content Distribution
+
+- Data Center --> Edge Server --> Device
+- Distribution Streaming is between edge server and device
+
+- Increasing resolution increases latency (because the weight of the video is increased that bandwitch may not catch up with)
+- Decreasing resolution decreases the latency since the video weight is lower
+
+- *Proactive Cache by AI*
+	- CDN (content distribution network built on the modern network infrastructure)
+	- ISP (internet service provider)
+
+- How do ISPs charge video-service companies?
+	- *Charge by overall throughput*
+	- *In China, charge is by daily peak bandwidth consumption*
+		- Thus companies want to lower the peak bandwidth usage to lower the costs for renting servers from ISP
+
+- What is the solution for lowering peak bandwidth?
+	- Predict content popularity in different regions (use neural networks)
+	- Pre-cache popular content at edge at off-peak time
+
+- Machine learning helps in predicting the content popularity
+	- Contextual Features
+	- Semantic Features
+	- Use probability by analyzing features to pre-cache content to specific regions
+
+- 
+## Content Transmission
+
+### Video Streaming for VR
+
+- Tile-based 360-degree Video Streaming
+	- Rendering unseen elements of the 360 video wastes the bandwidth
+	- Thus, we need to predict which direction is preferred to be seen by users --> moving objects
+
+### Video Streaming with super resolution (2D)
+- Computer Graphs (graph super resolution). Given a low resolution, can enhance via super resolutions to high resolution
+- From low-rate to high-rate frame
+
+### Video Streaming with Multiple Paths (2D with multipath 4/5G + WiFi)
+- Use both WiFi and Cellular Network to stream videos (multi-path), the problem is that most phones do not support a multi-path transmission
+- 
+
+## Content Recommendations
