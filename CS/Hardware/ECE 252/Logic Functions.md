@@ -15,7 +15,7 @@
 ### Operator Precedence
 - And > or > not
 - Parentheses force order of evaluation
-- Not alters everything which is below the bar. And turns into or, or turns into end. Implies parantheses
+- Not alters everything which is below the bar. And turns into or, or turns into and. Implies parantheses
 - XOR (exclusive or), (plus sign in circle)
 - Intermediate columns 
 - Odd function = XOR'ing more than two operands, since it's output going to be one only if odd number of its inputs are 1
