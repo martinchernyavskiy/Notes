@@ -9,7 +9,7 @@
 		Repeat the process until a 0 quotient
 
 - ### Decimal to Binary
-	Find smallest binary number value that is less than or equal the decimal value and subtract it from the value. 
+	Find largest binary number value that is less than or equal the decimal value and subtract it from the value. 
 	If binary number value is greater, put a zero digit on that digit's place and continue
 
 - ### Binary to Hex
