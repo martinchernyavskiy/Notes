@@ -30,6 +30,8 @@
 - Control unit executes an instruction when PC contains its address.
 	- Reads from the memory address
 	- Updates instruction register with its contents (process called fetching)
+	- Increments Program Counter
+	- Decodes the instruction in IR
 
 ### Stored program computer
 - Allows for executing different programs by writing different program into memory (which stores its set of instructions to be executed).
