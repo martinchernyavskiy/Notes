@@ -36,3 +36,14 @@
 - Fetch -> Decode -> Evaluate Address -> Fetch Operands -> Execute -> Store Result -> Repeat
 - *Not all instructions require all of the steps* 
 - Control Unit performs different tasks in each phase, so it's a finite state machine
+
+### Phases required for all instruction types:
+#### Fetch
+- Read instruction from memory (PC has the address)
+- Put value into IR
+- Increment PC
+#### Decode
+- Examine opcode to determine instruction type
+- Identify operands based on bit values in instruction's fields
+
+### Required for Operate instructions
