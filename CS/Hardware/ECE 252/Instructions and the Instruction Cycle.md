@@ -47,3 +47,16 @@
 - Identify operands based on bit values in instruction's fields
 
 ### Required for Operate instructions
+- #### Fetch Operands
+	- Read from register file using source reg. address(es)
+	- If instruction uses constant, extract this value from itself
+- #### Execute 
+	- After fetching operands, perform the ALU operation
+- #### Store Result
+	- Write ALU DOUT to register file using destination reg. address 
+
+### Required for Data Move instructions
+- ### Load
+	- #### Evaluate Address
+	- #### Fetch Operands
+	- #### Store Result
