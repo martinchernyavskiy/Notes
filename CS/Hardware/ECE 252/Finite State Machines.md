@@ -13,7 +13,7 @@
 - Determine number of flip-flops based on the number of bits of state.
 - In FSM circuit representation, flip-flops are represented as a rectangle with input as next state and output as current state, both of number n
 - "Next state" combinational logic is represented in the same way, but with inputs as current state and circuit inputs, and "next state" output
-- "Output logic" computes circuit's outputs baesd on the current state
+- "Output logic" computes circuit's outputs based on the current state
 
 ### State Tables
 - Used to characterize a sequential circuit
