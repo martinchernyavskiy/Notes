@@ -36,3 +36,6 @@
 ### Stored program computer
 - Allows for executing different programs by writing different program into memory (which stores its set of instructions to be executed).
 - Assume computer executes one instruction at a time
+
+### von Neumann compute model
+- Both program and data stored in the same memory structure
