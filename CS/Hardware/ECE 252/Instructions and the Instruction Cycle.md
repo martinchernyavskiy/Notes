@@ -3,6 +3,7 @@
 - Instructions that can be executed are defined by ISA
 - Instructions are divided up into fields, each representing info about the instruction
 - *Opcode* field indicated the operation type
+- Control Unit knows what needs to be done by analyzing the bits of the instructions
 
 
 
@@ -17,4 +18,7 @@
 
 ### Data Movement Instructions
 - *Load*: copy from memory to register file
+	- $R1 \leftarrow mem[R5+2]$
+	- LDR (0110 opcode) is a type of memory load instruction
+	- Control Unit calculates memory address based on the values in base reg and offset fields
 - *Store*: copy from register file to memory
