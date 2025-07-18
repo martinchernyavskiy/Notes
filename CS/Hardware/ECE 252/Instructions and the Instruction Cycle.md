@@ -12,3 +12,9 @@
 - 0001 Opcode resembles ADD function
 
 ### Operate Instructions
+- Use ALU to perform computation
+- Mode field specifies which type of addition is described (0 for source register value and 1 for a constant)
+
+### Data Movement Instructions
+- *Load*: copy from memory to register file
+- *Store*: copy from register file to memory
