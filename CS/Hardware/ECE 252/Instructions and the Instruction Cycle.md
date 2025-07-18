@@ -22,3 +22,11 @@
 	- LDR (0110 opcode) is a type of memory load instruction
 	- Control Unit calculates memory address based on the values in base reg and offset fields
 - *Store*: copy from register file to memory
+
+
+### Control Instructions
+- Change sequence of instruction execution by changing value in PC
+- Loops, Conditions, Subroutines (functions/methods)
+	- $PC \leftarrow R6$
+	- JMP (1100) is an unconditional jump
+	- Copies value in a register (base reg field) to the PC 
