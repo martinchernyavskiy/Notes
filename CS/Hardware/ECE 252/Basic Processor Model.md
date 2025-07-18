@@ -21,6 +21,11 @@
 ### Control Unit
 - Analyzes instructions and orchestrates other computer resources to execute the instruction
 - Instructions are held in memory
+- Fetches instructions, one at a time, from memory and communicated with other parts of computer on how to execute each instruction (like choosing control signals in ALU)
+
+- Contains 2 special registers
+	- Program Counter (PC): address of next instruction 
+	- Instruction Register (IR): holds current instruction
 
 ### Stored program computer
 - Allows for executing different programs by writing different program into memory (which stores its set of instructions to be executed).
