@@ -58,5 +58,9 @@
 ### Required for Data Move instructions
 - ### Load
 	- #### Evaluate Address
+		- Calculate Memory Address for reading from memory
+		- May involve register read and/or constant extraction
 	- #### Fetch Operands
+		- Read from memory by calculated address
 	- #### Store Result
+		- Write the value returned from memory reading into the destination register in the register file
