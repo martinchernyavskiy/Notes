@@ -30,3 +30,9 @@
 	- $PC \leftarrow R6$
 	- JMP (1100) is an unconditional jump
 	- Copies value in a register (base reg field) to the PC 
+
+### Instruction Cycle
+- Special sequence of steps CU takes to process instructions
+- Fetch -> Decode -> Evaluate Address -> Fetch Operands -> Execute -> Store Result -> Repeat
+- *Not all instructions require all of the steps* 
+- Control Unit performs different tasks in each phase, so it's a finite state machine
