@@ -62,5 +62,15 @@
 		- May involve register read and/or constant extraction
 	- #### Fetch Operands
 		- Read from memory by calculated address
-	- #### Store Result
+	- #### Store Result (only for writing value to register file)
 		- Write the value returned from memory reading into the destination register in the register file
+- ### Store
+	- #### Evaluate Address
+		- Calculate Memory Address for reading from memory
+		- May involve register read and/or constant extraction#### 
+	- #### Fetch Operands
+		- Since we copy value from register to mempry, we read from register value 
+	- #### Execute
+		-  Value retrieved from register is stored in the memory address calculated first
+
+### Required for Control instructions
