@@ -76,4 +76,5 @@
 ### Required for Control instructions
 - #### Evaluate Address
 	- Calculate the memory address to be written to PC
-- 
+- #### Execute
+	- Determines if PC should be updated or not per a condition. If unconditional, control unit just updates the PC with that memory address
