@@ -27,4 +27,5 @@
 - PC is incremented 
 
 #### Control Signals
-- 
+- FSM and instruction decode logic that generate signals to control other parts of processor based on the instruction in IR
+- If conditional instruction, output is also affected by condition codes (CCs)
