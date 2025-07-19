@@ -74,3 +74,5 @@
 		-  Value retrieved from register is stored in the memory address calculated first
 
 ### Required for Control instructions
+- #### Evaluate Address
+	- 
