@@ -76,3 +76,4 @@
 ### Required for Control instructions
 - #### Evaluate Address
 	- Calculate the memory address to be written to PC
+- 
