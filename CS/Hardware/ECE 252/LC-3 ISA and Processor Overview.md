@@ -26,3 +26,5 @@
 - DOUT is stored into IR
 - PC is incremented 
 
+#### Control Signals
+- 
