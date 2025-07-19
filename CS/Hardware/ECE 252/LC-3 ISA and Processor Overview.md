@@ -17,4 +17,12 @@
 ### LC-3 Processing Unit
 - 8 registers in REG FILE (so 3-bit register address)
 - Each register holds 16-bit word and ALU processes 16-bit values
-- Some instructions have 2-s complement constant which is called the immediate operand (later sign-extended to 16 bits using SEXT)
+- Some instructions have 2-s complement constant (of 5 bits) which is called the immediate operand (later sign-extended to 16 bits using SEXT)
+
+### LC-3 Control Unit
+
+#### Fetch
+- CU reads from memory by using PC as the address to read
+- DOUT is stored into IR
+- PC is incremented 
+
