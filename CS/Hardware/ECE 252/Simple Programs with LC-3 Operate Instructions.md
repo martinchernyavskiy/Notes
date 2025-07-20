@@ -23,4 +23,13 @@ ADD R0, R0, R4
 
 ### Program Execution by Processor
 - PC is forced to have .ORIG address 
-- 
+- Processor follows instruction cycle, fetching, decoding and working through the instructions, always incrementing PC to the next memory address after decoding
+
+
+### Essential Programming Skills
+- Clearing Register (AND register with zero --> AND R1, R1, #0)
+- Initializing to a specific value (immediate value of 5 bits): 
+```
+AND R3, R3, #0
+ADD R3, R3, #7
+```
