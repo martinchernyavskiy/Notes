@@ -42,3 +42,8 @@
 		- Adding offset to a value from the register file
 		- Adding 1 or 2 offsets to the PC
 		- Determined by Instruction Decode Logic 
+
+
+### LC-3 Memory
+- Holds both instructions and program data
+- Memory addresses are 16-bit (0x0000 - 0xFFFF)
