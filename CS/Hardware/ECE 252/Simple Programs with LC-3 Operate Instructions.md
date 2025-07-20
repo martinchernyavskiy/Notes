@@ -18,3 +18,5 @@ ADD R0, R0, R4
 	. END ; indicates the end of the code
 ```
 - *Assembler directives (.ORIG and .END* are not instructions, they are only used by the assembler
+- .obj file contains location address specified by .ORIG directive on the first line
+- The rest assembly instructions are converted in the appropriate 
