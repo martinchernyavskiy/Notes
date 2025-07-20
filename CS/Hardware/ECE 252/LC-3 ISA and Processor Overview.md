@@ -7,7 +7,7 @@
 - Processing Unit contains ALU, REG FILE, Multiplexers, and a NZP Detect Logic
 - Control Unit contains registers, including PC and IR, multiplexers, an adder that increments PC, FSM, and other logic structures
 - Memory connecting to both PU and CU
-
+![[Pasted image 20250720143201.png]]
 
 ### LC-3 ISA
 - 16 bits wide instructions that are divided into several fields
