@@ -8,5 +8,5 @@
 
 ### NOT 
 - Opcode: 1001
-- Single operands
-- 
+- Single operand
+- The value is bitwise complemented by ALU
