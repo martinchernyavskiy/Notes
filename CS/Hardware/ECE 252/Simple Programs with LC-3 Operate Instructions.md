@@ -50,4 +50,11 @@ NOT R0, R4
 ADD R0, R0, #1
 ADD R0, R0, R3
 ```
-- Masking 
+- Masking (extract only a part of the total bit number). For example knowing if a number if odd or even requires looking only in the bit at the position 0,
+```
+AND R5, R5, #1 ; yields either a 1 or a 0, depending on the bit in position 0 of R5
+```
+- This can be extended to clear a particular bit by anding with appropriate number, eg:
+```
+AND R2, R2, #-3 ; masks off every bit, but the bit at position 1
+```
