@@ -31,3 +31,9 @@
 - If conditional instruction, output is also affected by condition codes (CCs), which are stored in a special register
 	- CCs indicate information about most recent result in PU
 	- The signal connected to REG FILE DD also navigates to a separate NZP Detect Logic circuit which determines whether the value is negative, zero, or positive
+- Stored in a condition code register where each of control signals are 1 bit and only one of them equals to 1 at any time
+- CU updates CCs as part of executing some instruction types (Operate or Load)
+
+#### Memory Address Calc Logic 
+- Used for Data Movement instructions
+- New PC value for Control instructions
