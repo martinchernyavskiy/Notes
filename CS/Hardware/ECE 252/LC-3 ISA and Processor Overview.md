@@ -37,3 +37,8 @@
 #### Memory Address Calc Logic 
 - Used for Data Movement instructions
 - New PC value for Control instructions
+- *addressing mode*: refers to how an instruction specifies the location of its operands
+	- memory addressing modes include:
+		- Adding offset to a value from the register file
+		- Adding 1 or 2 offsets to the PC
+		- Determined by Instruction Decode Logic 
