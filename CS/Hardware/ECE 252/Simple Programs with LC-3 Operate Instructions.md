@@ -19,4 +19,8 @@ ADD R0, R0, R4
 ```
 - *Assembler directives (.ORIG and .END* are not instructions, they are only used by the assembler
 - .obj file contains location address specified by .ORIG directive on the first line
-- The rest assembly instructions are converted in the appropriate 
+- The rest assembly instructions are converted in the appropriate 16 bit instructions that will be stored starting at the indicated address 
+
+### Program Execution by Processor
+- PC is forced to have .ORIG address 
+- 
