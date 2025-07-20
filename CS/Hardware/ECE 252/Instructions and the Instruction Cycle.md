@@ -67,9 +67,9 @@
 - ### Store
 	- #### Evaluate Address
 		- Calculate Memory Address for reading from memory
-		- May involve register read and/or constant extraction#### 
+		- May involve register read and/or constant extraction
 	- #### Fetch Operands
-		- Since we copy value from register to mempry, we read from register value 
+		- Since we copy value from register to memory, we read from register value 
 	- #### Execute
 		-  Value retrieved from register is stored in the memory address calculated first
 
