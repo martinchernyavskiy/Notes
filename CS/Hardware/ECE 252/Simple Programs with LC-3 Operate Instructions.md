@@ -67,4 +67,4 @@ AND R2, R2, #-3 ; masks off bit at position 1
 - Use assembler directives
 - List out assembly instructions, indented
 - Make sure to not make obvious commenting for each line, instead comment where necessary to explain the WHY
-- Surround the instructions into a 
+- Surround the instructions with unconditional branch instruction so that they repeat forever (START for line before first instruction, BR START for a line before .END)
