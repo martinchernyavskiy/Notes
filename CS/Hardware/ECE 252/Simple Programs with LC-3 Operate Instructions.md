@@ -1,5 +1,6 @@
 ### Assembly Language Programming
 - Assembler produces object file containing binary program instructions from the program written in assembly language, loaded into the computer's memory
+- Values in instructions can be expressed
 
 
 ### sum.asm
@@ -32,4 +33,12 @@ ADD R0, R0, R4
 ```
 AND R3, R3, #0
 ADD R3, R3, #7
+```
+- Copying value from one register to another:
+```
+ADD R1, R2, #0
+; or
+AND R1, R2, R2 ; since anding SR with itself yields same values
+; or 
+AND R1, R2, #-1 ; since -1 is all 1's in 2-s complement
 ```
