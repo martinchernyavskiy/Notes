@@ -19,3 +19,7 @@ LD  R0, NUM ; uses label as memory address to load from
 ```
 ST  R6, NUM ; uses label as a memory address to store to
 ```
+
+
+### Calculation of Memory Address
+- Can't directly encode label's address into an instruction, won't fit the number of available bits
