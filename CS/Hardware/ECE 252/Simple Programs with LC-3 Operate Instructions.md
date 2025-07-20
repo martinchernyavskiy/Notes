@@ -56,5 +56,14 @@ AND R5, R5, #1 ; yields either a 1 or a 0, depending on the bit in position 0 of
 ```
 - This can be extended to clear a particular bit by anding with appropriate number, eg:
 ```
-AND R2, R2, #-3 ; masks off every bit, but the bit at position 1
+AND R2, R2, #-3 ; masks off bit at position 1
+```
+
+### Flow Chart
+- Graphical high-level language which allows to visualize the program split into specific steps
+```
+; C <-- 2*A - B
+ADD C, A, A
+NOT B, B
+ADD C, C, B
 ```
