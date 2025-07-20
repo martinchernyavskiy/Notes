@@ -11,8 +11,11 @@
 ```
 NUM     .FILL x42 ; reserve 1 memory location, call NUM, initialize to                     ; hex 42
 ```
-
 #### Load
 ```
-LD  R0, NUM ; load instruction indicating memory location using label
+LD  R0, NUM ; uses label as memory address to load from
+```
+#### Store
+```
+ST  R6, NUM ; uses label as a memory address to store to
 ```
