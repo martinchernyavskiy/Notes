@@ -61,9 +61,10 @@ AND R2, R2, #-3 ; masks off bit at position 1
 
 ### Flow Chart
 - Graphical high-level language which allows to visualize the program split into specific steps
-```
-; C <-- 2*A - B
-ADD C, A, A
-NOT B, B
-ADD C, C, B
-```
+
+### Programming in .asm
+- Ensure to describe what the program does at the top of the file
+- Use assembler directives
+- List out assembly instructions, indented
+- Make sure to not make obvious commenting for each line, instead comment where necessary to explain the WHY
+- Surround the instructions into a 
