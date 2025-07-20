@@ -6,4 +6,8 @@
 ### Label as a Location
 - Similar to variables in programming
 - Assembler directive is used for naming a memory location that will hold a word of data instead of instruction
-- 
+- Data movement instructions access labeled memory locations and when the assembler assembles the program, labels are converted into information used to calculate memory address
+#### Examples
+```
+NUM     .FILL x42 ; reserve 1 memory location, call NUM, initialize to                     ; hex 42
+```
