@@ -1,5 +1,5 @@
 ### ISA
-- Needed to be known for creation of assembler/compiler and writing programs assembly language
+- Needed to be known for creation of assembler/compiler and writing programs in assembly language
 - Specifies all information needed to program in binary 
 
 
