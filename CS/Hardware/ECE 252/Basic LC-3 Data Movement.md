@@ -23,4 +23,6 @@ ST  R6, NUM ; uses label as a memory address to store to
 
 ### Calculation of Memory Address
 - Can't directly encode label's address into an instruction, won't fit the number of available bits (since memory address in LC-3 is 16 bit long)
-- Encode how far away this address is from PC (*PC-Relative addressive mode*)
+- Encode how far away this address is from PC (*PC-Relative addressing mode*)
+- LD: (opcode - DR - PCoffset9), aka. pc-relative memory read, where offset is added to *already-incremented PC value*
+- *Effective address = $PC^+$ + PCOffset9*
