@@ -9,3 +9,13 @@
 	- Iteration
 		- Uses decision block with one paths leading back to the decision block input repeatedly until the other condition holds
 		- *While/For*
+
+### Systematic Decomposition
+- Break down complex problems into a set of easier to handle tasks
+- Further break down tasks into smaller subtasks that are one step
+
+### Changing the Flow
+- Use branch instructions to change PC value
+	- *Unconditional branch* - always updates PC
+	- *Conditional branch* - updates PC per condition met
+- If the branch is taken, meaning that the address is successfully written to the PC, it is called the *branch target*
