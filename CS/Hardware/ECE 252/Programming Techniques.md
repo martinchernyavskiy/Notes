@@ -52,14 +52,24 @@ INC_C
 ; R0 is A, R1 is B, R2 is C
 
 
-	BRz AisB
+A_GT_B
+	NOT R4, R1 ; compute  (-B)
+	ADD R4, R2, #1
+	ADD R4, R4, R0 ; A + (-B)
+	BRp CgetsA
+A_LT_B
+	BRn CgetsB
+Cgets0
+	AND R4, R4, #0
+	BR REST_OF_CODE
+CgetsB
+	ADD R2, R1, #0
+	BR REST_OF_CODE
+CgetsA
+	ADD R2, R0, #0
 
-AgtB
-
-AlsB
-
-AisB
-	AND R2, R2, #0 ; C = 0
+REST_OF_CODE
+; remaining program code
 ```
 
 
