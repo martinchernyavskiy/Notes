@@ -23,4 +23,6 @@
 ### BR Instruction
 - Branch target is calculated from incremented PC value and the PCoffset9
 - The destination is the PC itself
-- There is an NZP field in the instruction for which if one of the condition codes 
+- There is an NZP field in the instruction which is compared to the current NZP condition code values
+	- If any match, the PC is updated with the calculated branch target
+	- If none match, PC isn't modified
