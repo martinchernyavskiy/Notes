@@ -7,9 +7,9 @@
 - 0001
 ### Data Movement Instructions
 ###### LD
-0010
+- 0010
 ###### ST
-0011
+- 0011
 ###### LDR
 - 0110
 ###### STR
