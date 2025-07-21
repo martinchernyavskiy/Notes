@@ -6,3 +6,18 @@
 - *Don't start coding until defined the problem and know how to solve it*
 - *Test early and frequently, not when the whole program is completed*
 
+### Assembly IF Implementation Example
+```
+; increments A if B=0, always update C with its sum with A
+; R0 is A, R1 is B, R2 is C
+
+	AND R1, R1, R1 ; updates condition codes to test B
+	BRz INC_A
+	BRnp UPDATE_C
+
+INC_A
+	ADD R0, R0, #1
+
+UPDATE_C 
+	ADD R2, R2, R0
+```
