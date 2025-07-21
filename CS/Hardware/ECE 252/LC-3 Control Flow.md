@@ -26,3 +26,11 @@
 - There is an NZP field in the instruction which is compared to the current NZP condition code values
 	- If any match, the PC is updated with the calculated branch target
 	- If none match, PC isn't modified
+
+### BR in LC-3 Assembly Code
+- Condition Codes to be checked are appended to the BR opcode mnemonic
+- BRn - branch if negative
+- BRz - branch if zero
+- BRp - branch if positive
+- BRnzp - branch if any conditions are true (if use just BR without flags, also interpreted as unconditional)
+- *Specified using a label*
