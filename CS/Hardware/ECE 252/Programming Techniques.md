@@ -28,12 +28,18 @@ UPDATE_C
 ; Implement by subtracting and 
 ; R0 is A, R1 is B, R2 is C
 
-	NOT R1, R1 ; negate B
-	ADD R1, R1, #1
-	ADD R2, R0, R1
-	BRp CgetsA
+	NOT R2, R1 ; negate B, store in C
+	ADD R2, R2, #1
+	ADD R2, R0, R2 ; C <- A + (-B)
+	BRp CgetsA ; A > B, set C to A and increment by 1
+	BRnp CgetsB ; A !> B, set C to B and increment by 1
 
 CgetsA
-	AND R2, 
+	AND R2, R0, R0
+
+CgetsB
+	AND R2, R1, R1
 	
+; always ran
+	ADD R2, R2, #1
 ```
