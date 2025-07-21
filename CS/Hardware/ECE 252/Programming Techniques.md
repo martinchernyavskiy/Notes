@@ -5,11 +5,11 @@
 - Test flowchart before implementation
 - *Don't start coding until defined the problem and know how to solve it*
 - *Test early and frequently, not when the whole program is completed*
-
 ### Common Mistakes
 - Branching to the next instruction
 - Branching around other branches
 - Using improper labels
+- Making wrong assumptions about initial state of the program
 ### Assembly IF Implementation Example
 ```
 ; increments A if B=0, always update C with its sum with A
@@ -25,7 +25,6 @@ INC_A ; can be kept since only used by assembler and programmer
 UPDATE_C 
 	ADD R2, R2, R0
 ```
-
 ### IF...ELSE Example
 ```
 ; if (A > B) C = A
@@ -47,7 +46,6 @@ CgetsA
 INC_C
 	ADD R2, R2, #1
 ```
-
 ### IF...ELSE IF...ELSE Example
 ```asm
 ; if (A > B) C = A
@@ -76,8 +74,6 @@ CgetsA
 REST_OF_CODE
 ; remaining program code
 ```
-
-
 ### WHILE Example
 ```
 ; while (A < B) A = A + 1
@@ -97,7 +93,6 @@ INC_A ; execute if A < B
 REST_OF_CODE
 ; remaining program code
 ```
-
 ### DO...WHILE Example
 - *Similar to While, but task is performed at least one*
 ```
@@ -117,7 +112,6 @@ A_LT_B
 
 REST_OF_CODE
 ```
-
 ### FOR Example
 - *Difference between WHILE is that it includes initializing block*
 ```
