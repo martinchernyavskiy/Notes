@@ -49,12 +49,21 @@ INC_C
 ; if (A > B) C = A
 ; else if (A < B) C = B
 ; else C = 0
+; R0 is A, R1 is B, R2 is C
 
+
+	BRz AisB
 
 AgtB
 
 AlsB
 
 AisB
-	
+	AND R2, R2, #0 ; C = 0
+```
+
+
+### WHILE Example
+```
+
 ```
