@@ -116,4 +116,18 @@ REST_OF_CODE
 
 ### FOR Example
 ```
+; S = 0
+; for (i = A; i > 0; i--)
+;     S = S + B
+; R0 is A, R1 is B, R2 is S
+
+InitializeLoop
+	AND R2, R2, #0 ; clear 
+	ADD R3, R0, #0
+LOOP
+	BRnz REST_OF_CODE
+
+; executed after if, else if, else
+REST_OF_CODE
+; remaining program code
 ```
