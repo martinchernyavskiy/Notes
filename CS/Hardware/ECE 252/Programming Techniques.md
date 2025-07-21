@@ -15,9 +15,25 @@
 	BRz INC_A ; unnecessary, can be removed
 	BRnp UPDATE_C
 
-INC_A
+INC_A ; can be kept since only used by assembler and programmer
 	ADD R0, R0, #1
 
 UPDATE_C 
 	ADD R2, R2, R0
+```
+
+### IF...ELSE Example
+```
+; if (A > B) C = A
+; Implement by subtracting and 
+; R0 is A, R1 is B, R2 is C
+
+	NOT R1, R1 ; negate B
+	ADD R1, R1, #1
+	ADD R2, R0, R1
+	BRp CgetsA
+
+CgetsA
+	AND R2, 
+	
 ```
