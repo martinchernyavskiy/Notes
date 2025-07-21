@@ -42,6 +42,6 @@ START
 	BR START
 ARRAY .FILL x00F0
 	  .FILL x0010
-	  .FILL x0010
-	.END 
+	  .FILL x2002
+	  .END 
 ```
