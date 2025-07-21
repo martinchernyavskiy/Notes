@@ -56,18 +56,19 @@ A_GT_B
 	NOT R4, R1 ; compute  (-B)
 	ADD R4, R2, #1
 	ADD R4, R4, R0 ; A + (-B)
-	BRp CgetsA
+	BRp CgetsA ; taken if A > B
 A_LT_B
-	BRn CgetsB
-Cgets0
-	AND R4, R4, #0
+	BRn CgetsB ; taken if A < B
+Cgets0 ; executed if A = B
+	AND R2, R4, #0 ; C = 0
 	BR REST_OF_CODE
 CgetsB
-	ADD R2, R1, #0
+	ADD R2, R1, #0 ; C = B
 	BR REST_OF_CODE
 CgetsA
-	ADD R2, R0, #0
+	ADD R2, R0, #0 ; C = A
 
+; executed after if, else if, else
 REST_OF_CODE
 ; remaining program code
 ```
@@ -75,5 +76,5 @@ REST_OF_CODE
 
 ### WHILE Example
 ```
-
+; while (A < B) A = A + 1
 ```
