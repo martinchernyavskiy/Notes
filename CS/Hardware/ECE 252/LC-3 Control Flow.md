@@ -18,4 +18,4 @@
 - Use branch instructions to change PC value
 	- *Unconditional branch* - always updates PC
 	- *Conditional branch* - updates PC per condition met
-- If the branch is taken, meaning that the address is successfully written to the PC, it is called the *branch target*
+- If the branch is taken, meaning that the address is successfully written to the PC, that address is called the *branch target*

@@ -7,7 +7,9 @@
 - 0001
 ### Data Movement Instructions
 ###### LD
+0010
 ###### ST
+0011
 ###### LDR
 - 0110
 ###### STR
@@ -19,3 +21,5 @@
 ###### STI
 - 1011
 ### Control Instructions
+###### BR
+- 0000
