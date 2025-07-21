@@ -30,7 +30,7 @@ UPDATE_C
 
 A_GT_B
 	NOT R4, R1 ; compute  (-B)
-	ADD R4, R2, #1
+	ADD R4, R4, #1
 	ADD R4, R4, R0 ; A + (-B)
 	BRp CgetsA
 
@@ -54,7 +54,7 @@ INC_C
 
 A_GT_B
 	NOT R4, R1 ; compute  (-B)
-	ADD R4, R2, #1
+	ADD R4, R4, #1
 	ADD R4, R4, R0 ; A + (-B)
 	BRp CgetsA ; taken if A > B
 A_LT_B
@@ -79,17 +79,17 @@ REST_OF_CODE
 ; while (A < B) A = A + 1
 ; R0 is A, R1 is B, R2 is C
 
-
-A_LT_B
+NEG_B
 	NOT R4, R1 ; compute  (-B)
-	ADD R4, R2, #1
-	ADD R4, R4, R0 ; A + (-B)
-	BRzp REST_OF_CODE ; exit loop
-	BRn A_LT_B ; repeat if A < B
-
-INC_A
-	ADD R0, R0, #1
+	ADD R4, R4, #1
+A_LT_B
+	ADD R5, R4, R0 ; A + (-B)
+	BRzp REST_OF_CODE ; exit loop if A is greater or equal to B
+INC_A ; execute if A < B
+	ADD R0, R0, #1 ; increment A
 	BR A_LT_B
 
+; executed after if, else if, else
 REST_OF_CODE
+; remaining program code
 ```
