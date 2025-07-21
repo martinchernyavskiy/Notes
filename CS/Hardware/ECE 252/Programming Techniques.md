@@ -77,4 +77,19 @@ REST_OF_CODE
 ### WHILE Example
 ```
 ; while (A < B) A = A + 1
+; R0 is A, R1 is B, R2 is C
+
+
+A_LT_B
+	NOT R4, R1 ; compute  (-B)
+	ADD R4, R2, #1
+	ADD R4, R4, R0 ; A + (-B)
+	BRzp REST_OF_CODE ; exit loop
+	BRn A_LT_B ; repeat if A < B
+
+INC_A
+	ADD R0, R0, #1
+	BR A_LT_B
+
+REST_OF_CODE
 ```
