@@ -12,7 +12,7 @@
 ; R0 is A, R1 is B, R2 is C
 
 	AND R1, R1, R1 ; updates condition codes to test B
-	BRz INC_A
+	BRz INC_A ; unnecessary, can be removed
 	BRnp UPDATE_C
 
 INC_A
