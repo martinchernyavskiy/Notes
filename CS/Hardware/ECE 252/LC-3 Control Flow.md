@@ -36,6 +36,7 @@
 - *Specified using a label*
 
 ### absdiff.asm
+- *It's best to think of branch instruction as a way to branch AROUND code*
 ```
 ; Program computes C <- abs(A-B)
 ; A is R0, B is R1, C is R2
@@ -48,6 +49,6 @@ START
 	NOT R2, R2     ; C is negative
 	ADD R2, R2, #1 ; so negate it
 SKIPNEG
-	BR START
-		
+	BR START ; repeat forever
+	.END
 ```
