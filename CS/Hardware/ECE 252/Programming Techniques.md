@@ -124,11 +124,13 @@ REST_OF_CODE
 INIT
 	AND R2, R2, #0 ; S = 0
 	ADD R3, R0, #0 ; i = A
-i_GT_0 ; while i > 0, add B to S
-	BRnz REST_OF_CODE ; exit if A is non-positive
+i_GT_0
+	BRnz REST_OF_CODE
+ADD_B
 	ADD R2, R2, R1 ; add B to S
+DEC_i
 	ADD R3, R3, #-1 ; decrement i by 1
-	BR LOOP ; repeat
+	BRp ADD_B; repeat if i > 0
 
 ; executed after if, else if, else
 REST_OF_CODE
