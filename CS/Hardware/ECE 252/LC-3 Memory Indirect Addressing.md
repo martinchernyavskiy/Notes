@@ -19,3 +19,5 @@ STI R4, ADDR_W
 - The memory addresses are initially stored as contents of labels
 - The memory indirect load/store instructions read from the labels and store the content addresses in that special-purpose register
 - *These are therefore two-step instructions*
+	- *Get the address*
+	- *Use the address*

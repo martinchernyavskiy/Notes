@@ -14,5 +14,8 @@
 - 0111
 ###### LEA
 - 1110
-###### L
+###### LDI
+- 1010
+###### STI
+- 1011
 ### Control Instructions
