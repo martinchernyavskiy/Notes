@@ -14,4 +14,5 @@
 - 0111
 ###### LEA
 - 1110
+###### L
 ### Control Instructions
