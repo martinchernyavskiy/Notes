@@ -55,4 +55,4 @@ SKIPNEG
 ```
 
 ### JMP
-- Unconditional jump that updates the PC with the value in a register
+- Unconditional jump that updates the PC with the value in a base register
