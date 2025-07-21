@@ -34,3 +34,20 @@
 - BRp - branch if positive
 - BRnzp - branch if any conditions are true (if use just BR without flags, also interpreted as unconditional)
 - *Specified using a label*
+
+### absdiff.asm
+```
+; Program computes C <- abs(A-B)
+; A is R0, B is R1, C is R2
+	.ORIG x0200
+START
+	NOT R1, R1     ; negate B
+	ADD R1, R1, #1
+	ADD R2, R0, R1 ; A + (-B)
+	BRzp SKIPNEG   ; if C >= 0, done
+	NOT R2, R2     ; C is negative
+	ADD R2, R2, #1 ; so negate it
+SKIPNEG
+	BR START
+		
+```
