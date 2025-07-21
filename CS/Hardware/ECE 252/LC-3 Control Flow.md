@@ -1,3 +1,11 @@
 ### Structured Programming
 - Uses 3 fundamental constructs:
-	- S
+	- Sequence
+		- *Ordered rectangular subtask blocks with one entry and exit arrows*
+	- Selection (condition)
+		- *Diamond-shaped decision block in flowchart*
+		- One of the two exit paths will be chosen per condition
+		- *If/Else*
+	- Iteration
+		- Uses decision block with one paths leading back to the decision block input repeatedly until the other condition holds
+		- *While/For*
