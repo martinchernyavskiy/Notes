@@ -16,3 +16,5 @@ STR R4, R2, #0
 STI R4, ADDR_W
 ```
 - Uses hidden special-purpose register as a pointer to far away memory addresses for loading and storing
+- The memory addresses are initially stored as contents of labels
+- The memory indirect load/store instructions read from the labels and store the 
