@@ -6,6 +6,10 @@
 - *Don't start coding until defined the problem and know how to solve it*
 - *Test early and frequently, not when the whole program is completed*
 
+### Common Mistakes
+- Branching to the next instruction
+- Branching around other branches
+- Using improper labels
 ### Assembly IF Implementation Example
 ```
 ; increments A if B=0, always update C with its sum with A
@@ -115,6 +119,7 @@ REST_OF_CODE
 ```
 
 ### FOR Example
+- *Difference between WHILE is that it includes initializing block*
 ```
 ; S = 0
 ; for (i = A; i > 0; i--)
