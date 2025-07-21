@@ -23,3 +23,5 @@
 ### Control Instructions
 ###### BR
 - 0000
+###### JMP
+- 

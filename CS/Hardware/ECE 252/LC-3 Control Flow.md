@@ -34,6 +34,7 @@
 - BRp - branch if positive
 - BRnzp - branch if any conditions are true (if use just BR without flags, also interpreted as unconditional)
 - *Specified using a label*
+- Distance of Branch target is limited by range of offset, which is 9 bits
 
 ### absdiff.asm
 - *It's best to think of branch instruction as a way to branch AROUND code*
@@ -52,3 +53,6 @@ SKIPNEG
 	BR START ; repeat forever
 	.END
 ```
+
+### JMP
+- Unconditional jump that updates the PC with the value in a register
