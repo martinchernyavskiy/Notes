@@ -33,15 +33,28 @@ A_GT_B
 	ADD R4, R2, #1
 	ADD R4, R4, R0 ; A + (-B)
 	BRp CgetsA
-	BRnz CgetsB
 
 CgetsB
 	AND R2, R1, R1 ; C = B
 	BR INC_C
 CgetsA
 	AND R2, R0, R0 ; C = A
-	BR INC_C
 
 INC_C
 	ADD R2, R2, #1
+```
+
+### IF...ELSE IF...ELSE Example
+```asm
+; if (A > B) C = A
+; else if (A < B) C = B
+; else C = 0
+
+
+AgtB
+
+AlsB
+
+AisB
+	
 ```
