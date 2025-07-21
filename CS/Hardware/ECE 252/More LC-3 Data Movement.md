@@ -41,7 +41,29 @@ START
 
 	BR START
 ARRAY .FILL x00F0
-	  .FILL x0010
+	  .FILL x0011
 	  .FILL x2002
 	  .END 
+```
+
+### array_clear.asm
+```asm
+; This program clears each location
+; in an array with three locations.
+; R0: zero to store, R1: array pointer
+
+	  .ORIG x0200
+START
+	AND R0, R0, #0 ; clears R0
+	LEA R1, ARRAY
+	STR R0, R1, #0
+	STR R0, R1, #1
+	STR R0, R1, #2
+
+	BR START
+; array data
+ARRAY .FILL x00F0
+	  .FILL x0011
+	  .FILL x2002
+	  .END
 ```
