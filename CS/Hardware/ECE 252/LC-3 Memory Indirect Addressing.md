@@ -1,6 +1,5 @@
 ### Indirect Memory Access
 - Looking up an address to use for load or store
-
 ```
 ; indirect load, memory too far from instructions
 LD R1, ADDR_R
@@ -16,3 +15,4 @@ STR R4, R2, #0
 ; same as:
 STI R4, ADDR_W
 ```
+- Uses hidden special-purpose register as a pointer to far away memory addresses for loading and storing
