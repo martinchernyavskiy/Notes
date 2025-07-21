@@ -79,7 +79,7 @@ REST_OF_CODE
 ; while (A < B) A = A + 1
 ; R0 is A, R1 is B, R2 is C
 
-NEG_B
+NEG_B ; loop-invariant code
 	NOT R4, R1 ; compute  (-B)
 	ADD R4, R4, #1
 A_LT_B
@@ -92,4 +92,28 @@ INC_A ; execute if A < B
 ; executed after if, else if, else
 REST_OF_CODE
 ; remaining program code
+```
+
+### DO...WHILE Example
+- *Similar to While, but task is performed at least one*
+```
+; do (A = A + 1)
+; while (A < B)
+
+NEG_B ; loop-invariant code
+	NOT R4, R1 ; compute  (-B)
+	ADD R4, R4, #1
+
+INC_A
+	ADD R0, R0, #1
+
+A_LT_B
+	ADD R5, R4, R0
+	BRn INC_A
+
+REST_OF_CODE
+```
+
+### FOR Example
+```
 ```
