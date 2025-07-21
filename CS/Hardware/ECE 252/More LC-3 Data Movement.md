@@ -32,8 +32,16 @@ LEA R1, ARRAY
 	.ORIG x0200
 START
 
+	LEA R1, ARRAY ; get ARRAY address
+	LDR R0, R1, #0
+	LDR R2, R1, #1
+	ADD R0, R0, R2
+	LDR R2, R1, #2
+	ADD R0, R0, R2
 
 	BR START
-
+ARRAY .FILL x00F0
+	  .FILL x0010
+	  .FILL x0010
 	.END 
 ```
