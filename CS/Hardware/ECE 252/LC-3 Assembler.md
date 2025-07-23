@@ -40,7 +40,3 @@
 
 ### Compressing Object File
 
-101101
-010011
-
-19
