@@ -7,4 +7,12 @@
 	- Happens before program executes
 
 
-###
+### Memory Allocation Directives
+*Label is optional symbolic address of the first word of memory allocated*
+
+- #### \<Label>   .FILL value
+	- Allocates one location and initializes it to value
+- #### \<Label>   .BLKW count
+	- Allocates count words of memory, not initialized
+- #### \<Label>   .STRINGZ "string"
+	- Allocates and initializes memory to hold ASCIIZ string (null terminates sequence of ASCII characters)
