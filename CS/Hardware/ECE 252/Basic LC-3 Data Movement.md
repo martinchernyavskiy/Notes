@@ -26,4 +26,4 @@ ST  R6, NUM ; uses label as a memory address to store to
 - Encode how far away this address is from PC (*PC-Relative addressing mode*)
 - LD: (opcode - DR - PCoffset9), aka. pc-relative memory read, where offset is added to *already-incremented PC value*
 - *Effective address = $PC^+$ + PCOffset9*
-- LD and ST can only access memory locations that are 9 2-s complement bits away from the current PC-value, thus 
+- LD and ST can only access memory locations that are 9 2-s complement bits away from the current PC-value
