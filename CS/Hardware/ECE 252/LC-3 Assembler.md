@@ -22,7 +22,9 @@
 		- Updates the address per ORIG directive
 		- When END directive is read, stops processing the file
 		- If line contains a label, assembler updates symbol table with an entry with that label and corresponding address
-		- If instruction, increment the address
+		- If line contains an instruction, increment the address
+		- If line contains a data allocation directive, address is increased by number of words that the directive will allocate
 	- Second creates the actual program image
-		- Each instruction is encoded and data is allocated 
+		- Each instruction and data directive is encoded
 		- Generates sequence of address:value pairs, listing what must be loaded into memory
+		- Assumes the starting address is 0
