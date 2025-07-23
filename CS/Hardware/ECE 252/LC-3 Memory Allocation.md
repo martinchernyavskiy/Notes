@@ -15,14 +15,21 @@
 ```
 ; allocate one word initialized to -1 (xFFFF)
 NEG1   .FILL #-1
-```
-- #### \<Label>   .BLKW count
-	- Allocates count words of memory, not initialized
-- #### \<Label>   .STRINGZ "string"
-	- Allocates and initializes memory to hold ASCIIZ string (null terminates sequence of ASCII characters)
-```
+
 ; allocate and initialize two words where
 ; the label ARRAY is address of first word
 ARRAY   .FILL #42
 		.FILL x17
+```
+- #### \<Label>   .BLKW count
+	- Allocates count words of memory, not initialized
+	- They may be of values other than 0
+```
+; allocates one unitialized memory word at the
+```
+	
+- #### \<Label>   .STRINGZ "string"
+	- Allocates and initializes memory to hold ASCIIZ string (null terminates sequence of ASCII characters)
+```
+
 ```
