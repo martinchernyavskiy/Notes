@@ -34,3 +34,6 @@
 		- If data allocation directive:
 			- Write address:data pair for each *initialized* word to output file
 			- Update address based on # of allocated words
+
+### Illustration
+![[Pasted image 20250723143617.png]]
