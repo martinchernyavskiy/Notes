@@ -37,6 +37,12 @@ BIGBLOCK  .BLKW #42
 	
 - #### \<Label>   .STRINGZ "string"
 	- Allocates and initializes memory to hold ASCIIZ string (null terminates sequence of ASCII characters)
+	- Places ASCII code for each character into successive locations in memory
+	- Value zero is place din the location after the final string character to indicate the end of the string (often referred as null terminator)
+	- The total number of allocated words is # of characters + 1 for null terminator
 ```
-
+; allocates 4 memory words, initialized to
+; 'a', 'b', 'c', null (0x61, 0x62, 0x63, 0x00)
+; where the 'a' is at the ABCSTR label
+ABCSTR .STRINGZ "abc"
 ```
