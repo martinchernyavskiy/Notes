@@ -6,3 +6,8 @@
 - Assemble the source code
 - Load program into the memory (real processor includes a special hardware to write the assembled program binary into memory)
 - Execute the program
+
+### Debugging
+- Takes majority of software development time
+- Testing input / output cases give a general idea of whether the program works, however if there are errors, this is the LEAST useful debugging technique to use
+- Instead, most debugging tools are equipped with single step execution to analyze code logic per step of the program to determn
