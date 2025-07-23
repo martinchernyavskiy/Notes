@@ -24,8 +24,15 @@ ARRAY   .FILL #42
 - #### \<Label>   .BLKW count
 	- Allocates count words of memory, not initialized
 	- They may be of values other than 0
+	- Used for storing results than variables
 ```
 ; allocates one unitialized memory word at the
+; memory address corresponding to the ONEWORD label
+ONEWORD   .BLKW #1
+
+; allocates 42 uninitialized memory words,
+; where the first word is at the BIGBLOCK label
+BIGBLOCK  .BLKW #42
 ```
 	
 - #### \<Label>   .STRINGZ "string"
