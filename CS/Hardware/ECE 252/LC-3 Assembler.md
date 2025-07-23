@@ -25,6 +25,12 @@
 		- If line contains an instruction, increment the address
 		- If line contains a data allocation directive, address is increased by number of words that the directive will allocate
 	- Second creates the actual program image
-		- Each instruction and data directive is encoded
+		- Each instruction and data directive is encoded into a program image file
 		- Generates sequence of address:value pairs, listing what must be loaded into memory
 		- Assumes the starting address is 0
+		- If ORIG, update the address
+		- If END, stop processing the file
+		- If instruction, encode instruction and write the address:instruction pair to the output file, incrementing address afterwards
+		- If data allocation directive:
+			- Write address:data pair for each *initialized* word to output file
+			- Update address based on # of allocated words
