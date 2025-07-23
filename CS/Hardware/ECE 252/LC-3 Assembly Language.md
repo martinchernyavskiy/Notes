@@ -10,4 +10,7 @@
 ### Debugging
 - Takes majority of software development time
 - Testing input / output cases give a general idea of whether the program works, however if there are errors, this is the LEAST useful debugging technique to use
-- Instead, most debugging tools are equipped with single step execution to analyze code logic per step of the program to determn
+- Instead, most debugging tools are equipped with single step execution to analyze code logic per step of the program to determine where is the flaw
+	- *Step into*: executes one instruction and pauses
+	- *Step over*: same as step into, but for subroutine call, executes the entire subroutine before pausing
+- *Breakpoints* allow for running program to a certain instruction
