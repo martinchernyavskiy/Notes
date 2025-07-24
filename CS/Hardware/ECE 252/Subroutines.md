@@ -3,18 +3,20 @@
 - Subroutines allow to reuse the same code, without a need of duplicating memory space allocation and creating any debugging hurdles
 
 ### Subroutine
+- *Well-defined software modules that are written to perform a specific task*
+- One copy of code, much more maintainable
 - Previous address in sequence of tasks is stored in R7
 - If call multiple subroutines, one in another, must save this address into memory and restore after
 - Must specify which parameters are used, so the caller knows what registers are used. However, some registers might be used under the hood in the subroutine, a good rule of thumb is to save the data in these registers and restore upon completion of the subroutine
 ```
-JSR label
+JSR test ; call subroutine
 
 
 ; Does this ....
 ; Assumes: R1 = character to use ; parameter 
 ; Returns: R1 = .... ; where stores the result, usually same register as parameter
 
-label
+test
 	; store register data into the memory allocated by subroutine
 	; code
 	; code
@@ -27,3 +29,7 @@ label_exit
 
 ; allocate memory spaces for registers used below using BLKW
 ```
+- ##### Advantages
+	- Saves memory space
+	- Encapsulates low-level information about the implementation
+	- Maintainable code, easy to debug
