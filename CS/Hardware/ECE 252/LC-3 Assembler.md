@@ -42,5 +42,10 @@
 - Most programs contain large blocks of contiguous memory values
 - Instead, store program image in data structures called *sections*
 	- Starting address
-	- Number of words
+	- Number of words (decimal)
 	- Words in section
+
+### Enhanced Debug Information
+- Simulator only presents information that it processes
+- Can improve debug experience by including extra information from the object file
+	- Like showing labels from the symbol label 
