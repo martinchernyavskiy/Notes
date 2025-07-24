@@ -40,4 +40,8 @@
 
 ### Compressing Object File
 
-base register: 1111 1111 1111 1111 contains memory address
+0011 0110 0110 1011
+
+1111 1111 1110 0101
+
+0010 0101 0000
