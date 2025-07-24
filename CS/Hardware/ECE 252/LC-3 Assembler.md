@@ -49,3 +49,4 @@
 - Simulator only presents information that it processes
 - Can improve debug experience by including extra information from the object file
 	- Like showing labels from the symbol label 
+- Many commercial debuggers also show the original source code
