@@ -40,3 +40,4 @@
 
 ### Compressing Object File
 
+base register: 1111 1111 1111 1111 contains memory address
