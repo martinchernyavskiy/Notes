@@ -8,7 +8,8 @@
 - Previous address in sequence of tasks is stored in R7, called *return address*
 - If call multiple subroutines, one in another, must save this address into memory and restore after
 - Must specify which parameters are used, so the caller knows what registers are used. However, some registers might be used under the hood in the subroutine, a good rule of thumb is to save the data in these registers and restore upon completion of the subroutine
-- Callers can pass parameters by either value or reference (memory location of parameter), depending on the logic of the subroutine. All still use registers
+- Callers can *pass parameters by either value or reference* (memory location of parameter), depending on the logic of the subroutine. All still use registers
+- Should always prefix all labels in subroutine with the subroutine names
 ```
 JSR test ; call subroutine
 
