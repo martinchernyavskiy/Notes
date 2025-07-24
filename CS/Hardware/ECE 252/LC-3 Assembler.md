@@ -38,5 +38,9 @@
 ### Illustration
 ![[Pasted image 20250723143617.png]]
 
-### Compressing Object File
-
+### Compressing Object File (reducing size)
+- Most programs contain large blocks of contiguous memory values
+- Instead, store program image in data structures called *sections*
+	- Starting address
+	- Number of words
+	- Words in section
