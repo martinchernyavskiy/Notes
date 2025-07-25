@@ -39,10 +39,29 @@ End (string is null)
 ; NAME : TOUPPER
 ; DESCRIPTION : Converts lowercase letters in a string to uppercase
 ; ASSUMES: R0 contains character to convert 
-; RETUNRS: R0 with 0 if character wasn't converted, uppercased 
+; RETUNRS: R0 with 0 if character wasn't converted, uppercased character otherwise
+	ST R7, TOUPPER_R7
 
-JSR ISLOWER
-BRz ; the character is not lower, increment pointer
+TOUPPER
+
+TO_UPPER_CONVERT
+
+	JSR ISLOWER
+	BRz TO_UPPER_EXIT
+	ADD R0, 
+
+TO_UPPER_EXIT
+	; context restore reg
+	ST R7, TOUPPER_R7 
+	
+	RET ; return to caller
+
+TO_UPPER_ADD .FILL x20 ; constant of x20 to add to lowercased character to convert to uppercase
+TOUPPER_R7 .BLKW 1 ; space to store R7 address for proper return logic
+
+BRz ; the character is not lower, exit subroutine
+
+
 
 ```
 
@@ -56,6 +75,7 @@ BRz ; the character is not lower, increment pointer
 ; RETURNS: R0 with 0 if character is not lowercase, returns character otherwise
 
 ISLOWER
+	; context save registers to be used
 	ST R7, ISLOWER_R7
 	ST R2, ISLOWER_R2
 	ST R3, ISLOWER_R3
@@ -90,12 +110,13 @@ ISLOWER_FALSE
 	AND R0, R0, #0 ; clears the character register, indicating that the character is not lowercase
 
 ISLOWER_EXIT
-	; context restore the registers in use
+	; context restore the registers used
 	LD R7, ISLOWER_R7
 	LD R2, ISLOWER_R2
 	LD R3, ISLOWER_R3
 	LD R4, ISLOWER_R4
-RET
+	
+	RET ; return to caller
 
 ; subroutine data
 ISLOWER_R7 .BLKW 1 ; space to store R7 address for proper return logic
@@ -105,5 +126,4 @@ ISLOWER_R4 .BLKW 1 ; space to store data from initial R4 for context restoration
 START_RANGE .FILL x61 ; hex value of a which is the first lowercase letter
 END_RANGE .FILL x7A ; hex value of z which is the last lowercase letter
 ```
-1111 1111 1111 1011
 
