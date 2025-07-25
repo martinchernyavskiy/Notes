@@ -30,6 +30,7 @@ End (string is null)
 
 	ST R1, TOUPPER_STRING_ADDRESS
 	LDR R0, R1, #0 ; get character at the 
+TOUPPER_STRING_ADDRESS .BLKW 1 ; space for storing address of ASCIIZ string
 
 ```
 
@@ -49,29 +50,25 @@ TOUPPER
 	; context save registers to be used
 	ST R7, TOUPPER_R7
 	ST R2, TOUPPER_R2
-
-	ST R1, TOUPPER_STRING_ADDRESS
-	LDR R0, R1, #0 ; get character at the 
+	LD R2, TO_UPPER_ADD ; store conversion constant into R2 for calculation usage
+	NOT R2, R2 ; negate
+	ADD R2, R2, #1
 
 TO_UPPER_CONVERT
 
-
-	JSR ISLOWER
-	BRz TO_UPPER_EXIT
-	ADD R0, 
+	JSR ISLOWER ; checks if provided character is lowercased
+	BRz TO_UPPER_EXIT ; if not lowercased, exit subroutine
+	ADD R0, R0, R2 ; convert character hex to uppercase otherwise
 
 TO_UPPER_EXIT
 	; context restore registers used
-	ST R7, TOUPPER_R7 
-	
+	LD R7, TOUPPER_R7 
+	LD, R2, TOUPPER_R2
 	RET ; return to caller
 
-TO_UPPER_ADD .FILL x20 ; constant of x20 to add to lowercased character to convert to uppercase
+TO_UPPER_ADD .FILL x20 ; constant of x20 to subtract from lowercased character to convert to uppercase
 TOUPPER_R7 .BLKW 1 ; space to store R7 address for proper return logic
-TOUPPER_STRING_ADDRESS .BLKW 1 ; space for storing address of ASCIIZ string
 BRz ; the character is not lower, exit subroutine
-
-
 
 ```
 
