@@ -27,6 +27,14 @@ End (string is null)
 - *Uses pass-by-reference*
 - Does not return a result
 ```asm
+; NAME : STRUPR
+; DESCRIPTION : Converts string into uppercase in memory
+; ASSUMES: R1 contains the address of ASCIIZ string
+; RETUNRS: Doesn't return anything, just updates the provided string
+
+STRUPR
+
+	TOUPPER
 
 	ST R1, TOUPPER_STRING_ADDRESS
 	LDR R0, R1, #0 ; get character at the 
@@ -50,25 +58,26 @@ TOUPPER
 	; context save registers to be used
 	ST R7, TOUPPER_R7
 	ST R2, TOUPPER_R2
-	LD R2, TO_UPPER_ADD ; store conversion constant into R2 for calculation usage
-	NOT R2, R2 ; negate
+	LD R2, TO_UPPER_ADD ; store conversion difference into R2 for calculation usage
+	NOT R2, R2 ; negate conversion difference to be used as an operand in subtraction logic
 	ADD R2, R2, #1
 
 TO_UPPER_CONVERT
 
 	JSR ISLOWER ; checks if provided character is lowercased
+	AND R0, R0, R0 ; update condition codes incase if character was updated to 0
 	BRz TO_UPPER_EXIT ; if not lowercased, exit subroutine
 	ADD R0, R0, R2 ; convert character hex to uppercase otherwise
 
 TO_UPPER_EXIT
 	; context restore registers used
 	LD R7, TOUPPER_R7 
-	LD, R2, TOUPPER_R2
+	LD R2, TOUPPER_R2
 	RET ; return to caller
 
 TO_UPPER_ADD .FILL x20 ; constant of x20 to subtract from lowercased character to convert to uppercase
 TOUPPER_R7 .BLKW 1 ; space to store R7 address for proper return logic
-BRz ; the character is not lower, exit subroutine
+TOUPPER_R2 .BLKW 1 ; space to store R2 address for proper return logic
 
 ```
 
