@@ -187,7 +187,10 @@ END_RANGE .FILL x7A ; hex value of z which is the last lowercase letter
 ### professor's implementation
 
 #### strupr
-
+![[Pasted image 20250725161654.png]]
+- Advantages over mine
+	- Less comment chaos
+	- toupper either returned initial character or modified unlike mine. The subroutine is thus replacing same character 
 #### toupper
 ![[Pasted image 20250725160312.png]]
 - Advantages over mine
