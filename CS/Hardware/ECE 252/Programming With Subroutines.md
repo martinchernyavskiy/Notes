@@ -159,9 +159,9 @@ ISLOWER_CHECK
 	; check if character is greater than the range of lowercase letters
 	ADD R2, R0, #0 ; restore character hex value to second register
 	ADD R2, R2, R4 ; subtracts hex of 'z' from character
-	BRp IS_LOWER_FALSE ; if previous computation resulted in positive, then cahracter lies above the range -> not lowercase
+				   ; if previous computation resulted in positive, then                       character lies above the range -> not lowercase
 
-	BR IS_LOWER_EXIT ; character is lowercase, exit subroutine
+	BRnz IS_LOWER_EXIT ; character is lowercase, exit subroutine
 
 IS_LOWER_FALSE
 	AND R0, R0, #0 ; clears the character register, indicating that the character is not lowercase
@@ -186,6 +186,6 @@ END_RANGE .FILL x7A ; hex value of z which is the last lowercase letter
 
 ### professor's implementation
 
-
-- Advantages over mine:
-- 
+![[Pasted image 20250725154917.png]]
+- Advantages over mine (keep in mind for future works):
+	- 
