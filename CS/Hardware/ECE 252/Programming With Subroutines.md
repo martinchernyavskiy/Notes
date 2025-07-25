@@ -22,6 +22,12 @@ iterate to is null until reach the end of the string
 
 End (string is null)
 
+### main
+```
+	ST R1, TOUPPER_STRING_ADDRESS
+	LDR R0, R1, #0 ; get character at the 
+TOUPPER_STRING_ADDRESS .BLKW 1 ; space for storing address of ASCIIZ string
+```
 ### STRUPR
 - R1 contains the address of ASCIIZ string
 - *Uses pass-by-reference*
@@ -33,12 +39,23 @@ End (string is null)
 ; RETUNRS: Doesn't return anything, just updates the provided string
 
 STRUPR
+	; context save registers to be used
+	ST R0, STRUPR_R0 
 
-	TOUPPER
+STRUPR_LOOP
 
-	ST R1, TOUPPER_STRING_ADDRESS
-	LDR R0, R1, #0 ; get character at the 
-TOUPPER_STRING_ADDRESS .BLKW 1 ; space for storing address of ASCIIZ string
+	
+	ADD R1, R1, #1 ; increment string pointer
+	LDR R0, R1, #0 ; update stored character
+	BRz STRUPR_EXIT ; terminate if reached null
+	BR STRUPR_LOOP ; iterate again otherwise
+
+STRUPR_EXIT
+
+	LD R0, STRUPR_R0
+	RET
+
+;
 
 ```
 
