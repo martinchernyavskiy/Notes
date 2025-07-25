@@ -24,9 +24,23 @@ End (string is null)
 
 ### main
 ```
-	ST R1, TOUPPER_STRING_ADDRESS
-	LDR R0, R1, #0 ; get character at the 
-TOUPPER_STRING_ADDRESS .BLKW 1 ; space for storing address of ASCIIZ string
+
+
+
+	.ORIG x0200
+START 
+	LEA R1, FIRST
+
+
+	BR START
+.END
+
+FIRST .STRINGZ "cat"
+SECOND .STRING "dolphin"
+THIRD .STRINGZ "UpPpErCaSe"
+
+
+
 ```
 ### STRUPR
 - R1 contains the address of ASCIIZ string
@@ -49,7 +63,7 @@ STRUPR_LOOP
 	BRz STRUPR_EXIT ; terminate if reached null
 	JSR TOUPPER ; convert character to uppercase
 	AND R0, R0, R0 ; update condition codes
-	BRz STRUPR_NEXT; skip to next letter
+	BRz STRUPR_NEXT ; skip to next letter
 
 
 	STR R0, R1, #0 ; otherwise, update string character with uppercased version of it
