@@ -28,6 +28,9 @@ End (string is null)
 - Does not return a result
 ```asm
 
+	ST R1, TOUPPER_STRING_ADDRESS
+	LDR R0, R1, #0 ; get character at the 
+
 ```
 
 ### TOUPPER
@@ -40,25 +43,32 @@ End (string is null)
 ; DESCRIPTION : Converts lowercase letters in a string to uppercase
 ; ASSUMES: R0 contains character to convert 
 ; RETUNRS: R0 with 0 if character wasn't converted, uppercased character otherwise
-	ST R7, TOUPPER_R7
 
 TOUPPER
 
+	; context save registers to be used
+	ST R7, TOUPPER_R7
+	ST R2, TOUPPER_R2
+
+	ST R1, TOUPPER_STRING_ADDRESS
+	LDR R0, R1, #0 ; get character at the 
+
 TO_UPPER_CONVERT
+
 
 	JSR ISLOWER
 	BRz TO_UPPER_EXIT
 	ADD R0, 
 
 TO_UPPER_EXIT
-	; context restore reg
+	; context restore registers used
 	ST R7, TOUPPER_R7 
 	
 	RET ; return to caller
 
 TO_UPPER_ADD .FILL x20 ; constant of x20 to add to lowercased character to convert to uppercase
 TOUPPER_R7 .BLKW 1 ; space to store R7 address for proper return logic
-
+TOUPPER_STRING_ADDRESS .BLKW 1 ; space for storing address of ASCIIZ string
 BRz ; the character is not lower, exit subroutine
 
 
