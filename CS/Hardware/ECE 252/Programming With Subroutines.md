@@ -194,3 +194,4 @@ END_RANGE .FILL x7A ; hex value of z which is the last lowercase letter
 	- Faster
 	- Main difference is more concise comments, calculated nega and negz beforehand, this saves tremendous amounts of computation power is subroutine called repeatedly, ASCII characters were loaded in the same register and one's data replaced another within calculation sequence
 	- Character is stored directly in R1
+	- *Make sure to test each subroutine beforehand as seen here:*![[Pasted image 20250725155524.png]]
