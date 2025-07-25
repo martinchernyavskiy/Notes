@@ -45,7 +45,7 @@ End (string is null)
 ```
 ; Name: ISLOWER
 ; ASSUMES: R0 contains character to check
-; RETURNS: 0 if character is not lowercase, returns character otherwise
+; RETURNS: R0 with 0 if character is not lowercase, returns character otherwise
 
 ISLOWER
 	ST R7, ISLOWER_R7
@@ -72,7 +72,11 @@ ISLOWER_CHECK
 	BRn IS_LOWER_FALSE ; if previous computation resulted in negative, then character lies below range -> not lowercase
 
 	; check if character is greater than the range of lowercase letters
-	
+	ADD R2, R0, #0 ; restore character hex value to second register
+	ADD R2, R2, R4 ; subtracts hex of 'z' from character
+	BRp IS_LOWER_FALSE ; if previous computation resulted in positive, then cahracter lies above the range -> not lowercase
+
+	BR IS_LOWER_EXIT ; character is lowercase, exit subroutine
 
 ISLOWER_FALSE
 	AND R0, R0, #0 ; clears the character register, indicating that the character is not lowercase
