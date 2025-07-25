@@ -22,9 +22,6 @@ iterate to is null until reach the end of the string
 
 End (string is null)
 
-
-
-
 ### main
 - My implementation of the above STRUPR design
 ```
