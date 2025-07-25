@@ -33,3 +33,9 @@ End (string is null)
 ### toupper
 - sub-subroutine, used to assist strupr subroutine
 - processes a single lowercase character, making it uppercase and skipping it if it wasn't lowercase to begin with
+```
+
+```
+
+### islower
+- a sub-sub-subroutine that asissts toupper with determining whether a character is lovercase or not
