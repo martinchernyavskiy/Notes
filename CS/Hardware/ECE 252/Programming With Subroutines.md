@@ -185,7 +185,11 @@ END_RANGE .FILL x7A ; hex value of z which is the last lowercase letter
 ```
 
 ### professor's implementation
-
+#### toupper
+![[Pasted image 20250725160312.png]]
+- Advantages over mine
+- Stored negation of conversion difference beforehand into memory to save computational resources
+- *Copied R0 to R1, my design of using R0 for both seemed to be better since R1 could remain *
 #### islower
 ![[Pasted image 20250725154917.png]]
 - Advantages over mine (keep in mind for future works):
