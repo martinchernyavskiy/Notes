@@ -5,6 +5,22 @@
 - #### Bottom-up Coding
 - Code up subroutines first to test and ensure they work properly before moving up a level
 
+### strupr design
+Start
+
+get char
+
+is null? (T/F)
+
+If not null, convert to uppercase using toupper
+
+save char
+
+increment string pointer
+
+iterate to is null until reach the end of the string
+
+End (string is null)
 
 ### strupr
 - R1 contains the address of ASCIIZ string
@@ -16,3 +32,4 @@
 
 ### toupper
 - sub-subroutine, used to assist strupr subroutine
+- processes a single lowercase character, making it uppercase and skipping it if it wasn't lowercase to begin with
