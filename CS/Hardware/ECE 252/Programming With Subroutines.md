@@ -36,14 +36,10 @@ End (string is null)
 	LEA R1, THIRD
 	JSR STRUPR
 	HALT
-.END
 
 FIRST .STRINGZ "cat"
 SECOND .STRINGZ "dolphin"
 THIRD .STRINGZ "UpPpErCaSe"
-
-
-
 ```
 ### STRUPR
 - R1 contains the address of ASCIIZ string
@@ -59,6 +55,7 @@ STRUPR
 	; context save registers to be used
 	ST R0, STRUPR_R0 
 	ST R1, STRUPR_R1
+	ST R7, STRUPR_R7
 
 STRUPR_LOOP
 
@@ -80,12 +77,13 @@ STRUPR_EXIT
 	; context restore registers used
 	LD R0, STRUPR_R0
 	LD R1, STRUPR_R1
+	LD R7, STRUPR_R7
 	RET
 
 ; subroutine data
 STRUPR_R0 .BLKW 1 ; space to store data from initial R0 for context restoration
 STRUPR_R1 .BLKW 1 ; space to store data from initial R1 for context restoration
-
+STRUPR_R7 .BLKW 1 ; space to store R7 address for proper return logic
 ```
 
 ### TOUPPER
@@ -139,7 +137,6 @@ TOUPPER_R2 .BLKW 1 ; space to store R2 address for proper return logic
 
 ISLOWER
 	; context save registers to be used
-	ST R7, ISLOWER_R7
 	ST R2, ISLOWER_R2
 	ST R3, ISLOWER_R3
 	ST R4, ISLOWER_R4
@@ -169,12 +166,11 @@ ISLOWER_CHECK
 
 	BR IS_LOWER_EXIT ; character is lowercase, exit subroutine
 
-ISLOWER_FALSE
+IS_LOWER_FALSE
 	AND R0, R0, #0 ; clears the character register, indicating that the character is not lowercase
 
-ISLOWER_EXIT
+IS_LOWER_EXIT
 	; context restore the registers used
-	LD R7, ISLOWER_R7
 	LD R2, ISLOWER_R2
 	LD R3, ISLOWER_R3
 	LD R4, ISLOWER_R4
@@ -182,11 +178,12 @@ ISLOWER_EXIT
 	RET ; return to caller
 
 ; subroutine data
-ISLOWER_R7 .BLKW 1 ; space to store R7 address for proper return logic
 ISLOWER_R2 .BLKW 1 ; space to store data from initial R2 for context restoration
 ISLOWER_R3 .BLKW 1 ; space to store data from initial R3 for context restoration
 ISLOWER_R4 .BLKW 1 ; space to store data from initial R4 for context restoration
 START_RANGE .FILL x61 ; hex value of a which is the first lowercase letter
 END_RANGE .FILL x7A ; hex value of z which is the last lowercase letter
+
+.END
 ```
 
