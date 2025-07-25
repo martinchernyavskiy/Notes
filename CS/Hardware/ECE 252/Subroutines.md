@@ -13,6 +13,7 @@
 - *Caller-save* - caller code is responsible for saving/restoring any needed register values
 - *Calee-save* - the subroutine saves/restores the register values back to the initial state
 - *Context save and restore*
+- *R7 must be saved by CALLER before calling a subroutine*
 ```
 JSR test ; call subroutine
 
