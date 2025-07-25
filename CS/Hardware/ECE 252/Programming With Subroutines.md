@@ -50,19 +50,30 @@ End (string is null)
 ISLOWER
 	ST R7, ISLOWER_R7
 	ST R2, ISLOWER_R2
+	ST R3, ISLOWER_R3
+	ST R4, ISLOWER_R4
+
+	; load lowercase letter range endpoints to check if specified character is in the range or not
+	LD R3, START_RANGE ; load hex code of 'a' as lowest point of range
+	LD R4, END_RANGE ; load hex code of 'z' as highest p
 ISLOWER_CHECK
-	ADD R2. R0, #0 ; copy character to 
+	ADD R2, R0, #0 ; copy character to use for checking if it's in the range of lowercase letters
+
+	; check if character is less than the range of lowercase letters
 
 ISLOWER_EXIT
 	; context restore the registers in use
 	LD R7, ISLOWER_R7
 	LD R2, ISLOWER_R2
+	LD R3, ISLOWER_R3
+	LD R4, ISLOWER_R4
 RET
 
 ; subroutine data
 ISLOWER_R7 .BLKW 1 ; space to store R7 address for proper return logic
-ISLOWER_R2 .BLKW 1 ; space to store data from initial R2 for context restorat
-
+ISLOWER_R2 .BLKW 1 ; space to store data from initial R2 for context restoration
+ISLOWER_R3 .BLKW 1 ; space to store data from initial R3 for context restoration
+ISLOWER_R4 .BLKW 1 ; space to store data from initial R4 for context restoration
 START_RANGE .FILL x61 ; hex value of a which is the first lowercase letter
 END_RANGE .FILL x7A ; hex value of z which is the last lowercase letter
 ```
