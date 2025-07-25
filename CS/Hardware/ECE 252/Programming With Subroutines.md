@@ -67,7 +67,7 @@ STRUPR_LOOP
 
 STRUPR_NEXT
 	ADD R1, R1, #1 ; increment string pointer
-	BR STRUPR_LOOP ; iterate again otherwise
+	BR STRUPR_LOOP ; iterate again
 
 STRUPR_EXIT
 
@@ -185,12 +185,14 @@ END_RANGE .FILL x7A ; hex value of z which is the last lowercase letter
 ```
 
 ### professor's implementation
-
+### Comment:
+*Generally my code is okay, I need to scale down on meaningless comments, ensure I construct flowchart first and try my best on using the same registers to preserve memory. Make sure that I have an actual plan outlined before proceeding to code and what resources I'm going to use.*
 #### strupr
 ![[Pasted image 20250725161654.png]]
 - Advantages over mine
 	- Less comment chaos
-	- toupper either returned initial character or modified unlike mine. The subroutine is thus replacing same character 
+	- toupper either returned initial character or modified unlike mine. The subroutine is thus replacing same character with itself if not lowercase
+
 #### toupper
 ![[Pasted image 20250725160312.png]]
 - Advantages over mine
