@@ -186,6 +186,11 @@ END_RANGE .FILL x7A ; hex value of z which is the last lowercase letter
 
 ### professor's implementation
 
+#### islower
 ![[Pasted image 20250725154917.png]]
 - Advantages over mine (keep in mind for future works):
-	- 
+	- Less memory used
+	- Less registers employed
+	- Faster
+	- Main difference is more concise comments, calculated nega and negz beforehand, this saves tremendous amounts of computation power is subroutine called repeatedly, ASCII characters were loaded in the same register and one's data replaced another within calculation sequence
+	- Character is stored directly in R1
