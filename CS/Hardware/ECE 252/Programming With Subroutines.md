@@ -36,6 +36,13 @@ End (string is null)
 - R1: address of ASCIIZ string
 - Use R0 as a way to store the each character
 ```
+; NAME : TOUPPER
+; DESCRIPTION : Converts lowercase letters in a string to uppercase
+; ASSUMES: R0 contains character to convert 
+; RETUNRS: R0 with 0 if character wasn't converted, uppercased 
+
+JSR ISLOWER
+BRz ; the character is not lower, increment pointer
 
 ```
 
@@ -43,7 +50,8 @@ End (string is null)
 - a sub-sub-subroutine that asissts toupper with determining whether a character is lovercase or not
 - Use character from R0 to compute whether it's lower or not
 ```
-; Name: ISLOWER
+; NAME: ISLOWER
+; DESCRIPTION: Checks if character is lowercase or not
 ; ASSUMES: R0 contains character to check
 ; RETURNS: R0 with 0 if character is not lowercase, returns character otherwise
 
