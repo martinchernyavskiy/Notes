@@ -10,6 +10,9 @@
 - Must specify which parameters are used, so the caller knows what registers are used. However, some registers might be used under the hood in the subroutine, a good rule of thumb is to save the data in these registers and restore upon completion of the subroutine
 - Callers can *pass parameters by either value or reference* (memory location of parameter), depending on the logic of the subroutine. All still use registers
 - Should always prefix all labels in subroutine with the subroutine names
+- *Caller-save* - caller code is responsible for saving/restoring any needed register values
+- *Calee-save* - the subroutine saves/restores the register values back to the initial state
+- *Context save and restore*
 ```
 JSR test ; call subroutine
 
