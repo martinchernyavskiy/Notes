@@ -48,6 +48,13 @@ STRUPR_LOOP
 	LDR R0, R1, #0 ; update stored character
 	BRz STRUPR_EXIT ; terminate if reached null
 	JSR TOUPPER ; convert character to uppercase
+	AND R0, R0, R0 ; update condition codes
+	BRz STRUPR_NEXT; skip to next letter
+
+
+	STR R0, R1, #0 ; otherwise, update string character with uppercased version of it
+
+STRUPR_NEXT
 	ADD R1, R1, #1 ; increment string pointer
 	BR STRUPR_LOOP ; iterate again otherwise
 
@@ -60,7 +67,7 @@ STRUPR_EXIT
 
 ; subroutine data
 STRUPR_R0 .BLKW 1 ; space to store data from initial R0 for context restoration
-STRUPR_R1 .BLKW 1 ; space to store data from initial R0 for context restoration
+STRUPR_R1 .BLKW 1 ; space to store data from initial R1 for context restoration
 
 ```
 
