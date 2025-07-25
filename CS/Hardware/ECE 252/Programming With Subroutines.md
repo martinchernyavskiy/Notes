@@ -22,21 +22,24 @@ iterate to is null until reach the end of the string
 
 End (string is null)
 
+
+
+
 ### main
+- My implementation of the above STRUPR design
 ```
-
-
-
 	.ORIG x0200
-START 
 	LEA R1, FIRST
-
-
-	BR START
+	JSR STRUPR
+	LEA R1, SECOND
+	JSR STRUPR
+	LEA R1, THIRD
+	JSR STRUPR
+	HALT
 .END
 
 FIRST .STRINGZ "cat"
-SECOND .STRING "dolphin"
+SECOND .STRINGZ "dolphin"
 THIRD .STRINGZ "UpPpErCaSe"
 
 
@@ -50,7 +53,7 @@ THIRD .STRINGZ "UpPpErCaSe"
 ; NAME : STRUPR
 ; DESCRIPTION : Converts string into uppercase in memory
 ; ASSUMES: R1 contains the address of ASCIIZ string
-; RETUNRS: Doesn't return anything, just updates the provided string
+; RETURNS: Doesn't return anything, just updates the provided string
 
 STRUPR
 	; context save registers to be used
@@ -94,7 +97,7 @@ STRUPR_R1 .BLKW 1 ; space to store data from initial R1 for context restoration
 ; NAME : TOUPPER
 ; DESCRIPTION : Converts lowercase letters in a string to uppercase
 ; ASSUMES: R0 contains character to convert 
-; RETUNRS: R0 with 0 if character wasn't converted, uppercased character otherwise
+; RETURNS: R0 with 0 if character wasn't converted, uppercased character otherwise
 
 TOUPPER
 
