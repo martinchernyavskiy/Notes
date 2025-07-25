@@ -55,11 +55,27 @@ ISLOWER
 
 	; load lowercase letter range endpoints to check if specified character is in the range or not
 	LD R3, START_RANGE ; load hex code of 'a' as lowest point of range
-	LD R4, END_RANGE ; load hex code of 'z' as highest p
+	LD R4, END_RANGE ; load hex code of 'z' as highest point of range
+
+	; negate the endpoints to use as a substraction operands
+	NOT R3, R3
+	ADD R3, R3, #1
+	NOT R4, R4
+	ADD R4, R4, #1
+
+
 ISLOWER_CHECK
 	ADD R2, R0, #0 ; copy character to use for checking if it's in the range of lowercase letters
-
+	
 	; check if character is less than the range of lowercase letters
+	ADD R2, R2, R3 ; subtracts hex of 'a' from character
+	BRn IS_LOWER_FALSE ; if previous computation resulted in negative, then character lies below range -> not lowercase
+
+	; check if character is greater than the range of lowercase letters
+	
+
+ISLOWER_FALSE
+	AND R0, R0, #0 ; clears the character register, indicating that the character is not lowercase
 
 ISLOWER_EXIT
 	; context restore the registers in use
