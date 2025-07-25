@@ -40,3 +40,5 @@ End (string is null)
 ### islower
 - a sub-sub-subroutine that asissts toupper with determining whether a character is lovercase or not
 
+1111 1111 1111 1011
+
