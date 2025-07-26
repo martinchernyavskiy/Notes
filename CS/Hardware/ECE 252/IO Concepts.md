@@ -25,4 +25,8 @@
 
 ### Terminology
 -  I/O Synchronization
-	- 
+	- *Asynchronous I/O* is not related to the clock
+- Since most devices are asynchronous, meaning they work at unpredictable times unrelated to processor clock, there is a need for a processor to check if the device needs service
+	- Does keyboard have a character ready?
+	- Does the keyboard know that we just read it?
+	- This exchange of information is called *handshaking*
