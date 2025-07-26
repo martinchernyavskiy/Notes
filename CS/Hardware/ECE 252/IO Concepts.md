@@ -34,3 +34,8 @@
 #### Unconditional vs Conditional I/O
 - Simple I/O devices like GPIO pin driving an LED indicator are always ready to accept or supply new data
 	- So processor does a simple transfer of information to the device without checking if it's ready, also called an *unconditional I/O*
+- Most I/O devices are *conditional*, so processors need to check if they are ready before transferring or receiving data
+	- Check if display is done with processing previous data before sending it more
+
+#### Isolated vs Memory-Mapped I/O
+- Tr
