@@ -10,6 +10,19 @@
 - *GPIO (general-purpose I/O pin*: pin in computer that can act as a single-bit input or output
 	- Can be set to 0 or 1 and thus turn a light switch on or off
 	- Can be used as input to check if a button is pressed or not
-- Analog-to-digital converter is another example of a common input device 
+- Analog-to-digital converter is another example of a common *input* device 
 	- Used to convert sound into digital signal
-- Digital-to-analog converter is a common output device that is used to convert digital data back into sound
+- Digital-to-analog converter is a common *output* device that is used to convert digital data back into sound
+
+### Complex I/O devicds
+- Network interface 
+	- Transfers data to and from remote locations
+- Bluetooth radio
+	- 2-way radio interface
+- USB interface
+	- Some can serve as input, some as output, some as both
+- Hard drive
+
+### Terminology
+-  I/O Synchronization
+	- 
