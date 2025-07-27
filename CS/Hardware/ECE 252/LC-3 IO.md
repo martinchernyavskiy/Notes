@@ -16,12 +16,19 @@
 ; Returns: R0 = character
 
 getchar
-
-
-	LD R1, IO_BASE
-
-
+	ST R1, getchar_R1
+	ST R2. getchar_R2
+	
+	LD R1, IO_BASE ; get I/O base address
+getchar_wait
+	LDR R2, R1,#0 ; read KBSR
+	BRzp getchar_wait ; wait until keyboard has data
+	LDR R0, R1, #2 ; read char from KBDR
+	
 	RET
+
+getchar_R1 .BLKW 1
+getchar_R2 .BLKW 1
 
 IO_BASE .FILL xFE00 ; start of memory mapped I/O
 ```
