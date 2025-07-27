@@ -40,3 +40,4 @@
 #### Isolated vs Memory-Mapped I/O
 - Information is transferred using special registers in the I/O device's interface
 	- *Isolated I/O* is the I/O that is isolated from memory space and thus processor uses special instructions to access the I/O space (which is similar to processor's memory structure)
+	- Most processors use normal load/store instructions to access I/O devices since the registers are viewed as the same as any other memory locations 
