@@ -12,3 +12,11 @@
 		- Prevents application from accessing files it should not
 	- Communications
 		- Application can just requests that OS opens a conduit to some remote entity over the network connection, not implement network protocols which are quite complex
+- Manages software resources
+	- Application scheduling / multitasking
+	- Resource allocation and arbitration between applications
+	- Error handling
+	- Process protection (prevents an application corrupting other applications or the OS itself)
+- Manages hardware resources
+	- Hardware abstraction
+		- Uses low-level software, device drivers, that interface between OS and the system hardware
