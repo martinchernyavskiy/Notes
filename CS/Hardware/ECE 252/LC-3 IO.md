@@ -43,3 +43,29 @@ IO_BASE .FILL xFE00 ; start of memory mapped I/O
 		- DSR[15] is 1 if display is ready, 0 otherwise
 	- Display Dat Register (DDR), mapped to 0xFE06
 		- Character written to it is displayed on screen
+- Poll the DSR until it's ready, then write character to DDR
+
+```asm
+; sendchar
+; Displays character to display
+; Assumes: R0 contains the character to display
+; Returns : Nothing
+
+sendchar
+	; context save
+	ST R1, sendchar_R1
+	ST R2, sendchar_R2
+	LD R1, IO_BASE
+sendchar_wait
+	
+sendchar_exit
+	; context restore
+	LD sendchar_R1
+	LD sendchar_R2
+	RET
+
+sendchar_R1 .BLKW 1
+sendchar_R2 .BLKW 1
+IO_BASE .FILL xFE00 ; start of memory mapped I/o
+
+```
