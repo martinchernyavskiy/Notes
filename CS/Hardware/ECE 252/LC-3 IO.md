@@ -16,6 +16,7 @@
 ; Returns: R0 = character
 
 getchar
+	; context save
 	ST R1, getchar_R1
 	ST R2. getchar_R2
 	
@@ -24,7 +25,10 @@ getchar_wait
 	LDR R2, R1,#0 ; read KBSR
 	BRzp getchar_wait ; wait until keyboard has data
 	LDR R0, R1, #2 ; read char from KBDR
-	
+
+	; context restore
+	LD R1, getchar_R1
+	LD R2, getchar_R2
 	RET
 
 getchar_R1 .BLKW 1
