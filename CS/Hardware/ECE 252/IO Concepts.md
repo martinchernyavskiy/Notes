@@ -43,3 +43,8 @@
 	- *Memory-Mapped I/O:*
 	- Most processors use normal load/store instructions to access I/O devices since the registers are viewed as the same as any other memory locations
 		- In order to implement this, some of the locaitons in memory space is set aside and logic is added so that load and store instructions to these addresses access the I/O device registers instead of memory
+
+#### Polled vs Interrupt-Driven I/O
+- *Polling*: process of repeatedly checking I/O device register for any data ready to be read
+- Most processors however contain hardware support that allows I/O devices to *interrupt* the processor when they need to be serviced
+	- When data is ready, device issues an interrupt signal which causes the processor to suspend the program it was executing, switchi
