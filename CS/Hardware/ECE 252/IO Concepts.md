@@ -14,7 +14,7 @@
 	- Used to convert sound into digital signal
 - Digital-to-analog converter is a common *output* device that is used to convert digital data back into sound
 
-### Complex I/O devicds
+### Complex I/O devices
 - Network interface 
 	- Transfers data to and from remote locations
 - Bluetooth radio
