@@ -11,7 +11,7 @@
 		- Creating, reading and writing of files
 		- Prevents application from accessing files it should not
 	- Communications
-		- Application can just requests that OS opens a conduit to some remote entity over the network connection, not implement network protocols which are quite complex
+		- Application can just request that OS opens a conduit to some remote entity over the network connection, not implement network protocols which are quite complex
 - Manages software resources
 	- Application scheduling / multitasking
 	- Resource allocation and arbitration between applications
