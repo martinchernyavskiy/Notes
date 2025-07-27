@@ -38,4 +38,5 @@
 	- Check if display is done with processing previous data before sending it more
 
 #### Isolated vs Memory-Mapped I/O
-- Tr
+- Information is transferred using special registers in the I/O device's interface
+	- *Isolated I/O* is the I/O that is isolated from memory space and thus processor uses special instructions to access the I/O space (which is similar to processor's memory structure)
