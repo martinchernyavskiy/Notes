@@ -75,3 +75,6 @@ IO_BASE .FILL xFE00 ; start of memory mapped I/o
 ### I/O in PennSim
 - Since PennSim itself uses keyboard input for the Command Line, in order to provide keyboard input to simulated LC-3 processor, one must click on the console window
 	- If it turns yellow, then it's selected
+
+### LDI/STI inefficiency in this design
+- Using LDI or STI for either getchar or sendchar would making polling do 2 memory reads per loop and reuir
