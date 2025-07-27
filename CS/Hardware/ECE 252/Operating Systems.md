@@ -20,3 +20,15 @@
 - Manages hardware resources
 	- Hardware abstraction
 		- Uses low-level software, device drivers, that interface between OS and the system hardware
+		- Some device drivers are supplied as part of OS, some by manufacturer as hardware component
+	- Platform independence
+		- Same application software can be used on very different hardware configurations
+	- Power management
+		- Manipulates processor clock speed per workload
+		- Manages power states of attached devices to minimize power consumption
+
+### I/O Services
+- Applications can interact with I/O devices without specific knowledge of all of them
+	- Instead applications can just ask the OS for services it needs
+- All application-level I/O is controlled by and goes through the OS
+	- System hardware prevent
