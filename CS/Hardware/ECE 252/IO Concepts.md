@@ -47,4 +47,11 @@
 #### Polled vs Interrupt-Driven I/O
 - *Polling*: process of repeatedly checking I/O device register for any data ready to be read
 - Most processors however contain hardware support that allows I/O devices to *interrupt* the processor when they need to be serviced
-	- When data is ready, device issues an interrupt signal which causes the processor to suspend the program it was executing, switchi
+	- When data is ready, device issues an interrupt signal which causes the processor to suspend the program it was executing, switching to execute a section of code that services the device
+	- *Interrupt service routine*: subroutine that is invoked automatically by the hardware in response to interrupt signal. When it's finished, processor goes back to execute the rest of the main program
+
+### I/O Device Interface
+- Since we're not concerned about the implementation of the I/O devices themselves, we abstract away those details to just use the interface
+- *I/O Device Interface is a set of registers of 3 categories*
+	- Status
+	- 
