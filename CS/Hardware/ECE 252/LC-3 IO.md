@@ -55,9 +55,12 @@ sendchar
 	; context save
 	ST R1, sendchar_R1
 	ST R2, sendchar_R2
-	LD R1, IO_BASE
-sendchar_wait
 	
+	LD R1, IO_BASE ; get I/O base address
+sendchar_wait
+	LDR R2, R1, #4 ; read DSR
+	BRzp sendchar_wait ; wait until display is ready
+	STR R0, R1, #6 ; write character to DDR
 sendchar_exit
 	; context restore
 	LD sendchar_R1
