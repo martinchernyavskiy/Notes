@@ -53,5 +53,6 @@
 ### I/O Device Interface
 - Since we're not concerned about the implementation of the I/O devices themselves, we abstract away those details to just use the interface
 - *I/O Device Interface is a set of registers of 3 categories*
-	- Status
-	- 
+	- *Status registers*: contain information about the I/O device and are read by the processor
+	- *Data registers*: used for exchange of data
+	- *Control registers*: registers that affect how the I/O device operates, written to by processors
