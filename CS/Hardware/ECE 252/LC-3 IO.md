@@ -41,7 +41,7 @@ IO_BASE .FILL xFE00 ; start of memory mapped I/O
 - Consists of two registers:
 	- Display Status Register (DSR), mapped to 0xFE04
 		- DSR[15] is 1 if display is ready, 0 otherwise
-	- Display Dat Register (DDR), mapped to 0xFE06
+	- Display Data Register (DDR), mapped to 0xFE06
 		- Character written to it is displayed on screen
 - Poll the DSR until it's ready, then write character to DDR
 
@@ -77,4 +77,6 @@ IO_BASE .FILL xFE00 ; start of memory mapped I/o
 	- If it turns yellow, then it's selected
 
 ### LDI/STI inefficiency in this design
-- Using LDI or STI for either getchar or sendchar would making polling do 2 memory reads per loop and reuir
+- Using LDI or STI for either getchar or sendchar would making polling do 2 memory reads per loop and require memory allocated for each status register and data register.
+- Using LD to read base address first and then either LDR or STR in the Polling loop allows for using custom offset to access each of the registers and requires only one memory read per loop iteration
+- Most modern processors don't have either LDI/STI per performance disadvantages
