@@ -70,5 +70,8 @@ sendchar_exit
 sendchar_R1 .BLKW 1
 sendchar_R2 .BLKW 1
 IO_BASE .FILL xFE00 ; start of memory mapped I/o
-
 ```
+
+### I/O in PennSim
+- Since PennSim itself uses keyboard input for the Command Line, in order to provide keyboard input to simulated LC-3 processor, one must click on the console window
+	- If it turns yellow, then it's selected
