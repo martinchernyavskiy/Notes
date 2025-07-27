@@ -31,4 +31,6 @@
 - Applications can interact with I/O devices without specific knowledge of all of them
 	- Instead applications can just ask the OS for services it needs
 - All application-level I/O is controlled by and goes through the OS
-	- System hardware prevent
+	- System hardware prevents applications from accessing I/O directly to ensure this
+
+### Communication with the OS
