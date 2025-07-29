@@ -7,7 +7,6 @@
 		- Reading from KBDR automatically resets 15th bit of the KBSR
 - Repeatedly check KBSR until it indicates that a key has been pressed (*BRn*)
 - When character is available, read it from KBDR
-
 ### getchar
 ```asm
 ; getchar
