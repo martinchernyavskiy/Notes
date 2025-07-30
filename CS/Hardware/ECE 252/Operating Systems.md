@@ -43,4 +43,5 @@
 	- Implemented through special instructions - *software interrupts or TRAPS*
 	- Part of instruction includes a number identifying which service is being requested
 	- Executing these instructions is called a *system call*
-	- Transfers control to OS to perform the service
+	- Transfers control to OS to perform the requested service and then returns back to control the application
+	- Application doesn't specify the location of OS code, it's all handled by processor
