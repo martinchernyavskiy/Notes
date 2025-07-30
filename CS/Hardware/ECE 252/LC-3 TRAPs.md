@@ -19,4 +19,8 @@
 
 ### TRAP Codes
 - TRAP x20 - GETC service routine
-- 
+- TRAP x21
+- TRAP x22
+- TRAP x23
+- TRAP x24
+- TRAP x25
