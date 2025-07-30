@@ -11,10 +11,10 @@
 ### TRAP instruction
 - Opcode: 1111
 - 8-bit operand that indicates which OS service is requested
-- Similar to subroutine call (*indirect subroutine call*), but uses the OS service code to look up address of a routine in the vector table, consisting of 256 entries at addresses x0000-x00FF that contain strating addresses of OS service routines
+- Similar to subroutine call (*indirect subroutine call*), but uses the OS service code to look up address of a routine in the vector table, consisting of 256 entries at addresses x0000-x00FF that contain starting addresses of OS service routines
 
 - Incremented PC is saved into the R7
-- Trap vector code is zero-extended to 16 bits
+- Trap vector code is *zero-extended* to 16 bits
 - Used as the address for memory read that gets the service routine start address from *vector table* that is then written to the PC
 
 ### TRAP Codes
