@@ -43,6 +43,6 @@ MESSAGE .STRINGZ "You typed a "
 ```
 - TRAP x24 - PUTSP (not used in 252)
 - TRAP x25 - HALT (transfer control to OS and restart)
-	- Not related to I/O, transfers control to OS and then OS executes spin loop which "halts" 
+	- Not related to I/O, transfers control to OS and then OS executes spin loop which "halts"
 - LC-3 assembler allows to use alias for using TRAP instructions and during assembly it just substitutes the actual instruction in place of alias
 - Any other TRAP request is vectored to a "bad trap" handler in OS which prints out an error message to the console
