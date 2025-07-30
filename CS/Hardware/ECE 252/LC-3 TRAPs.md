@@ -27,9 +27,22 @@
 - TRAP x23 - IN (prompt and wait for character)
 	- Writes prompt to display ("Input a character>") and waits for keyboard character which is returned in R0
 	- Echoes the typed character in R0 to the console display before returning
-- TRAP x24 - PUTSP (not used in 252)
-- 
-- TRAP x25 - HALT (transfer control to OS and restart)
+```
+	.ORIG x3000
+START
+	IN
+	ADD R1, R0, #0
+	LEA R0, MESSAGE
+	PUTS
+	ADD R0, R1, #0
+	OUT
+	BR START
+MESSAGE .STRINGZ "You typed a "
 
+	.END
+```
+- TRAP x24 - PUTSP (not used in 252)
+- TRAP x25 - HALT (transfer control to OS and restart)
+	- Not related to I/O, transfers control to OS and then OS executes spin loop which "halts" 
 - LC-3 assembler allows to use alias for using TRAP instructions and during assembly it just substitutes the actual instruction in place of alias
 - Any other TRAP request is vectored to a "bad trap" handler in OS which prints out an error message to the console
