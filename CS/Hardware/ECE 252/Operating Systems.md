@@ -19,7 +19,7 @@
 	- Process protection (prevents an application corrupting other applications or the OS itself)
 - Manages hardware resources
 	- Hardware abstraction
-		- Uses low-level software, device drivers, that interface between OS and the system hardware
+		- Uses low-level software, *device drivers*, that interface between OS and the system hardware
 		- Some device drivers are supplied as part of OS, some by manufacturer as hardware component
 	- Platform independence
 		- Same application software can be used on very different hardware configurations
@@ -34,3 +34,4 @@
 	- System hardware prevents applications from accessing I/O directly to ensure this
 
 ### Communication with the OS
+- OS must handle all direct interaction with I/O devices since multiple applications may use them and this may create conflic
