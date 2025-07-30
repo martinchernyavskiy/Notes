@@ -41,4 +41,6 @@
 ### Processor System Call Support
 - Processors provide an indirect mechanism for applications to request OS services on hardware level
 	- Implemented through special instructions - *software interrupts or TRAPS*
-	- 
+	- Part of instruction includes a number identifying which service is being requested
+	- Executing these instructions is called a *system call*
+	- Transfers control to OS to perform the service
