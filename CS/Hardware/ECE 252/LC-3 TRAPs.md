@@ -18,10 +18,13 @@
 - Used as the address for memory read that gets the service routine start address from *vector table* that is then written to the PC
 
 ### TRAP Codes
-- TRAP x20 - GETC service routine
-	- 
-- TRAP x21
-- TRAP x22
-- TRAP x23
-- TRAP x24
-- TRAP x25
+- TRAP x20 - GETC (wait for keyboard character)
+	- Returns character to R0
+- TRAP x21 - OUT (write character to console display)
+- TRAP x22 - PUTS (write string to console display)
+- TRAP x23 - IN (prompt and wait for character)
+- TRAP x24 - PUTSP (not used in 252)
+- TRAP x25 - HALT (transfer control to OS and restart)
+
+- LC-3 assembler allows to use alias for using TRAP instructions and during assembly it just substitutes the actual instruction in place of alias
+- Any other TRAP request is vectored to a "bad trap" handler in OS which prints out an error message to the console
