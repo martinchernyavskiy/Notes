@@ -34,4 +34,11 @@
 	- System hardware prevents applications from accessing I/O directly to ensure this
 
 ### Communication with the OS
-- OS must handle all direct interaction with I/O devices since multiple applications may use them and this may create conflic
+- OS must handle all direct interaction with I/O devices since multiple applications may use them and this may create conflicts
+- Applications shouldn't have information / access to OS subroutines. Must be isolated but able to communicate.
+	- Must be built into the processor itself so that software can't get around it
+
+### Processor System Call Support
+- Processors provide an indirect mechanism for applications to request OS services on hardware level
+	- Implemented through special instructions - *software interrupts or TRAPS*
+	- 
