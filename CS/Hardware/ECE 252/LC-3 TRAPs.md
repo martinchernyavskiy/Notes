@@ -10,5 +10,5 @@
 
 ### TRAP instruction
 - Opcode: 1111
-- 8-bit operand that indicates which OS routine is requested
-- 
+- 8-bit operand that indicates which OS service is requested
+- Similar to subroutine call, but uses the OS service code to 
