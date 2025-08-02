@@ -24,11 +24,11 @@ Where $(x_{1},x_{2},\dots,x_{n})$ are variables and $(a_{1},a_{2},\dots a_{n})$ 
 - Augmented [[Matrix (Matrices)]] w/ elementary row operations that mimic the basic equation operations.
 	$m\times(n+1)$ form, right-most being answers to equations.
 ‎.
-- REF form of Augmented Matrix
+- REF of Augmented Matrix
 	All zero rows are below all non-zero rows
 	The leading entry of each row is to the right of the row above it
 ‎ .
-- RREF form of Augmented Matrix
+- RREF of Augmented Matrix
 	Leading entries are all 1s
 	Leading Entries are only non-zero entry in their columns
 <!--SR:!2025-06-28,15,296-->
