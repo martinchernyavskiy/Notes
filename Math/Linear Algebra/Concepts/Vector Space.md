@@ -23,7 +23,7 @@
 - **$C^0(\mathbb{R})$** — continuous functions
 	$(f+g)(x) = f(x) + g(x), \quad (c f)(x) = c f(x)$
 ‎.
-- **$C^1(\mathbb{R})$** — continuously differentiable functions
+- **$C^1(\mathbb{R})$** — continuous differentiable functions
   Same as above.
 ‎.
 - **$\mathbb{M}_{m \times n}$** — set of m by n [[Matrix (Matrices)]]
