@@ -44,15 +44,6 @@ $Span(S) = \{a_{1}v_{1}+\dots a_{k}v_{k}|a_{1},\dots,a_{k} \in R, u_{1},\dots u_
 	Since there are solutions, the vector is in the span.
 <!--SR:!2025-06-29,16,296-->
 
-Exercise 20,
-
-We will prove this by induction on n.
-
-Base case: Let n = 0, then 
-
-Assume the statement holds for n = k, then we will show that this holds for n = k+1.
-
-By hypoth. induction, 
 ## $S \subset V$ generates V if Span(S) = V
 ?
 - Examples of generative subsets:
