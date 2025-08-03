@@ -49,7 +49,7 @@ $Span(S) = \{a_{1}v_{1}+\dots a_{k}v_{k}|a_{1},\dots,a_{k} \in R, u_{1},\dots u_
 - Examples of generative subsets:
 	1. {(1,0), (0,1)}, generates $R^2$
 	2. $\{\begin{pmatrix}1 & 0 \\ 0 & 0\end{pmatrix}, \begin{pmatrix}0 & 0 \\ 0 & 1\end{pmatrix}, \begin{pmatrix}0 & 1 \\ 1 & 0\end{pmatrix}\}$, generates v.s of $2\times_{2}$ symmetric matrices:
-    A = $\begin{pmatrix} a_{11} & a_{12} \\ a_{12} & a_{22}\end{pmatrix}$ = $a_{11}\begin{pmatrix}1 & 0 \\ 0 & 0\end{pmatrix} + a_{21}\begin{pmatrix}0 & 0 \\ 0 & 1\end{pmatrix} + a_{12}\begin{pmatrix}0 & 1 \\ 1 & 0\end{pmatrix}$
+    A = $\begin{pmatrix} a_{11} & a_{12} \\ a_{12} & a_{22}\end{pmatrix}$ = $a_{11}\begin{pmatrix}1 & 0 \\ 0 & 0\end{pmatrix} + a_{22}\begin{pmatrix}0 & 0 \\ 0 & 1\end{pmatrix} + a_{12}\begin{pmatrix}0 & 1 \\ 1 & 0\end{pmatrix}$
 <!--SR:!2025-06-29,16,290-->
 
 ## Column Space of Matrix
