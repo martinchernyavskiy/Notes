@@ -30,11 +30,25 @@
 
 Let W1 and W2 be subspaces of v.s V, then W1+W2 is a subspace that contains both W1 and W2
 
-Let x in W1 and y in W2
+Since W1 and W2 are subspaces, then each has a 0 vector, 0 + 0 = 0 in W1+W2
 
-x+y in W1 + W2 by definition
+let u in W1+W2 be x1+y1 where x1 in W1 and y1 in W2 and let v in W1+W2 be x2+y2 where x2 in W1 and y2 in W2
+
+Then we need to show u + v in W1+W2
+
+x1+y1+x2+y2 = (x1+x2) + (y1+y2), since W1 and W2 are subspaces, these are in their subspaces
 
 
+
+(contains):
+
+W1 in W1+W2
+
+Let x in W1 and let 0 in W2, then x+0 = x in W1+w2, so W1 in W1+W2
+
+W2 in W1+W2
+
+let z in W2 and let 0 in W1, then z + 0 = z in W1+w2, so W2 in W1+W2
 ## Worked-examples
 ?
 - $W=\{(t_{1}+t_{2}, t_{1}-t_{2}, t_{1}) | t_{1},t_{2}\in R\}$
