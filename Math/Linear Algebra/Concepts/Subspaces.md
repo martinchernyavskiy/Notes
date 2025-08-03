@@ -28,6 +28,12 @@
 	Since $A \in W, (a_{ij})=(a{ji})$. Multiplying each side by an arbitrary scalar doesn't alter the equation, so $(ca_{ij})=(ca_{ji}) \to cA = (cA)^t \to cA \in W \quad \checkmark$
 <!--SR:!2025-06-27,14,296-->
 
+Let W1 and W2 be subspaces of v.s V, then W1+W2 is a subspace that contains both W1 and W2
+
+Let x in W1 and y in W2
+
+x+y in W1 + W2 by definition
+
 
 ## Worked-examples
 ?
