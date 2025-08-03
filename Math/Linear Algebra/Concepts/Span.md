@@ -49,6 +49,10 @@ Exercise 20,
 We will prove this by induction on n.
 
 Base case: Let n = 0, then 
+
+Assume the statement holds for n = k, then we will show that this holds for n = k+1.
+
+By hypoth. induction, 
 ## $S \subset V$ generates V if Span(S) = V
 ?
 - Examples of generative subsets:
