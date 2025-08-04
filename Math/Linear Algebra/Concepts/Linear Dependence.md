@@ -63,6 +63,20 @@ let S1 be linearly dependent, then there exist vectors s1, ..., sn and scalars a
 
 Since S1 is a subset of S2, then all vectors of S1 are in S2, let S2 = {s1, ..., sn, sn+1, ... sk}
 
-Then a linear combinatio
+Then a linear combination of its vectors equating to zero is as follows:
+
+a1s1+...+ansn+b1sn+1 + ... + bksk = 0
+
+We need to show that S2 linearly dependent, assume not.
+
+Then b1 = ... = bk = 0, but if so, the rest a1s1 + ... + ansn must have coefficients not all equal to zero per linear dependence of vectors in S1, thus S2 is linearly dependent.
+
+Corollary:
+
+If S2 is linearly independent, then for s1, ..., sk in S2 and a1, ..., an, b1, ... , bk
+
+a1s1 + ... + bksk = 0 and all coefficients are 0.
+
+
 
 #linear-algebra
