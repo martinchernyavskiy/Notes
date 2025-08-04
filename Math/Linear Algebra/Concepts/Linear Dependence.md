@@ -56,5 +56,13 @@ Since the Augmented Matrix is in REF and has a column without a leading entry, t
 ## Theorems
 - [[Linearly Dependent Subset Vector as Linear Combination of Others]]
 - [[Refinement Theorem]]
+- Theorem 1.6, $S_{1} \subset S_{2} \subset V$, if S1 is linearly dependent, then S2 is linearly dependent.
+- If S2 is linearly independent, then S1 is linearly independent
+
+let S1 be linearly dependent, then there exist vectors s1, ..., sn and scalars a1, ..., an not all zero s.t a1s1 + ... +ansn = 0, 
+
+Since S1 is a subset of S2, then all vectors of S1 are in S2, let S2 = {s1, ..., sn, sn+1, ... sk}
+
+Then a linear combinatio
 
 #linear-algebra
