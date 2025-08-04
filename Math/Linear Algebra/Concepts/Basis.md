@@ -26,3 +26,12 @@
 - [[V has a finite basis, then any basis of V has the same number of elements]]
 
 #linear-algebra
+
+If v in V can be uniquely expresed as a linear combination of vectors of Beta, then beta is the basis for V
+
+Let v be in V, then since v can be expressed as a linear combination of vectors of beta, span(beta) = V since v is arbitrary vector. Confirmed it spanning V!
+
+We need to show that beta is linearly independent for it to be a basis,
+
+that means that for b1, ... ,bn vectors in basis, there is only trivial representation
+
