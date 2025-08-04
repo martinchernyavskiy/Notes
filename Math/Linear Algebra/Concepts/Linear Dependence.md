@@ -77,6 +77,8 @@ If S2 is linearly independent, then for s1, ..., sk in S2 and a1, ..., an, b1, .
 
 a1s1 + ... + bksk = 0 and all coefficients are 0.
 
+Since S1 is a subset of S2, the vectors s1, ..., sn belong to S1. We need to show that S1 is linearly independent. Assume not, then any of the scalars a1, ..., an aren't zero so that 
 
+a
 
 #linear-algebra
