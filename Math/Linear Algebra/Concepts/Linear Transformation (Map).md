@@ -1,4 +1,4 @@
-## Definition
+	## Definition
 ?
 *A map T from a vector space V to a vector space W $(T: V \to W)$ is linear for all $v_{1},v_{2} \in V \text{ and } c \in \mathbb{R}$. if the following hold:*
 ## Properties / Axioms
