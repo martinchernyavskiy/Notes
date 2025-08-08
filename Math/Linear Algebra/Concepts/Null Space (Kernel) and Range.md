@@ -37,7 +37,8 @@ $R(T) = \{ T(v) | v \in V \} \subset W$*
 - [[Transformation is 1-1 iff N(T) consists only of 0 vector]]
 - [[Linear Map Between Vector Spaces With Same Finite Dimension Properties]]
 - From Ex. 14, if T is linear and 1-1, then subset S is lin. ind. iff T(S) is lin ind.
-- Theorem 2.6
-
+- Theorem 2.6: Suppose basis of V is given by $v_{1},\dots,v_{n}$, for $w_{1},\dots,w_{n} \in W$,  there exists exactly one linear transformation T s.t T(v_i) = w_i for i = 1, ..., n 
+	- n vectors from W can be uniquely expressed as a linear transformation of a given vector from V's basis
+	- Corollary: *Let V and W be vector spaces and V has a finite basis. If U, T define a linear transformation where for each vector in basis the transformations are equal, then U = T*
 
 #linear-algebra
