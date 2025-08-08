@@ -37,6 +37,7 @@ $R(T) = \{ T(v) | v \in V \} \subset W$*
 - [[Transformation is 1-1 iff N(T) consists only of 0 vector]]
 - [[Linear Map Between Vector Spaces With Same Finite Dimension Properties]]
 - From Ex. 14, if T is linear and 1-1, then subset S is lin. ind. iff T(S) is lin ind.
+- Theorem 2.6
 
 
 #linear-algebra
