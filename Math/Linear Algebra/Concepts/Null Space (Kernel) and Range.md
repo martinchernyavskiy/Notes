@@ -15,6 +15,11 @@ $R(T) = \{ T(v) | v \in V \} \subset W$*
 - $T:V \to W$ is 1-1 if
   $T(v_{1})=T(v_{2}) \to v_{1}=v_{2}$
 
+If T is one-to-one, then N(T) = {0}
+
+Suppose T is one to one and x in N(T). Then T(x) = 0 = T(0). Since T is one-to-one, we have x = 0, hence N(T) = {0}
+
+Assume that N(T) = {0}. 
 ## Examples
 ?
 - $N(T_{a}^{b}) = \{ \text{functions in } C^0(\mathbb{R}) \text{ whose average over } [a,b] \text{ is } 0 \}$
