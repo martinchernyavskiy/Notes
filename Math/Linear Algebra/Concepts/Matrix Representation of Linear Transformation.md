@@ -107,8 +107,10 @@ Ex: $T_{i}: P_{2} \to P_{3}$
 	1. aT + U is linear
 		(aT + U)(cx+y) = aT(cx+y) + U(cx+y)
 					= acT(x)+aT(y) + cU(x) + U(y)
-					= c(aT(x))
+					= c(aT+U)(x) + (aT + U)(y)
+					So, aT + U is linear.
 	2. Using standard operations of addition and scalar multiplication for functions, the collection of all linear transformation from V to W is a vector space over F
+		Since T0 is a zero vector, it's clear that collection of all linear transformations from V into W is a vector space over F
 - [[Matrix Representation Relation]]
 
 #linear-algebra
