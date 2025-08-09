@@ -113,6 +113,7 @@ Ex: $T_{i}: P_{2} \to P_{3}$
 		Since T0 is a zero vector, it's clear that collection of all linear transformations from V into W is a vector space over F
 - [[Matrix Representation Relation]]
 - Theorem 2.8: Let T,U : V --> W linear, and V, W finite-dimensional with bases beta, gamma respectively
-	- $[T+U]_{\beta}$
+	- $[T+U]_{\beta}^{\gamma} = [T]_{\beta}^{\gamma} + [U]_{\beta}^{\gamma}$
+	- $[aT]_{\beta}^{\gamma} = a[T]_{\beta}^{\gamma}$
 
 #linear-algebra
