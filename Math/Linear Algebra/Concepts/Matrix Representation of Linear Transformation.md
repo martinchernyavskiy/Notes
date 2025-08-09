@@ -103,8 +103,12 @@ Ex: $T_{i}: P_{2} \to P_{3}$
 	$[T_{i}]_{\gamma}^\beta = \begin{pmatrix}0 & 0 & 0  \\ 1 & 0 & 0 \\ 0 & \frac{1}{2} & 0 \\ 0 & 0 & \frac{1}{3}\end{pmatrix}$
 
 ## Theorems
-- Theorem 2.7: U,
-	- 
+- Theorem 2.7: Let U,T be linear functions from V to W vector spaces over F, then:
+	1. aT + U is linear
+		(aT + U)(cx+y) = aT(cx+y) + U(cx+y)
+					= acT(x)+aT(y) + cU(x) + U(y)
+					= c(aT(x))
+	2. Using standard operations of addition and scalar multiplication for functions, the collection of all linear transformation from V to W is a vector space over F
 - [[Matrix Representation Relation]]
 
 #linear-algebra
