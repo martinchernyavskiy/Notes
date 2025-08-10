@@ -14,7 +14,7 @@ $R(T) = \{ T(v) | v \in V \} \subset W$*
 - $T:V \to W$ is onto if $R(T)=W$ or $\forall w \in W, \exists v \in V$ s.t $T(v)=w$
 - $T:V \to W$ is 1-1 if
   $T(v_{1})=T(v_{2}) \to v_{1}=v_{2}$
-
+- 
 ## Examples
 ?
 - $N(T_{a}^{b}) = \{ \text{functions in } C^0(\mathbb{R}) \text{ whose average over } [a,b] \text{ is } 0 \}$
@@ -29,7 +29,6 @@ $R(T) = \{ T(v) | v \in V \} \subset W$*
   $dim(N(T)) = m$
   $dimN(T)+dimR(T)=(n-m)+m=n=dim\mathbb{R}^n$
 <!--SR:!2025-06-16,3,250-->
-
 ## Theorems
 - [[Kernel and Range are Subspaces given a Linear Transformation]]
 - Theorem 2.2, R(T) = span(T($\beta$))
