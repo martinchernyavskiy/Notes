@@ -1,4 +1,4 @@
-## Definition
+ ## Definition
 ?
 *A subset $\{v_{1},\dots,v_{k}\}$ is linearly dependent if there are scalars $a_{1},\dots,a_{k}$ not all zero, such that $a_{1}v_{1}+\dots+a_{k}v_{k}=\vec{0}$, else it's linearly independent*
 <!--SR:!2025-06-28,15,292-->
