@@ -27,6 +27,7 @@ From [[Composition of Linear Transformations is Linear]], we define Matrix Multi
   $AB = \begin{pmatrix} 9 & 9 \\ 21 & 24\end{pmatrix}$
 ## Theorems
 - [[Composition of Linear Transformations is Linear]]
+- [[Composition Properties]]
 - [[Matrix Representation of Composition]]
 
 
