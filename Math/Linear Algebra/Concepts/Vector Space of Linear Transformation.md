@@ -11,13 +11,14 @@ From [[Composition of Linear Transformations is Linear]], we define Matrix Multi
 	$(AB)_{ij}= \sum_{k=1}^{n}A_{ik}B_{kj}$
 	Alternatively,
 	AB = $A(\bar{b_{1}},\dots,\bar{b_{p}})$ = $(A\bar{b_{1}},\dots,A\bar{b_{p}})$
-  
+- *Kronecker delta*
 ## Examples
 ?
 - $S \in \mathcal{L}(X, Y)$ and $T \in \mathcal{L}(Y, Z)$
 	$X \xrightarrow{S} Y \xrightarrow{T} Z$ can define a composition
 	$T\circ S: X \to Z$
 	$x \to T(S(v))$
+- $(AB)^t = B^tA^t$
 
 ## Worked-Out Examples
 ?
