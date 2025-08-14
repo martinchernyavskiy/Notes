@@ -30,6 +30,7 @@ From [[Composition of Linear Transformations is Linear]], we define Matrix Multi
 - [[Composition of Linear Transformations is Linear]]
 - [[Composition Properties]]
 - [[Matrix Representation of Composition]]
+- [[Matrix  Multiplication Properties]]
 
 
 #linear-algebra
