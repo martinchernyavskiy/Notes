@@ -50,7 +50,7 @@ $$\begin{pmatrix}
 	0 & 0 & 0 & 0
 	\end{pmatrix}
 $$
-Since the Augmented Matrix is in REF and has a column without a leading entry, this is linearly dependent set. If k=0, then there is only one solution to the system which is for all coefficients to be zero.
+Since the Augmented Matrix is in REF and has a column without a leading entry, this is linearly dependent set. If k=0, then there is only one solution to the system which is for all coefficients to be zero and in that case the set is linearly independent.
 <!--SR:!2025-06-23,10,274-->
 
 ## Theorems
