@@ -1,6 +1,6 @@
 ### Theorem: $T \circ S$ is linear $(T \circ S \in \mathcal{L}(X,Z))$
 ?
-#### Proof: 
+#### Proof:
 $(T \circ S)(x_{1}+cx_{2})=T(S(x_{1}+cx_{2}))$
 $= T(S(x_{1})+cS(x_{2}))$ since S is linear
 $= T(S(x_{1}))+cT(S(x_{2}))$ since T is linear
@@ -15,3 +15,4 @@ $${\begin{array}{l}
 \end{array}}
 $$
 - #### How are $[S]_{\alpha}^\beta[T]_{\beta}^\gamma$ and $[T \circ S]_{\alpha}^\gamma$ related? Define matrix multiplication
+<!--SR:!2025-08-19,4,270-->
