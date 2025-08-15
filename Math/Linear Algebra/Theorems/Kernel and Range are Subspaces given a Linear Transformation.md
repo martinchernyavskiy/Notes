@@ -22,4 +22,4 @@ c) Need $v_{1} \in N(T) \to cv_{1} \in N(T)$
 $v_{1} \in N(T) \to T(v_{1})=\vec{0_{W}}$
 $T(cv_{1})=cT(v_{1})=c \vec{0_{W}}=\vec{0_{W}}$, hence $cv_{1} \in N(T)$
 This completes the proof. $\square$
-<!--SR:!2025-06-17,4,270-->
+<!--SR:!2025-08-31,16,290-->

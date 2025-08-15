@@ -17,4 +17,4 @@ Claim is verified.
 If $\{u_{1},\dots,u_{j-1},u_{j+1},\dots,u_{k}\}$ is linearly independent, we stop, otherwise find another $u_{i}$ to remove.
 Eventually this has to stop.
 This completes the proof. $\square$
-<!--SR:!2025-06-28,15,290-->
+<!--SR:!2025-09-27,43,290-->
