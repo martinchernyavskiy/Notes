@@ -3,3 +3,4 @@
 By [[Dimension Theorem(Rank Nullity Theorem)]], nullity(T) + rank(T) = dim(V).
 By [[Transformation is 1-1 iff N(T) consists only of 0 vector]], T is one-to-one iff N(T) = {0}, iff nullity (T) = 0, iff rank(T) = dim(V), iff rank(T) = dim(W) (since equal dimension to V), iff dim(R(T)) = dim(W) and by [[Dimension of Subspace Is At Most The Dimension of Vector Space]], R(T) = W (which means that T is onto)
 This completes the proof. $\square$
+<!--SR:!2025-08-19,4,270-->
