@@ -18,7 +18,7 @@ u_{1} = -\frac{a_{2}}{a_{1}}u_{2} \end{array}$$
 - $\{\sin x,\cos x\}\subset \mathcal{F}(R)$
 	$\sin x=a\cos x$ for $a\neq 0$
 	At $x = 0, 0 = a$, however since $a\neq 0$, the functions aren't same and thus the subset is linearly independent
-<!--SR:!2025-06-25,12,272-->
+<!--SR:!2025-09-30,46,292-->
 
 ## Worked-Out Examples
 ?

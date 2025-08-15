@@ -43,7 +43,7 @@
 - $W=[0,1] \subset\mathbb{R}$, since $1+1\not\in W$
 - $W = \mathbb{Z}\subset \mathbb{R}$, since $\pi*z\not\in \mathbb{Z}$
 - $W=\{(t_{1}+t_{2}, t_{1}-t_{2}, t_{1}+1) | t_{1},t_{2}\in R\}$, since $\vec{0} \not \in W$
-<!--SR:!2025-06-28,15,296-->
+<!--SR:!2025-10-16,62,316-->
 
 
 ## Theorems

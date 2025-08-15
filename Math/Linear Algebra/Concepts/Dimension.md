@@ -12,7 +12,7 @@
 - $dimP_{n}=n+1$
 .
 - $dimP=\infty$
-<!--SR:!2025-06-17,4,270-->
+<!--SR:!2025-08-31,16,290-->
 
 ## Theorems
 - [[Dimension of Subspace Is At Most The Dimension of Vector Space]]

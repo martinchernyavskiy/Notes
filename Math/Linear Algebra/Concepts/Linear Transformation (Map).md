@@ -34,7 +34,7 @@ $$
 \end{aligned}
 $$
 	Last small remark is that applying linear transformation to a linear combination is a linear combination of transformations applied to each vector
-<!--SR:!2025-06-17,4,270-->
+<!--SR:!2025-08-30,15,290-->
 
 ## Examples
 ?
@@ -76,7 +76,7 @@ T_{a}^{b}(f+cg)=\int_{a}^{b}(f(x)+cg(x))dx \\ \\
 \overset{calculus}{\operatorname*{\operatorname*{\operatorname*{\operatorname*{=}}}}}\int_{a}^{b}f(x)dx+c\int_{a}^{b}g(x)dx=T_{a}^{b}(f)+cT_{a}^{b}(g).
 \end{array}
 $$
-<!--SR:!2025-06-16,3,250-->
+<!--SR:!2025-08-25,10,270-->
 
 
 #linear-algebra
