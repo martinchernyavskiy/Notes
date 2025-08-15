@@ -2,7 +2,7 @@
 ## Definition
 ?
 *A vector space V is finite dimensional if it has a finite basis. The number of elements in any basis (since all basis have same number of vectors) is the dimension of V, $dim V$. Otherwise, V is infinite dimensional*
-<!--SR:!2025-06-17,4,272-->
+<!--SR:!2025-08-30,15,292-->
 
 ## Examples
 ?

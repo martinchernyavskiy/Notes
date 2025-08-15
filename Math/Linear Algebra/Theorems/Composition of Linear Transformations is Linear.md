@@ -6,9 +6,7 @@ $= T(S(x_{1})+cS(x_{2}))$ since S is linear
 $= T(S(x_{1}))+cT(S(x_{2}))$ since T is linear
 $= (T \circ S)(x_{1})+c(T \circ S)(x_{2})$
 This completes the proof. $\square$
-
 ### Immediately follow:
-
 #### 1. Suppose X,Y,Z are finite dimensional w/ bases:
 $${\begin{array}{l}
 \alpha = \{ x_{1},\dots,x_{n} \} \\
