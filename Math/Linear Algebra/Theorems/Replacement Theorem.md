@@ -17,5 +17,5 @@ Span$\big(\{u_1,\ldots,u_j,u_{j+1},s_1,\ldots,s_{n-j-1}\}\big)$
 $\mathcal{T}_{j+1}=\{s_1,\ldots,s_{n-j-1}\}$
 done
 This completes the proof. $\square$
-<!--SR:!2025-06-18,4,270-->
+<!--SR:!2025-08-30,15,290-->
 

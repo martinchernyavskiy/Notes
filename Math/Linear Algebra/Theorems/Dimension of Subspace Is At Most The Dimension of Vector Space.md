@@ -18,4 +18,4 @@ This process must stop at some
 $\{ w_{1},\dots,w_{k} \}$ is linearly independent such that $W = Span(\{ w_{1},\dots, w_{k} \})$
 By Replacement Theorem, $k\leq n$. Thus we have a linearly independent subset of W that spans it that has less than or equal to number of elements to the basis of V.
 This completes the proof. $\square$
-<!--SR:!2025-06-16,3,250-->
+<!--SR:!2025-08-26,11,270-->
