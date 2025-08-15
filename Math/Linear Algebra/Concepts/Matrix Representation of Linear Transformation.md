@@ -2,8 +2,9 @@
 ## Definition
 ?
 *Recall $A \in M_{m \times n}$ defines a linear map $L_{A}: \mathbb{R}^n \to \mathbb{R}^m$
-$\bar{x} \to A \bar{x}$. 
+$\bar{x} \to A \bar{x}$.
 Any linear map between finite dimensional vector spaces can be represented by a matrix.*
+<!--SR:!2025-08-19,4,270-->
 
 ## Additional Definitions
 ?
@@ -20,6 +21,7 @@ Any linear map between finite dimensional vector spaces can be represented by a 
 		$[T]_{\beta}^\gamma = (a_{ij})$ $i=1,\dots,m$, $j=1,\dots,n$
 - $[T]_{\beta}^\gamma$ is a matrix representation of T with respect to the bases $\beta, \gamma$
 - $[T]_{\beta}^\gamma = \begin{pmatrix}| &  & | \\ [T(v_{1})]_{\gamma} & \dots & [T(v_{n})]_{\gamma} \\ | &  & |\end{pmatrix}$
+<!--SR:!2025-08-18,3,250-->
 
 ## Examples
 ?
