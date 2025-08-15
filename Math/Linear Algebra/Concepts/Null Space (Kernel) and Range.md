@@ -29,6 +29,7 @@ $R(T) = \{ T(v) | v \in V \} \subset W$*
   $R(T)=\{ (x_{1},\dots,x_{m},0,\dots,0) \}$
   $dim(N(T)) = m$
   $dimN(T)+dimR(T)=(n-m)+m=n=dim\mathbb{R}^n$
+<!--SR:!2025-08-19,4,277-->
 
 ## Theorems
 - [[Kernel and Range are Subspaces given a Linear Transformation]]
