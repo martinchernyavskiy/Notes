@@ -4,7 +4,7 @@
 ## Properties / Axioms
 1. $\beta$ is linearly independent
 2. $Span(\beta)=V$
-<!--SR:!2025-06-27,14,290-->
+<!--SR:!2025-10-10,56,310-->
 
 ## Examples
 ?
@@ -17,7 +17,7 @@
 - $\beta=\{ 1,x,x^2,x^3,\dots \}$ is a basis of $P = \{ \text{polynomials of all degrees} \}$
 .
 - $\mathcal{F}(\mathbb{R})$ has a basis
-<!--SR:!2025-06-16,3,254-->
+<!--SR:!2025-08-26,11,274-->
 
 ## Theorems
 - [[Vector Unique Expression of Linear Combination of Basis Vectors]]

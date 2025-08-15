@@ -6,7 +6,7 @@ Null Space (Kernel) of $T$ is:
 $N(T)=\{ v \in V|T(v) = \vec{0_{W}} \} \subset V$
 Range (Image) of $T$ is:
 $R(T) = \{ T(v) | v \in V \} \subset W$*
-<!--SR:!2025-06-17,4,270-->
+<!--SR:!2025-08-29,14,290-->
 
 
 ## Additional Definitions

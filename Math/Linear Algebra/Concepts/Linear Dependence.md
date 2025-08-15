@@ -1,7 +1,7 @@
  ## Definition
 ?
 *A subset $\{v_{1},\dots,v_{k}\}$ is linearly dependent if there are scalars $a_{1},\dots,a_{k}$ not all zero, such that $a_{1}v_{1}+\dots+a_{k}v_{k}=\vec{0}$, else it's linearly independent*
-<!--SR:!2025-06-28,15,292-->
+<!--SR:!2025-10-15,61,312-->
 
 ## Examples
 ?
@@ -51,7 +51,7 @@ $$\begin{pmatrix}
 	\end{pmatrix}
 $$
 Since the Augmented Matrix is in REF and has a column without a leading entry, this is linearly dependent set. If k=0, then there is only one solution to the system which is for all coefficients to be zero and in that case the set is linearly independent.
-<!--SR:!2025-06-23,10,274-->
+<!--SR:!2025-09-11,27,274-->
 
 ## Theorems
 - [[Linearly Dependent Subset Vector as Linear Combination of Others]]

@@ -2,10 +2,10 @@
 ?
 *Let $S \subset V$ be a subset, then Span(S) is the set of all linear combinations of elements in S in the form:
 $Span(S) = \{a_{1}v_{1}+\dots a_{k}v_{k}|a_{1},\dots,a_{k} \in R, u_{1},\dots u_{k} \in S\}$*
-<!--SR:!2025-06-28,15,292-->
+<!--SR:!2025-09-28,44,292-->
 
 ## Examples
-? 
+?
 - $S=\{\vec{0}\}, \quad Span(S) = \{\vec{0}\}$
 - $S=V, \quad Span(S) = V$
 - $Span(\{(1,0),(0,1)\}) = \{a_{1}(1,0)+a_{2}(0,1)|a_{1},a_{2} \in R\} = \{(a_{1},a_{2})|a_{1},a_{2} \in R\} = R^2$
@@ -13,7 +13,7 @@ $Span(S) = \{a_{1}v_{1}+\dots a_{k}v_{k}|a_{1},\dots,a_{k} \in R, u_{1},\dots u_
 .
 - $Span(\{(1,0,0),(0,0,1)\})=\{(a_{1},0,a_{2})|a_{1},a_{2} \in R\}$
 	= xz-plane in $R^3$
-<!--SR:!2025-06-28,15,292-->
+<!--SR:!2025-10-13,59,312-->
 
 ## Worked-Out Examples
 ?
@@ -50,7 +50,7 @@ $Span(S) = \{a_{1}v_{1}+\dots a_{k}v_{k}|a_{1},\dots,a_{k} \in R, u_{1},\dots u_
 	1. {(1,0), (0,1)}, generates $R^2$
 	2. $\{\begin{pmatrix}1 & 0 \\ 0 & 0\end{pmatrix}, \begin{pmatrix}0 & 0 \\ 0 & 1\end{pmatrix}, \begin{pmatrix}0 & 1 \\ 1 & 0\end{pmatrix}\}$, generates v.s of $2\times_{2}$ symmetric matrices:
     A = $\begin{pmatrix} a_{11} & a_{12} \\ a_{12} & a_{22}\end{pmatrix}$ = $a_{11}\begin{pmatrix}1 & 0 \\ 0 & 0\end{pmatrix} + a_{22}\begin{pmatrix}0 & 0 \\ 0 & 1\end{pmatrix} + a_{12}\begin{pmatrix}0 & 1 \\ 1 & 0\end{pmatrix}$
-<!--SR:!2025-06-29,16,290-->
+<!--SR:!2025-10-16,62,310-->
 
 ## Column Space of Matrix
 ?
