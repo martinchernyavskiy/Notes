@@ -3,6 +3,7 @@
 ?
 *Given vector spaces V, W, we define a vector space:
 $\mathcal{L}(V,W)=\{ T: V \to W \}$* *which is the set of all linear maps from V to W*
+<!--SR:!2025-08-19,4,270-->
 
 ## Additional Definitions
 ?
@@ -13,6 +14,7 @@ From [[Composition of Linear Transformations is Linear]], we define Matrix Multi
 	AB = $A(\bar{b_{1}},\dots,\bar{b_{p}})$ = $(A\bar{b_{1}},\dots,A\bar{b_{p}})$
 - *Kronecker delta $\delta_{ij}$ = 1 where i=j and 0 everywhere else*. Identity matrix is given by $(I_{n})_{ij} = \delta_{ij}$
 - $A^k = A^{k-1}A$, $A^0=I_{n}$
+<!--SR:!2025-08-16,1,230-->
 
 ## Examples
 ?
@@ -21,6 +23,7 @@ From [[Composition of Linear Transformations is Linear]], we define Matrix Multi
 	$T\circ S: X \to Z$
 	$x \to T(S(v))$
 - $(AB)^t = B^tA^t$
+<!--SR:!2025-08-18,3,250-->
 
 ## Worked-Out Examples
 ?
@@ -33,6 +36,7 @@ From [[Composition of Linear Transformations is Linear]], we define Matrix Multi
 - [[Composition Properties]]
 - [[Matrix Representation of Composition]]
 - [[Matrix  Multiplication Properties]]
+<!--SR:!2025-08-19,4,270-->
 
 
 #linear-algebra

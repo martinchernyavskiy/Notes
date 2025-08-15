@@ -8,4 +8,4 @@ Then again for $(S=\bar{\beta}, \mathcal{U}=\beta) \to n\leq \text{size of } \ba
 $\to \text{ size of } \bar{\beta}=n$
 Hence, $\beta \text{ and } \bar{\beta}$ have the same number of elements.
 This completes the proof. $\square$
-<!--SR:!2025-06-17,4,270-->
+<!--SR:!2025-08-29,14,290-->
