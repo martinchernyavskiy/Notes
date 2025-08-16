@@ -36,6 +36,7 @@ From [[Composition of Linear Transformations is Linear]], we define Matrix Multi
 - [[Composition Properties]]
 - [[Matrix Representation of Composition]]
 - [[Matrix  Multiplication Properties]]
+- 
 <!--SR:!2025-08-19,4,270-->
 
 
