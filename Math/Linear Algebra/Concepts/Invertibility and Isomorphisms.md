@@ -5,7 +5,9 @@
 
 ## Properties / Axioms
 ?
-1. 
+1. $(TU)^-1=U^-1T^-1$
+2. $(T^-1)^-1= T$, inverse of T is invertible
+3. Function is invertible iff it is both 1-1 and onto. That is, T is invertible ifif rank(T) = dim(V) by theorem 2.5 where V and W are of equal dimension
 
 ## Examples
 ?
