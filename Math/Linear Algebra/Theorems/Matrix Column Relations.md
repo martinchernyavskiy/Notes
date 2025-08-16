@@ -3,6 +3,6 @@
 #### 2. vj = Bej where ej is the jth standard vector of F^p
 ?
 #### Proof: 
-1. uj = ($(AB)_{1j}\dots (AB)_{mj}$ = $\sum_{k=1}^{n}A_{1k}B_{kj}\dots \sum_{k=1}^{n}A_{1k}B_{kj}$
+1. uj = ($(AB)_{1j}\dots (AB)_{mj})$ = $(\sum_{k=1}^{n}A_{1k}B_{kj}\dots \sum_{k=1}^{n}A_{mk}B_{kj})$ = $A(B_{1j}\dots B_{nj})=Av_{j}$
 
 This completes the proof. $\square$
