@@ -4,7 +4,7 @@
 *Recall $A \in M_{m \times n}$ defines a linear map $L_{A}: \mathbb{R}^n \to \mathbb{R}^m$
 $\bar{x} \to A \bar{x}$.
 Any linear map between finite dimensional vector spaces can be represented by a matrix.*
-<!--SR:!2025-08-19,4,270-->
+<!--SR:!2025-09-03,15,290-->
 
 ## Additional Definitions
 ?
