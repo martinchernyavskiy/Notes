@@ -21,7 +21,7 @@ Any linear map between finite dimensional vector spaces can be represented by a 
 		$[T]_{\beta}^\gamma = (a_{ij})$ $i=1,\dots,m$, $j=1,\dots,n$
 - $[T]_{\beta}^\gamma$ is a matrix representation of T with respect to the bases $\beta, \gamma$
 - $[T]_{\beta}^\gamma = \begin{pmatrix}| &  & | \\ [T(v_{1})]_{\gamma} & \dots & [T(v_{n})]_{\gamma} \\ | &  & |\end{pmatrix}$
-<!--SR:!2025-08-18,3,250-->
+<!--SR:!2025-08-31,12,270-->
 
 ## Examples
 ?
