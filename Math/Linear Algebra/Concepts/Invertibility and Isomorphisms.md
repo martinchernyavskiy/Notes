@@ -11,7 +11,7 @@
 
 ## Examples
 ?
-- Example 1: ...
+- T: P1(R) to R^2 is linear defined by T(a+bx) = (a, a+b). Then its inverse is T^-1 : R^2 to P1(R) defined by T^-1 (c,d) = c + (d-c)x
 ‎ 
 - Example 2: ...
 ‎ 
@@ -27,7 +27,7 @@
 - Non-example 2: ...
 
 ## Theorems
-- [[Theorem Name 1]]
+- [[Inverse of a Linear Map is Linear]]
 - [[Theorem Name 2]]
 
 ## Questions
