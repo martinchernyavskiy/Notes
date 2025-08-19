@@ -14,7 +14,7 @@ $R(T) = \{ T(v) | v \in V \} \subset W$*
 - $T:V \to W$ is onto if $R(T)=W$ or $\forall w \in W, \exists v \in V$ s.t $T(v)=w$
 - $T:V \to W$ is 1-1 if
   $T(v_{1})=T(v_{2}) \to v_{1}=v_{2}$
-<!--SR:!2025-08-19,4,272-->
+<!--SR:!2025-09-03,15,292-->
 
 ## Examples
 ?

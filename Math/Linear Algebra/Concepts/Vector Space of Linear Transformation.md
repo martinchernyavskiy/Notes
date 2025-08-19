@@ -3,7 +3,7 @@
 ?
 *Given vector spaces V, W, we define a vector space:
 $\mathcal{L}(V,W)=\{ T: V \to W \}$* *which is the set of all linear maps from V to W*
-<!--SR:!2025-08-19,4,270-->
+<!--SR:!2025-09-02,14,290-->
 
 ## Additional Definitions
 ?
@@ -23,7 +23,7 @@ From [[Composition of Linear Transformations is Linear]], we define Matrix Multi
 	$T\circ S: X \to Z$
 	$x \to T(S(v))$
 - $(AB)^t = B^tA^t$
-<!--SR:!2025-08-18,3,250-->
+<!--SR:!2025-08-29,10,270-->
 
 ## Worked-Out Examples
 ?
@@ -38,7 +38,7 @@ From [[Composition of Linear Transformations is Linear]], we define Matrix Multi
 - [[Matrix  Multiplication Properties]]
 - [[Matrix Column Relations]]
 - [[Left-Multiplication Transformation Properties]]
-<!--SR:!2025-08-19,4,270-->
+<!--SR:!2025-09-03,15,290-->
 
 
 #linear-algebra

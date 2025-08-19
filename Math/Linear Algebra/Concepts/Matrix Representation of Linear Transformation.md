@@ -35,7 +35,7 @@ Ex: $T_{i}: P_{2} \to P_{3}$
 	$[L_{A}]_{\beta}^\gamma=([L_{A}(e_{1})]_{\gamma}\dots[L_{A}(e_{n})]_{\gamma})$
 	$[L_{A}(e_{1})]_{\gamma} = [Ae_{1}]_{\gamma}=Ae_{1}$, the first column of A, etc.
 	$\begin{pmatrix}2 \\ 1 \end{pmatrix} = 2\begin{pmatrix}1 \\ 0\end{pmatrix}+1\begin{pmatrix}0 \\ 1\end{pmatrix}$
-<!--SR:!2025-08-19,4,272-->
+<!--SR:!2025-09-04,16,292-->
 
 ## Worked-Out Examples
 ?
@@ -68,7 +68,7 @@ Ex: $V = \mathbb{R}^2$, $v=(2,1)$
 \end{pmatrix}
 $$
 	$[v_{\beta}]=(2,1), [v_{\beta^1}]=(a_{1},a_{2})=(\frac{3}{2}, \frac{1}{2})$
-<!--SR:!2025-08-19,4,274-->
+<!--SR:!2025-09-04,16,294-->
 
 	
 Ex: $T_{d}: P_{3} \to P_{2}$
