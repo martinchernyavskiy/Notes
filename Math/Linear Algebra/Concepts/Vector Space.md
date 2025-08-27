@@ -1,5 +1,5 @@
 ## Definition
-*A vector space is a set of V, equipped with two operations: addition and scalar multiplication s.t the following 8 properties hold:*
+*A vector space is a set V, equipped with two operations: addition and scalar multiplication s.t the following 8 properties hold:*
 
 ## Properties / Axioms
 ?

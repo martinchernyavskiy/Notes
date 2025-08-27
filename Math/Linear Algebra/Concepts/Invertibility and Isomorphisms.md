@@ -8,6 +8,7 @@
 1. $(TU)^-1=U^-1T^-1$
 2. $(T^-1)^-1= T$, inverse of T is invertible
 3. *Function is invertible iff it is both 1-1 and onto*. That is, T is invertible iff rank(T) = dim(V) by theorem 2.5 where V and W are of equal dimension
+<!--SR:!2025-08-30,3,250-->
 
 ## Examples
 ?
@@ -20,6 +21,7 @@
 ## Additional Definitions
 ?
 - Let A be an nxn matrix, then it is invertible if there exists an nxn matrix B such that AB = BA = I. Such matrix B is unique and denoted by A^-1
+<!--SR:!2025-08-28,1,230-->
 
 ## Non-examples
 ?
