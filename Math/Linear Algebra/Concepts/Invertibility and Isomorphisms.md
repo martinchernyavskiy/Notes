@@ -31,6 +31,7 @@
 ## Theorems
 - [[Inverse of a Linear Map is Linear]]
 - [[For a invertible linear map, V is finite dimensional iff W is finite dimensional]]
+- [[T is invertible iff its matrix representation is invertible]]
 
 ## Questions
 - ...
