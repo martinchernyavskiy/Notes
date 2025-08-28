@@ -18,7 +18,7 @@
 ‎ 
 - Example 3: ...
 
-## Matrix 
+## Matrix Invertibility
 ?
 - Let A be an nxn matrix, then it is invertible if there exists an nxn matrix B such that AB = BA = I. Such matrix B is unique and denoted by A^-1
 <!--SR:!2025-08-28,1,230-->
