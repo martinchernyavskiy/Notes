@@ -30,7 +30,7 @@
 
 ## Theorems
 - [[Inverse of a Linear Map is Linear]]
-- [[Theorem Name 2]]
+- [[For a invertible linear map, V is finite dimensional iff W is finite dimensional]]
 
 ## Questions
 - ...
