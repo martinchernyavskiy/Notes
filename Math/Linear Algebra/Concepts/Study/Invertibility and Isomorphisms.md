@@ -26,7 +26,7 @@
 
 ## Isomorphism
 ?
-- Two vector spaces are isomorphic if there exists an invertible linear map between them, such linear map is called *isomorphism*
+- Two vector spaces are isomorphic if there exists an invertible linear map between them, such linear map is called *isomorphism*. This is only the case when the two vector spaces are of same dimension,
 
 ## Non-examples
 ?
@@ -35,7 +35,7 @@
 
 ## Theorems
 - [[Inverse of a Linear Map is Linear]]
-- For linear and invertible map, if beta is basis of V, then T(beta) is basis of W. 
+- For linear and invertible map, if beta is basis of V, then T(beta) is basis of W. From this it follows that dimV=dimW if map is invertible
 - [[For a invertible linear map, V is finite dimensional iff W is finite dimensional]]
 - [[T is invertible iff its matrix representation is invertible]]
 
