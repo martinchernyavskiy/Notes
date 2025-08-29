@@ -23,6 +23,11 @@
 - Let A be an nxn matrix, then it is invertible if there exists an nxn matrix B such that AB = BA = I. Such matrix B is unique and denoted by A^-1
 <!--SR:!2025-08-28,1,230-->
 
+
+## Isomorphism
+?
+- Two vector spaces are isomorphic if there exists an invertible linear map between them, such linear map is called *isomorphism*
+
 ## Non-examples
 ?
 - Non-example 1: ...
