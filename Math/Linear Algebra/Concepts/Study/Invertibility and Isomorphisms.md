@@ -13,10 +13,7 @@
 ## Examples
 ?
 - T: P1(R) to R^2 is linear defined by T(a+bx) = (a, a+b). Then its inverse is T^-1 : R^2 to P1(R) defined by T^-1 (c,d) = c + (d-c)x
-‎ 
-- Example 2: ...
-‎ 
-- Example 3: ...
+- $L_{A}$ has an inverse which is $L_{A^-1}: \mathbb{R}^n \to \mathbb{R}^n$
 
 ## Matrix Invertibility
 ?
@@ -28,10 +25,6 @@
 ?
 - Two vector spaces are isomorphic if there exists an invertible linear map between them, such linear map is called *isomorphism*. This is only the case when the two vector spaces are of same dimension,
 
-## Non-examples
-?
-- Non-example 1: ...
-- Non-example 2: ...
 
 ## Theorems
 - [[Inverse of a Linear Map is Linear]]
