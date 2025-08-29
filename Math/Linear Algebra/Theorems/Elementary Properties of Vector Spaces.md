@@ -1,4 +1,4 @@
-### Theorem: Let $u,v,w$ be elements of a [[vector space]] V. If $u+w$ = $v+w$, then $u=v$.
+### Theorem: Let $u,v,w$ be elements of a [[Vector Space]] V. If $u+w$ = $v+w$, then $u=v$.
 ?
 #### Proof:
 We will use the 8 axioms of a Vector Space.
