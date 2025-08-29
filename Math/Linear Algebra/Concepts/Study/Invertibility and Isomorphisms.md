@@ -30,6 +30,7 @@
 
 ## Theorems
 - [[Inverse of a Linear Map is Linear]]
+- For linear and invertible map, if beta is basis of V, then T(beta) is basis of W. 
 - [[For a invertible linear map, V is finite dimensional iff W is finite dimensional]]
 - [[T is invertible iff its matrix representation is invertible]]
 
