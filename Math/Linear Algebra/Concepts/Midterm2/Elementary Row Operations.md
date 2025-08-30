@@ -28,6 +28,9 @@
 		A however is equal to the product of inverses of the elementary matrices in the opposite order
 - From this it follows that A is invertible iff it can be written as a product of elementary matrices
 - [[Rank of product of invertible matrix with a general matrix is equal to rank of the general matrix]]
+	- Elementary row operations don't change rank
+	- rank(A) = rank(RREF(A))
+	- Given an RREF of A, its rank is the number of non-zero columns 
 
 
 
