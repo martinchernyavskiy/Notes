@@ -33,8 +33,7 @@ For n>=2 and A in M_nxn
 
 
 ## Theorems
-- [[Theorem Name 1]]
-- [[Theorem Name 2]]
+- [[det(A) is linear in rows of A]]
 
 
 
