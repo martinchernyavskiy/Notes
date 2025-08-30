@@ -13,7 +13,7 @@
 ## Examples
 ?
 - T: P1(R) to R^2 is linear defined by T(a+bx) = (a, a+b). Then its inverse is T^-1 : R^2 to P1(R) defined by T^-1 (c,d) = c + (d-c)x
-- $L_{A}$ has an inverse which is $L_{A^-1}: \mathbb{R}^n \to \mathbb{R}^n$
+- $L_{A}$ has an inverse which is $L_{A^-1}: \mathbb{R}^n \to \mathbb{R}^n$. 
 
 ## Matrix Invertibility
 ?
