@@ -25,7 +25,9 @@ For n=1, M_1x1 and det(a) = a
 	det is linear for n=1
 	det((a)(b)) = det(ab) = ab = det(a)det(b)
 For n=2, M_2x2 and det(A) = ad-bc
-	2x2 matrix is invertible if 
+	2x2 matrix is invertible if ad-bc != 0
+	det(AB) = det(A)det(B) which we can get by multiplying A by B and simplifying its determinant
+For n>=2 and A in 
 
 ## Non-examples
 ?
