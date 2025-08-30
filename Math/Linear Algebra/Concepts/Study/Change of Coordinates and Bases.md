@@ -55,7 +55,7 @@ $$
 *Two square matrices are similar if there exists another square matrix such that B = Q^-1 A Q*
 ## Example
 - Given A with entries (6, 2, 2, 6) respectively and its left-multiplication transformation between 2-n tuple vector spaces over R, how do we calculate a k-consecutive composition of this map?
-	- Since taking a composition is same as multiplying the respective matrix twice, we need to find 
+	- Since taking a composition is same as multiplying the respective matrix twice, we need to find another base which results in a matrix that is easier to multiply.
 
 ## Theorems
 - [[Inverse of change of coordinate matrix]]
