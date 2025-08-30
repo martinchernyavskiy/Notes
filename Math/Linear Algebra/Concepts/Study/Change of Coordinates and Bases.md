@@ -3,7 +3,6 @@
 ?
 *Given two different finite bases for V, how are coordinate expressions for its vectors related?*
 ## Properties / Axioms
-?
 - Let $\beta \text{ and } \beta^{'}$ be such two bases. Then $[v]_{\beta^{'}} = [I_{V}(v)]_{\beta^{'}} = [I_{V}]_{\beta}^{\beta^{'}}[v]_{\beta}$ 
 
 ## Example
@@ -50,6 +49,12 @@ I_V
 \end{bmatrix}_{\beta^{\prime}}^\beta
 \end{aligned}
 $$
+
+## Similar Matrix
+?
+*Two square matrices are similar if there exists another square matrix such that B = Q^-1 A Q*
+## Example
+
 
 ## Theorems
 - [[Inverse of change of coordinate matrix]]
