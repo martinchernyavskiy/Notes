@@ -1,13 +1,14 @@
 
 ## Definition
 ?
-*Performing an elementary row operation on a matrix can be described using matrix multiplication*
+*Performing an elementary row operation on a matrix can be described using matrix multiplication by an elementary matrix*
 
 ## Elementary Matrix
 ?
 *An elementary matrix E of the three types of elementary row operations is obtained from In by applying the elementary row operations on it*
 - E1 = (1 0 0 1) --> (0 1 1 0)
-- E2 = (1 0 0 /\)
+- E2 = (1 0 0 /\\)
+- E3 = (1 0 /\\ 1)
 
 ## Examples
 ?
