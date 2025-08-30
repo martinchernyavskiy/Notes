@@ -31,6 +31,7 @@
 	- Elementary row operations don't change rank
 	- rank(A) = rank(RREF(A))
 	- Given an RREF of A, its rank is the number of non-zero columns 
+	- nullity of A is then the # of columns without leading entries by dimension theorem.
 
 
 
