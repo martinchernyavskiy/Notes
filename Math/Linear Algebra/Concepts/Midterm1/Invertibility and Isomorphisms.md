@@ -35,10 +35,6 @@
 - [[T is invertible iff its matrix representation is invertible]]
 - [[Matrix is invertible if its determinant is non-zero]]
 
-## Questions
-- ...
-- ...
-- ...
 
 
 
