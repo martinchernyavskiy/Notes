@@ -56,6 +56,8 @@ $$
 ## Example
 - Given A with entries (6, 2, 2, 6) respectively and its left-multiplication transformation between 2-n tuple vector spaces over R, how do we calculate a k-consecutive composition of this map?
 	- Since taking a composition is same as multiplying the respective matrix twice, we need to find another base which results in a matrix that is easier to multiply.
+	- Consider v1, v2 that are (1,1) and (1, -1) respectively. They form a basis for R^2 and multiplying A by them results to 8v1 and 4v2. 
+
 
 ## Theorems
 - [[Inverse of change of coordinate matrix]]
