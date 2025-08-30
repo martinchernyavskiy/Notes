@@ -14,12 +14,6 @@
 ?
 *Rank of matrix A is the rank of its left-multiplication transformation*
 
-
-## Non-examples
-?
-- Non-example 1: ...
-- Non-example 2: ...
-
 ## Theorems
 - [[Elementary Matrix is Invertible]]
 - There exists a finite set of elementary matrices such that multiplying them all by A results in A reducing to RREF (left most E.M is the last operation)
