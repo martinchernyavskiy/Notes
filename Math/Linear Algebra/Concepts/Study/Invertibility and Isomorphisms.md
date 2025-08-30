@@ -13,12 +13,13 @@
 ## Examples
 ?
 - T: P1(R) to R^2 is linear defined by T(a+bx) = (a, a+b). Then its inverse is T^-1 : R^2 to P1(R) defined by T^-1 (c,d) = c + (d-c)x
-- $L_{A}$ has an inverse which is $L_{A^-1}: \mathbb{R}^n \to \mathbb{R}^n$. 
+- If $L_{A}$ has an inverse, it is $L_{A^-1}: \mathbb{R}^n \to \mathbb{R}^n$. It's only possible if n = m since a linear map has an inverse iff it's 1-1 and onto --> dimR^n = dimR^m 
 
 ## Matrix Invertibility
 ?
 - Let A be an nxn matrix, then it is invertible if there exists an nxn matrix B such that AB = BA = I. Such matrix B is unique and denoted by A^-1
-- Finding inverse of a matrix is 
+.
+- To find inverse of a generic 2x2 matrix we need to create an augmented matrix (A | In) and reduce it to RREF. Once that is done, we get (RREF (A) | B) and if RREF (A) is In, then B is inverse of A.
 <!--SR:!2025-08-28,1,230-->
 
 
@@ -32,6 +33,7 @@
 - For linear and invertible map, if beta is basis of V, then T(beta) is basis of W. From this it follows that dimV=dimW if map is invertible
 - [[For a invertible linear map, V is finite dimensional iff W is finite dimensional]]
 - [[T is invertible iff its matrix representation is invertible]]
+- [[Matrix is invertible if its determinant is non-zero]]
 
 ## Questions
 - ...
