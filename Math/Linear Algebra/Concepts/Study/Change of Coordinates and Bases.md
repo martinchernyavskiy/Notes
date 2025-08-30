@@ -28,6 +28,28 @@ T
 \end{bmatrix}_{\beta^{\prime}}^{\gamma^{\prime}}=[I_W]_\gamma^{\gamma^{\prime}}[T]_\beta^\gamma[I_V]_{\beta^{\prime}}^\beta
 \end{aligned}
 $$
+- If W = V and their bases are equal also, then:
+$$
+\begin{aligned}
+\begin{bmatrix}
+T
+\end{bmatrix}_{\beta^{\prime}}^{\beta^{\prime}} & =
+\begin{bmatrix}
+I_V
+\end{bmatrix}_\beta^{\beta^{\prime}}
+\begin{bmatrix}
+T
+\end{bmatrix}_\beta^\beta
+\begin{bmatrix}
+I_V
+\end{bmatrix}_{\beta^{\prime}}^\beta \\
+ & =Q^{-1}[T]_\beta^\beta Q, \\
+ & \mathrm{where~}Q=
+\begin{bmatrix}
+I_V
+\end{bmatrix}_{\beta^{\prime}}^\beta
+\end{aligned}
+$$
 
 ## Theorems
 - [[Inverse of change of coordinate matrix]]
