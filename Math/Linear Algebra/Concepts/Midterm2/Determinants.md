@@ -18,6 +18,14 @@
 ?
 Det is a map that is inductive on n (# of rows / columns in a square matrix).
 For n=1, M_1x1 and det(a) = a
+	Inverse of a is 1/a iff a = det(a) != 0
+	Left-multiplication defined on this 1x1 matrix is a map from R to R.
+		This transformation applied on a binary string equates to (0,a) if a>= 0 and (a,0) if a <0
+		Vol of this transformation = |a| = |det(a)|
+	det is linear for n=1
+	det((a)(b)) = det(ab) = ab = det(a)det(b)
+For n=2, M_2x2 and det(A) = ad-bc
+	2x2 matrix is invertible if 
 
 ## Non-examples
 ?
