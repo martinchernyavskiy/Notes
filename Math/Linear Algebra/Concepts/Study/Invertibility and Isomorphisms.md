@@ -25,7 +25,7 @@
 
 ## Isomorphism
 ?
-- Two vector spaces are isomorphic if there exists an invertible linear map between them, such linear map is called *isomorphism*. This is only the case when the two vector spaces are of same dimension,
+- Two vector spaces are isomorphic if there exists an invertible linear map between them, such linear map is called *isomorphism*. This is only the case when the two vector spaces are of same dimension.
 
 
 ## Theorems

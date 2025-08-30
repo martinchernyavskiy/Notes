@@ -9,8 +9,3 @@ U is defined as U(wj) = linear combination of image basis vectors with coefficie
 Now we need to show that U is inverse of T. 
 $[UT]_{\beta}=[U]_{\gamma}^{\beta}[T]_{\beta}^{\gamma}$
 This completes the proof. $\square$
-
-### Immediately follow:
-
-#### 1.
-#### 2.
