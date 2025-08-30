@@ -27,12 +27,10 @@ For n=1, M_1x1 and det(a) = a
 For n=2, M_2x2 and det(A) = ad-bc
 	2x2 matrix is invertible if ad-bc != 0
 	det(AB) = det(A)det(B) which we can get by multiplying A by B and simplifying its determinant
-For n>=2 and A in 
+For n>=2 and A in M_nxn
+	Define a (n-1)x(n-1) matrix obtained from A by deleting ith row and jth column and call it B (A with squiggly line above it)
+	*Then, det(A) = $\sum_{j=1}^{n}(-1)^{1+j}A_{1j}\det(B_{1j})$*
 
-## Non-examples
-?
-- Non-example 1: ...
-- Non-example 2: ...
 
 ## Theorems
 - [[Theorem Name 1]]
