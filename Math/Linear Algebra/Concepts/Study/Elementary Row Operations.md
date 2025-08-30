@@ -25,7 +25,11 @@
 
 ## Theorems
 - [[Elementary Matrix is Invertible]]
-- There exists a finite set of elementary matrices such that multiplying them all by A results in A reducing to RREF 
+- There exists a finite set of elementary matrices such that multiplying them all by A results in A reducing to RREF (left most E.M is the last operation)
+- Matrix A is invertible if there is a finite set of elementary matrices such that multiplying them by A results in an identity matrix (A | In)
+		Inverse of A is then equal to the product of all of these elementary matrices
+		A however is equal to the product of inverses of the elementary matrices in the opposite order
+- From this it follows that A is invertible iff it can be written as a product of elementary matrices
 
 
 
