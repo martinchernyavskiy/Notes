@@ -10,13 +10,10 @@
 - E2 = (1 0 0 /\\)
 - E3 = (1 0 /\\ 1)
 
-## Examples
+## Rank of Matrix
 ?
-- Example 1: ...
-‎ 
-- Example 2: ...
-‎ 
-- Example 3: ...
+*Rank of matrix A is the rank of its left-multiplication transformation*
+
 
 ## Non-examples
 ?
@@ -30,6 +27,7 @@
 		Inverse of A is then equal to the product of all of these elementary matrices
 		A however is equal to the product of inverses of the elementary matrices in the opposite order
 - From this it follows that A is invertible iff it can be written as a product of elementary matrices
+- [[Rank of product of invertible matrix with a general matrix is equal to rank of the general matrix]]
 
 
 
