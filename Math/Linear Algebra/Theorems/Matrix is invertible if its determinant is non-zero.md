@@ -3,5 +3,4 @@
 #### Proof: 
 ![[Pasted image 20250830084838.png]]
 ![[Pasted image 20250830084849.png]]
-
 This completes the proof. $\square$
