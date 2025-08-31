@@ -11,5 +11,4 @@ R(L_BA) = {L_BA(v) | v in Rn }, subset of Rm
 Since B is invertible --> L_B : Rm --> Rm
 Define another map Li_B : R(L_A) --> L_B(R(L_A))
 This map is invertible by invertibility of B and thus rank(A) = rank (BA)
-
 This completes the proof. $\square$
