@@ -13,7 +13,5 @@ since 1st row is identical for the 3 matrices, the corresponding part of the sum
 det of the (n-1)(n-1) matrix of A is however equal to det(~B1j) + kdet(~C1j) by induction hypithesis.
 Then substituting this relation to the sum formula we get the desired relation.
 This completes the proof. $\square$
-
 ### Immediately follow:
-
 #### det(A) = det(B) + kdet(C)

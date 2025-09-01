@@ -34,6 +34,7 @@ For n>=2 and A in M_nxn
 
 ## Theorems
 - [[det(A) is linear in rows of A]]
+- [[Fixing any row results in the same determinant]]
 
 
 
