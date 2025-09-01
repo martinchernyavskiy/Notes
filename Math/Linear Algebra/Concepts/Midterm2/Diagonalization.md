@@ -1,7 +1,7 @@
 
 ## Definition
 ?
-*A linear operator (linear transformation from and to the same vector space) is diagonizable if there exists a basis of V for which the matrix representation of T is diagonal matrix*
+*A linear operator (linear transformation from and to the same vector space) is diagonizable if there exists a basis of V for which the matrix representation of T is diagonal matrix (if there is a basis of eigenvectors)*
 
 ## Eigenvectors and Eigenvalues
 ?
@@ -23,8 +23,7 @@
 - Non-example 2: ...
 
 ## Theorems
-- [[Theorem Name 1]]
-- [[Theorem Name 2]]
+- Matrix is diagonizable if its left multiplication transformation is 
 
 
 
