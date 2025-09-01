@@ -2,7 +2,7 @@
 ?
 #### Proof: 
 We will prove two cases, r = 1 and r > 1
-For r = 1, det(A) = 
+For r = 1, det(A) = standard sum formula
 
 This completes the proof. $\square$
 
