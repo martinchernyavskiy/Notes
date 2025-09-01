@@ -11,7 +11,10 @@
 
 ## Examples
 ?
-- Example 1: ...
+- Find eigenvectors of A ( 0 0 1 
+					 0 2 0
+					 -2 0 3) with eigenvalue 1
+- That means we need all nonzero vectors in N(A - I3)
 ‎ 
 - Example 2: ...
 ‎ 
@@ -23,7 +26,9 @@
 - Non-example 2: ...
 
 ## Theorems
-- Matrix is diagonizable if its left multiplication transformation is 
+- Matrix is diagonalizable if its left multiplication transformation is.
+	- If there exists Q for which Q^-1 A Q is diagonal
+- v in Rn is eigenvector of A if its in kernel of N(A - cIn)
 
 
 
