@@ -43,6 +43,7 @@ For n>=2 and A in M_nxn
 	- If matrix has row of all zeroes, then detA = 0
 	- If matrix has two identical rows, then detA = 0
 - det of upper / lower triangular matrix is product of its diagonal entries adjusted for how row operations may have changed the determinant
+- 
 
 
 
