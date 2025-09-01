@@ -31,6 +31,11 @@ For n>=2 and A in M_nxn
 	Define a (n-1)x(n-1) matrix obtained from A by deleting ith row and jth column and call it B (A with squiggly line above it)
 	*Then, det(A) = $\sum_{j=1}^{n}(-1)^{1+j}A_{1j}\det(B_{1j})$*
 
+## Det and Row Operations
+- Let B be a matrix after given elementary row operations, then:
+- For row swap, det(B) = -det(A)
+- For row multiplication, det(B) = cdet(A)
+- For row add of multiple of other, det(B) = detA
 
 ## Theorems
 - [[det(A) is linear in rows of A]]
