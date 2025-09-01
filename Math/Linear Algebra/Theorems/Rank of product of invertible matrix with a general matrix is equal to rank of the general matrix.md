@@ -1,4 +1,4 @@
-### Theorem: If B is mxm matrix and A is mxn matrix, then rank(BA) = rank(A)
+### Theorem: If B is mxm invertible matrix and A is mxn matrix, then rank(BA) = rank(A)
 ?
 #### Proof: 
 rank(BA) = rank(L_BA)
