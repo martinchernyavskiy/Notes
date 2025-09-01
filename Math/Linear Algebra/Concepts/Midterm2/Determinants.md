@@ -37,6 +37,9 @@ For n>=2 and A in M_nxn
 - For row multiplication, det(B) = cdet(A)
 - For row add of multiple of other, det(B) = detA
 
+## Cramer's Rule
+
+
 ## Theorems
 - [[det(A) is linear in rows of A]]
 - [[Fixing any row results in the same determinant]]
