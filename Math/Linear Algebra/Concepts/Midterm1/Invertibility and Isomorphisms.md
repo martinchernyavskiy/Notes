@@ -31,6 +31,7 @@
 ## Theorems
 - [[Inverse of a Linear Map is Linear]]
 - For linear and invertible map, if beta is basis of V, then T(beta) is basis of W. From this it follows that dimV=dimW if map is invertible
+- Now, given two finite dimensional vector spaces of equal spaces and a map between them, they are isomorphic, but that means that there exists an isomorphism between them, it need not for a map under consideration to be one.
 - [[For a invertible linear map, V is finite dimensional iff W is finite dimensional]]
 - [[T is invertible iff its matrix representation is invertible]]
 - [[Matrix is invertible if its determinant is non-zero]]
