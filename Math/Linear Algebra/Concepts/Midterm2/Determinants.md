@@ -38,6 +38,8 @@ For n>=2 and A in M_nxn
 - For row add of multiple of other, det(B) = detA
 
 ## Cramer's Rule
+- If A is invertible, then any system Ax = b has a solution for which x = A^-1 b
+- For each k = 1, ..., n, xk = det(Mk) / det(A) where Mk is obtained from A by replacing kth column by b
 
 
 ## Theorems
@@ -47,7 +49,7 @@ For n>=2 and A in M_nxn
 	- If matrix has two identical rows, then detA = 0
 - det of upper / lower triangular matrix is product of its diagonal entries adjusted for how row operations may have changed the determinant
 - A,B are invertible iff AB is invertible
-
+- A map F: M_nxn --> R is det if it is linear in rows, F(A) is 0 if A has two identical rows an F(In) = 1
 
 
 
