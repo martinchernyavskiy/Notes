@@ -9,8 +9,9 @@ Using the sum formula and substituting B1j + kC1j into A1j, we get det(A) = det(
 For r > 1, we argue by induction on n.
 Base case: n = 1, det is linear.
 Inductive step: assume true for n - 1, then:
-since 1st row 
-
+since 1st row is identical for the 3 matrices, the corresponding part of the sum formula is the same.
+det of the (n-1)(n-1) matrix of A is however equal to det(~B1j) + kdet(~C1j) by induction hypithesis.
+Then substituting this relation to the sum formula we get the desired relation.
 This completes the proof. $\square$
 
 ### Immediately follow:
