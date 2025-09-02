@@ -34,8 +34,8 @@ f(t) = det(A - tin) is the characteristic polynomial of A where it is a polynomi
 
 ## Algebraic and Geometric Multiplicity
 - Given an eigenvalue c of A,
-- Algebrain multiplicity: number of times (c -t) divides det(A - tIn)
-- 
+- Algebraic multiplicity of c: number of times (c -t) divides det(A - tIn)
+- Geometric multiplicity of c: dimension of eigenspace of c
 
 ## Theorems
 - Matrix is diagonalizable if its left multiplication transformation is.
@@ -57,6 +57,8 @@ f(t) = det(A - tin) is the characteristic polynomial of A where it is a polynomi
 	- det(B - tIn) = det(Q^-1AQ - Q^-1 tIn Q)
 	- = det(Q^-1)det(A-tIn)det(Q)
 	- = det(A-tIn)
+.
+- Geometric multiplicity is less than or equal to algebraic multiplicity
 
 
 
