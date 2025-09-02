@@ -14,16 +14,12 @@
 - Find eigenvectors of A ( 0 0 1 
 					 0 2 0
 					 -2 0 3) with eigenvalue 1
-- That means we need all nonzero vectors in N(A - I3)
-‎ 
-- Example 2: ...
-‎ 
-- Example 3: ...
+- That means we need all nonzero vectors in N(A - I3), solve for the matrix and read off the solution set from RREF.
 
-## Non-examples
+
+## Eigenspace
 ?
-- Non-example 1: ...
-- Non-example 2: ...
+*Given an eigenvalue of A, eigenspace of A corresponding to that eigenvalue is Ec = N(A - cIn), set of all eigenvectors for eigenvalue or 0*
 
 ## Theorems
 - Matrix is diagonalizable if its left multiplication transformation is.
