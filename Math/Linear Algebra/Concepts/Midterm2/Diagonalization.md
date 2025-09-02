@@ -32,6 +32,11 @@ f(t) = det(A - tin) is the characteristic polynomial of A where it is a polynomi
 - Attempt to combine the bases to form a basis for V, if sum of dimensions = n, then we found the basis
 - Compute change of coordinates
 
+## Algebraic and Geometric Multiplicity
+- Given an eigenvalue c of A,
+- Algebrain multiplicity: number of times (c -t) divides det(A - tIn)
+- 
+
 ## Theorems
 - Matrix is diagonalizable if its left multiplication transformation is.
 	- If there exists Q for which Q^-1 A Q is diagonal
@@ -46,9 +51,12 @@ f(t) = det(A - tin) is the characteristic polynomial of A where it is a polynomi
 - Eigenvectors of distinct eigenvalues are linearly independent 
 .
 - If A is diagonalizable, then its characteristic polynomial splits over R
+	- Let A be diagonalizable, then there is a basis for which its left multiplication matrix representation is diagonal.
 .
 - If A and B are similar, then they have the same eigenvalues
-	- 
+	- det(B - tIn) = det(Q^-1AQ - Q^-1 tIn Q)
+	- = det(Q^-1)det(A-tIn)det(Q)
+	- = det(A-tIn)
 
 
 
