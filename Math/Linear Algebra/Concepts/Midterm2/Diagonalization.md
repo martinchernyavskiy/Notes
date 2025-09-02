@@ -29,7 +29,7 @@ f(t) = det(A - tin) is the characteristic polynomial of A where it is a polynomi
 ## Algorithm for Diagonalization
 - Find eigenvalues of A using characteristic polynomial
 - Using eigenspace, find basis for each eigenvalue
-- Attempt to combine the bases to form a basis for V
+- Attempt to combine the bases to form a basis for V, if sum of dimensions = n, then we found the basis
 - Compute change of coordinates
 
 ## Theorems
