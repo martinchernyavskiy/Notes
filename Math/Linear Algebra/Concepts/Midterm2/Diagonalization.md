@@ -24,7 +24,13 @@
 
 ## Characteristic polynomial
 ?
-f(t) = det(A - tin) is the characteristic polynomial of A where it is a polynomial of degree n
+f(t) = det(A - tin) is the characteristic polynomial of A where it is a polynomial of degree n. Solving for the determinant gives eigenvalues of A 
+
+## Algorithm for Diagonalization
+- Find eigenvalues of A using characteristic polynomial
+- Using eigenspace, find basis for each eigenvalue
+- Attempt to combine the bases to form a basis for V
+- Compute change of coordinates
 
 ## Theorems
 - Matrix is diagonalizable if its left multiplication transformation is.
