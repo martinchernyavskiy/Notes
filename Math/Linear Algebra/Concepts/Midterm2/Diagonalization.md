@@ -15,16 +15,27 @@
 					 0 2 0
 					 -2 0 3) with eigenvalue 1
 - That means we need all nonzero vectors in N(A - I3), solve for the matrix and read off the solution set from RREF.
+- Given A( 0 -1 1 0) and f(t) = det(A - tI2), det of the latter matrix is t^2 +1 which has no real roots and thus A has no eigenvalues.
 
 
 ## Eigenspace
 ?
 *Given an eigenvalue of A, eigenspace of A corresponding to that eigenvalue is Ec = N(A - cIn), set of all eigenvectors for eigenvalue or 0*
 
+## Characteristic polynomial
+?
+f(t) = det(A - tin) is the characteristic polynomial of A where it is a polynomial of degree n
+
 ## Theorems
 - Matrix is diagonalizable if its left multiplication transformation is.
 	- If there exists Q for which Q^-1 A Q is diagonal
 - v in Rn is eigenvector of A if its in kernel of N(A - cIn)
+- A scalar is an eigenvalue of a matrix iff det(A - cIn) = 0
+	- If c is an eigenvalue, then there exists a non-zero v in V for which Av = cv
+	- --> (A-cIn)(v) = 0 for v != 0
+	- --> kernel of this is not equal to zero
+	- --> A-cIn i snot 1-1 and thus not invertible and thus its determinant is 0
+- c is eigenvalue of A iff c is a root of the characteristic polynomial & A has at most n eigenvalues
 
 
 
