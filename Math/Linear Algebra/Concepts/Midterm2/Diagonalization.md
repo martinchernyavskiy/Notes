@@ -44,15 +44,6 @@ f(t) = det(A - tin) is the characteristic polynomial of A where it is a polynomi
 - c is eigenvalue of A iff c is a root of the characteristic polynomial & A has at most n eigenvalues
 
 
-det(A - tI3)
 
-( -t 0 1 
-0 2-t 0
--2 0 3-t)
-
-using the formula -1^1+jA1j(det~A1j)
--t(2-t)(3-t) +4-2t
-
-2
 
 #linear-algebra
