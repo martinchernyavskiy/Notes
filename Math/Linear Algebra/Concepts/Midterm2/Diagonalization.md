@@ -59,6 +59,8 @@ f(t) = det(A - tin) is the characteristic polynomial of A where it is a polynomi
 	- = det(A-tIn)
 .
 - Geometric multiplicity is less than or equal to algebraic multiplicity
+.
+- A is diagonalizable if its characteristic polynomial splits over R and for each eigenvalue, geom mult = alg mult
 
 
 
