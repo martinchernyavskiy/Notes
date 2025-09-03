@@ -21,4 +21,5 @@ P(#) = 1/3, P($) = 1/3, P(!) = 1/3, etc.
 
 a) i) check, ii) not, iii) not
 
-b) i) yes, ii) yes, iii) 
+b) i) yes, ii) yes, iii) yes
+
