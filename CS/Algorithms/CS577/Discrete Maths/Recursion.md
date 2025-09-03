@@ -29,3 +29,12 @@ if a < b then return GCD(a, b-a)
 if a > b then return GCD(a-b, b)
 
 ```
+
+## Correctness of Recursive Programs
+- When prove correctness, we prove that for all valid inputs, the program produces the correct output
+- Need to prove correctness via induction. Proving correctness involves proving partial correctness and termination
+### Partial Correctness
+- Need to show for all valid inputs x, if program terminates, then it returns the correct output for x
+- For recursive programs it is sufficient to show:
+	- All recursive calls on input 
+### Termination
