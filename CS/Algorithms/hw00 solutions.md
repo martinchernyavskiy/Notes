@@ -25,6 +25,7 @@ since gcd(a, b) = gcd(a, b-a), second if statement for where a < b is a correct 
 
 since gcd(a, b) = gcd (b, a) = gcd(b, a-b) = gcd (a-b, b), else statement is the correct recursive step for when a < b 
 
+*the algorithm correctly terminates at the base case and both a and b approach closer and become one value at the base case*
 
 Algorithm 2:
 
@@ -35,7 +36,7 @@ The next conditional block then results to false and thus triggers an else state
 
 Algorithm 3:
 
-
+in the case where a < b,the gcd(a, b) = gcd(b-a, b) does hold, however it doesn't guarantee that the arguments b-a 
 
 Algorithm 4:
 
