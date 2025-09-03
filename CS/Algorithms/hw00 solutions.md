@@ -3,7 +3,7 @@
 
 logarithmic < polylogarithmic < polynomial < quasi-polynomial < exponential.
 
-
+f5 < f6 < f3 < f2 < f1 < f7< f4 < f8
 
 
 
