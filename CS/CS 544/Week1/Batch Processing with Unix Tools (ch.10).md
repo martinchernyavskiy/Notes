@@ -69,4 +69,14 @@ Enumerated steps:
 	- Instead, using sorting approach via Unix pipeline can take advantage of efficient use of disks 
 ...
 
-### Unix Philoso
+### Unix Philosophy
+- Analogy of building a pipeline where each program is connected to each other
+1. Have a program do a particular task and only that task
+	 a) To do new job, build new program
+2. Expect output of each program to become input of the other, one which isn't cluttered with meaningless information for easier use.
+3. Design & Build software early to be tried early.
+4. Use tools to lighted a programming tasks even if you may end up throwing them away after finishing using them.
+
+### Uniform Interface
+
+### Separation of Logic and Wiring
