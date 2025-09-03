@@ -2,9 +2,10 @@
 
 ### Ingredients of Probability Model
 ?
-- *Sample space* (omega): set of all possible outcomes of the experiment. Elements of sample space are called sample points and denoted by w
-- Subsets of sample space are called *events*
+- *Sample space* ($\Omega$): set of all possible outcomes of the experiment. Elements of sample space are called sample points and denoted by w
+- Subsets of sample space are called *events*, collection of events is $\mathcal{F}$
 - *Probability Distribution/Measure* function P from F into real numbers. 
+- *Probability space*: is a triple ()
 
 ### Probability Axioms
 - 0 <= P(A) <= 1 for each event A
