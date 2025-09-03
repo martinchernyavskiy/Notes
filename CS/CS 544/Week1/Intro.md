@@ -64,6 +64,7 @@ Servers whose datasets grow may run too slowly or not run at all given there is 
 - *SSDs* (Solid State Disks)
 	- Bits stored in charged cells
 	- No moving parts (faster)
+- *Block Devices*
 - *Large, nonvolatile, slow*
 ### Metrics
 - *Capacity*
