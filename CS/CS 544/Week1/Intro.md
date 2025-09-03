@@ -85,3 +85,5 @@ Servers whose datasets grow may run too slowly or not run at all given there is 
 
 ## Deployment
 ?
+- Running code somewhere, for example a *cloud VM*
+- *Docker Containers*: lightweight alternative to virtual machines, allows for creation of cluster machine ecosystem in a single system
