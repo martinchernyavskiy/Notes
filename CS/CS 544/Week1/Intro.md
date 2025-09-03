@@ -50,4 +50,15 @@ Servers whose datasets grow may run too slowly or not run at all given there is 
 ?
 - Randomly accessed : fast at accessing different locations efficiently
 - *Byte addressable*
-- *Fast, volati
+	- Each byte of data has its own address that the CPU can use to access it
+- *Fast, volatile, small*
+
+## Storage
+?
+- *HDDS* (Hard Disk Drivers)
+	- Bits stored on spinning magnetized platter
+	- Moving head reads/writes data
+- *SSDs* (Solid State Disks)
+	- Bits stored in charged cells
+	- No moving parts (faster)
+- *Large, nonvolatile, slow*
