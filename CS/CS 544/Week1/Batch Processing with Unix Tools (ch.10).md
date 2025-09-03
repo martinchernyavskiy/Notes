@@ -63,6 +63,7 @@ Enumerated steps:
 	5. Print the top five entries
 
 ### Sorting vs. In-memory aggregation
+?
 - Ruby keeps in-memory hash table of URLs, whilst the Unix pipeline doesn't
 - *Working set of the job* (the amount of memory to which job needs random access) depends only on the number of distinct URLs.
 - If number of distinct URLs is small eough, using in-memory hashtable works fine, however if there is a bigger website with a lot of distinct URLs, this depletes memory
@@ -70,6 +71,7 @@ Enumerated steps:
 ...
 
 ### Unix Philosophy
+?
 - Analogy of building a pipeline where each program is connected to each other
 1. Have a program do a particular task and only that task
 	 a) To do new job, build new program
@@ -78,5 +80,9 @@ Enumerated steps:
 4. Use tools to lighted a programming tasks even if you may end up throwing them away after finishing using them.
 
 ### Uniform Interface
+- Transferring input/output values between the programs requires for these to be the same data format --> same input/output interface
+- Interface in Unix is a file descript
 
 ### Separation of Logic and Wiring
+
+### Transparency and Experimentation
