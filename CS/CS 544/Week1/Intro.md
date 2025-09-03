@@ -16,5 +16,12 @@ Resources:
 	- Managed by Network Interface Card (*NIC*)
 
 ## Bid Data Systems
+?
+Servers whose datasets grow may run too slowly or not run at all given there is not enough memory.
+- *Scale Up / Out* or *More efficient code*
 - *Distributed* (cluster of machines)
 - *Specialized* (GPUs)
+
+## Compute
+- Some computers use multiple CPUs and CPUs may have multiply cores.
+- 
