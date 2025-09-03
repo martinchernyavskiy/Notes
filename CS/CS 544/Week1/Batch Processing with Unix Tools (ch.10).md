@@ -24,7 +24,7 @@
 ### Simple Log Analysis
 ?
 - Given the log file with lines of default access log formats listed above, we will create a report using Unix tools to find 5 most popular pages on the website. We group Unix commands using a pipe operator (|):
-```
+```Unix
 cat /var/log/nginx/access.log |
 awk '{print $7}' |
 sort |
@@ -39,3 +39,22 @@ Enumerated steps:
 	4. Filters out repeated lines and -c parameter tells to output a counter of how many times the listed distinct URLs appeared in the input
 	5. Sort by number (-n), number of times URL was requested, -r reverses the order, so it's largest to smallest
 	6. Outputs first 5 of input and discards the rest
+Note: Unix tools are powerful and we can manipulate the commands to serve a specific analysis purpose.
+
+### Chain of Commands vs. Custom Programs
+?
+- Simple programs can achieve the same thing as Unix commands, for example:
+```Ruby
+counts = Hash.new(0)
+File.open('/var/log/nginx/access.log') do |file|
+ file.each do |line|
+ url = line.split[6]
+ counts[url] += 1
+ end
+end
+top5 = counts.map{|url, count| [count, url] }.sort.reverse[0...5]
+top5.each{|count, url| puts "#{count} #{url}" }
+```
+Enumerated steps:
+	1. initialize counts to a hash table that keeps a counter of # of each URL, set it to zero by default
+	2. Open file and from each line of log 
