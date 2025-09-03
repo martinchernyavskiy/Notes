@@ -1,0 +1,4 @@
+- Describe solution in terms of solutions to easier instance of the same problem
+- Definitions, algorithms, programs
+- *recursive call* is a function call by a function to itself, using smaller input
+- 
