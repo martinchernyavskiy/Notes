@@ -38,6 +38,9 @@ if a > b then return GCD(a-b, b)
 - For recursive programs it is sufficient to show:
 	- All recursive calls on input x are valid inputs
 	- Assume these recursive calls return the correct output and that the program terminates, the program returns correct output on x
-	- 
+- The structure of partial correctness proof mimics the structure of recursive program under consideration.
+	- First prove that program returns correct output on simplest inputs (similar to base case in induction)
+	- Then prove that inputs to recursive calls are valid and if recursive calls return the correct output, then the program returns correct output (similar to inductive step in induction)
+	- If program terminates on input, then the chain of recursive calls it makes will end at the simplest input, which is implied by partial correctness that program returns the correct output
 ### Termination
 - Proved by induction on some quantity (depends on the inputs) which decreases with each recursive call
