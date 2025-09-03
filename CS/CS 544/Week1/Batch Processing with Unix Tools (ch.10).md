@@ -81,7 +81,7 @@ Enumerated steps:
 
 ### Uniform Interface
 - Transferring input/output values between the programs requires for these to be the same data format --> same input/output interface
-- Interface in Unix is a file descript
+- Interface in Unix is a file descriptor 
 
 ### Separation of Logic and Wiring
 
