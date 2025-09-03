@@ -20,5 +20,5 @@
 ## Batch Processing with Unix tools
 ?
 - Log format: 
-- $t$
+
 ### Simple Log Analysis
