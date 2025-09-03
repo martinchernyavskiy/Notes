@@ -25,7 +25,8 @@ Algorithm 2:
 
 This algorithm doesn't correctly compute gcd since it fails to consider the case where inputs were already equal, thus leading to an infinite recursion.
 
-When the first check happens, for a=b 
+When the first check happens, for a=b, the else statement is executed and b is subtracted by a.
+The next conditional block then results to false and thus triggers an else statement that recursively continues either subtracting b from a given a > b or a from b given b >= a 
 
 Algorithm 3:
 
