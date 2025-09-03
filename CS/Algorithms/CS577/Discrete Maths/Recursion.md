@@ -9,4 +9,23 @@
 - Foundation rules F1 = 1 and F2 = 1 are base cases
 This can be turned into a recursive program that calculates the n-th fibonacci number:
 Input: n - a positive integer
-Output: Fn - the 
+Output: Fn - the n-th Fibonacci number
+```
+Fib(n)
+if n = 1 or n = 2 then return 1
+	else return Fib(n-1) + Fib(n-2)
+```
+
+## GCD
+Input: a,b - positive integers
+Output: gcd(a,b) - their greatest common divisor
+```
+GCD(a,b)
+
+if a = b then return a
+
+if a < b then return GCD(a, b-a)
+
+if a > b then return GCD(a-b, b)
+
+```
