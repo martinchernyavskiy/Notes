@@ -56,12 +56,22 @@ correct recursive step for a < b, thus decreasing b by a value, moving them clos
 
 for a > b, we have gcd (b, a(b+1)) = gcd(a, b)
 
+Let
 gcd(a, b) = d, so d divides both a and b.
+and gcd(b, a(b+1)) = q, so q divides both b and (ab+a)
+
+we will show that d = q 
 
 since d divides b, then it divides b in gcd(b, a(b+1))
-since d divides b, then it divides (ab + a) since this is simply a multiple of a
+since d divides a, then it divides (ab + a) since this is simply a multiple of a
 
+thus d divides both b and a(b+1) and by definition of gcd, d <= q, greatest common divisor must be greater than or equal to any other common divisor.
 
+showing q <= d follows similar logic,
+
+thus d = q and so gcd(a, b) = (b, a(b+1))
+
+since when a < b, b decreases by standard reduction and when a > b, 
 
 3rd problem:
 
