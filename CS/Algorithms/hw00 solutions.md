@@ -54,6 +54,13 @@ correct base case since we're trying to achieve gcd(a, a) = a
 
 correct recursive step for a < b, thus decreasing b by a value, moving them closer together
 
+for a > b, we have gcd (b, a(b+1)) = gcd(a, b)
+
+gcd(a, b) = d, so d divides both a and b.
+
+since d divides b, then it divides b in gcd(b, a(b+1))
+since d divides b, then it divides (ab + a) since this is simply a multiple of a
+
 
 
 3rd problem:
