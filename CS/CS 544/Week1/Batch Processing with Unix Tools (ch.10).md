@@ -16,3 +16,9 @@
 	- Takes input and produces output
 	- Operates on events shortly after they happen, contrary to batch where job operates on a fixed set of input data
 	- *Lower latency* compared to batch systems
+
+## Batch Processing with Unix tools
+?
+- Log format: 
+- $t$
+### Simple Log Analysis
