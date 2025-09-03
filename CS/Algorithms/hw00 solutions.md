@@ -75,6 +75,10 @@ since when a < b, b decreases by standard reduction and when a > b, next recursi
 
 3rd problem:
 
+for 1st and 5th algorithm any a,b work since they are correct algorithms
+
+for 2 
+
 4th:
 
 Done.
