@@ -16,3 +16,4 @@
 - Coin flip, trivial.
 
 
+P(#) = 1/3, P($) = 1/3, P(!) = 1/3, etc.
