@@ -32,8 +32,15 @@ Servers whose datasets grow may run too slowly or not run at all given there is 
 
 
 ## High-Language Translation
+?
 - High level code can either be *compiled* into machine code by a *compiler* which is a separate software or CPU runs an *interpreter* program that loops over code and runs it
 - Another approach is for compiler to create *bytecode* and VM running on CPU will run the bytecode
 - Python VM (*PVM*) runs bytecode after *python3* is executed which compiles python code into a bytecode file
 	- This is similar to JVM that runs class bytecode files after compilation, however *JVM*'s bytecode is closer to machine code
-- 
+
+
+## GPUs
+?
+- GPUs: graphical processing units which contrary to CPU that has few cores that are fast and independent, has many *cores that are slow, float-optimized, and coordinated.*
+.
+- *FLOPS*: floating-point operations per second 
