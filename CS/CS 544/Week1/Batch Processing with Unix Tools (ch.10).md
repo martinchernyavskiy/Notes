@@ -19,6 +19,6 @@
 
 ## Batch Processing with Unix tools
 ?
-- Log format: 
+- Ngix default access log format: `$remote_addr - $remote_user [$time_local] "$request" $status $body_bytes_sent "$http_referer" "$http_user_agent"
 
 ### Simple Log Analysis
