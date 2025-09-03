@@ -22,3 +22,15 @@
 - Ngix default access log format: `$remote_addr - $remote_user [$time_local] "$request" $status $body_bytes_sent "$http_referer" "$http_user_agent"
 
 ### Simple Log Analysis
+- Given the log file with lines of default access log formats listed above, we will create a report using Unix tools to find 5 most popular pages on the website. We group Unix commands using a pipe operator (|):
+```
+cat /var/log/nginx/access.log |
+awk '{print $7}' |
+sort |
+uniq -c |
+sort -r -n |
+head -n 5
+```
+Enumerated steps:
+	1.  Read log file using cat command
+	2. Split each line into fields by whitespace and output only the seventh such field from eadch l
