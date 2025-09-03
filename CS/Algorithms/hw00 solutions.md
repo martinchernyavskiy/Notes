@@ -71,7 +71,7 @@ showing q <= d follows similar logic,
 
 thus d = q and so gcd(a, b) = (b, a(b+1))
 
-since when a < b, b decreases by standard reduction and when a > b, 
+since when a < b, b decreases by standard reduction and when a > b, next recursive call has smaller first argument b. Since the two arguments get closer together, eventually they reach the base case
 
 3rd problem:
 
