@@ -1,8 +1,10 @@
 
 1st Problem, ascending order of growth rate:
 
-1. 
-2.
+
+f2 < 
+1. $f_{5}(n)=5\log(n)$
+2. 
 3.
 4.
 5.
