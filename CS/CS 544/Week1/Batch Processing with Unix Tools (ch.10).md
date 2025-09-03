@@ -57,4 +57,11 @@ top5.each{|count, url| puts "#{count} #{url}" }
 ```
 Enumerated steps:
 	1. initialize counts to a hash table that keeps a counter of # of each URL, set it to zero by default
-	2. Open file and from each line of log 
+	2. Open file and from each line of log, split line into fields and access URL the 7th field by 6th index 
+	3. Increment counter for the URL in the current line of log, repeat until the end of log file
+	4. Sort the hash table contents by descending counter values and obtain top 5 entries
+	5. Print the top five entries
+
+### Sorting vs. In-memory aggregation
+- Ruby keeps in-memory hash table of URLs, whilst the Unix pipeline doesn't
+- 
