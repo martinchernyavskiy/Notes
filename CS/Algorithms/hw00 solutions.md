@@ -19,7 +19,9 @@ A correct algorithm preserves GCD and terminates at the base case
 
 Algorithm 1:
 
-Valid base case, 
+Valid base case, gcd(a,
+since gcd(a, b) = gcd(a, b-a)
+
 
 Algorithm 2:
 
