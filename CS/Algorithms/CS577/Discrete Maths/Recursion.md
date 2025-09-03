@@ -1,4 +1,12 @@
 - Describe solution in terms of solutions to easier instance of the same problem
 - Definitions, algorithms, programs
 - *recursive call* is a function call by a function to itself, using smaller input
-- 
+- it is essential for input to become smaller to eventually reach the base case for which solution is is easily obtained and that unravels all of the recursive calls from last to first
+
+
+## Fibonacci
+- Recursive definition = $F_{n} = F_{n-1} + F_{n-2}$
+- Foundation rules F1 = 1 and F2 = 1 are base cases
+This can be turned into a recursive program that calculates the n-th fibonacci number:
+Input: n - a positive integer
+Output: Fn - the 
