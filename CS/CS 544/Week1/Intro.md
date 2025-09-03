@@ -5,6 +5,7 @@
 - *Applications* (long running / website)
 - Systems (manage resources)
 	- operating system is a backbone of analysis code
+
 ### Resource Categories
 ?
 Computer:
@@ -76,6 +77,7 @@ Servers whose datasets grow may run too slowly or not run at all given there is 
 	accesses)
 - *Latency*
 	• how long does it take to do one I/O (e.g., 10 ms)
+<!--SR:!2025-09-06,3,250-->
 
 ## Network
 ?
