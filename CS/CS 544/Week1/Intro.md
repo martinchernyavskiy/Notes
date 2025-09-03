@@ -43,4 +43,11 @@ Servers whose datasets grow may run too slowly or not run at all given there is 
 ?
 - GPUs: graphical processing units which contrary to CPU that has few cores that are fast and independent, has many *cores that are slow, float-optimized, and coordinated.*
 .
-- *FLOPS*: floating-point operations per second 
+- *FLOPS*: floating-point operations per second, way of measuring performance of GPUs
+- *Benchmark*: program for measuring performance
+
+## RAM
+?
+- Randomly accessed : fast at accessing different locations efficiently
+- *Byte addressable*
+- *Fast, volati
