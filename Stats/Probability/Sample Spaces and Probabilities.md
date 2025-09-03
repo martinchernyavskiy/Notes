@@ -10,4 +10,4 @@
 ### Probability Axioms
 - 0 <= P(A) <= 1 for each event A
 - P(sample space) = 1 and P(empty set) = 0
-- 
+- If $A_{1},..,A_{}$
