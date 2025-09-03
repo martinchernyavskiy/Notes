@@ -42,7 +42,19 @@ in the case where a < b, the gcd(a, b) = gcd(b-a, b) does hold, however it doesn
 
 Algorithm 4:
 
+correct base and a < b recursive steps, however it's not true that gcd(a, b) = gcd (b, ab) and thus the algorithm is invalid.
+
+Since (ab) is a multiple of b, the answer always results in b
+
+Can introduce another counterexample
+
 Algorithm 5:
+
+correct base case since we're trying to achieve gcd(a, a) = a
+
+correct recursive step for a < b, thus decreasing b by a value, moving them closer together
+
+
 
 3rd problem:
 
