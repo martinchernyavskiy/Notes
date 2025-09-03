@@ -5,5 +5,14 @@
 	- Attempts to handle as quickly as possible and sends response back
 	- *Response time*
 - ### Batch Processing Systems (offline)
-	- 
+	- Takes large amount of input data
+	- Runs *job* to process the data and produces *output data*
+	- Job may take from several minutes to several days
+	- No client awaiting
+	- *Job scheduling*
+	- *Throughput*
 - ### Stream Processing Systems (near-real-time)
+	- Between online/offline processing
+	- Takes input and produces output
+	- Operates on events shortly after they happen, contrary to batch where job operates on a fixed set of input data
+	- *Lower latency* compared to batch systems
