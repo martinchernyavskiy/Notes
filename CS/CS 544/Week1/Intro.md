@@ -31,5 +31,9 @@ Servers whose datasets grow may run too slowly or not run at all given there is 
 - The more cores available, the more tasks can be ran in *parallel*
 
 
-## High-Language Interpreter
-- High level code can either be *compiled* into 
+## High-Language Translation
+- High level code can either be *compiled* into machine code by a *compiler* which is a separate software or CPU runs an *interpreter* program that loops over code and runs it
+- Another approach is for compiler to create *bytecode* and VM running on CPU will run the bytecode
+- Python VM (*PVM*) runs bytecode after *python3* is executed which compiles python code into a bytecode file
+	- This is similar to JVM that runs class bytecode files after compilation, however *JVM*'s bytecode is closer to machine code
+- 
