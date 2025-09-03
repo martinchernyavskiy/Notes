@@ -34,9 +34,11 @@ This algorithm doesn't correctly compute gcd since it fails to consider the case
 When the first check happens, for a=b, the else statement is executed and b is subtracted by a.
 The next conditional block then results to false and thus triggers an else statement that recursively continues either subtracting b from a given a > b or a from b given b >= a 
 
+counterexample any a=b
+
 Algorithm 3:
 
-in the case where a < b,the gcd(a, b) = gcd(b-a, b) does hold, however it doesn't guarantee that the arguments b-a 
+in the case where a < b, the gcd(a, b) = gcd(b-a, b) does hold, however it doesn't guarantee that the arguments b-a and a get closer together to a single value. A counterexample could be (6,10)
 
 Algorithm 4:
 
