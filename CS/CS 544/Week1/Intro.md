@@ -5,6 +5,7 @@
 - *Applications* (long running / website)
 - Systems (manage resources)
 	- operating system is a backbone of analysis code
+<!--SR:!2025-09-07,4,272-->
 
 ### Resource Categories
 ?
@@ -15,6 +16,7 @@ Resources:
 - *Storage* (long-term data)
 - *Network* (provides communication between computers)
 	- Managed by Network Interface Card (*NIC*)
+<!--SR:!2025-09-07,4,272-->
 
 ## Bid Data Systems
 ?
@@ -22,6 +24,7 @@ Servers whose datasets grow may run too slowly or not run at all given there is 
 - *Scale Up / Out* or *More efficient code*
 - *Distributed* (cluster of machines)
 - *Specialized* (GPUs)
+<!--SR:!2025-09-07,4,272-->
 
 ## Compute
 ?
@@ -48,6 +51,7 @@ Servers whose datasets grow may run too slowly or not run at all given there is 
 .
 - *FLOPS*: floating-point operations per second, way of measuring performance of GPUs
 - *Benchmark*: program for measuring performance
+<!--SR:!2025-09-07,4,272-->
 
 ## RAM
 ?
@@ -55,6 +59,7 @@ Servers whose datasets grow may run too slowly or not run at all given there is 
 - *Byte addressable*
 	- Each byte of data has its own address that the CPU can use to access it
 - *Fast, volatile, small*
+<!--SR:!2025-09-07,4,272-->
 
 ## Storage
 ?
