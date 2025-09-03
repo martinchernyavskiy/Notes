@@ -23,5 +23,13 @@ Servers whose datasets grow may run too slowly or not run at all given there is 
 - *Specialized* (GPUs)
 
 ## Compute
-- Some computers use multiple CPUs and CPUs may have multiply cores.
-- 
+?
+- Some computers use multiple CPUs and CPUs may have multiply *cores*.
+- OS *schedules tasks* on cores
+- Each core can execute instructions for one/two tasks at a time
+	- Each instruction is written in machine code that CPU operates on
+- The more cores available, the more tasks can be ran in *parallel*
+
+
+## High-Language Interpreter
+- High level code can either be *compiled* into 
