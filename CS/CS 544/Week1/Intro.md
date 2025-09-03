@@ -29,6 +29,7 @@ Servers whose datasets grow may run too slowly or not run at all given there is 
 - Each core can execute instructions for one/two tasks at a time
 	- Each instruction is written in machine code that CPU operates on
 - The more cores available, the more tasks can be ran in *parallel*
+<!--SR:!2025-09-06,3,250-->
 
 
 ## High-Language Translation
@@ -37,6 +38,7 @@ Servers whose datasets grow may run too slowly or not run at all given there is 
 - Another approach is for compiler to create *bytecode* and VM running on CPU will run the bytecode
 - Python VM (*PVM*) runs bytecode after *python3* is executed which compiles python code into a bytecode file
 	- This is similar to JVM that runs class bytecode files after compilation, however *JVM*'s bytecode is closer to machine code
+<!--SR:!2025-09-06,3,250-->
 
 
 ## GPUs
@@ -82,6 +84,7 @@ Servers whose datasets grow may run too slowly or not run at all given there is 
 ### Metrics
 - *Latency*: how long to send message between two points
 - *Bandwidth / Throughput*: how many bits can be sent per second
+<!--SR:!2025-09-06,3,250-->
 
 ## Deployment
 ?
