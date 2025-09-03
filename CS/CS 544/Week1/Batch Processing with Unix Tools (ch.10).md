@@ -83,7 +83,13 @@ Enumerated steps:
 - Transferring input/output values between the programs requires for these to be the same data format --> same input/output interface
 - Interface in Unix is a file descriptor, consisting of ordered sequences of bytes
 - *Simple and Versatile*
+- 
 
 ### Separation of Logic and Wiring
 
 ### Transparency and Experimentation
+?
+- Input files are viewed as immutable
+- Can end pipeline whenever you wish, good for debugging
+- Can save output of pipeline to a file and use that file as an input to the next stage.
+- Ran only on a single machine, *Hadoop* solves that
