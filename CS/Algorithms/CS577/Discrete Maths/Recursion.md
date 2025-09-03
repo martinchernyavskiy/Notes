@@ -36,5 +36,8 @@ if a > b then return GCD(a-b, b)
 ### Partial Correctness
 - Need to show for all valid inputs x, if program terminates, then it returns the correct output for x
 - For recursive programs it is sufficient to show:
-	- All recursive calls on input 
+	- All recursive calls on input x are valid inputs
+	- Assume these recursive calls return the correct output and that the program terminates, the program returns correct output on x
+	- 
 ### Termination
+- Proved by induction on some quantity (depends on the inputs) which decreases with each recursive call
