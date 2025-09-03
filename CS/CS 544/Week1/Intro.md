@@ -62,22 +62,26 @@ Servers whose datasets grow may run too slowly or not run at all given there is 
 	- Bits stored in charged cells
 	- No moving parts (faster)
 - *Large, nonvolatile, slow*
-
-## Metrics
-?
-	*Capacity*
+### Metrics
+- *Capacity*
 	• how much data can be stored?
 	• measured in bytes (for example, 500 GB)
-	*Throughput*
+- *Throughput*
 	• how fast can data be read/written?
 	• measure in bytes/second (for example, 200 MB/s)
 	• throughput will depend on access pattern (for example,
 	spinning disks have low throughput for random
 	accesses)
-	*Latency*
+- *Latency*
 	• how long does it take to do one I/O (e.g., 10 ms)
 
 ## Network
 ?
-- Clustered machines utilize network communication
-- 
+- Clustered machines (*nodes*) utilize network communication
+- *Topology*: layout of devices
+### Metrics
+- *Latency*: how long to send message between two points
+- *Bandwidth / Throughput*: how many bits can be sent per second
+
+## Deployment
+?
