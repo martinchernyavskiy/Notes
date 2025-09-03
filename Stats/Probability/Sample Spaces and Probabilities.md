@@ -23,3 +23,9 @@ a) i) check, ii) not, iii) not
 
 b) i) yes, ii) yes, iii) yes
 
+
+yes
+
+no, complement
+
+no, union
