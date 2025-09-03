@@ -19,8 +19,11 @@ A correct algorithm preserves GCD and terminates at the base case
 
 Algorithm 1:
 
-Valid base case, gcd(a,
-since gcd(a, b) = gcd(a, b-a)
+Valid base case, gcd(a,a) = a,
+
+since gcd(a, b) = gcd(a, b-a), second if statement for where a < b is a correct recursive step
+
+since gcd(a, b) = gcd (b, a) = gcd(b, a-b) = gcd (a-b, b), else statement is the correct recursive step for when a < b 
 
 
 Algorithm 2:
@@ -31,6 +34,8 @@ When the first check happens, for a=b, the else statement is executed and b is s
 The next conditional block then results to false and thus triggers an else statement that recursively continues either subtracting b from a given a > b or a from b given b >= a 
 
 Algorithm 3:
+
+
 
 Algorithm 4:
 
