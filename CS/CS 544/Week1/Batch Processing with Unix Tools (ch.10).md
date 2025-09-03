@@ -64,4 +64,9 @@ Enumerated steps:
 
 ### Sorting vs. In-memory aggregation
 - Ruby keeps in-memory hash table of URLs, whilst the Unix pipeline doesn't
-- 
+- *Working set of the job* (the amount of memory to which job needs random access) depends only on the number of distinct URLs.
+- If number of distinct URLs is small eough, using in-memory hashtable works fine, however if there is a bigger website with a lot of distinct URLs, this depletes memory
+	- Instead, using sorting approach via Unix pipeline can take advantage of efficient use of disks 
+...
+
+### Unix Philoso
