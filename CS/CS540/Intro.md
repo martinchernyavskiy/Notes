@@ -11,4 +11,5 @@
 	- Main tool for machine learning & data science
 	- Conda package manager
 - Jupyter
-	- 
+	- Easy to keep track of experiments
+	- Code separation into modules
