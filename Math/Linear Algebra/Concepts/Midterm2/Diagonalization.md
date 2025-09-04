@@ -40,7 +40,6 @@ f(t) = det(A - tin) is the characteristic polynomial of A where it is a polynomi
 ## Theorems
 - Matrix is diagonalizable if its left multiplication transformation is.
 	- If there exists Q for which Q^-1 A Q is diagonal
-- v in Rn is eigenvector of A if its in kernel of N(A - cIn)
 - A scalar is an eigenvalue of a matrix iff det(A - cIn) = 0
 	- If c is an eigenvalue, then there exists a non-zero v in V for which Av = cv
 	- --> (A-cIn)(v) = 0 for v != 0
