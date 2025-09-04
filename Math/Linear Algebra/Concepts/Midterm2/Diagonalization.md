@@ -45,12 +45,11 @@ f(t) = det(A - tin) is the characteristic polynomial of A where it is a polynomi
 	- --> (A-cIn)(v) = 0 for v != 0
 	- --> kernel of this is not equal to zero
 	- --> A-cIn i snot 1-1 and thus not invertible and thus its determinant is 0
-- c is eigenvalue of A iff c is a root of the characteristic polynomial & A has at most n eigenvalues
+-  A has at most n eigenvalues
 .
 - Eigenvectors of distinct eigenvalues are linearly independent 
 .
 - If A is diagonalizable, then its characteristic polynomial splits over R
-	- Let A be diagonalizable, then there is a basis for which its left multiplication matrix representation is diagonal.
 .
 - If A and B are similar, then they have the same eigenvalues
 	- det(B - tIn) = det(Q^-1AQ - Q^-1 tIn Q)
