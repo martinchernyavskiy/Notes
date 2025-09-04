@@ -36,11 +36,11 @@ f(t) = det(A - tin) is the characteristic polynomial of A where it is a polynomi
 - Given an eigenvalue c of A,
 - Algebraic multiplicity of c: number of times (c -t) divides det(A - tIn)
 - Geometric multiplicity of c: dimension of eigenspace of c
-.
+
 ## Theorems
 - Matrix is diagonalizable if its left multiplication transformation is.
 	- If there exists Q for which Q^-1 A Q is diagonal
-- A scalar is an eigenvalue of a matrix iff det(A - cIn) = 0
+- *A scalar is an eigenvalue of a matrix iff det(A - cIn) = 0*
 	- If c is an eigenvalue, then there exists a non-zero v in V for which Av = cv
 	- --> (A-cIn)(v) = 0 for v != 0
 	- --> kernel of this is not equal to zero
