@@ -52,8 +52,26 @@ Argue that 1 is correct by induction a+b
 
 base case: gcd(1, 1) --> 1 for a+b smallest = 2 
 
+inductive hypothesis: for a+b <= n the algorithm correctly 
+
 inductive step: a+b = n+1
 
 case 1: a=b
 
-case 2: a< b the algorithm returns gcd(a, b-a) but we know by fact one that this equals to gcd(a, b)
+case 2: a< b the algorithm correct returns gcd(a, b-a) but we know by fact one that this equals to gcd(a, b)
+
+case 3: is similar for a> b 
+
+
+
+Algorithm 2: is not correct, gcd(4,4) will do gcd(4,0 ) forever
+
+Algorithm 3: 
+
+Algorithm 4:
+
+counter examples are enough
+
+Algorithm 5: correct
+
+Lemma (intuitoon)
