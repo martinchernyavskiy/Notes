@@ -44,3 +44,16 @@ Termination: Need to inductively prove that for the program terminates (inductio
 Algorithm 2:
 
 Take a = b, then the algorithm executes infinitely since either of the inputs keep decreasing 
+
+
+Algorithm 1:
+
+Argue that 1 is correct by induction a+b 
+
+base case: gcd(1, 1) --> 1 for a+b smallest = 2 
+
+inductive step: a+b = n+1
+
+case 1: a=b
+
+case 2: a< b the algorithm returns gcd(a, b-a) but we know by fact one that this equals to gcd(a, b)
