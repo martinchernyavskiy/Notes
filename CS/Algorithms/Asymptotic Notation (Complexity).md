@@ -84,4 +84,10 @@ by induction: induct on the first argument (a)
 
 base case: a = 1, then gcd(1,b) follows from algorithm 1
 
-inductive hypothesis: we induct on the first argument and assume the al
+inductive hypothesis: we induct on the first argument and assume the algorithm correctly returns gcd(a,b) for all a <= n
+
+inductive step: a = n+1:
+
+If a < b, it will return gcd(b-a, a) correct by fact 1
+
+if a > b, then returns gcd(b. a(b+1) correctly by hypothesis and by lemma this is gcd of a, b
