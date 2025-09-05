@@ -1,25 +1,10 @@
 
-## Definition
-?
-*A clear, concise definition using MathJax where needed.*
+## Class Examples
 
-## Properties / Axioms
-?
-1. ...
-2. ...
-3. ...
+$$
+\text{Suppose n>k for n,k positive}
 
-## Examples
-?
-- Example 1: ...
-‎ 
-- Example 2: ...
-‎ 
-- Example 3: ...
+$$
 
-## Non-examples
-?
-- Non-example 1: ...
-- Non-example 2: ...
+a) 1/2 * 1/3 * 2/3^2
 
-## Theorems
