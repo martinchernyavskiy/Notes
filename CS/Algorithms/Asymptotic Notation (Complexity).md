@@ -29,8 +29,18 @@ Problem 2:
 
 Algorithm 1: 
 
-Partial correctness:
+Partial correctness: Need to confirm that for all valid inputs, when the program terminates we receive the right output
 
+Case a = b, then gcd(a, b) = gcd (a, a) and the algorithm returns the right output which is a
 
+Case a > b = ...
 
-Termination:
+...
+
+Standard gcd implementation
+
+Termination: Need to inductively prove that for the program terminates (induction on a decreasing quantity for each recursion call)
+
+Algorithm 2:
+
+Take a = b, then the algorithm executes infinitely since either of the inputs keep decreasing 
