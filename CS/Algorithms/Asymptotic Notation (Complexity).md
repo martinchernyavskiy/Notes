@@ -21,4 +21,16 @@ f5 < f6 < f3 < f2 < f7 <  f1 < f4 < f8
 
 Problem 2:
 
-## 
+### Claim 10^n  = O(log(n)^n-2)
+- By definition or can see what big O each function is
+
+
+Problem 2:
+
+Algorithm 1: 
+
+Partial correctness:
+
+
+
+Termination:
