@@ -21,6 +21,7 @@
 ## Batch Processing with Unix tools
 ?
 - Ngix default access log format: `$remote_addr - $remote_user [$time_local] "$request" $status $body_bytes_sent "$http_referer" "$http_user_agent"
+<!--SR:!2025-09-09,4,274-->
 
 ### Simple Log Analysis
 ?
@@ -79,6 +80,7 @@ Enumerated steps:
 2. Expect output of each program to become input of the other, one which isn't cluttered with meaningless information for easier use.
 3. Design & Build software early to be tried early.
 4. Use tools to lighted a programming tasks even if you may end up throwing them away after finishing using them.
+<!--SR:!2025-09-09,4,270-->
 
 ### Uniform Interface
 - Transferring input/output values between the programs requires for these to be the same data format --> same input/output interface
@@ -92,6 +94,7 @@ Enumerated steps:
 - Uses standard input/output (stdin/stdout). Default keyboard/screen. *Can specify input/output to be files*
 - Pipes allow to connect stdout of one process to stdin of another process. Uses in-memory buffer, but no intermediate data stream to disk
 - Custom programs can take part of this pipeline by using stdin/stdout directly
+<!--SR:!2025-09-09,4,274-->
 
 ### Transparency and Experimentation
 ?
