@@ -42,6 +42,7 @@ Enumerated steps:
 	5. Sort by number (-n), number of times URL was requested, -r reverses the order, so it's largest to smallest
 	6. Outputs first 5 of input and discards the rest
 Note: Unix tools are powerful and we can manipulate the commands to serve a specific analysis purpose.
+<!--SR:!2025-09-08,3,254-->
 
 ### Chain of Commands vs. Custom Programs
 ?
@@ -59,18 +60,20 @@ top5.each{|count, url| puts "#{count} #{url}" }
 ```
 Enumerated steps:
 	1. initialize counts to a hash table that keeps a counter of # of each URL, set it to zero by default
-	2. Open file and from each line of log, split line into fields and access URL the 7th field by 6th index 
+	2. Open file and from each line of log, split line into fields and access URL the 7th field by 6th index
 	3. Increment counter for the URL in the current line of log, repeat until the end of log file
 	4. Sort the hash table contents by descending counter values and obtain top 5 entries
 	5. Print the top five entries
+<!--SR:!2025-09-08,3,254-->
 
 ### Sorting vs. In-memory aggregation
 ?
 - Ruby keeps in-memory hash table of URLs, whilst the Unix pipeline doesn't
 - *Working set of the job* (the amount of memory to which job needs random access) depends only on the number of distinct URLs.
 - If number of distinct URLs is small eough, using in-memory hashtable works fine, however if there is a bigger website with a lot of distinct URLs, this depletes memory
-	- Instead, using sorting approach via Unix pipeline can take advantage of efficient use of disks 
+	- Instead, using sorting approach via Unix pipeline can take advantage of efficient use of disks
 ...
+<!--SR:!2025-09-08,3,254-->
 
 ### Unix Philosophy
 ?
