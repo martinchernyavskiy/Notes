@@ -13,4 +13,11 @@
 - f = o(g(n)) iff g(n) = $\omega(f(n))$
 
 - $f = \Theta (g(n))$ if f = big o and omega of g(n)
-- 
+
+
+Problem 1:
+
+f5 < f6 < f3 < f2 f7 <  f1 < f4 < f8
+
+Problem 2:
+
