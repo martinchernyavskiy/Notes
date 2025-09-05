@@ -86,6 +86,9 @@ Enumerated steps:
 
 
 ### Separation of Logic and Wiring
+?
+- Uses standard input/output (stdin/stdout). Default keyboard/screen. *Can specify input/output to be files*
+- Pipes allow to connect stdout of one process to stdin of another process. Uses in-memory buffer, but no intermediate data stream to disk
 
 ### Transparency and Experimentation
 ?
