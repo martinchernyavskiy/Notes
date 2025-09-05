@@ -17,7 +17,8 @@
 
 Problem 1:
 
-f5 < f6 < f3 < f2 f7 <  f1 < f4 < f8
+f5 < f6 < f3 < f2 < f7 <  f1 < f4 < f8
 
 Problem 2:
 
+## 
