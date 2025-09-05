@@ -81,14 +81,16 @@ Enumerated steps:
 
 ### Uniform Interface
 - Transferring input/output values between the programs requires for these to be the same data format --> same input/output interface
-- Interface in Unix is a file descriptor, consisting of ordered sequences of bytes
-- *Simple and Versatile*
+- Interface in Unix is a file descriptor, consisting of ordered sequences of bytes which is used by many things to be represented and thus able to be plugged together
+- Many Unix programs treat files as ASCII text
+- 
 
 
 ### Separation of Logic and Wiring
 ?
 - Uses standard input/output (stdin/stdout). Default keyboard/screen. *Can specify input/output to be files*
 - Pipes allow to connect stdout of one process to stdin of another process. Uses in-memory buffer, but no intermediate data stream to disk
+- Custom programs can take part of this pipeline by using stdin/stdout directly
 
 ### Transparency and Experimentation
 ?
