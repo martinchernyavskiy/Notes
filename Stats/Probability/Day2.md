@@ -23,10 +23,3 @@
 - Non-example 2: ...
 
 ## Theorems
-- [[Theorem Name 1]]
-- [[Theorem Name 2]]
-
-
-
-
-#linear-algebra
