@@ -1,3 +1,5 @@
+way of measuring runtime against size of input
+
 ## Properties
 -  All functions match positive integers to positive real numbers
 
