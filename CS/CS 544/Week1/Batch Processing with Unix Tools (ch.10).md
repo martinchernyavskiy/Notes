@@ -16,6 +16,7 @@
 	- Takes input and produces output
 	- Operates on events shortly after they happen, contrary to batch where job operates on a fixed set of input data
 	- *Lower latency* compared to batch systems
+<!--SR:!2025-09-08,3,250-->
 
 ## Batch Processing with Unix tools
 ?
@@ -98,3 +99,4 @@ Enumerated steps:
 - Can end pipeline whenever you wish, good for debugging
 - Can save output of pipeline to a file and use that file as an input to the next stage.
 - Ran only on a single machine, *Hadoop* solves that
+<!--SR:!2025-09-09,4,270-->
