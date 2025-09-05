@@ -74,4 +74,14 @@ counter examples are enough
 
 Algorithm 5: correct
 
-Lemma (intuitoon)
+Lemma (intuition) --> gcd(a,b) = gcd(b, ab+a)
+
+if y divides b and a(b+1) then u must divide a because b and b+1 cannot share any common factors
+
+Formal proof:
+
+by induction: induct on the first argument (a)
+
+base case: a = 1, then gcd(1,b) follows from algorithm 1
+
+inductive hypothesis: we induct on the first argument and assume the al
