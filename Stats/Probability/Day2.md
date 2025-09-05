@@ -10,9 +10,11 @@ $$
 
 
 
-a) 1/2 * 1/3 * 2/3^2
-
-1/2 * 4/14 * 10/14 * 9/13
 
 
+## Appendix B/C
+- Counting
 
+### a
+- Suppose you sample 3 balls with replacing what is the probability at least one ball is red?
+- 
