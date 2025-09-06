@@ -11,5 +11,12 @@
 	- -m32 is used for generating code for a 32-bit environment
 	- -std=gnu99 is used to tell compiler to use GNU 1999 C standard
 	- =0 decode.i saves the output of the command to a file named "decode.i"
+.
 - Lines in "decode.c" that start with # which are called *preprocessor directives*
-	- L
+	- Like `#include <stdio.h>`
+	- Specify which header files to include to define macros
+	- Preprocessing adds header files and expands macros to merge that code within the source file to produce an updated source file
+
+### Compiling Phase (source to assembly)
+?
+*Translates preprocessed source code to assembly language for a specific proce*
