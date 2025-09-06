@@ -148,11 +148,10 @@ main() {
 	
 	// Excercise 1-9, copy input to output, replacing string of one or more blanks by a single blank
 	while((c = getchar()) != EOF) {
-		if (c != '[SPACE]')
+		if (c != ' ' || last_c != ' ')
 			putchar(c);
-		else {
-			
 		}
+		last_c = c;
 	} 
 }
 ```
