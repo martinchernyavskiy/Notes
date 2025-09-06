@@ -1,6 +1,8 @@
 ## Linux Commands
 ?
 - Review with cs 544 sheet (gcc and gdp most important)
+	- gcc `file-name` -Wall -m32 -std=gnu99 -o `new-file` -g
+	- -g produces debugging information
 - shell-prompt is the text preceding input cursor ($)
 - network: cs.wisc.edu
 
