@@ -33,8 +33,8 @@ void main() {
 	
 	fahr = lower;
 	while (fahr <= upper) {
-		celsius = 5 * (fahr-32) / 9; // 5/9 = 0
-		printf("%d\t%d\n", fahr, celsius);
+		celsius = (5.0/9.0) * (fahr-32.0);
+		printf("%3.0f\t%6.1df\n", fahr, celsius);
 		fahr = fahr + step;	
 	}
 }
@@ -49,4 +49,6 @@ void main() {
 	- float, at least 6 significant digits
 - Indentation emphasizes logical structure of the program, critical for humans, not required for compilers
 - To make numbers right-justified within the print statement, you *augment* each %d with width
+- Integer operands --> Integer operation.
+- Floating-point operand + int operand --> floating-point operation since int will be automatically converted to a floating point number
 - 
