@@ -33,3 +33,8 @@ for (int j = 0; j < 11; j++) {
 ## C Program Structure
 ?
 - *Variables and functions must be declared before they are used*
+- *function*: block of code to accomplish a particular task
+- function starts with *return type* and optionally defines a *parameter* in its definition which is an input that the function expects and may do work on.
+- The input that actually is passed into the function is called an *argument*
+- *caller/callee functions*: caller calls callee
+- *pass-by-value* / *return-by-value*, pass in/out 
