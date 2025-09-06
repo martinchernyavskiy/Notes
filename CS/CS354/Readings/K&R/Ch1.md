@@ -39,10 +39,10 @@ void main() {
 }
 ```
 - *Data Types*
+	- *Size of these objects is machine dependent*
 	- char: character (single byte)
 	- short: short integer
 	- long: long integer
 	- double: double precision floating point
-	- typically 32 bits:
 	- int
 	- float, at least 6 significant digits
