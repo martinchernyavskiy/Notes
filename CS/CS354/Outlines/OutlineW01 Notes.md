@@ -41,3 +41,10 @@ for (int j = 0; j < 11; j++) {
 
 
 ## Variables
+?
+*Primitive unit of storage whose contents can change*
+- *Identifier*:
+- *Value*:
+- *Type*:
+- *Address*:
+- *Size*:
