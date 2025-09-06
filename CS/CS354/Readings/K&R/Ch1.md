@@ -60,15 +60,21 @@ void main() {
 | %6.2f | print as floating point, >6 wide, 2 after decimal poont   |
 - Also recognizes %o for octal, %x for hexadecimal, %c for character, %s for character string and `%%` for itself
 
-## For Statement
+## For Statement & Symbolic Constants
 ?
+- Symbolic name is replaced by the corresponding replacement text upon compilation, name has the same format as variable
 ```C
 #include <stdio.h>
 
+#define LOWER 0 // lower limit of the table
+#define UPPER 300 // upper limit
+#define STEP 20 // step size
+
+/* print Fahrenheit-Celsius table*/
 int main() {
 	int fahr;
 	
-	for (fahr = 0; fahr <= 300; fahr = fahr+20) {
+	for (fahr = LOWER; fahr <= UPPER; fahr = fahr + STEP) {
 		printf("%3d %6.1f\n", fahr, (5.0)/(9.0)*(fahr-32))	
 	}
 }
