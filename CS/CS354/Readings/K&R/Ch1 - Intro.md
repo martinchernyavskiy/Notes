@@ -135,16 +135,19 @@ main() {
 
 /* copy input to output; */
 main() {
-	int c, nc;
+	int c, nl;
 	
+	nl = 0
 	
-	// second version:
-	for (nc = 0; getchar() != EOF; nc++) {
-		; // null statement, required since for loops MUST have a body
+	while((c = getchar()) != EOF) {
+		if (c == '\n') {
+			nl++;
+		}
 	}
-	printf("%.0f\n", nc)
+	printf("%d\n", nl)
 }
 ```
+- *character constant*: integer value representing numerical value of the character written between single qupt
 ### Word Counting
 
 ## Arrays
