@@ -20,4 +20,11 @@
 ### Compiling Phase (source to assembly)
 ?
 *Translates preprocessed source code to assembly language for a specific processor*
-- gcc -S decode.i -Wall -m32 -std=gnu99
+- gcc -S decode.i or decode.c -Wall -m32 -std=gnu99
+	- -S indicates to stop after the compilation proper stage and to not assemble
+	- Creates the assembler source file 
+	- Replaces the suffix of the file to `.s` by default
+
+### Assembling Phase (assembly to machine code)
+?
+*Converts assembly language statements into machine code `object code`*
