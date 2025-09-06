@@ -147,7 +147,8 @@ main() {
 	printf("%d\n", nl)
 }
 ```
-- *character constant*: integer value representing numerical value of the character written between single qupt
+- *character constant*: integer value representing numerical value of the character written between single quotes, one of the machine's character set
+- in expressions 'char' is treated as an integer value of the character, but it also resembles a string constant containing one character in other cases
 ### Word Counting
 
 ## Arrays
