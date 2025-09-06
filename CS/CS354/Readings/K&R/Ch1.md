@@ -62,7 +62,8 @@ void main() {
 
 ## For Statement & Symbolic Constants
 ?
-- Symbolic name is replaced by the corresponding replacement text upon compilation, name has the same format as variable
+- Symbolic name is replaced by the corresponding replacement text upon compilation, name has the same format as variable. Convention is to write them in upper case
+- `#define name replacement list` 
 ```C
 #include <stdio.h>
 
@@ -78,4 +79,13 @@ int main() {
 		printf("%3d %6.1f\n", fahr, (5.0)/(9.0)*(fahr-32))	
 	}
 }
+```
+
+## Character Input and Output
+?
+- Text input/output is dealt with as *streams of characters*
+- *Text stream* is a sequence of characters divided into lines
+	- Each line consists of >= 0 characters followed by \n
+- getchar(), putchar()
+```C
 ```
