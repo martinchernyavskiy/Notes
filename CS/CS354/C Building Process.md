@@ -38,3 +38,4 @@
 *Combines/Links object files to create EOF, including these in standard C library*
 - gcc decode.c -Wall -m32 -std=gnu99 -o decode
 
+![[Pasted image 20250906114731.png]]
