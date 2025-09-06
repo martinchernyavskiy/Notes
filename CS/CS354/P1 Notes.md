@@ -6,7 +6,7 @@
 ?
 *Prepares a C source file for compiling*
 - gcc -E decode.c -Wall -m32 -std=gnu99 -o decode.i
-	- -E specifies pre-processing
+	- -E  indicates to stop after the preprocessing stage
 	- -Wall shows warnings that are generated during the building process
 	- -m32 is used for generating code for a 32-bit environment
 	- -std=gnu99 is used to tell compiler to use GNU 1999 C standard
@@ -19,4 +19,5 @@
 
 ### Compiling Phase (source to assembly)
 ?
-*Translates preprocessed source code to assembly language for a specific proce*
+*Translates preprocessed source code to assembly language for a specific processor*
+- gcc -S decode.i -Wall -m32 -std=gnu99
