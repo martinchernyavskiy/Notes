@@ -38,3 +38,6 @@ for (int j = 0; j < 11; j++) {
 - The input that actually is passed into the function is called an *argument*
 - *caller/callee functions*: caller calls callee
 - *pass-by-value* / *return-by-value*, pass in/out 
+
+
+## Variables
