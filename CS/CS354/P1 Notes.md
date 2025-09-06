@@ -32,3 +32,8 @@
 	- compiles/assembles source file, but doesn't link 
 	- can view using *objdump tool*: objdump -d decode.o
 		- `objdump` is a disassembler that converts machine code to assembly
+
+### Linking Phase
+?
+*Combines/Links object files to create EOF. *
+- gcc decode.c -Wall -m32 -std=gnu99 -o decode
