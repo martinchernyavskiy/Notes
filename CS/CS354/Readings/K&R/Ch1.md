@@ -51,10 +51,14 @@ void main() {
 - Integer operands --> Integer operation.
 - Floating-point operand + int operand --> floating-point operation since int will be automatically converted to a floating point number
 
-| %d    | print as decimal integer                             |
-| ----- | ---------------------------------------------------- |
-| %6d   | print as decimal integer, at least 6 characters wide |
-| %f    | print as floating point                              |
-| %6f   | print as floating po                                 |
-| %.2f  |                                                      |
-| %6.2f |                                                      |
+| %d    | print as decimal integer                                  |
+| ----- | --------------------------------------------------------- |
+| %6d   | print as decimal integer, at least 6 characters wide      |
+| %f    | print as floating point                                   |
+| %6f   | print as floating point, at least 6 characters wide       |
+| %.2f  | print as floating point, 2 characters after decimal point |
+| %6.2f | print as floating point, >6 wide, 2 after decimal poont   |
+- Also recognizes %o for octal, %x for hexadecimal, %c for character, %s for character string and `%%` for itself
+
+## For Statement
+?
