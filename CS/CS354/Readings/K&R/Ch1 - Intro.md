@@ -43,7 +43,7 @@ void main() {
 	- *Size of these objects is machine dependent*
 	- char: character (single byte)
 	- short: short integer
-	- long: long integer
+	- long: long integer (32 bits)
 	- double: double precision floating point
 	- int
 	- float, at least 6 significant digits
@@ -58,7 +58,7 @@ void main() {
 | %6f   | print as floating point, at least 6 characters wide       |
 | %.2f  | print as floating point, 2 characters after decimal point |
 | %6.2f | print as floating point, >6 wide, 2 after decimal poont   |
-- Also recognizes %o for octal, %x for hexadecimal, %c for character, %s for character string and `%%` for itself
+- Also recognizes %ld for long, %o for octal, %x for hexadecimal, %c for character, %s for character string and `%%` for itself
 
 ## For Statement & Symbolic Constants
 ?
@@ -122,8 +122,9 @@ main() {
 	
 	
 	// second version:
-	while ((c = getchar()) != EOF)
-		putchar(c);
+	for (nc = 0; getchar() != EOF; nc++) {
+		; // null statement, required since for loops MUST have a body
+	}
 }
 ```
 
