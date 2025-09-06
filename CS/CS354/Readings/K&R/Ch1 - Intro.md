@@ -145,6 +145,15 @@ main() {
 		}
 	}
 	printf("%d\n", nl)
+	
+	// Excercise 1-9, copy input to output, replacing string of one or more blanks by a single blank
+	while((c = getchar()) != EOF) {
+		if (c != '[SPACE]')
+			putchar(c);
+		else {
+			
+		}
+	} 
 }
 ```
 - *character constant*: integer value representing numerical value of the character written between single quotes, one of the machine's character set
