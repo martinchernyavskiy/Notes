@@ -125,11 +125,26 @@ main() {
 	for (nc = 0; getchar() != EOF; nc++) {
 		; // null statement, required since for loops MUST have a body
 	}
+	printf("%.0f\n", nc)
 }
 ```
-
+- double and float both use %f
 ### Line Counting
+```C
+#include <stdio.h>
 
+/* copy input to output; */
+main() {
+	int c, nc;
+	
+	
+	// second version:
+	for (nc = 0; getchar() != EOF; nc++) {
+		; // null statement, required since for loops MUST have a body
+	}
+	printf("%.0f\n", nc)
+}
+```
 ### Word Counting
 
 ## Arrays
