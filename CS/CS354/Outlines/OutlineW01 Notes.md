@@ -43,8 +43,14 @@ for (int j = 0; j < 11; j++) {
 ## Variables
 ?
 *Primitive unit of storage whose contents can change*
-- *Identifier*:
-- *Value*:
-- *Type*:
-- *Address*:
-- *Size*:
+- *Identifier*: the name you give to the variable
+- *Value*: data that the variable holds
+- *Type*: precedes the variable name
+- *Address*: the memory address of the variable
+- *Size*: the amount of byte space it takes?
+- *Source Operand*: using variable as a value to obtain from
+- *Destination Operand*: using variable to store value
+- *Byte Addressability*: every memory location is byte addressable
+- *Endianess*:
+	- *Little endian*:
+	- *Big endian*:
