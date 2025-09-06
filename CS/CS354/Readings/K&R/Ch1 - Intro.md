@@ -93,7 +93,7 @@ c = getchar();
 putchar(c);
 ```
 ### File Copying
-
+- 
 ### Character Counting
 
 ### Line Counting
