@@ -105,8 +105,13 @@ main() {
 		putchar(c);
 		c = getchar();
 	}
+	
+	// second version:
+	while ((c = getchar()) != EOF)
+		putchar(c);
 }
 ```
+- char is meant for storing character data, but it is not large enough to hold EOF which is a special integer value "end of file" defined in stdio.h library, so we use int.
 ### Character Counting
 
 ### Line Counting
