@@ -86,6 +86,28 @@ int main() {
 - Text input/output is dealt with as *streams of characters*
 - *Text stream* is a sequence of characters divided into lines
 	- Each line consists of >= 0 characters followed by \n
-- getchar(), putchar()
+- getchar(): reads next input character from text stream and returns its value (ASCII)
+- putchar(): prints character each time it is called, ASCII --> char
 ```C
+c = getchar();
+putchar(c);
 ```
+### File Copying
+
+### Character Counting
+
+### Line Counting
+
+### Word Counting
+
+## Arrays
+
+## Functions
+
+## Arguments
+
+## Character Arrays
+
+## External Variables and Scope
+
+##
