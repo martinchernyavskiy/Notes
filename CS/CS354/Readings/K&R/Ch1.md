@@ -4,5 +4,35 @@
 - main is a special function, this is the function where the program starts executing
 - Preprocessor directives are used for compiler to include information about the specified library
 - printf is a library function that takes in character string argument
+```C
+#include <stdio.h>
 
-## Varia
+int main() {
+	printf("Hello World!\n)
+}
+```
+
+## Variables and Arithmetic Expressions
+?
+- Comments are identical to Java
+```C
+#include <stdio.h>
+
+/* print Fahrenheit-Calsius table
+	for fahr = 0, 20, ..., 300 */
+	
+void main() {
+	int fahr, celsius;
+	int lower, upper, step;
+	
+	lower = 0;
+	upper = 300;
+	step = 20;
+	
+	fahr = lower;
+	while (fahr <= lower) {
+		celsius = 5 * (fahr-32) / 9;
+		printf("d\t")	
+	}
+}
+```
