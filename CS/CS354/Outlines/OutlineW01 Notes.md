@@ -3,6 +3,10 @@
 - Review with cs 544 sheet (gcc and gdp most important)
 	- gcc `file-name` -Wall -m32 -std=gnu99 -o `new-file` -g
 	- -g produces debugging information
+	- gdb `executable file` allows to debug in real-time
+	- b is for setting breakpoints
+	- run is for running the program until the break point
+	- list is for listing out more lines of code 
 - shell-prompt is the text preceding input cursor ($)
 - network: cs.wisc.edu
 
