@@ -25,6 +25,7 @@ void main() {
 	int fahr, celsius;
 	int lower, upper, step;
 	
+	// assignment statements
 	lower = 0;
 	upper = 300;
 	step = 20;
@@ -37,3 +38,11 @@ void main() {
 	}
 }
 ```
+- *Data Types*
+	- char: character (single byte)
+	- short: short integer
+	- long: long integer
+	- double: double precision floating point
+	- typically 32 bits:
+	- int
+	- float, at least 6 significant digits
