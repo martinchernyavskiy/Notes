@@ -23,8 +23,8 @@ int main() {
 	for fahr = 0, 20, ..., 300 */
 	
 void main() {
-	int fahr, celsius;
-	int lower, upper, step;
+	float fahr, celsius;
+	float lower, upper, step;
 	
 	// assignment statements
 	lower = 0;
@@ -34,7 +34,7 @@ void main() {
 	fahr = lower;
 	while (fahr <= upper) {
 		celsius = 5 * (fahr-32) / 9; // 5/9 = 0
-		printf("%d/t%d\n", fahr, celsius);
+		printf("%d\t%d\n", fahr, celsius);
 		fahr = fahr + step;	
 	}
 }
@@ -48,3 +48,5 @@ void main() {
 	- int
 	- float, at least 6 significant digits
 - Indentation emphasizes logical structure of the program, critical for humans, not required for compilers
+- To make numbers right-justified within the print statement, you *augment* each %d with width
+- 
