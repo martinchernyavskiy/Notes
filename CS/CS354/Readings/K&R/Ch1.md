@@ -31,7 +31,7 @@ void main() {
 	step = 20;
 	
 	fahr = lower;
-	while (fahr <= lower) {
+	while (fahr <= upper) {
 		celsius = 5 * (fahr-32) / 9;
 		printf("%d/t%d\n", fahr, celsius);
 		fahr = fahr + step;	
@@ -46,3 +46,4 @@ void main() {
 	- double: double precision floating point
 	- int
 	- float, at least 6 significant digits
+- Indentation emphasizes logical structure of the program, critical for humans, not required for compilers
