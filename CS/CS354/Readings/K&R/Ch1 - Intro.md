@@ -113,19 +113,35 @@ main() {
 ```
 - char is meant for storing character data, but it is not large enough to hold EOF which is a special integer value "end of file" defined in stdio.h library, so we use int.
 ### Character Counting
+```C
+#include <stdio.h>
+
+/* copy input to output; */
+main() {
+	double nc;
+	
+	
+	// second version:
+	while ((c = getchar()) != EOF)
+		putchar(c);
+}
+```
 
 ### Line Counting
 
 ### Word Counting
 
 ## Arrays
+?
 
 ## Functions
+?
 
 ## Arguments
+?
 
 ## Character Arrays
+?
 
 ## External Variables and Scope
-
-##
+?
