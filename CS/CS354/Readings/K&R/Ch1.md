@@ -1,5 +1,6 @@
 ## C Program Contents
 ?
+- C is a statically typed (meaning you must declare types of variables), but weakly typed (meaning you can do operations on different data types)
 - Consists of functions (containing *statements*) and variables
 - main is a special function, this is the function where the program starts executing
 - Preprocessor directives are used for compiler to include information about the specified library
