@@ -135,7 +135,7 @@ main() {
 
 /* copy input to output; */
 main() {
-	int c, nl;
+	int c, nl, last_c;
 	
 	nl = 0
 	
