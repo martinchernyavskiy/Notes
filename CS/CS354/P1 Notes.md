@@ -30,3 +30,5 @@
 *Converts assembly language statements into machine code `object code`*
 - gcc -c decode.c -Wall -m32 -std=gnu99
 	- compiles/assembles source file, but doesn't link 
+	- can view using *objdump tool*: objdump -d decode.o
+		- `objdump` is a disassembler that converts machine code to assembly
