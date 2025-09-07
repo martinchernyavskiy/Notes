@@ -2,8 +2,10 @@
 ?
 - *Pointer*: variable that contains the address of a variable
 - Allow for efficient code and clarity
-- Consecutive addressed memory cells 
-- 
+- Consecutive addressed memory cells of 1 byte size
+- "`&`" unary operator gives the address of an object (p = &c;) and thus acts as a *pointer*
+- Can only be applied to objects in memory
+- "`*`" unary operator is *indirection or dereferencing* operator, when applied to pointer, access
 
 ## Pointers and Function Arguments
 
