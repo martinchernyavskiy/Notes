@@ -222,7 +222,24 @@ main () {
 ```
 ## Functions
 ?
+- Equivalent to subroutine
+- Encapsulates some computation to be used repeatedly
+```C
+#include <stdio.h>
 
+main() {
+	int i, j;
+	
+	
+}
+
+
+/*  a function to calculate power of two integers */
+int power(int base, int n) {
+}
+
+
+```
 ## Arguments
 ?
 
