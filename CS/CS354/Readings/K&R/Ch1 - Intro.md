@@ -227,13 +227,14 @@ main () {
 ```C
 #include <stdio.h>
 
-main() {
+int main() {
 	int base, power;
 	base = power = 5;
 	result = power(base, power);
 	
 	printf("5 to the power of 5 is: %d", result)
 	
+	return 0; // indicates normal termination
 }
 
 
@@ -248,6 +249,7 @@ int power(int base, int n) {
 
 
 ```
+- 
 ## Arguments
 ?
 
