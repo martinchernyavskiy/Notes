@@ -191,7 +191,13 @@ main() {
 - Expressions connected by logical operators are read from left to right, potentially skipped if a certain condition holds before
 ## Arrays
 ?
+```C
 
+#include <stdio.h>
+
+/* count digits, white space, others */
+
+```
 ## Functions
 ?
 
