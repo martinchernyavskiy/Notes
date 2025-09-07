@@ -158,6 +158,15 @@ main() {
 - *character constant*: integer value representing numerical value of the character written between single quotes, one of the machine's character set
 - in expressions 'char' is treated as an integer value of the character, but it also resembles a string constant containing one character in other cases
 ### Word Counting
+```C
+#include <stdio.h>
+
+#define IN 1
+#define OUT 0
+
+/* count lines, words, and characters in input*/
+
+```
 
 ## Arrays
 ?
