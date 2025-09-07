@@ -226,7 +226,7 @@ main () {
 - Encapsulates some computation to be used repeatedly
 ```C
 #include <stdio.h>
-int power(int m, int n);
+int power(int m, int n); // function prototype, definitions must follow the format
 
 int main() {
 	int base, power;
@@ -253,7 +253,18 @@ int power(int base, int n) {
 - *function prototype*
 ## Arguments
 ?
-
+- *Pass-by-value*: called function is given values of its arguments in temporary variables rather than originals
+```C
+int power(int base, int n) 
+{
+	int p;
+	
+	for (p = 1; n > 0; n--;)
+		p = p * base;
+	return p;
+}
+```
+- This allows for no changes to be applied to t
 ## Character Arrays
 ?
 
