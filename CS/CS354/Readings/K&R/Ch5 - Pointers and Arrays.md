@@ -5,7 +5,10 @@
 - Consecutive addressed memory cells of 1 byte size
 - "`&`" unary operator gives the address of an object (p = &c;) and thus acts as a *pointer*
 - Can only be applied to objects in memory
-- "`*`" unary operator is *indirection or dereferencing* operator, when applied to pointer, access
+- "`*`" unary operator is *indirection or dereferencing* operator, when applied to pointer, accesses the object that the pointer `points` to.
+```C
+double *dp, atof(char *);
+```
 
 ## Pointers and Function Arguments
 
