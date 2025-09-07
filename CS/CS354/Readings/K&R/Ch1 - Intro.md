@@ -226,6 +226,7 @@ main () {
 - Encapsulates some computation to be used repeatedly
 ```C
 #include <stdio.h>
+int power(int m, int n);
 
 int main() {
 	int base, power;
@@ -249,7 +250,7 @@ int power(int base, int n) {
 
 
 ```
-- 
+- *function prototype*
 ## Arguments
 ?
 
