@@ -264,9 +264,21 @@ int power(int base, int n)
 	return p;
 }
 ```
-- This allows for no changes to be applied to t
+- This allows for no changes to be applied to the original arguments provided to the function, however if you wanted to, you could use a pointer to the variable to change it
+- If an array is passed as an argument to a function however, it is the address of the first element of the array and thus any changes that you make to that array reflects the changes done to the original array.
 ## Character Arrays
 ?
+```C
+#include <stdio.h>
 
+int ge
+
+int main() {
+
+	return 0;
+}
+
+
+```
 ## External Variables and Scope
 ?
