@@ -270,13 +270,21 @@ int power(int base, int n)
 ?
 ```C
 #include <stdio.h>
+#define MAXLINE 1000
 
-int ge
+int getline(char line[], int maxline);
+void copy(char to[], char from[]);
 
 int main() {
 
 	return 0;
 }
+
+int getline(char line[], int maxLine) {
+	
+
+}
+
 
 
 ```
