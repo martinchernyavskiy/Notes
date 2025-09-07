@@ -178,15 +178,17 @@ main() {
 			nl++;
 		if (c == ' ' || c == '\n' || c = '\t')
 			state = OUT;
-		else if (state == OUT)
+		else if (state == OUT) {
 			state = IN;
 			nw++;
+		}
 	}
 	printf("%d %d %d\n", nl, nw, nc)
 }
 
 ```
-
+- Assignments are associated from right to left
+- Expressions connected by logical operators are read from left to right, potentially skipped if a certain condition holds before
 ## Arrays
 ?
 
