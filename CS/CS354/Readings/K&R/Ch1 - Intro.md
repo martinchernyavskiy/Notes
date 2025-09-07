@@ -228,14 +228,22 @@ main () {
 #include <stdio.h>
 
 main() {
-	int i, j;
+	int base, power;
+	base = power = 5;
+	result = power(base, power);
 	
+	printf("5 to the power of 5 is: %d", result)
 	
 }
 
 
-/*  a function to calculate power of two integers */
+/*  raise base to n-th power; n >= 0 */
 int power(int base, int n) {
+	int i, p;
+	p = 1;
+	for (i = 1; i <=n; i++)
+		p = p * base;
+	return p;
 }
 
 
