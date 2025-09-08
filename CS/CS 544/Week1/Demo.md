@@ -29,7 +29,7 @@ mycount
 export PATH=$PATH:/home/chernyavskiy/myprograms
 ```
 - which gives the path where "python3" is installed
-- shebang line tells Linux what program is used for running the file
+- *shebang* line tells Linux what program is used for running the file
 - if have two different mycounts, whichever appears earlier in $PATH is ran
 - Can chain stdin and stdout of processes together using pipe operator, these run simultaneously
 - Using && would allow to run process A first and if it succeeds, run process B next
@@ -41,3 +41,9 @@ export PATH=$PATH:/home/chernyavskiy/myprograms
 - using ampersand & at the end of the command line allows for the program to run in the background, granting user ability to get a prompt immediately
 - A | B &> out.txt &
 	- Notice, stderr still goes to the screen
+- shell script (make_midwest.sh)
+```sh
+#! /user/bin/bash
+cat data/stations.txt | grep " WI " > midwest.txt
+cat
+```
