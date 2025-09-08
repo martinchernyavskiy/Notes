@@ -33,7 +33,10 @@
 ## Theorems
 - A^d is a transition matrix for where d >=1 and the matrix has all positive entries.
 	- 1 is eigenvalue of A
-	- Any other eigenvalue has a ma
+	- Any other eigenvalue has absolute value less than 1
+	- lim as n --> inf of A^n = probability vector
+	- lim n --> inf of probability at time n = probability vector times probability at time 0
+
 
 
 
