@@ -32,7 +32,7 @@
 
 ## Theorems
 - A^d is a transition matrix for where d >=1 and the matrix has all positive entries.
-	- 1 is eigenvalue of A
+	- 1 is eigenvalue of A and E1 = 1 with E1 = span(prob vector)
 		- det(A - tIn) = det(A^t - tIn)
 		- set w (1, ..., 1) and note that each row of A^t sums to 1
 		- multiplying A^t by w we have a1 + ... an = w
