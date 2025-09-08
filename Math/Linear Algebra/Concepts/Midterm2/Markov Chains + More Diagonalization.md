@@ -4,8 +4,12 @@
 - Contains set of states S1, ... , Sn
 - Time step
 - Probability vector at time k
-	- each probability 
-- Transition matrix A where ij
+	- each probability represents probability of being in particular state at time k
+	- each probability is >= 0
+	- sum of probabilities = 1
+- Transition matrix A is symmetric where Aij = probability of moving from state j to state in one time step
+	- sum of columns each equate to 1
+- Probability at time n is given by A^n * probability at time zero
 
 ## Properties / Axioms
 ?
@@ -27,8 +31,9 @@
 - Non-example 2: ...
 
 ## Theorems
-- [[Theorem Name 1]]
-- [[Theorem Name 2]]
+- A^d is a transition matrix for where d >=1 and the matrix has all positive entries.
+	- 1 is eigenvalue of A
+	- Any other eigenvalue has a ma
 
 
 
