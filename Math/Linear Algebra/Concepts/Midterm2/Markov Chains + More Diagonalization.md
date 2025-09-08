@@ -42,7 +42,7 @@
 		- Then the abs of it is less than 1
 		- A^t v = cv and v != 0
 		- Let absolute value of vk be the max of the abs of vj
-		- Then (A^tv)_k = $\sum_{j}^{}$
+		- Then (A^tv)_k = $\sum_{j}^{}(A^t)_{kj}v_{j}$ ,
 	- lim as n --> inf of A^n = probability vector
 	- lim n --> inf of probability at time n = probability vector times probability at time 0
 
