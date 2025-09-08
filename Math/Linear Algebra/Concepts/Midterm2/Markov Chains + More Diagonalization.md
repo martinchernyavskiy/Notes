@@ -36,13 +36,13 @@
 		- det(A - tIn) = det(A^t - tIn)
 		- set w (1, ..., 1) and note that each row of A^t sums to 1
 		- multiplying A^t by w we have a1 + ... an = w
-		- So 1 is eigenvalue of A^t with eigenvector w
+		- So 1 is eigenvalue of A^t with eigenvector w and thus it's an eigenvalue of A 
 	- Any other eigenvalue has absolute value less than 1
-		- Let c be an eigenvalue of A such that it is not equal to 1.
+		- Let c be an eigenvalue of A^t such that it is not equal to 1.
 		- Then the abs of it is less than 1
 		- A^t v = cv and v != 0
 		- Let absolute value of vk be the max of the abs of vj
-		- Then (A^tv)_k = 
+		- Then (A^tv)_k = $\sum_{j}^{}$
 	- lim as n --> inf of A^n = probability vector
 	- lim n --> inf of probability at time n = probability vector times probability at time 0
 
