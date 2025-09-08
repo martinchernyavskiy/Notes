@@ -45,5 +45,9 @@ export PATH=$PATH:/home/chernyavskiy/myprograms
 ```sh
 #! /user/bin/bash
 cat data/stations.txt | grep " WI " > midwest.txt
-cat
+cat data/stations.txt | grep " IL " >> midwest.txt
+```
+```
+chmod u+x make_midwest.sh
+./make_midwest.sh
 ```
