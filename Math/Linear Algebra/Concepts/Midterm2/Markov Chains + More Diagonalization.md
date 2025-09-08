@@ -38,7 +38,11 @@
 		- multiplying A^t by w we have a1 + ... an = w
 		- So 1 is eigenvalue of A^t with eigenvector w
 	- Any other eigenvalue has absolute value less than 1
-		- 
+		- Let c be an eigenvalue of A such that it is not equal to 1.
+		- Then the abs of it is less than 1
+		- A^t v = cv and v != 0
+		- Let absolute value of vk be the max of the abs of vj
+		- Then (A^tv)_k = 
 	- lim as n --> inf of A^n = probability vector
 	- lim n --> inf of probability at time n = probability vector times probability at time 0
 
