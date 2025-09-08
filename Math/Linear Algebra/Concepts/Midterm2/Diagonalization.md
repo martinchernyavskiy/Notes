@@ -61,7 +61,7 @@ f(t) = det(A - tin) is the characteristic polynomial of A where it is a polynomi
 - A is diagonalizable if its characteristic polynomial splits over R and for each eigenvalue, geom mult = alg mult
 	- Given a basis of Rn that consists of eigenvectors of A, we know that characteristic polynomial splits over R.
 	- Given the jth eigenvalue, we need the dimension of eigenspace (kjj) with that eigenvalue to be equal to the exponent mj of the characteristic polynomial
-	- We know that *Geometric multiplicity is less than or equal to algebraic multiplicity*, so 
+	- We know that *Geometric multiplicity is less than or equal to algebraic multiplicity*, so if we let lj be the number of vectors if the eigenspace 
 
 
 

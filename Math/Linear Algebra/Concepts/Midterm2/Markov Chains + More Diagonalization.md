@@ -1,7 +1,10 @@
 
-## Definition
+## Markov Chain
 ?
-*A clear, concise definition using MathJax where needed.*
+- Contains set of states S1, ... , Sn
+- Time step
+- Probability vector at time k
+- Transition matrix A where ij
 
 ## Properties / Axioms
 ?
