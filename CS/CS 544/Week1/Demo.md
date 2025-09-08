@@ -38,4 +38,6 @@ export PATH=$PATH:/home/chernyavskiy/myprograms
 - stdin is 0>, stdout is 1>
 - usually omit 1 and can just use >
 - &> sends both stderr and stdout to a file
-- using ampersand & at the end of the command line allows for the program to run in the background
+- using ampersand & at the end of the command line allows for the program to run in the background, granting user ability to get a prompt immediately
+- A | B &> out.txt &
+	- Notice, stderr still goes to the screen
