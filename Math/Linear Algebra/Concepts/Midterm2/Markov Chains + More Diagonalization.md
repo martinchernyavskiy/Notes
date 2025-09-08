@@ -4,6 +4,7 @@
 - Contains set of states S1, ... , Sn
 - Time step
 - Probability vector at time k
+	- each probability 
 - Transition matrix A where ij
 
 ## Properties / Axioms
