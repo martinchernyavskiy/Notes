@@ -33,7 +33,12 @@
 ## Theorems
 - A^d is a transition matrix for where d >=1 and the matrix has all positive entries.
 	- 1 is eigenvalue of A
+		- det(A - tIn) = det(A^t - tIn)
+		- set w (1, ..., 1) and note that each row of A^t sums to 1
+		- multiplying A^t by w we have a1 + ... an = w
+		- So 1 is eigenvalue of A^t with eigenvector w
 	- Any other eigenvalue has absolute value less than 1
+		- 
 	- lim as n --> inf of A^n = probability vector
 	- lim n --> inf of probability at time n = probability vector times probability at time 0
 
