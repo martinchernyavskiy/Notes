@@ -7,7 +7,7 @@
 	- each probability represents probability of being in particular state at time k
 	- each probability is >= 0
 	- sum of probabilities = 1
-- Transition matrix A is symmetric where Aij = probability of moving from state j to state in one time step
+- Transition matrix A is a square matrix where Aij = probability of moving from state j to state i in one time step
 	- sum of columns each equate to 1
 - Probability at time n is given by A^n * probability at time zero
 
