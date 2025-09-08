@@ -32,6 +32,3 @@
 
 #linear-algebra
 
-The ordered basis β for V consists of the actual eigenvectors, which are 2x2 matrices.
-
-$$\beta = \left\{ \begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pmatrix}, \begin{pmatrix} 0 & 0 \\ 1 & 0 \end{pmatrix}, \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}, \begin{pmatrix} -1 & 0 \\ 0 & 1 \end{pmatrix} \right\}$$The matrix representation $[T]_\beta$ is a **4x4 diagonal matrix** with the eigenvalues on the diagonal, corresponding to the order of the eigenvectors in $\beta$.$$[T]_\beta = \begin{pmatrix} 1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & -1 \end{pmatrix}$$
