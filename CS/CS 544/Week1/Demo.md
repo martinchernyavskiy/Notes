@@ -1,5 +1,7 @@
 ```Python
 # file name: count.py
+
+#! /usr/bin/python3 
 from pathlib import Path
 
 count = 0
@@ -17,3 +19,4 @@ chmod a+x
 which python3 
 ```
 - which gives the path where "python3" is installed
+- shebang line tells Linux what program is used for running the file
