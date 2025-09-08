@@ -49,8 +49,6 @@ f(t) = det(A - tin) is the characteristic polynomial of A where it is a polynomi
 .
 - Eigenvectors of distinct eigenvalues are linearly independent 
 .
-- If A is diagonalizable, then its characteristic polynomial splits over R
-.
 - If A and B are similar, then they have the same eigenvalues
 	- det(B - tIn) = det(Q^-1AQ - Q^-1 tIn Q)
 	- = det(Q^-1)det(A-tIn)det(Q)
@@ -58,7 +56,7 @@ f(t) = det(A - tin) is the characteristic polynomial of A where it is a polynomi
 .
 - *Geometric multiplicity is less than or equal to algebraic multiplicity*
 .
-- *A is diagonalizable if its characteristic polynomial splits over R and for each eigenvalue, geom mult = alg mult*
+- *A is diagonalizable iff its characteristic polynomial splits over R and for each eigenvalue, geom mult = alg mult*
 	- Given a basis of Rn that consists of eigenvectors of A, we know that characteristic polynomial splits over R.
 	- Given the jth eigenvalue, we need the dimension of eigenspace (kjj) with that eigenvalue to be equal to the exponent mj of the characteristic polynomial
 	- We know that *Geometric multiplicity is less than or equal to algebraic multiplicity*, so if we let lj be the number of basis vectors of the eigenspace, then it is at most the dimension of the eigenspace
