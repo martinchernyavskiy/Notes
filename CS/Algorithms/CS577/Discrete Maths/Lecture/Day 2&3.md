@@ -17,6 +17,7 @@
 	- Loop invariants holding and the negation of loop condition implies correct output
 	- proof termination by induction, no infinite loop
 
+
 #### Abstract Data Types
 ?
 - 
