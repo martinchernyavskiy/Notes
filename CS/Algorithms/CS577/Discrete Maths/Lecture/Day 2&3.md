@@ -27,7 +27,12 @@
 ? 
 - G = (V, E), n = V, m = E 
 	- adjacency matrix (n^2 bits)
-	- adjacency list
+	- adjacency list (n+m words of O(log(n)) bits)
+	- Linear time (O(n+m)) - adjacency list is default
+- Graph Traversal
+	- visit all vertices and edges reachable from a given vertex v
+		- breadth/depth search
+		- 
 
 ### Divide & Conquer
 ?
