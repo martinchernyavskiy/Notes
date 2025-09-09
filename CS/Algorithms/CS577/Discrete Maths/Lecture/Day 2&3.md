@@ -21,10 +21,13 @@
 #### Abstract Data Types
 ?
 - Min priority queues (binary heap)
-- 
+- Dynamic Dictionary (balanced binary search trees)
+
 #### Graph Basics
-?
-- 
+? 
+- G = (V, E), n = V, m = E 
+	- adjacency matrix (n^2 bits)
+	- adjacency list
 
 ### Divide & Conquer
 ?
