@@ -12,6 +12,10 @@
 .
 - combine soundness and termination
 - also will upper-bound runtime, which eliminates need to show termination
+- for iterative
+	- loop invariants: gcd(x, y) = gcd(a, b). Statements that hold each time the loop is checked
+	- Loop invariants holding and the negation of loop condition implies correct output
+	- proof termination by induction, no infinite loop
 
 #### Abstract Data Types
 ?
