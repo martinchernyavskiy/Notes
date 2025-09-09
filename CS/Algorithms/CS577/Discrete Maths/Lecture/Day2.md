@@ -1,7 +1,0 @@
-### Divide & Conquer
-
-### Merge Sort
-
-###
-
-### 
