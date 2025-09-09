@@ -1,7 +1,10 @@
 ### Algorithm Correctness
 ?
 - modular design
-- valid inputs
+- valid inputs (mention constraints)
+- correct output
+- side effects
+- stand alone
 - 
 
 #### Abstract Data Types
