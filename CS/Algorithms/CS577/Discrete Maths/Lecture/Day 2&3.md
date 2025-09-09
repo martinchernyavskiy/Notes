@@ -5,7 +5,8 @@
 - correct output
 - side effects
 - stand alone
-- 
+- soundness (partial correctness)
+	- algorithm behaves correctly on every
 
 #### Abstract Data Types
 ?
