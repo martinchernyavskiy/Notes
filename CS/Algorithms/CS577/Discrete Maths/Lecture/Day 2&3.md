@@ -1,5 +1,7 @@
-### Algorithm Corrctness
+### Algorithm Correctness
 ?
+- modular design
+- valid inputs
 - 
 
 #### Abstract Data Types
