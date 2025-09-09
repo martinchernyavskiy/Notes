@@ -32,8 +32,8 @@
 - Graph Traversal
 	- visit all vertices and edges reachable from a given vertex v
 		- breadth/depth first search
-- BFS: queue, iterative,  
-- DFS: stack, recursive
+- BFS: queue, iterative,  non-tree edges with difference in level at most 1
+- DFS: stack, recursive, 
 
 ### Divide & Conquer
 ?
