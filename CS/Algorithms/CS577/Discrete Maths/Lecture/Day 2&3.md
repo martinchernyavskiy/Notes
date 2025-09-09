@@ -20,8 +20,8 @@
 
 #### Abstract Data Types
 ?
+- Min priority queues (binary heap)
 - 
-
 #### Graph Basics
 ?
 - 
