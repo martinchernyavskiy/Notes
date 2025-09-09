@@ -38,7 +38,7 @@
 - Topological Sort
 	- Ordering of the vertices on a line such that edges only go in one direction
 	- Exists iff G is acyclic
-		- Ac
+		- Acyclic iff all vertices can be removed  
 
 ### Divide & Conquer
 ?
