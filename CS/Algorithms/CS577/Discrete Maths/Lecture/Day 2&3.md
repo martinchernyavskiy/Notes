@@ -35,6 +35,9 @@
 - BFS: queue, iterative,  non-tree edges with difference in level at most 1
 - DFS: stack, recursive, ancestor-descendant
 	- Can run in linaer time
+- Topological Sort
+	- Ordering of the vertices on a line such that edges only go in one direction
+	- Exists iff G is acyclic
 
 ### Divide & Conquer
 ?
