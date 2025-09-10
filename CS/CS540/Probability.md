@@ -8,15 +8,16 @@
 - Variance (spread): $Var[X]=E[(X-E[X])^2]$
 
 ## Join Distribution
+?
 - Move from one variable to several
-- Joint distribution: P(X = a, Y = b)
+- *Joint distribution*: P(X = a, Y = b)
 	- Allows to work with multiple types of uncertainty that correlate with each other
-- Marginal Probability
+- *Marginal Probability*
 	- If X = cold/not cold and we need a = cold, then getting the distribution in just one variable where a = cold is equal to the sum joint distribution for all b random points of Y
 - Probability Tables
 	- if n variables and k values, we have k to n entries
 	- If n and k are too large, this makes it problematic
-- Independence
+- *Independence*
 	- Random Variables that don't correlate have probability being the product of marginals
 	- Requires domain knowledge
 - Conditional Probability P(X = a| Y = b) = $\frac{{P(X=a, Y=b)}}{P(Y=b)}$
