@@ -15,6 +15,10 @@
 	- If X = cold/not cold and we need a = cold, then getting the distribution in just one variable where a = cold is equal to the sum joint distribution for all b random points of Y
 - Probability Tables
 	- if n variables and k values, we have k to n entries
-	- If n and k are too large, t
+	- If n and k are too large, this makes it problematic
 - Independence
-	- Random Variables that don't correlate have probability being the product of both
+	- Random Variables that don't correlate have probability being the product of marginals
+	- Requires domain knowledge
+- Conditional Probability P(X = a| Y = b) = $\frac{{P(X=a, Y=b)}}{P(Y=b)}$
+- Conditional Independence P(X, Y|Z) = P(X|Z)P(Y|Z)
+	- Requires Domain Knowledge
