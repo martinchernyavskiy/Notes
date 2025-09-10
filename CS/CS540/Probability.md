@@ -12,4 +12,9 @@
 - Joint distribution: P(X = a, Y = b)
 	- Allows to work with multiple types of uncertainty that correlate with each other
 - Marginal Probability
-	- 
+	- If X = cold/not cold and we need a = cold, then getting the distribution in just one variable where a = cold is equal to the sum joint distribution for all b random points of Y
+- Probability Tables
+	- if n variables and k values, we have k to n entries
+	- If n and k are too large, t
+- Independence
+	- Random Variables that don't correlate have probability being the product of both
