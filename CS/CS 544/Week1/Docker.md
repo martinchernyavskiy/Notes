@@ -32,4 +32,4 @@
 ?
 - Steps to run in a container
 - Used to create new images
-- 
+- Allows for reproducibility
