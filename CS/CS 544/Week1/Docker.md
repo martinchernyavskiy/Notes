@@ -14,13 +14,22 @@
 - Virtual Memory
 
 ## Docker
+### Registries
+?
+- Docker registries (DockerHub for example) are places where people upload their docker images
 
 ### Images
+?
+- Snapshot of installed software from which to create container 
 
 ### Containers
 ?
 - Lightweight alternative to VMs
 - Allows for distributed system ecosystem on a single machine
-- 
+- Linx sandbox in which to run process
 
 ### Dockerfiles
+?
+- Steps to run in a container
+- Used to create new images
+- 
