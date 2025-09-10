@@ -15,3 +15,4 @@
 
 ### Examples
 - Coin flip, dice roll, self-explanatory
+
