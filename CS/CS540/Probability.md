@@ -22,3 +22,5 @@
 - Conditional Probability P(X = a| Y = b) = $\frac{{P(X=a, Y=b)}}{P(Y=b)}$
 - Conditional Independence P(X, Y|Z) = P(X|Z)P(Y|Z)
 	- Requires Domain Knowledge
+- Chain Rule
+	- 
