@@ -8,24 +8,10 @@
 - *Probability space*: is a triple ($\Omega, \mathcal{F}, P$)
 
 ### Probability (Kolmogorov) Axioms
+?
 - 0 <= P(A) <= 1 for each event A
 - P(sample space) = 1 and P(empty set) = 0
 - If $A_{1}, A_{2}, \dots$ is sequence of pairwise disjoint events, their probability is the sum of probabilities of each single event
 
 ### Examples
-- Coin flip, trivial.
-
-
-P(#) = 1/3, P($) = 1/3, P(!) = 1/3, etc.
-
-
-a) i) check, ii) not, iii) not
-
-b) i) yes, ii) yes, iii) yes
-
-
-yes
-
-no, complement
-
-no, union
+- Coin flip, dice roll, self-explanatory

@@ -29,4 +29,8 @@
 		- Probabilistic graphical models
 - Inference: computer probability given evidence (conditional probability)
 - *Bayes' Rule*
-	- $$
+	- $P(A|B) = \frac{P(B|A) \times P(A)}{P(B)}$
+	- To proof, we apply chain rule two different times
+		- P(A,B) = P(A|B) * P(B) 
+				= P(B|A) * P(A)
+	- 
