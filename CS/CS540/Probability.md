@@ -23,4 +23,4 @@
 - Conditional Independence P(X, Y|Z) = P(X|Z)P(Y|Z)
 	- Requires Domain Knowledge
 - Chain Rule
-	- 
+	- P(A1, ..., An) = P(A1)P(A2|A1)...
