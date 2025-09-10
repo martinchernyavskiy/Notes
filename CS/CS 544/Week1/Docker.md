@@ -9,7 +9,8 @@
 	- Language VMs (JVM, PVM, etc.)
 	- OS VMs (containers)
 		- Shared physical OS
-		- Each container contains different "flavors"
+		- Each container contains different "flavors" of Linux
+		- *Incompatibility*: Can't have Windows container on Linux
 - Virtual Memory
 
 ## Docker
@@ -17,5 +18,9 @@
 ### Images
 
 ### Containers
+?
+- Lightweight alternative to VMs
+- Allows for distributed system ecosystem on a single machine
+- 
 
 ### Dockerfiles
