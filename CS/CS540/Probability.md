@@ -7,7 +7,7 @@
 - Expectation (average): $E[X] = \sum_{a}^{}a \times P(x=a)$
 - Variance (spread): $Var[X]=E[(X-E[X])^2]$
 
-## Join Distribution
+## Probability
 ?
 - Move from one variable to several
 - *Joint distribution*: P(X = a, Y = b)
@@ -25,3 +25,8 @@
 	- Requires Domain Knowledge
 - Chain Rule
 	- P(A1, ..., An) = P(A1)P(A2|A1)...
+		- If some conditional independence, we can factor
+		- Probabilistic graphical models
+- Inference: computer probability given evidence (conditional probability)
+- *Bayes' Rule*
+	- $$
