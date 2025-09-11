@@ -61,4 +61,8 @@
 		- For the lower boundary, if each of the 50 trials resulted in a distinct value from the 100 values, that means 50 other values have never occurred
 		- For the upper boundary, if all the 50 samples resulted in the same value, then we have 100-1 = 99 values that never occurred and thus their mle is 0
 - *Regularized Estimate*
-	- Given epsilon > 0
+	- Given hyperparameter (epsilon) > 0
+		- We have sample probability equal to $\frac{n_{i}+\epsilon}{n+k\epsilon}$
+			- Avoids zero when n is small
+			- Biased, but smaller variance
+- *Estimat*
