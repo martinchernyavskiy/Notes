@@ -61,6 +61,7 @@
 - Given arbitrary input of vectors
 	- We center data so that the mean of these vectors is equal to 0
 - We obtain as an output the principal components which are orthogonal 
+	- We also obtain covariance matrix which describes how the different dimensions of the data vary together $S=\frac{1}{n-1}\sum_{i=1}^{n}x_{i}x_{i}^T$
 
 ## Dimensionality Reduction Variations
 ?
