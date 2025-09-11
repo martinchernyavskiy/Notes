@@ -17,11 +17,18 @@
 
 ## Matrix & Vector Operations
 ?
-- Vectors
+- *Vectors*
 	- Addition
 	- Scalar Multiplication (uniform stretch / scaling)
 	- Inner product (dot product)
 		- $<x,y> := x^Ty=[x_{1} x_{2} x_{3}] \begin{pmatrix} y_{1} \\ y_{2} \\ y_{3}\end{pmatrix}$ = x1y1 + x2y2 +x3y3
+		- If equal to 0, then x and y are orthogonal
 	- Outer product
 		- $xy^T=\begin{pmatrix}x_{1} \\ x_{2} \\ x_{3}\end{pmatrix} \begin{pmatrix}y_{1}  & y_{2}  & y_{3}\end{pmatrix} = \begin{pmatrix}x_{1}y_{1}  & x_{1}y_{2} & x_{1}y_{3} \\ x_{2}y_{1} & x_{2}y_{2} & x_{2}y_{3} \\ x_{3}y_{1} & x_{3}y_{2} & x_{3}y_{3} \end{pmatrix}$ 
-	- 
+	- Vector norms: "length"
+		- $||x||_{2}=\sqrt{ \sum_{i=1}^{n}x^2_{i} }$
+	- Set of vectors is orthonormal if for every pair of vectors their dot product is 0 and for all x_i, the length is equal to 1
+- *Matrices*
+	- Addition
+	- Scalar Multiplication (Stretching the linear transformation)
+	- Matrix-vector multiplication (left multiplication transformation)
