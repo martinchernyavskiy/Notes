@@ -16,4 +16,17 @@
 
 ## Steps to Approach a Problem
 1. Restate the problem in own words, ask clarifying questions to gather all necessary constraints and edge cases
-2. 
+2. Design an algorithm
+	- Consider and discuss multiple possible solutions, evaluate which one will work best and explain why
+	- Consider first writing in pseudocode if an algorithm is complex, so that you have a guide on how to write the actual code
+	- If struggle, consider brute force solution
+3. Provide approximate time and space complexity estimate
+	- Provide initial complexity analysis to demonstrate how effective it is
+	- Approximately is acceptable, but more thorough analysis can be done once coded up
+4. Write clean and readable code
+	- Use meaningful variable names
+	- Consider using helped functions
+	- Design custom classes to improve readability
+5. Once you have the code, clearly state the time and space complexities
+	- Mention if there are any differences between this and initially stated complexity, explain the difference.
+6. 
