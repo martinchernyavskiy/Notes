@@ -41,3 +41,7 @@
 	- Posterior: P(H|E): probability of hypothesis given evidence
 - *Naive Bayes*
 	- Conditional Probability follows bayes rule
+
+P(NonSpam | Detected as Spam) = P(Detected as Spam | NonSpam) P(NonSpam) / P(Detected as spam)
+
+P()
