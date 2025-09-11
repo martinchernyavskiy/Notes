@@ -27,7 +27,7 @@
 	- P(A1, ..., An) = P(A1)P(A2|A1)...
 		- If some conditional independence, we can factor
 		- Probabilistic graphical models
-- Inference: computer probability given evidence (conditional probability)
+- Inference: computeprobability given evidence (conditional probability)
 - *Bayes' Rule*
 	- $P(A|B) = \frac{P(B|A) \times P(A)}{P(B)}$
 	- To proof, we apply chain rule two different times
