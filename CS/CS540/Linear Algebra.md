@@ -52,6 +52,8 @@
 
 ## Principal Components Analysis (PCA)
 ?
+- A type of dimensionality reduction approach, data is approximately lower dimensional
 - Find axes (vectors) of a subspace which will project to this subspace
 - We want to preserve data, minimize projection error
-- Vectors like this are called principal components
+- Vectors like this are called *principal components*
+- In a 2d example, the goal is to find a line that minimizes the sum of squared distances to xi's
