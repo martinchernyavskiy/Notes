@@ -57,7 +57,8 @@ for (int j = 0; j < 11; j++) {
 
 ## C Program Structure
 ?
-- *Variables and functions must be declared before they are used*
+- C compiler is a one-pass compiler
+- *Variables and functions must be declared before they are used*, thus main() is usually at the bottom
 - *function*: block of code to accomplish a particular task
 - function starts with *return type* and optionally defines a *parameter* in its definition which is an input that the function expects and may do work on.
 - The input that actually is passed into the function is called an *argument*
