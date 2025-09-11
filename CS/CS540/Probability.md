@@ -46,3 +46,9 @@
 ?
 - Typically we don't know the probabilities that can be seen in bayesian inference
 - We try to estimate distribution from samples
+- Bernoulli with parameter p, P(X = 1) = p
+- $E[X]$ = p
+- *Sample Mean Formula:* $\frac{1}{n}\sum_{i=1}^{n}x_{i}$
+- *Multinomial Parameters*
+	- k-sized die (k =2 is a coin)
+	- Face i has probability 
