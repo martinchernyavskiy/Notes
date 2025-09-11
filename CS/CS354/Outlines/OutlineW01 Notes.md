@@ -32,6 +32,7 @@
 	- \n newline character, important for buffer flushing
 		- Input is stored in the buffer instead of processing input character by character for efficiency
 		- It might be the cause that nothing is get printed out to the output when operating system is accepting the input. This input needs to be "flushed" from the buffer which is accomplished by this newline character
+	- If not using the \n to forcefully flush the buffer, it might be sent to output if the buffer gets full or at the very end of the program
 - Loops:
 ```C
 // do while loop
