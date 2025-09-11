@@ -32,3 +32,7 @@
 	- Addition
 	- Scalar Multiplication (Stretching the linear transformation)
 	- Matrix-vector multiplication (left multiplication transformation)
+		- Feedforward Neural Networks with input x:
+			- $f^k(x)=\sigma(W^T_{k}f^{k-1}(x))$
+			- Where sigma is nonlinearity, W is weighted matrix for layer k (linear transformation), output of layer k-1 is a vector and we produce an output of layer k which is also a vector
+	- Matrix Multiplication (composition of linear transformation)
