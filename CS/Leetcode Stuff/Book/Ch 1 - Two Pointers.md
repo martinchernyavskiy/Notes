@@ -18,7 +18,8 @@ for i in range(n):
 	- *Ideal for when we need to compare elements from different ends of data structure*
 - *Unidirectional Traversal*
 	- Pointers start at the same end of data structure (beginning)
-	- Use right to find information and left to keep track of informati
+	- Use right to find information and left to keep track of information
 - *Staged Traversal*
+	- 
 
 ## When to use?
