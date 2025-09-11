@@ -18,7 +18,7 @@
 - Execution starts in main(), top to bottom, sequentially
 - C program is a collection of independent functions. We refer to them as functions and not methods since C is not an OOP language
 - boolean is not a standard data type in C, instead false is a number 0 and true is any number that is non-zero, including character ASCII values and etc.
-	- 0, NULL
+	- 0, NULL, '\0' result in false
 - Loops:
 ```C
 // do while loop
