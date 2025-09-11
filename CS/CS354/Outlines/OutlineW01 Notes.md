@@ -73,7 +73,10 @@ for (int j = 0; j < 11; j++) {
 		- used to allocate memory on runtime by the user
 		- must be explicitly allocated and deallocated via code
 - *caller/callee functions*: caller calls callee
-- *pass-by-value*: copy of argument value is careated
+- *pass-by-value*: copy of argument value is created
+	- when passing an argument to a callee function, it copies the value to a parameter variable, thus it doesn't have access to the original copy of the argument
+	- Java contrary to this does *pass-by-reference*
+	- Instead we can pass the address of x to change its value directly
 - *return-by-value*: copy of the return value
 
 
