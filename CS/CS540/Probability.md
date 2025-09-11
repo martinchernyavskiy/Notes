@@ -39,3 +39,5 @@
 	- P(H): prior, estimate of probability without evidence
 	- Likelihood: P(E|H)
 	- Posterior: P(H|E): probability of hypothesis given evidence
+- *Naive Bayes*
+	- Conditional Probability follows bayes rule
