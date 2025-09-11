@@ -44,4 +44,6 @@
 
 P(NonSpam | Detected as Spam) = P(Detected as Spam | NonSpam) P(NonSpam) / P(Detected as spam)
 
-P()
+P(NS|DS) = P(DS|NS) P(NS) / P(DS)
+
+1/20 * 1/2 / 99
