@@ -74,4 +74,8 @@
 			- $\bar{\sigma}^2 = \sum_{i=1}^{n}\frac{(x_{i}-\bar{\mu})^2}{n}$ ; MLE variance
 		- *Central Limit Theorem* and *Law of Large Numbers*
 - *Estimation Errors*
-	- 
+	- There is likely an error to occur with finite samples
+	- Mean Squared Error: $MSE[\bar{\theta}]= E[(\bar{\theta}-\theta)^2]$
+	- Bias / Variance Decomposition
+		- $MSE[\bar{\theta}]=E[(\bar{\theta}-E[\bar{\theta}])^2+(E[\bar{\theta}]-\theta)^2$
+			- Where first part is variance and second part is bias
