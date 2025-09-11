@@ -54,4 +54,4 @@
 ?
 - Find axes (vectors) of a subspace which will project to this subspace
 - We want to preserve data, minimize projection error
-- 
+- Vectors like this are called principal components
