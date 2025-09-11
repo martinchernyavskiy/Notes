@@ -41,4 +41,12 @@
 	- Matrix Inverse
 		- A matrix is invertible if there is B such that AB = BA = I
 	- Eigenvalues and EIgenvectors
-		- Av = cv w
+		- Av = cv where v is nonzero eigenvector and c is eigenvalue
+		- A is a linear transformation such that it stretches / rotates vectors
+
+## Dimensionality Reduction
+?
+- Vectors can store a lot of features
+- We are willing to reduce dimensions since a lot of features are redundant and it takes a lot of storage and computation resources
+- Thus, we attempt to reduce the dimension to minimize information loss
+- 
