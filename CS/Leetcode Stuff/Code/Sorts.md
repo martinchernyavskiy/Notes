@@ -1,6 +1,6 @@
 ### Insertion Sort
 ?
-- Best case is the array already sorted, worst if 
+- Best case is the array already sorted, worst if it is reverse sorted
 - Each line has a constant cost, each executed a particular number of times
 ```Python
 def insertion_sort(A):
