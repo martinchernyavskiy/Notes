@@ -36,3 +36,9 @@
 			- $f^k(x)=\sigma(W^T_{k}f^{k-1}(x))$
 			- Where sigma is nonlinearity, W is weighted matrix for layer k (linear transformation), output of layer k-1 is a vector and we produce an output of layer k which is also a vector
 	- Matrix Multiplication (composition of linear transformation)
+	- Identity Matrix
+		- rows and columns consist of standard basis vectors
+	- Matrix Inverse
+		- A matrix is invertible if there is B such that AB = BA = I
+	- Eigenvalues and EIgenvectors
+		- Av = cv w
