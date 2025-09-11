@@ -49,4 +49,9 @@
 - Vectors can store a lot of features
 - We are willing to reduce dimensions since a lot of features are redundant and it takes a lot of storage and computation resources
 - Thus, we attempt to reduce the dimension to minimize information loss
+
+## Principal Components Analysis (PCA)
+?
+- Find axes (vectors) of a subspace which will project to this subspace
+- We want to preserve data, minimize projection error
 - 
