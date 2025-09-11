@@ -51,4 +51,8 @@
 - *Sample Mean Formula:* $\frac{1}{n}\sum_{i=1}^{n}x_{i}$
 - *Multinomial Parameters*
 	- k-sized die (k =2 is a coin)
-	- Face i has probability 
+	- Face i has probability of p_i
+	- Given n rolls, face i shows up n_i times.
+		- $\sum_{i=1}^{k}n_{i}=n$
+		- We estimate the probabilities from this data
+- *Maximum Likelihood Estimate (MLE)*: is given by n_i / n, gives a p_i hat
