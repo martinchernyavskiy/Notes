@@ -22,12 +22,19 @@
 - *Dangling else* is an else selection statement for which there are more ifs
 - Compiler doesn't see indentations, instead it connects the else statement with the closest if 
 	- To address this, we use curly braces to indicate a code block
+- *Basic format specifiers*:
+	- %i for integer
+	- %d for decimal
+	- %c for single character
+	- %s for sequence of characters (string)
+	- %x for hexadecimal number
+	- %p for address of memory
 - Loops:
 ```C
 // do while loop
 int k = 0;
 do {
-		printf("%i\n", k);
+		printf("%i\n", k); // formatted print
 		k++;	
 } while (k < 11);
 
