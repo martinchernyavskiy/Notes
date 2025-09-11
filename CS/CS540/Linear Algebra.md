@@ -1,0 +1,15 @@
+## Usage
+- Linear Functions are simple and tractable
+	- Building blocks for all models (linear regression, part of neural networks)
+- Vectors
+	- Can be list of values or point in space
+	- Dimension
+	- In AI/ML we use particularly high dimensions
+- Matrices
+	- Table of values / vectors
+	- Represent linear transformations
+	- If we apply to a vector, we get another
+	- mxn dimension
+	- Can easily index into matrix
+- Transposition
+	- Flips rows and co
