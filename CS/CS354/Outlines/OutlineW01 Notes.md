@@ -74,15 +74,21 @@ FINAL: DEC 17 12:25 PM to 2:25 PM
 CS 540:
 
 MIDTERM TBA: Oct 20 - 24
-Final DEC 13
+Final DEC 13 morning
 
 CS 544:
 
 OCT 8, evening
 Nov 19 evening
+DEC 17 evening
 
 CS 577:
 
 Oct 14
 Nov 18
 Dec 13 evening
+
+Math 431:
+
+Oct 22 evening
+Nov 19 evening
