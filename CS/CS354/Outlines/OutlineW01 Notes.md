@@ -10,8 +10,8 @@
 		- step: does a single line step
 		- next: step over functions
 		- continue: runs the program to the end
-- shell-prompt is the text preceding input cursor ($)
-- network: cs.wisc.edu
+- *shell-prompt* is the text preceding input cursor ($)
+- *network*: cs.wisc.edu
 
 ## C Logical Control Flow
 ?
@@ -63,9 +63,11 @@ for (int j = 0; j < 11; j++) {
 - function starts with *return type* and optionally defines a *parameter* in its definition which is an input that the function expects and may do work on.
 - The input that actually is passed into the function is called an *argument*
 - *call stack trace*: (stack / heap memory)
-	  stack memory is automatically managed by the compiler
-	  heap memory used for dynamic memory allocatio
-		  managed by user
+	-  *stack memory* is automatically managed by the compiler
+		- 
+	  - *heap memory* used for dynamic memory allocation
+		- used to allocate memory on runtime by the user
+		- must be explicitly allocated and deallocated via code
 - *caller/callee functions*: caller calls callee
 - *pass-by-value* / *return-by-value*, pass in/out 
 
