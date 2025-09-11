@@ -19,7 +19,7 @@
 - C program is a collection of independent functions. We refer to them as functions and not methods since C is not an OOP language
 - boolean is not a standard data type in C, instead false is a number 0 and true is any number that is non-zero, including character ASCII values and etc.
 	- 0, NULL, '\0' result in false
-- *Dangling else* is an else selection statement for which there are more ifs
+- *Dangling else* is an else selection statement for which there are more ifs preceding it
 - Compiler doesn't see indentations, instead it connects the else statement with the closest if 
 	- To address this, we use curly braces to indicate a code block
 - *Basic format specifiers*:
@@ -29,6 +29,9 @@
 	- %s for sequence of characters (string)
 	- %x for hexadecimal number
 	- %p for address of memory
+	- \n newline character, important for buffer flushing
+		- Input is stored in the buffer instead of processing input character by character for efficiency
+		- It might be the cause that nothing is get printed out to the output when operating system is accepting the input. This input needs to be "flushed" from the buffer which is accomplished by this newline character
 - Loops:
 ```C
 // do while loop
