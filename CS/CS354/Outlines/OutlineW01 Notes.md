@@ -19,6 +19,9 @@
 - C program is a collection of independent functions. We refer to them as functions and not methods since C is not an OOP language
 - boolean is not a standard data type in C, instead false is a number 0 and true is any number that is non-zero, including character ASCII values and etc.
 	- 0, NULL, '\0' result in false
+- *Dangling else* is an else selection statement for which there are more ifs
+- Compiler doesn't see indentations, instead it connects the else statement with the closest if 
+	- To address this, we use curly braces to indicate a code block
 - Loops:
 ```C
 // do while loop
