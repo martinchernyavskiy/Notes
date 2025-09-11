@@ -10,6 +10,7 @@ for i in range(n):
 - *Predictable Dynamics*: for example in a sorted array, we can predict whether the value that pointer moves to is greater or smaller
 
 ## Two-pointer Strategies
+?
 - Usually take O(n) time by not using nested for-loops
 - *Inward Traversal*
 	- Pointers start at opposite ends and moving towards each other
@@ -20,6 +21,11 @@ for i in range(n):
 	- Pointers start at the same end of data structure (beginning)
 	- Use right to find information and left to keep track of information
 - *Staged Traversal*
-	- 
+	- Traverse with one pointer until it lands on element meeting condition
+		- Then traverse with second pointer
+	- First pointer used for search, second pointer finds additional information about first
 
 ## When to use?
+- Usually requires a linear data structure (array, linked list).
+- "Sorted array" indicates that a problem can be solved using two-pointer algorithm
+- 
