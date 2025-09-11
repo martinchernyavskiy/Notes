@@ -63,3 +63,12 @@ for (int j = 0; j < 11; j++) {
 - *Endianess*:
 	- *Little endian*:
 	- *Big endian*:
+
+
+CS 354:
+
+OCT 1: 7:30 PM to 9:30 PM
+NOV 5: 7:30 to 9:30 PM
+FINAL: 12:25 PM to 2:25 PM
+
+CS 
