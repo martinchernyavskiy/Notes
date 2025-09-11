@@ -33,4 +33,9 @@
 	- To proof, we apply chain rule two different times
 		- P(A,B) = P(A|B) * P(B) 
 				= P(B|A) * P(A)
-	- 
+- *Bayesian Inference*
+	- P(H|E) = (P(E|H)P(H))/P(E)
+	- Where h is hypothesis, E is evidence
+	- P(H): prior, estimate of probability without evidence
+	- Likelihood: P(E|H)
+	- Posterior: P(H|E): probability of hypothesis given evidence
