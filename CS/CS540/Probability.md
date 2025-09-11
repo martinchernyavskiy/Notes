@@ -65,4 +65,13 @@
 		- We have sample probability equal to $\frac{n_{i}+\epsilon}{n+k\epsilon}$
 			- Avoids zero when n is small
 			- Biased, but smaller variance
-- *Estimat*
+- *Estimating 1D Gaussian Parameters*
+	- Gaussian, also known as Normal, distribution has true mean and true variance
+	- We observe n data points from this distribution to estimate both true mean and tru variance
+		- Mean estimate is given by sum of the data points divided by their quantity
+		- Variance is given by:
+			- $s^2=\sum_{i=1}^{n}\frac{(x_{i}-\bar{\mu})^2}{n-1}$ ; unbiased variance estimate
+			- $\bar{\sigma}^2 = \sum_{i=1}^{n}\frac{(x_{i}-\bar{\mu})^2}{n}$ ; MLE variance
+		- *Central Limit Theorem* and *Law of Large Numbers*
+- *Estimation Errors*
+	- 
