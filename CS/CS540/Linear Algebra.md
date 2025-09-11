@@ -68,4 +68,5 @@
 - Used for visualization, efficiency, noise removal, downstream machine learning use, etc.
 - *Application*
 	- Image compression
-		- Divide image to 12x12 patches, we hav
+		- Divide image to 12x12 patches, we have 144-d vector
+		- We obtain 6 principal components as an image and thus able to project the image to 6D
