@@ -57,3 +57,7 @@
 - We want to preserve data, minimize projection error
 - Vectors like this are called *principal components*
 - In a 2d example, the goal is to find a line that minimizes the sum of squared distances to xi's
+	- the *optimal* line is called principal component 1 
+- Given arbitrary input of principal components
+	- We center data so that the mean of these vectors is equal to 0
+- 
