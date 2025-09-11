@@ -66,7 +66,9 @@ for (int j = 0; j < 11; j++) {
 - The input that actually is passed into the function is called an *argument*
 - *call stack trace*: (stack / heap memory)
 	-  *stack memory* is automatically managed by the compiler
-		- 
+		- For example, when program starts, some portion of stack memory is allocated for main() function so that it can store local variables, parameters, or information
+		- int x =1; is allocated space on stack memory within *stack frame* of he main function
+		- *control is transferred* to bang function
 	  - *heap memory* used for dynamic memory allocation
 		- used to allocate memory on runtime by the user
 		- must be explicitly allocated and deallocated via code
