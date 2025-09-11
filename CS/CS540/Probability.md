@@ -56,4 +56,9 @@
 		- $\sum_{i=1}^{k}n_{i}=n$
 		- We estimate the probabilities from this data
 - *Maximum Likelihood Estimate (MLE)*: is given by n_i / n, gives a p_i hat
-	- 
+	- Example: given P(X) for some random variable X that takes on 100 values (k = 100), we have n = 50, total number of samples. How many of the P(X = a) estimates might be 0
+		- Given the Maximum Likelihood Estimate for each of the value is 0 iff when conducting the random experiment that outcome has never happened.
+		- For the lower boundary, if each of the 50 trials resulted in a distinct value from the 100 values, that means 50 other values have never occurred
+		- For the upper boundary, if all the 50 samples resulted in the same value, then we have 100-1 = 99 values that never occurred and thus their mle is 0
+- *Regularized Estimate*
+	- Given epsilon > 0
