@@ -56,3 +56,4 @@
 		- $\sum_{i=1}^{k}n_{i}=n$
 		- We estimate the probabilities from this data
 - *Maximum Likelihood Estimate (MLE)*: is given by n_i / n, gives a p_i hat
+	- 
