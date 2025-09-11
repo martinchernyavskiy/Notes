@@ -69,6 +69,20 @@ CS 354:
 
 OCT 1: 7:30 PM to 9:30 PM
 NOV 5: 7:30 to 9:30 PM
-FINAL: 12:25 PM to 2:25 PM
+FINAL: DEC 17 12:25 PM to 2:25 PM
 
-CS 
+CS 540:
+
+MIDTERM TBA: Oct 20 - 24
+Final DEC 13
+
+CS 544:
+
+OCT 8, evening
+Nov 19 evening
+
+CS 577:
+
+Oct 14
+Nov 18
+Dec 13 evening
