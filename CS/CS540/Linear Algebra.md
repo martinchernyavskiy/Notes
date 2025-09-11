@@ -58,6 +58,14 @@
 - Vectors like this are called *principal components*
 - In a 2d example, the goal is to find a line that minimizes the sum of squared distances to xi's
 	- the *optimal* line is called principal component 1 
-- Given arbitrary input of principal components
+- Given arbitrary input of vectors
 	- We center data so that the mean of these vectors is equal to 0
-- 
+- We obtain as an output the principal components which are orthogonal 
+
+## Dimensionality Reduction Variations
+?
+- PCA, Kernel PCA, ICA, CCA
+- Used for visualization, efficiency, noise removal, downstream machine learning use, etc.
+- *Application*
+	- Image compression
+		- Divide image to 12x12 patches, we hav
