@@ -29,4 +29,8 @@
 	- Design custom classes to improve readability
 5. Once you have the code, clearly state the time and space complexities
 	- Mention if there are any differences between this and initially stated complexity, explain the difference.
-6. 
+6. Test your code
+	- Test simple cases
+	- Test edge cases (extreme inputs that can break code)
+	- Test boundary values
+	- Use testing to identify bugs and fix code
