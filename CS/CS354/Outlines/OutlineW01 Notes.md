@@ -18,6 +18,7 @@
 - Execution starts in main(), top to bottom, sequentially
 - C program is a collection of independent functions. We refer to them as functions and not methods since C is not an OOP language
 - boolean is not a standard data type in C, instead false is a number 0 and true is any number that is non-zero, including character ASCII values and etc.
+	- 0, NULL
 - Loops:
 ```C
 // do while loop
@@ -66,30 +67,4 @@ for (int j = 0; j < 11; j++) {
 	- *Big endian*:
 
 
-CS 354:
 
-OCT 1: 7:30 PM to 9:30 PM
-NOV 5: 7:30 to 9:30 PM
-FINAL: DEC 17 12:25 PM to 2:25 PM
-
-CS 540:
-
-MIDTERM TBA: Oct 20 - 24
-Final DEC 13 morning
-
-CS 544:
-
-OCT 8, evening
-Nov 19 evening
-DEC 17 evening
-
-CS 577:
-
-Oct 14
-Nov 18
-Dec 13 evening
-
-Math 431:
-
-Oct 22 evening
-Nov 19 evening
