@@ -23,7 +23,7 @@
 - Conditional Probability P(X = a| Y = b) = $\frac{{P(X=a, Y=b)}}{P(Y=b)}$
 - Conditional Independence P(X, Y|Z) = P(X|Z)P(Y|Z)
 	- Requires Domain Knowledge
-- Chain Rule
+- *Chain Rule*
 	- P(A1, ..., An) = P(A1)P(A2|A1)...
 		- If some conditional independence, we can factor
 		- Probabilistic graphical models
