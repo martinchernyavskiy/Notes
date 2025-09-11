@@ -61,6 +61,8 @@ for (int j = 0; j < 11; j++) {
 - *Variables and functions must be declared before they are used*, thus main() is usually at the bottom
 - *function*: block of code to accomplish a particular task
 - function starts with *return type* and optionally defines a *parameter* in its definition which is an input that the function expects and may do work on.
+	- *argument*: data that caller function passes to callee function
+	- *parameter*: variable where callee stores caller's data
 - The input that actually is passed into the function is called an *argument*
 - *call stack trace*: (stack / heap memory)
 	-  *stack memory* is automatically managed by the compiler
@@ -69,7 +71,8 @@ for (int j = 0; j < 11; j++) {
 		- used to allocate memory on runtime by the user
 		- must be explicitly allocated and deallocated via code
 - *caller/callee functions*: caller calls callee
-- *pass-by-value* / *return-by-value*, pass in/out 
+- *pass-by-value*: copy of argument value is careated
+- *return-by-value*: copy of the return value
 
 
 ## Variables
