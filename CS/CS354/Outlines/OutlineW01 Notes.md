@@ -16,6 +16,7 @@
 ## C Logical Control Flow
 ?
 - Execution starts in main(), top to bottom, sequentially
+- C program is a collection of independent functions. We refer to them as functions and not methods since C is not an OOP language
 - boolean is not a standard data type in C, instead false is a number 0 and true is any number that is non-zero, including character ASCII values and etc.
 - Loops:
 ```C
