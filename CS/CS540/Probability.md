@@ -42,12 +42,7 @@
 - *Naive Bayes*
 	- Conditional Probability follows bayes rule
 
-P(NonSpam | Detected as Spam) = P(Detected as Spam | NonSpam) P(NonSpam) / P(Detected as spam)
-
-P(NS|DS) = P(DS|NS) P(NS) / P(DS)
-
-1/20 * 1/2 / 99/100
-
-1/40 * 100 / 99
-
-100 / 40 * 99
+## Statistics
+?
+- Typically we don't know the probabilities that can be seen in bayesian inference
+- We try to estimate distribution from samples
