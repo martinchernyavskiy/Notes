@@ -1,4 +1,5 @@
 ## Definitions
+?
 - *Pointer*: variable representing index within a data structure
 - Using second pointer allow to make *comparisons*
 - 2 nested for-loops O(n^2)
@@ -26,6 +27,14 @@ for i in range(n):
 	- First pointer used for search, second pointer finds additional information about first
 
 ## When to use?
+?
 - Usually requires a linear data structure (array, linked list).
-- "Sorted array" indicates that a problem can be solved using two-pointer algorithm
-- 
+- "*Sorted array*" predictable dynamic indicates that a problem can be solved using two-pointer algorithm
+- If problem asks for *pair of values*, or result that can generated from two values
+
+## Real World Example
+- Garbage Collection Algorithms 
+	- Memory Compaction: to free up contiguous memory space by eliminating gaps left by deallocated objects
+	- 2 pointer technique allows to achieve this efficiently
+		- Scan pointer traverses the heap to identify live objects, skipping over dead objects, shifting live objects to position indicated by free pointer
+		- Free pointer keeps track of the next available space where live objects should be relocated
