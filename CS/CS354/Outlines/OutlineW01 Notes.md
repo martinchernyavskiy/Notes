@@ -62,9 +62,10 @@ for (int j = 0; j < 11; j++) {
 - *function*: block of code to accomplish a particular task
 - function starts with *return type* and optionally defines a *parameter* in its definition which is an input that the function expects and may do work on.
 - The input that actually is passed into the function is called an *argument*
-- call stack trace: (stack / heap memory)
-	  stack memory is managed by compiler
-	  stack memory is allocated at the compile time
+- *call stack trace*: (stack / heap memory)
+	  stack memory is automatically managed by the compiler
+	  heap memory used for dynamic memory allocatio
+		  managed by user
 - *caller/callee functions*: caller calls callee
 - *pass-by-value* / *return-by-value*, pass in/out 
 
