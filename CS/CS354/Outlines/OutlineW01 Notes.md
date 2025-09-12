@@ -178,7 +178,7 @@ Eventually, your `main` function finishes and returns.
 - *Destination Operand*: writes value to storage
 .
 - *Linear Memory Diagram*: a view of memory as a segment of bytes
-- *Byte Addressability*: every memory location is byte addressable
+- *Byte Addressability*: each address identifies 1 byte
 - *Endianess*:
 	- *Little endian*:
 	- *Big endian*:
