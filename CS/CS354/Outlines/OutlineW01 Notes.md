@@ -105,6 +105,7 @@ for (int j = 0; j < 11; j++) {
 	- printf doesn't read the null terminating characters from a c string
 - gcc (gnu c compiler)
 	- if don't specify the name of the executable, defaults to a.out (assembler output)
+- test harnesses: separate program to test main program
 
 ## Runtime Description
 ?
@@ -166,6 +167,7 @@ Eventually, your `main` function finishes and returns.
 ## Variables
 ?
 *Primitive unit of storage whose contents can change*
+- *Scalar Variable*: variable that stores only a single value
 - *Identifier*: the name you give to the variable
 - *Value*: data that the variable holds
 - *Type*: precedes the variable name
