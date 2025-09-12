@@ -81,7 +81,9 @@ for (int j = 0; j < 11; j++) {
 - stdio.h header provides printf, fgets
 - stdlib.h provides dynamic memory allocation, malloc
 - string.h for manipulaing c strings (array of characters with a null terminating character at the end of array)
-- *Global variable*: is a variable declared outside of functions and can be freely used from 
+- *Global variable*: is a variable declared outside of functions and can be freely used from any function. Declared at the top of the file 
+- int main(int argc, char *argv[])
+	- *CLA*: command line arguments 
 
 ## Runtime Description
 ?
