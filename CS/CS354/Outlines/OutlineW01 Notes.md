@@ -88,9 +88,15 @@ for (int j = 0; j < 11; j++) {
 	- *argc* keeps track of the number of command line arguments, which in this case is 3
 	- given an asterisk, it indicates a pointer variable which you read from right to left.
 		- argv is array of pointers to characters
-- char * input_string = malloc(N); 
+- *char * input_string = malloc(N); *
 	- malloc reserves a heap memory block of N bytes, returning the address of the memory location it has reserved.
 	- Must therefore save the address to a pointer variable
+	- Type is dependent on what type of data want to store
+- fgets(input_string, N, stdin)
+	- first argument is variable that points to a location to store input at
+	- second argument is the number of characters to be read from user
+	- third argument is the source of inputs, in this case stdin stream (keyboard)
+	- if not successful, returns NULL which we can check
 
 ## Runtime Description
 ?
