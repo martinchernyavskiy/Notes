@@ -103,6 +103,8 @@ for (int j = 0; j < 11; j++) {
 	- fgets appends a null terminating character at the end of this sequence of characters to make input a c string
 	- strlen returns string length of a c string (doesn't count the \\0)
 	- printf doesn't read the null terminating characters from a c string
+- gcc (gnu c compiler)
+	- if don't specify the name of the executable, defaults to a.out (assembler output)
 
 ## Runtime Description
 ?
