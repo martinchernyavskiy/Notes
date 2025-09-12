@@ -88,6 +88,9 @@ for (int j = 0; j < 11; j++) {
 	- *argc* keeps track of the number of command line arguments, which in this case is 3
 	- given an asterisk, it indicates a pointer variable which you read from right to left.
 		- argv is array of pointers to characters
+- char * input_string = malloc(N); 
+	- malloc reserves a heap memory block of N bytes, returning the address of the memory location it has reserved.
+	- Must therefore save the address to a pointer variable
 
 ## Runtime Description
 ?
