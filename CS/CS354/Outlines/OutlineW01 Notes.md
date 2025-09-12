@@ -5,11 +5,11 @@
 	- -g produces debugging information
 	- gdb `executable file` allows to debug in real-time
 	- b is for setting breakpoints
-	- run is for running the program until the break point
+	- run or start is for running the program until the break point
 	- list is for listing out more lines of code 
-		- step: does a single line step
+		- step: does a single line step / steps into the function
 		- next: step over functions
-		- continue: runs the program to the end
+		- continue: runs the program to the end until the breakpoint is reached
 - *shell-prompt* is the text preceding input cursor ($)
 - *network*: cs.wisc.edu
 
