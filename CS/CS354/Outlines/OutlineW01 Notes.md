@@ -168,14 +168,16 @@ Eventually, your `main` function finishes and returns.
 ?
 *Scalar variable is a primitive unit of storage whose contents can change*
 - *Basic memory diagram*: focuses on one variable, listing its name, type, and value
-- Can visualize as a container of s
+	- Can visualize as a container of size n bytes, depending on the data type
 - *Identifier*: the name you give to the variable
-- *Value*: data that the variable holds
-- *Type*: precedes the variable name
-- *Address*: the memory address of the variable
-- *Size*: the amount of byte space it takes?
-- *Source Operand*: using variable as a value to obtain from
-- *Destination Operand*: using variable to store value
+- *Value*: data stored in variable's memory
+- *Type*: precedes the variable name, representation of data
+- *Address*: starting location of variable in memory
+- *Size*: the amount of byte space variable takes
+- *Source Operand*: reads value from storage
+- *Destination Operand*: writes value to storage
+.
+- *Linear Memory Diagram*: a view of memory as a segment of bytes
 - *Byte Addressability*: every memory location is byte addressable
 - *Endianess*:
 	- *Little endian*:
