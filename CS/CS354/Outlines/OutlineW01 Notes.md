@@ -166,8 +166,9 @@ Eventually, your `main` function finishes and returns.
 
 ## Variables
 ?
-*Primitive unit of storage whose contents can change*
-- *Scalar Variable*: variable that stores only a single value
+*Scalar variable is a primitive unit of storage whose contents can change*
+- *Basic memory diagram*: focuses on one variable, listing its name, type, and value
+- Can visualize as a container of s
 - *Identifier*: the name you give to the variable
 - *Value*: data that the variable holds
 - *Type*: precedes the variable name
