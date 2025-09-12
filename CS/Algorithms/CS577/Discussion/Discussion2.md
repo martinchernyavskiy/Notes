@@ -19,10 +19,20 @@
 - Adjacency List
 	- for every node, we maintain a list it's connected to
 	- good for sparse graphs
+
+- BFS and DFS
+- Topological Sort
+	- Directed acyclic graph, return nodes in some order subjected to a certain condition if node i is before node j, there is no connection of j to i
 ### Warm-up problems
 
 
-#### 1. 
+#### 1.  Have two integers a,b where b >= 1
+- Want a^b in O(log(b)) multiplications
+- Multiplication is one unit of cost
+
+- Algorithm candidate:
+	- We need log of (b) steps
+	- 
 
 
 #### 2.
