@@ -83,11 +83,61 @@ for (int j = 0; j < 11; j++) {
 
 ## Runtime Description
 ?
-- OS loader reads executable file from disk into RAM, sets up virtual memory space, allocating regions for the code, global variables, stack memory and heap memory.
-- Call a special startup routine from C runtime library (crt0 or _start)
-- Main is pushed onto the stack, first stack frame is created and pushed on empty stack, containing arguments to main and space for local variables declared inside main
-	- If main calls another function, a new frame is pushed on top of main's frame, when returned its frame is popped off
-	- When main returns, control goes back to the C runtime startup routine, where it performs some cleanup tasks and makes a system call for OS to terminate the program and to reclaim all memory allocated for the process
+```
+### 1. Compile Time: Creating the Blueprint 📜
+
+It all starts with your source code in a `.c` file. You run a compiler (like GCC), which translates your code into an executable file.
+
+This executable file is a highly organized blueprint. It contains several key sections:
+
+- **Text Segment (`.text`)**: The actual machine code instructions for all your functions, including `main`. Its size is fixed.
+    
+- **Data Segments (`.data`, `.bss`)**: These sections describe the size and initial values (or lack thereof) for all your global and static variables. Their sizes are also fixed.
+    
+
+At this point, your program is just a dormant file on your hard drive. No memory has been allocated, and nothing is running. The compiler has simply written the step-by-step instructions for how to build and run the program later.
+
+---
+
+### 2. Runtime: The Program Comes to Life 🚀
+
+When you run the executable, the operating system (OS) takes over.
+
+1. **Loading**: The OS loader reads the executable file. Following the blueprint, it allocates memory for your process. It loads the machine code into the **Text Segment** and sets up the **Data Segment** for your global variables.
+    
+2. **Stack & Heap Creation**: The OS allocates a block of memory for the **stack** (typically a default size like a few megabytes) and sets up the mechanisms for the **heap** to grow on demand.
+    
+3. **The First Push**: The OS hands control to a small C runtime startup routine (linked in during compilation). This routine's final job is to call your `main()` function. This call places the very first **stack frame** onto the now-active stack.
+    
+
+---
+
+### 3. Execution: The Ebb and Flow of Memory 🌊
+
+Now, your code inside `main` begins to execute instruction by instruction.
+
+- **Calling Functions**: When `main` calls another function, say `calculate()`, a new stack frame for `calculate()` is pushed on top of `main`'s frame. This new frame holds `calculate()`'s local variables and parameters. The **stack pointer** register in the CPU keeps track of the top of this ever-growing and shrinking stack.
+    
+- **Returning from Functions**: When `calculate()` finishes and returns, its stack frame is popped off. All its local variables are instantly gone. The stack pointer moves back down, and execution continues in `main` right where it left off.
+    
+- **Using the Heap**: If your code calls `malloc()`, you are requesting memory from the heap. The C library's memory manager finds a suitable spot in the heap. If the heap is out of space, it asks the OS for more, and the heap grows. This memory is yours to keep until you explicitly call `free()`. It is completely independent of the function-call-based stack.
+    
+- **Errors**: If you have runaway recursion, the stack will keep growing until it exhausts its pre-allocated block, causing a **stack overflow**. If you keep calling `malloc` without `free`, the heap will keep growing, potentially consuming all available system memory and causing an **out-of-memory error**.
+    
+
+---
+
+### 4. Termination: Giving it All Back 🏁
+
+Eventually, your `main` function finishes and returns.
+
+1. **Final Pop**: The return from `main` pops its own stack frame off the stack. Control is given back to the C runtime startup routine.
+    
+2. **Exit**: The startup routine communicates the program's return code to the OS and tells it the program is done.
+    
+3. **Cleanup**: The OS cleans up everything. It reclaims **all** memory associated with the process—the text, data, stack, and heap segments are all wiped away, and the resources are returned to the system for other programs to use.
+```
+
 ## Variables
 ?
 *Primitive unit of storage whose contents can change*
