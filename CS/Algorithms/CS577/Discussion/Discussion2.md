@@ -32,10 +32,13 @@
 
 - Algorithm candidate:
 	- We need log of (b) steps
-	- 
+	- Can recursively split b since (a^2)^2 = a^4 
 
 
-#### 2.
+#### 2. 
+
+- d = depth
+- 
 
 
 
