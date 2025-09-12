@@ -80,6 +80,7 @@ for (int j = 0; j < 11; j++) {
 - No built-in data type of string, instead have array of characters which can treat as a string after some processing
 - stdio.h header provides printf, fgets
 - stdlib.h provides dynamic memory allocation, malloc
+- string.h for manipulaing c strings (array of characters with a null character at the end of array)
 
 ## Runtime Description
 ?
