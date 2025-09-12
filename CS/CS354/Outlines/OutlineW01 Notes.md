@@ -66,12 +66,12 @@ for (int j = 0; j < 11; j++) {
 - *call stack trace*: (stack / heap memory)
 	-  *stack memory* is automatically managed by the compiler
 		- For example, when program starts, some portion of stack memory is allocated for main() function so that it can store local variables, parameters, or information
-		- int x =1; is allocated space on stack memory within *stack frame* of he main function
+		- int x =1; is allocated space on stack memory within *stack frame* of the main function
 		- *control is transferred* to bang function
+		- 
 	  - *heap memory* used for dynamic memory allocation
 		- used to allocate memory at runtime by the user
 		- must be explicitly allocated and deallocated via code
-- *caller/callee functions*: caller calls callee
 - *pass-by-value*: copy of argument value is created
 	- when passing an argument to a callee function, it copies the value to a parameter variable, thus it doesn't have access to the original copy of the argument
 	- Java contrary to this does *pass-by-reference*
