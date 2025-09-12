@@ -97,6 +97,7 @@ for (int j = 0; j < 11; j++) {
 	- second argument is the number of characters to be read from user
 	- third argument is the source of inputs, in this case stdin stream (keyboard)
 	- if not successful, returns NULL which we can check
+	- fprintf allows to define where to direct the input to (printf defaults to console)
 
 ## Runtime Description
 ?
