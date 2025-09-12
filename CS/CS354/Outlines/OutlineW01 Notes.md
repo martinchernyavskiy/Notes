@@ -78,6 +78,7 @@ for (int j = 0; j < 11; j++) {
 	- Java contrary to this does *pass-by-reference*
 	- Instead we can pass the address of x to change its value directly
 - *return-by-value*: copy of the return value
+- No built-in data type of string, instead have array of characters
 
 
 ## Variables
