@@ -69,7 +69,6 @@ for (int j = 0; j < 11; j++) {
 		- int x =1; is allocated space on stack memory within *stack frame* of the main function
 		- *control is transferred* to bang function
 		- consists of stack pointer and base pointer 
-			- 
 	  - *heap memory* used for dynamic memory allocation
 		- used to allocate memory at runtime by the user
 		- must be explicitly allocated and deallocated via code
@@ -82,7 +81,12 @@ for (int j = 0; j < 11; j++) {
 - stdio.h header provides printf, fgets
 - stdlib.h provides dynamic memory allocation, malloc
 
-
+## Runtime Description
+?
+- OS loader reads executable file from disk into RAM, sets up virtual memory space, allocating regions for the code, global variables, stack memory and heap memory.
+- Call a special startup routine from C runtime library (crt0 or _start)
+- Main is pushed onto the stack, first stack frame is created and pushed on empty stack, containing arguments to main and space for local variables declared inside main
+	- If main calls another function, a new frame is pushed on top of main's frame, when retur
 ## Variables
 ?
 *Primitive unit of storage whose contents can change*
