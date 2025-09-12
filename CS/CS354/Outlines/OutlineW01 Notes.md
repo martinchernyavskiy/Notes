@@ -79,6 +79,8 @@ for (int j = 0; j < 11; j++) {
 	- Instead we can pass the address of x to change its value directly
 - *return-by-value*: copy of the return value
 - No built-in data type of string, instead have array of characters
+- stdio.h header provides printf, fgets
+- stdlib.h provides dynamic memory allocation, malloc
 
 
 ## Variables
