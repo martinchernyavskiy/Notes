@@ -68,7 +68,8 @@ for (int j = 0; j < 11; j++) {
 		- For example, when program starts, some portion of stack memory is allocated for main() function so that it can store local variables, parameters, or information
 		- int x =1; is allocated space on stack memory within *stack frame* of the main function
 		- *control is transferred* to bang function
-		- 
+		- consists of stack pointer and base pointer 
+			- 
 	  - *heap memory* used for dynamic memory allocation
 		- used to allocate memory at runtime by the user
 		- must be explicitly allocated and deallocated via code
