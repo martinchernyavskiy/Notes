@@ -70,7 +70,7 @@ for (int j = 0; j < 11; j++) {
 		- int x =1; is allocated space on stack memory within *stack frame* of he main function
 		- *control is transferred* to bang function
 	  - *heap memory* used for dynamic memory allocation
-		- used to allocate memory on runtime by the user
+		- used to allocate memory at runtime by the user
 		- must be explicitly allocated and deallocated via code
 - *caller/callee functions*: caller calls callee
 - *pass-by-value*: copy of argument value is created
@@ -78,7 +78,7 @@ for (int j = 0; j < 11; j++) {
 	- Java contrary to this does *pass-by-reference*
 	- Instead we can pass the address of x to change its value directly
 - *return-by-value*: copy of the return value
-- No built-in data type of string, instead have array of characters
+- No built-in data type of string, instead have array of characters which can treat as a string after some processing
 - stdio.h header provides printf, fgets
 - stdlib.h provides dynamic memory allocation, malloc
 
