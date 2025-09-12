@@ -98,6 +98,10 @@ for (int j = 0; j < 11; j++) {
 	- third argument is the source of inputs, in this case stdin stream (keyboard)
 	- if not successful, returns NULL which we can check
 	- fprintf allows to define where to direct the input to (printf defaults to console)
+- Processing section
+	- When user provides input, pressing enter triggers system read which is recorded by a newline character
+	- fgets appends a null terminating character at the end of this sequence of characters to make input a c string
+	- strlen returns string length of a c string
 
 ## Runtime Description
 ?
