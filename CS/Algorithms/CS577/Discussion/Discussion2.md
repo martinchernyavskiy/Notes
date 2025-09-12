@@ -30,9 +30,12 @@
 - Want a^b in O(log(b)) multiplications
 - Multiplication is one unit of cost
 
+a^b is product of ith bit of b times a^2^i
+
 - Algorithm candidate:
 	- We need log of (b) steps
 	- Can recursively split b since (a^2)^2 = a^4 
+
 
 
 #### 2. 
