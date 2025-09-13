@@ -84,7 +84,7 @@ for (int j = 0; j < 11; j++) {
 - *Global variable*: is a variable declared outside of functions and can be freely used from any function. Declared at the top of the file 
 - int main(int argc, char \*argv[])
 	- *CLA*: command line arguments, allows to pass extra information to program by passing these
-	- ./prog1 arg1 arg2 : name of executable is also counter as one of the CLA, so this command line include 3 command line arguments
+	- ./prog1 arg1 arg2 : name of executable is also counted as one of the CLA, so this command line include 3 command line arguments
 	- *argc* keeps track of the number of command line arguments, which in this case is 3
 	- given an asterisk, it indicates a pointer variable which you read from right to left.
 		- argv is array of pointers to characters
