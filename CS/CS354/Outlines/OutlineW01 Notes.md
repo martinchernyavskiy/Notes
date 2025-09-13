@@ -194,7 +194,8 @@ Eventually, your `main` function finishes and returns.
 .
 - In representation, we use basic memory diagram and linear memory diagram
 	- NULL is represented as a sequence of all zeroes, make sure to include type for basic diagram
-	- Unknown address for pointer is reprsented by question mark and a horizontal line crossing it
+	- Unknown address for pointer (when it is uninitialized) is represented by question mark and a horizontal line crossing it. Doesn't mean it is zero since no garbage collector
+	- "Pointing" is represented by an arrow
 - Pointer is always 4 bytes since it is a memory address, no matter its type
 .
 - Address operator `&` returns address of a variable
