@@ -192,4 +192,10 @@ Eventually, your `main` function finishes and returns.
 - Commonly used in C libraries
 - Access to memory-mapped hardware
 .
-- In representation, we use basic memory diagram and linear 
+- In representation, we use basic memory diagram and linear memory diagram
+	- NULL is represented as a sequence of all zeroes, make sure to include type for basic diagram
+- Pointer is always 4 bytes since it is a memory address, no matter its type
+.
+- Address operator `&` returns address of a variable
+- Pointer: does the pointing (contains memory address of the pointee)
+- Pointee: what is being pointed at
