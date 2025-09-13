@@ -202,3 +202,5 @@ Eventually, your `main` function finishes and returns.
 - Pointer: does the pointing (contains memory address of the pointee)
 - Pointee: what is being pointed at
 - Dereferencing operator (\*): follow address of the pointee
+.
+- Der
