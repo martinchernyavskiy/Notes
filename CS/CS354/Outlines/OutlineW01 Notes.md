@@ -184,4 +184,12 @@ Eventually, your `main` function finishes and returns.
 	- *Big endian*: most significant byte at at lowest address
 
 
-
+## Pointers
+- Pointer is a scalar variable whose value is a memory address
+- Similar to java references (pointers are specific to C and we can do a lot of arithmetic with it)
+.
+- Allows to have indirect access of memory and functions
+- Commonly used in C libraries
+- Access to memory-mapped hardware
+.
+- In representation, we use basic memory diagram and linear 
