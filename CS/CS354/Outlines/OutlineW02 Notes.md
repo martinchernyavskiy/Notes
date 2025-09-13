@@ -35,3 +35,10 @@ int a[5];
 - Memory address of the array is the memory address of the first element. Label a is associated with the first element
 - a\[1] = 11;
 - Identifier for stack allocated array is not available to be changed
+- SAA identifier used as a source operand returns array's memory address
+- Using this identifier as a destination operand results in a compiler error
+
+## 1D Arrays and Pointers
+- Address Arithmetic:
+	- Computing address of an ith element is given by:
+		- Adding array's starting address (label) and a byte offset which is i to get to element
