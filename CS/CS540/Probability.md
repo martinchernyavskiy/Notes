@@ -5,7 +5,7 @@
 - *Cumulative Distribution Function (CDF)*: $F_{X}(x) := P(X \leq x)$
 - *Density / Mass function (PDF)*: $p_{X}(x)$: basically a derivative of CDF
 - Expectation (average): $E[X] = \sum_{a}^{}a \times P(x=a)$
-- Variance (spread): $Var[X]=E[(X-E[X])^2]$
+- Variance (spread): $Var[X]=E[(X-E[X])^2]$ ; average of squared difference from the mean
 
 ## Probability
 ?
