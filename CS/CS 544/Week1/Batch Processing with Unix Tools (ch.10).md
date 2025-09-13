@@ -16,12 +16,12 @@
 	- Takes input and produces output
 	- Operates on events shortly after they happen, contrary to batch where job operates on a fixed set of input data
 	- *Lower latency* compared to batch systems
-<!--SR:!2025-09-08,3,250-->
+<!--SR:!2025-09-21,8,250-->
 
 ## Batch Processing with Unix tools
 ?
 - Ngix default access log format: `$remote_addr - $remote_user [$time_local] "$request" $status $body_bytes_sent "$http_referer" "$http_user_agent"
-<!--SR:!2025-09-09,4,274-->
+<!--SR:!2025-09-23,10,274-->
 
 ### Simple Log Analysis
 ?
@@ -42,7 +42,7 @@ Enumerated steps:
 	5. Sort by number (-n), number of times URL was requested, -r reverses the order, so it's largest to smallest
 	6. Outputs first 5 of input and discards the rest
 Note: Unix tools are powerful and we can manipulate the commands to serve a specific analysis purpose.
-<!--SR:!2025-09-08,3,254-->
+<!--SR:!2025-09-20,7,254-->
 
 ### Chain of Commands vs. Custom Programs
 ?
