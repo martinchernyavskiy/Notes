@@ -179,9 +179,9 @@ Eventually, your `main` function finishes and returns.
 .
 - *Linear Memory Diagram*: a view of memory as a segment of bytes
 - *Byte Addressability*: each address identifies 1 byte
-- *Endianess*:
-	- *Little endian*:
-	- *Big endian*:
+- *Endianess*: byte ordering of variable's value when its size is more than one byte
+	- *Little endian*: least significant byte at lowest address
+	- *Big endian*: most significant byte at at lowest address
 
 
 
