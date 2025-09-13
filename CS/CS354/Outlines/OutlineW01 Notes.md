@@ -185,6 +185,7 @@ Eventually, your `main` function finishes and returns.
 
 
 ## Pointers
+?
 - Pointer is a scalar variable whose value is a memory address
 - Similar to java references (pointers are specific to C and we can do a lot of arithmetic with it)
 .
@@ -203,4 +204,10 @@ Eventually, your `main` function finishes and returns.
 - Pointee: what is being pointed at
 - Dereferencing operator (\*): follow address of the pointee
 .
-- Der
+- Dereferencing a pointer that is initialized to NULL will try to access memory location 0 which is reserved by OS, results in segmentation fault (no permission to read address)
+
+## 1D Arrays
+?
+- Compound unit of storage consisting of elements whose values can change
+- Accessed by identifier and index
+- Allocated as a contiguous fixed-block of memory
