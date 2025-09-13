@@ -30,4 +30,8 @@
 ```C
 int a[5];
 ```
-- 
+- 5 integer elements are allocated memory
+- Not initialized, goes on stack
+- Memory address of the array is the memory address of the first element. Label a is associated with the first element
+- a\[1] = 11;
+- Identifier for stack allocated array is not available to be changed
