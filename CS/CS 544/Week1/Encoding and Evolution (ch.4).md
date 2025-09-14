@@ -35,3 +35,9 @@
 - Used to send packets across internet
 - 4 billion possible IP addresses (IPv4), where IPv6 are 4x longer
 - Forwarding tables only need to know which way to send for a given network number (ip address is 4 bytes total where part of it is that network number and another part is the unique ID)
+- 127.0.0.1 is the loopback interface
+
+## Private Networks
+- Don't have enough IPv4 addresses
+- Don't want every machine to be able to receive packets from anywhere
+- 
