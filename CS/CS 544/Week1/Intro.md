@@ -5,7 +5,7 @@
 - *Applications* (long running / website)
 - Systems (manage resources)
 	- operating system is a backbone of analysis code
-<!--SR:!2025-09-07,4,272-->
+<!--SR:!2025-09-26,12,272-->
 
 ### Resource Categories
 ?
@@ -83,7 +83,7 @@ Servers whose datasets grow may run too slowly or not run at all given there is 
 	accesses)
 - *Latency*
 	• how long does it take to do one I/O (e.g., 10 ms)
-<!--SR:!2025-09-06,3,250-->
+<!--SR:!2025-09-24,10,270-->
 
 ## Network
 ?
