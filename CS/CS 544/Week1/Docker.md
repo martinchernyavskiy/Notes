@@ -12,15 +12,18 @@
 		- Each container contains different "flavors" of Linux
 		- *Incompatibility*: Can't have Windows container on Linux
 - Virtual Memory
+<!--SR:!2025-09-18,4,272-->
 
 ## Docker
 ### Registries
 ?
 - Docker registries (DockerHub for example) are places where people upload their docker images
+<!--SR:!2025-09-18,4,272-->
 
 ### Images
 ?
-- Snapshot of installed software from which to create container 
+- Snapshot of installed software from which to create container
+<!--SR:!2025-09-18,4,272--> 
 
 ### Containers
 ?
@@ -34,3 +37,4 @@
 - Steps to run in a container
 - Used to create new images
 - Allows for reproducibility
+<!--SR:!2025-09-18,4,272-->
