@@ -25,3 +25,13 @@
 ## Routers
 - Connect networks together to form internets
 - Global internet is the "internet" we use
+
+## Packet Forwarding
+- Packets (which are some bytes with address and other info) can be forwarded along path from point A to point by (using routers and switches)
+- Routers contain forwarding tables that help to decide which direction to send along a packet
+	- Such tables would be too big if a router had to know where every MAC existed in the internet
+
+## Internet Protocol (IP address)
+- Used to send packets across internet
+- 4 billion possible IP addresses (IPv4), where IPv6 are 4x longer
+- Forwarding tables only need to know which way to send for a given network number (ip address is 4 bytes total where part of it is that network number and another part is the unique ID)
