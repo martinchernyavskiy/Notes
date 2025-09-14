@@ -16,7 +16,7 @@ Resources:
 - *Storage* (long-term data)
 - *Network* (provides communication between computers)
 	- Managed by Network Interface Card (*NIC*)
-<!--SR:!2025-09-07,4,272-->
+<!--SR:!2025-09-28,14,292-->
 
 ## Bid Data Systems
 ?
@@ -24,7 +24,7 @@ Servers whose datasets grow may run too slowly or not run at all given there is 
 - *Scale Up / Out* or *More efficient code*
 - *Distributed* (cluster of machines)
 - *Specialized* (GPUs)
-<!--SR:!2025-09-07,4,272-->
+<!--SR:!2025-09-30,16,292-->
 
 ## Compute
 ?
@@ -33,7 +33,7 @@ Servers whose datasets grow may run too slowly or not run at all given there is 
 - Each core can execute instructions for one/two tasks at a time
 	- Each instruction is written in machine code that CPU operates on
 - The more cores available, the more tasks can be ran in *parallel*
-<!--SR:!2025-09-06,3,250-->
+<!--SR:!2025-09-25,11,270-->
 
 
 ## High-Language Translation
@@ -51,7 +51,7 @@ Servers whose datasets grow may run too slowly or not run at all given there is 
 .
 - *FLOPS*: floating-point operations per second, way of measuring performance of GPUs
 - *Benchmark*: program for measuring performance
-<!--SR:!2025-09-07,4,272-->
+<!--SR:!2025-09-28,14,292-->
 
 ## RAM
 ?
@@ -59,7 +59,7 @@ Servers whose datasets grow may run too slowly or not run at all given there is 
 - *Byte addressable*
 	- Each byte of data has its own address that the CPU can use to access it
 - *Fast, volatile, small*
-<!--SR:!2025-09-07,4,272-->
+<!--SR:!2025-09-30,16,292-->
 
 ## Storage
 ?
@@ -92,10 +92,10 @@ Servers whose datasets grow may run too slowly or not run at all given there is 
 ### Metrics
 - *Latency*: how long to send message between two points
 - *Bandwidth / Throughput*: how many bits can be sent per second
-<!--SR:!2025-09-06,3,250-->
+<!--SR:!2025-09-24,10,270-->
 
 ## Deployment
 ?
 - Running code somewhere, for example a *cloud VM*
 - *Docker Containers*: lightweight alternative to virtual machines, allows for creation of cluster machine ecosystem in a single system
-<!--SR:!2025-09-07,4,270-->
+<!--SR:!2025-09-29,15,290-->
