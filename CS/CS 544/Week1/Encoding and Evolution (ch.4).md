@@ -19,4 +19,9 @@
 - A network has nodes that send bytes to other nodes by MAC address
 	- Nodes are computers / switches etc.
 	- Either directly or forwarded by switches
-- 
+- Computers can have multiple NICs
+	- Can be on multiple networks
+
+## Routers
+- Connect networks together to form internets
+- Global internet is the "internet" we use
