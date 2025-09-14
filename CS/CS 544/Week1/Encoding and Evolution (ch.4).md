@@ -1,24 +1,10 @@
 # Lecture
 
-## Dockerfile
-?
-- Have root privileges by default
-```Dockerfile
-FROM ..starting point
-RUN .. during the build of an image
-COPY
-CMD .. default commands to run when running a new container
-```
-.
-```Dockerfile
-FROM ubuntu
-RUN apt-get update && apt-get install -y unzip python3-pip
-RUN pip3 install pandas --break-system-packages
-
-COPY hello.py /hello.py 
-CMD ["python3", "/hello.py"]
-```
-- building image first time may take awhile, however building image second time doesn't since docker building caches various layers
-
 ## Networking
-
+?
+- NIC (network interface controller/card)
+	- Able to connect computer to different physical mediums: Ethernet and Wi-Fi
+	- Every NIC comes with unique MAC (*media access control*) addresses
+	- 28 trillion possible addresses
+	- Some devices dynamically change MAC addr for privacy
+	- MAC address consists of 48 bits total
