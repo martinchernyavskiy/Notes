@@ -40,4 +40,4 @@
 ## Private Networks
 - Don't have enough IPv4 addresses
 - Don't want every machine to be able to receive packets from anywhere
-- 
+	- Can be dividied into subnetworks to create different networrks in a bigger org
