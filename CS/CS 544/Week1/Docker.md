@@ -29,7 +29,7 @@
 ?
 - Lightweight alternative to VMs
 - Allows for distributed system ecosystem on a single machine
-- Linx sandbox in which to run process
+- Linux sandbox in which to run process
 <!--SR:!2025-09-18,4,270-->
 
 ### Dockerfiles
