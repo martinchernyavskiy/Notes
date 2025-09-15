@@ -51,3 +51,4 @@ cat data/stations.txt | grep " IL " >> midwest.txt
 chmod u+x make_midwest.sh
 ./make_midwest.sh
 ```
+
