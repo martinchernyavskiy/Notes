@@ -18,4 +18,9 @@
 - P,Q,R atomic sentences
 - Connectives include (conjunction, disjunction, implication, biconditional, negation)
 	- Precedence follows: not --> and --> or --> imply --> biconditional
-- 
+	- Parentheses when needed
+
+## Sentences & Semantics
+- Interpretation: (True/False in truth table)
+- Semantics: Interpretations for which sentences evaluate to true
+- Model: interpretation for which all sentences are true
