@@ -30,4 +30,16 @@
 - Goal: inference to discover new sentences
 
 ## Entailment
-- If sentence B logically follows from A, then we write A|=B
+- If sentence B logically follows from A, then we write A|=B, this is the case where whenever A is true, B is also true
+
+## Inference
+- Logical inference creates new sentences from a set of sentences in knowledge base
+
+## Methods of Inference
+- Enumeration
+	- Enumerate all interpretations and look at the truth table
+	- 2^n interpretations for n symbols
+- Using Rules
+	- Logical equivalences & (If A then B, A) entails B
+- Resolution
+	- 
