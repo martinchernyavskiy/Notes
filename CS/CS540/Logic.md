@@ -29,3 +29,5 @@
 - A set of sentences A1 to An 
 - Goal: inference to discover new sentences
 
+## Entailment
+- If sentence B logically follows from A, then we write A|=B
