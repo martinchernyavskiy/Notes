@@ -24,3 +24,8 @@
 - Interpretation: (True/False in truth table)
 - Semantics: Interpretations for which sentences evaluate to true
 - Model: interpretation for which all sentences are true
+
+## Knowledge Bases
+- A set of sentences A1 to An 
+- Goal: inference to discover new sentences
+
