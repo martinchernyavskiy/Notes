@@ -30,7 +30,13 @@
 
 ## Serialization and Deserialization (in-depth)
 ?
-- Serialization 
+- Serialization converts various types to bytes (wire format)
+- Deserialization converts bytes to various types
+- *Every language has different types and we want cross-language calls*
+	- gRPC uses Google's Protobufs (Protocol Buffers) which provide a uniform type system across various languages
+	- Protobufs use variable-length encoding
+		- Smaller numbers could use less 
+- *Different CPUs order bytes differently*
 
 ## gRPC
 ?
