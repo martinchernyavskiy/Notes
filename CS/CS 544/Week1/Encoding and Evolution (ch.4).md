@@ -65,4 +65,7 @@
 ## Running a server on GC
 ?
 - Use educational credits to set up a server and configure SSH keys
-- `python3 -m http.server -d ./A -b ??? 5400`
+- Configure firewall
+	- Setting IP ranges to all 0 allows for anyone to access the server
+	- tcp are the accessible ports
+- `python3 -m http.server -d ./A -b 10.128.02 5400 &> A_out &`
