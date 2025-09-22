@@ -46,4 +46,13 @@
 ## gRPC demo
 ?
 - We use Aider in p2
-- 
+- export Gemini api key as an environment variable
+- Install aider and launch gemini 2.5 flash (aider-install && aider --model gemini/gemini-2.5-flash)
+.
+- create python environment and run the following:
+```
+python3 -m venv venv
+source venv/bin/activate
+pip install grpcio-tools==1.74.0 grpcio==1.74.0 protobuf==6.32.1 aider-install
+python3 -m grpc_tools.protoc -I=. --python_out=. --grpc_python_out=. ????.proto
+```
