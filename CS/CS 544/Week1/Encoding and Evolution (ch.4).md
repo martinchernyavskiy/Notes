@@ -50,3 +50,11 @@
 - Don't have enough IPv4 addresses
 - Don't want every machine to be able to receive packets from anywhere
 	- Can be dividied into subnetworks to create different networrks in a bigger org
+- Creates individual networks within large organization
+
+
+## Network Address Translation
+?
+- NICs can have internal and external IP, eg. Google Console
+	- *Firewall* can limit what traffic is allowed
+	- External IPs are *ephemeral*, meaning they change upon reboot. But can rent s
