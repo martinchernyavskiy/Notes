@@ -49,7 +49,7 @@
 ?
 - Don't have enough IPv4 addresses
 - Don't want every machine to be able to receive packets from anywhere
-	- Can be dividied into subnetworks to create different networrks in a bigger org
+	- Can be divided into subnetworks to create different networks in a bigger org
 - Creates individual networks within large organization
 
 
@@ -60,6 +60,7 @@
 	- External IPs are *ephemeral*, meaning they change upon reboot. But can rent static IPs that don't change
 
 ## Port Numbers
+?
 - Specify the process since computers may run multiple on the same network
 
 ## Running a server on GC
