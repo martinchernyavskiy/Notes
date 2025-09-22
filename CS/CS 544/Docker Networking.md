@@ -69,4 +69,7 @@ services:
 ## Data Placement
 ?
 - *Partitioning*: breaking up a data set so that multiple machines can focus on part of it
-- Should we have multiple replications of the same data so that we don't lose information if machine fails?
+- Should we have multiple *replications* of the same data so that we don't lose information if machine fails?
+	- *Simple partitioning*: split up by half directly, however might not know which computer to ask for a given name.
+	- *Range partitioning*: have a set range, easy to know where to find a given name, hard to find a good split point
+	- *Hash Partitioning*: choose key column and then hash it, hash function returns arbitrary number for any input. 
