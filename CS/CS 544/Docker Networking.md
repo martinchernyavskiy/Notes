@@ -46,3 +46,9 @@ CMD["python3", "-m", "jupyterlab", "--no-browser", "--ip=0.0.0.0", "--port=7], "
 docker build . -t jupyter
 docker run -d -p 127.0.0.1:13:7
 ```
+
+## Docker Compose 
+?
+- *Orchestration*: allows to deploy many cooperating containers across a cluster of Docker workers
+- *Kubernetes (K8s)*: most well known orchestration
+- *Docker Compose*: simpler tool to deploy cooperating containers to a single worker
