@@ -12,4 +12,10 @@ docker run -d -p 127.0.0.1:400:80 myimg
 - First 2 parts of the ip address and port number of one of the NICs of the VM. Must have different ports on the outside on VM
 .
 - SSH is used to send commands or forward network traffic
+- SSHDemon program runs on VM which is a server that's looking for incoming connections from SSH client
+	- Uses port 22 by default
+
+## SSH Tunnel
+?
+- SSH USER@VM -L localhost:5000:localhost:300
 - 
