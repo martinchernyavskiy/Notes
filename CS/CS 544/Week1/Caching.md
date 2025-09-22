@@ -44,3 +44,18 @@ spark_df.cache() # put it in memory
 
 spark_df.unpersists() # free up memory
 ```
+- Stale data is deleted after expiration time
+- SSD is large, so freshness is more important than space
+
+## Cache Policies
+?
+- When to load data to cache?
+	- When read something, add it
+	- Exception includes if it won't be read again
+- When to evict data to a cache?
+	- Random 
+		- Select any entry randomly
+	- FIFO
+		- Evict whichever has been in cache the longest
+	- LRU (least recently used)
+		- Evict entry that has been used the least recently
