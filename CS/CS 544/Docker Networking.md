@@ -52,3 +52,16 @@ docker run -d -p 127.0.0.1:13:7
 - *Orchestration*: allows to deploy many cooperating containers across a cluster of Docker workers
 - *Kubernetes (K8s)*: most well known orchestration
 - *Docker Compose*: simpler tool to deploy cooperating containers to a single worker
+- yaml is basically a nicer json
+```Docker
+vim docker-compose.yaml
+
+services:
+	counter_service:
+		image: counter
+		ports:
+			- 5000:5440
+		deploy:
+			replicas: 3
+```
+- docker compose up
