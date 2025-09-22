@@ -35,7 +35,7 @@
 - *Every language has different types and we want cross-language calls*
 	- gRPC uses Google's Protobufs (Protocol Buffers) which provide a uniform type system across various languages
 	- Protobufs use variable-length encoding
-		- Smaller numbers could use less 
+		- Smaller numbers could use less bytes if not necessary
 - *Different CPUs order bytes differently*
 
 ## gRPC
