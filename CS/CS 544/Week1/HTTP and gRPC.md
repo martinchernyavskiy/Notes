@@ -41,4 +41,9 @@
 ## gRPC
 ?
 - Sits on top of HTTP layer
+
+
+## gRPC demo
+?
+- We use Aider in p2
 - 
