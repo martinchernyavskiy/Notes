@@ -12,25 +12,25 @@
 		- Each container contains different "flavors" of Linux
 		- *Incompatibility*: Can't have Windows container on Linux
 - Virtual Memory
-<!--SR:!2025-09-18,4,272-->
+<!--SR:!2025-10-03,11,272-->
 
 ## Docker
 ### Registries
 ?
 - Docker registries (DockerHub for example) are places where people upload their docker images
-<!--SR:!2025-09-18,4,272-->
+<!--SR:!2025-10-06,14,292-->
 
 ### Images
 ?
 - Snapshot of installed software from which to create container
-<!--SR:!2025-09-18,4,272--> 
+<!--SR:!2025-10-07,15,292--> 
 
 ### Containers
 ?
 - Lightweight alternative to VMs
 - Allows for distributed system ecosystem on a single machine
 - Linux sandbox in which to run process
-<!--SR:!2025-09-18,4,270-->
+<!--SR:!2025-10-06,14,290-->
 
 ### Dockerfiles
 ?
@@ -54,4 +54,4 @@ COPY hello.py /hello.py
 CMD ["python3", "/hello.py"]
 ```
 - building image first time may take awhile, however building image second time doesn't since docker building caches various layers
-<!--SR:!2025-09-18,4,272-->
+<!--SR:!2025-10-08,16,292-->
