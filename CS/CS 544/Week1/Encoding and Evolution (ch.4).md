@@ -78,7 +78,7 @@
 		- Live streaming
 - *TCP*: Transmission Control Protocol
 	- Saves and reassembles packets in order to provide original message
-	- Packets mey be dropped, reordered, split
+	- Packets may be dropped, reordered, split
 - Both build on IP networking and provide port numbers
 - -tlpn, t is for tcp and u is for udp
 
