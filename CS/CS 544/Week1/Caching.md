@@ -17,6 +17,21 @@
 ?
 - Faster --> Slower
 	- CPU registers
+		- L1 cache
+		- L2 cache
+		- L3 cache
 	- RAM
 	- Storage Devices
 	- Cloud Storage (network)
+
+## Resource Tradeoffs
+?
+- OS caches file data in RAM
+	- This uses memory
+	- Avoids storage reads
+- Browser caches recently visited page as a file
+	- Uses storage space/reads
+	- Avoids network transfers
+- Python Dictionary caches return values in a dict
+	- Uses memory space
+	- Avoids repeated compute
