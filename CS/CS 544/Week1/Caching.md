@@ -35,3 +35,12 @@
 - Python Dictionary caches return values in a dict
 	- Uses memory space
 	- Avoids repeated compute
+
+## Manual Caching, Spark
+?
+```Spark
+spark_df = ???? # usually not in memory
+spark_df.cache() # put it in memory
+
+spark_df.unpersists() # free up memory
+```
