@@ -17,5 +17,8 @@ docker run -d -p 127.0.0.1:400:80 myimg
 
 ## SSH Tunnel
 ?
-- SSH USER@VM -L localhost:5000:localhost:300
-- 
+- `SSH USER@VM -L localhost:5000:localhost:300`
+	- *Allows to forward traffic along*
+	- Normally ssh program is a client on laptop, but by tunneling we are able to make it act as a server, thus listening to requests.
+	- Same happens to sshd (sshdemon) that will also act as a client and not just a server
+- Any packets coming to lo on port 5000, ssh will see those and send them to sshd sends those to port 300
