@@ -71,4 +71,17 @@
 - `python3 -m http.server -d ./A -b 10.128.02 5400 &> A_out &`
 
 ## Transport Protocols
-- *UDP*: User Datagram Prot
+?
+- *UDP*: User Datagram Protocol
+	- Don't do any extra work
+		- Live streaming
+- *TCP*: Transmission Control Protocol
+	- Saves and reassembles packets in order to provide original message
+	- Packets mey be dropped, reordered, split
+- Both build on IP networking and provide port numbers
+- -tlpn, t is for tcp and u is for udp
+
+## Network Stack
+- TCP or UDP (IP Address + Ports)
+- Internet Protocol (IP Address)
+- Ethernet or Wi-Fi (MAC address)
