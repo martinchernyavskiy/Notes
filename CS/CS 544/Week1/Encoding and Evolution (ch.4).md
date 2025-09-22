@@ -82,6 +82,8 @@
 - -tlpn, t is for tcp and u is for udp
 
 ## Network Stack
+?
+- *Applications are built upon layers to provide additional functionality*
 - TCP or UDP (IP Address + Ports)
 - Internet Protocol (IP Address)
 - Ethernet or Wi-Fi (MAC address)
