@@ -22,3 +22,7 @@ docker run -d -p 127.0.0.1:400:80 myimg
 	- Normally ssh program is a client on laptop, but by tunneling we are able to make it act as a server, thus listening to requests.
 	- Same happens to sshd (sshdemon) that will also act as a client and not just a server
 - Any packets coming to lo on port 5000, ssh will see those and send them to sshd sends those to port 300
+- *Security*
+	- If we don't specify the the IP address in docker run command, then it defaults to 0 and anyone from anywhere can talk to port 300 of the VM and run code inside the jupyterlab
+- Port forwarding nevers goes to lo inside container
+	- Instead use 0.0.0.0 inside container
