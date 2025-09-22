@@ -19,3 +19,7 @@
 ## gRPC
 ?
 - RPC: remote procedure calls
+	- procedure is a function
+		- when call function from same computer, this is called a regular procedure call
+		- when call function from other computer, this is called remote procedure call
+	- We use remote since the server might have faster hardware and/or access data not available directly to the client
