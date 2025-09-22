@@ -57,4 +57,12 @@
 ?
 - NICs can have internal and external IP, eg. Google Console
 	- *Firewall* can limit what traffic is allowed
-	- External IPs are *ephemeral*, meaning they change upon reboot. But can rent s
+	- External IPs are *ephemeral*, meaning they change upon reboot. But can rent static IPs that don't change
+
+## Port Numbers
+- Specify the process since computers may run multiple on the same network
+
+## Running a server on GC
+?
+- Use educational credits to set up a server and configure SSH keys
+- `python3 -m http.server -d ./A -b ??? 5400`
