@@ -65,3 +65,8 @@ services:
 			replicas: 3
 ```
 - docker compose up
+
+## Data Placement
+?
+- *Partitioning*: breaking up a data set so that multiple machines can focus on part of it
+- Should we have multiple replications of the same data so that we don't lose information if machine fails?
