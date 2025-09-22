@@ -24,15 +24,17 @@
 	- Either directly or forwarded by switches
 - Computers can have multiple NICs
 	- Can be on multiple networks
+- Use same physical tech (Wi-Fi, Ethernet, etc.)
 
 ## Routers
 ?
+- We can't send MAC addr to another network without NIC there
 - Connect networks together to form internets
-- Global internet is the "internet" we use
+- Global internet is the "Internet" we use
 
 ## Packet Forwarding
 ?
-- Packets (which are some bytes with address and other info) can be forwarded along path from point A to point by (using routers and switches)
+- Packets (which are some bytes with address and other info) can be forwarded along path from point A to point B (using routers and switches)
 - Routers contain forwarding tables that help to decide which direction to send along a packet
 	- Such tables would be too big if a router had to know where every MAC existed in the internet
 
