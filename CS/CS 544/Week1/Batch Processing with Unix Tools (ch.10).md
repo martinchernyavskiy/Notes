@@ -1,4 +1,4 @@
-## Types of systems
+ ## Types of systems
 ?
 - ### Services (online)
 	- Waits for request/ instruction from client
