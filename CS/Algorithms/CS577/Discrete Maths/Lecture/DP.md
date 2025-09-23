@@ -19,6 +19,11 @@
 ### Fibonacci
 ?
 - Trivial 
+	- Depth of n, 2^n normally
+	- Recursion tree, recurrence for number of additions A(n)
+	- Golden ration to the n
+- Use memoization, reserve array
+	- Complexity O(n)
 
 ### Weighted Interval Scheduling (Agenda Problem)
 ?
