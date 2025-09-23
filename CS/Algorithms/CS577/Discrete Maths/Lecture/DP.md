@@ -30,7 +30,13 @@
 
 ### Weighted Interval Scheduling (Agenda Problem)
 ?
-- 
+- Objective is to maximize the total value from the events, can'r select overlapping events
+- Think of a number line with events being segments from respective numbers on the number line
+	- Each line has a value
+- Want to find a subset of non overlapping intervals to maximize value
+.
+- Input: Intervals with real number entries 
+- Output: Subset S of indices of 1 through n such that no intervals I_i and I_j that are in S overlap and the value
 
 ## 9/25
 
