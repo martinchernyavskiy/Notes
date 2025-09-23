@@ -13,15 +13,16 @@
 - Iteration
 	- Bottom-up
 	- Build upp table of solved instances from easier to harder
+	- Ad hoc process
 - 
 
 ### Fibonacci
 ?
-- 
+- Trivial 
 
 ### Weighted Interval Scheduling (Agenda Problem)
 ?
-
+- 
 
 ## 9/25
 
