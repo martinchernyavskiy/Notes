@@ -26,6 +26,7 @@
 	- Complexity O(n)
 	- O(n^2) for bit complexity and space complexity
 	- Iterative approach allows for O(1) space complexity since we only need to know previous 2 values in the table
+	- Bit complexity time O(n^2), space O(n)
 
 ### Weighted Interval Scheduling (Agenda Problem)
 ?
