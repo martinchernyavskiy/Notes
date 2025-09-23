@@ -1,8 +1,12 @@
 
 ## 9/23
+
+#### General Notes
+- 
+
 ### Fibonacci
 ?
-
+- 
 
 ### Weighted Interval Schedulnig
 ?
@@ -12,5 +16,8 @@
 
 ### Knapsack
 ?
+- 
 
-##
+### Longest Increasing Subsequence
+?
+- 
