@@ -41,7 +41,7 @@
 - Same input
 - Output: max of the set notation
 .
-- Approach:
+- *Approach:
 	- Consider all possible choices for first decision
 	- For each possible choice for first solution, find best solution with additional restriction d1
 	- Relate 
