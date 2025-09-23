@@ -34,9 +34,17 @@
 - Think of a number line with events being segments from respective numbers on the number line
 	- Each line has a value
 - Want to find a subset of non overlapping intervals to maximize value
-.
+. Argument Version:
 - Input: Intervals with real number entries 
-- Output: Subset S of indices of 1 through n such that no intervals I_i and I_j that are in S overlap and the value
+- Output: Subset S of indices of 1 through n such that no intervals I_i and I_j that are in S overlap and the sum of values is maximized
+. Value version
+- Same input
+- Output: max of the set notation
+.
+- Approach:
+	- Consider all possible choices for first decision
+	- For each possible choice for first solution, find best solution with additional restriction d1
+	- Relate 
 
 ## 9/25
 
