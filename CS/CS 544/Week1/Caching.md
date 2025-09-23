@@ -10,6 +10,7 @@
 
 ## Cache
 ?
+- *Storing data in a temporary storage area to enable faster access to that data in the future*
 - CPUs can have small memory built in for data accessed frequently
 	- This decreases the latency it takes to read from RAM
 
@@ -49,6 +50,7 @@ spark_df.unpersists() # free up memory
 
 ## Cache Policies
 ?
+- For browser visit, when you visit and the page isn't cached 
 - When to load data to cache?
 	- When read something, add it
 	- Exception includes if it won't be read again
