@@ -2,13 +2,16 @@
 ## 9/23
 
 #### General Notes
+- Paradigm
+	- 
+- 
 - 
 
 ### Fibonacci
 ?
 - 
 
-### Weighted Interval Schedulnig
+### Weighted Interval Scheduling (Agenda Problem)
 ?
 
 
