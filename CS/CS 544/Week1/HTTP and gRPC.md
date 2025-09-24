@@ -56,3 +56,5 @@ source venv/bin/activate
 pip install grpcio-tools==1.74.0 grpcio==1.74.0 protobuf==6.32.1 aider-install
 python3 -m grpc_tools.protoc -I=. --python_out=. --grpc_python_out=. ????.proto
 ```
+- .proto file contains messages and services (RPC calls)
+	- messages contain information for variables in request and response
