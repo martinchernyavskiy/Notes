@@ -58,3 +58,17 @@ python3 -m grpc_tools.protoc -I=. --python_out=. --grpc_python_out=. ????.proto
 ```
 - .proto file contains messages and services (RPC calls)
 	- messages contain information for variables in request and response
+- If the variable index positions differ, then response will ignore the extra variables from request and default the value to 0
+```proto
+// MESSAGES
+message MultRequest{
+	int32 x = 1;
+	int32 y = 2;
+}
+
+message MultResponse {
+
+}
+
+// SERVICES (RPC calls)
+```
