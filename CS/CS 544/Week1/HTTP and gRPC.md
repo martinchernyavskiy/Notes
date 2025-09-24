@@ -57,6 +57,7 @@ pip install grpcio-tools==1.74.0 grpcio==1.74.0 protobuf==6.32.1 aider-install
 python3 -m grpc_tools.protoc -I=. --python_out=. --grpc_python_out=. ????.proto
 ```
 - .proto file contains messages and services (RPC calls)
+	- *Protobuf is used for serialization*
 	- messages contain information for variables in request and response
 - If the variable index positions differ, then response will ignore the extra variables from request and default the value to 0
 ```proto
