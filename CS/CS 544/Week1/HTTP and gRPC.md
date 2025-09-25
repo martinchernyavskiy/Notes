@@ -101,3 +101,5 @@ echo "math.proto compiled successfully"
 - math_pb2.py has quite a lot of functions to use such as .MultRequest which saves message variables to a variable. We can use .SerializeToString() to convert the message to bytes.
 	- len(s) would then be less than initial variables for the request messsage per *variable-length encoding*
 - math_pb2.MultRequest.FromString(s) deserializes the contents of the serialized message and we can assign them to a variable
+- Can use aider to generated a server.py to implement math.proto
+	- Overrides grpc servicer to apply the right calculation logic
