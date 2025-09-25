@@ -51,6 +51,7 @@
 - Vectors can store a lot of features
 - We are willing to reduce dimensions since a lot of features are redundant and it takes a lot of storage and computation resources
 - Thus, we attempt to reduce the dimension to minimize information loss
+<!--SR:!2025-09-29,4,270-->
 
 ## Principal Components Analysis (PCA)
 ?
@@ -75,3 +76,4 @@
 	- Image compression
 		- Divide image to 12x12 patches, we have 144-d vector
 		- We obtain 6 principal components as an image and thus able to project the image to 6D
+<!--SR:!2025-09-29,4,270-->

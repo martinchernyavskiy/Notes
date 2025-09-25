@@ -6,6 +6,7 @@
 - *Density / Mass function (PDF)*: $p_{X}(x)$: basically a derivative of CDF
 - Expectation (average): $E[X] = \sum_{a}^{}a \times P(x=a)$
 - Variance (spread): $Var[X]=E[(X-E[X])^2]$ ; average of squared difference from the mean
+<!--SR:!2025-09-29,4,270-->
 
 ## Probability
 ?
