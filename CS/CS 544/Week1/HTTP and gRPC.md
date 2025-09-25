@@ -102,4 +102,7 @@ echo "math.proto compiled successfully"
 	- len(s) would then be less than initial variables for the request messsage per *variable-length encoding*
 - math_pb2.MultRequest.FromString(s) deserializes the contents of the serialized message and we can assign them to a variable
 - Can use aider to generated a server.py to implement math.proto
-	- Overrides grpc servicer to apply the right calculation logic
+	- Overrides grpc servicer to apply the right calculation logic'
+- For debugging purposes, python3 -u server.py &> log.txt &
+	- Force the stdout and stderr streams to be unbuffered
+- For implementing client, we write a mult.py that uses Calc stub to ask the server to multiply. It shall use argv to get the arguments
