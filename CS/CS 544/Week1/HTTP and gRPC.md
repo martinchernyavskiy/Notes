@@ -59,17 +59,27 @@ python3 -m grpc_tools.protoc -I=. --python_out=. --grpc_python_out=. ????.proto
 - .proto file contains messages and services (RPC calls)
 	- *Protobuf is used for serialization*
 	- messages contain information for variables in request and response
-- If the variable index positions differ, then response will ignore the extra variables from request and default the value to 0
+- If the variable index positions differ, then response will ignore the extra variables from request and default the value to 0 for the ones not received
 ```proto
+
+syntax = "proto3";
+
 // MESSAGES
 message MultRequest{
 	int32 x = 1;
 	int32 y = 2;
 }
 
-message MultResponse {
-
+message ResultResponse {
+	int32 result = 1;
 }
 
 // SERVICES (RPC calls)
+service Calc {
+	rpc Mult(MultRequest) returns (MultResponse)
+}
+```
+.
+```
+p
 ```
