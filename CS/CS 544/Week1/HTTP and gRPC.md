@@ -54,7 +54,6 @@
 python3 -m venv venv
 source venv/bin/activate
 pip install grpcio-tools==1.74.0 grpcio==1.74.0 protobuf==6.32.1 aider-install
-python3 -m grpc_tools.protoc -I=. --python_out=. --grpc_python_out=. ????.proto
 ```
 - .proto file contains messages and services (RPC calls)
 	- *Protobuf is used for serialization*
@@ -79,7 +78,22 @@ service Calc {
 	rpc Mult(MultRequest) returns (MultResponse)
 }
 ```
-.
+. We can have a build.sh program to compile math.proto
+```sh
+#! /bin/bash
+
+set -3
+
+GEN_DIR="."
+
+python3 -m grpc_tools.protoc \
+	--proto_path=. \
+	 --python_out=$GEN_DIR \
+	 --pyi_out=$GEN_DIR \
+	 --grpc_python_out=$GEN_DIR \
+	 math.proto
+	 
+echo "math.proto compiled successfully"
 ```
-p
-```
+- Creates math_pb2.py , math_pb2_grpc.py,math_pb2.pyi
+	- math_pb2.py is used for serializing 
