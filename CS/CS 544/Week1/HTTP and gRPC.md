@@ -98,4 +98,6 @@ echo "math.proto compiled successfully"
 - Creates math_pb2.py , math_pb2_grpc.py,math_pb2.pyi
 	- math_pb2.py is used for serializing and deserializing messages
 	- math_pb2_grpc.py provides a servicer (a class to be inherited from) and stub for making remote procedure calls
-- 
+- math_pb2.py has quite a lot of functions to use such as .MultRequest which saves message variables to a variable. We can use .SerializeToString() to convert the message to bytes.
+	- len(s) would then be less than initial variables for the request messsage per *variable-length encoding*
+- math_pb2.MultRequest.FromString(s) deserializes the contents of the serialized message and we can assign them to a variable
