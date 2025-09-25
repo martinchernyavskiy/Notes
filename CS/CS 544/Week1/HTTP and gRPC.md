@@ -24,7 +24,7 @@
 		- when call function from other computer, this is called remote procedure call
 	- We use remote since the server might have faster hardware and/or access data not available directly to the client
 - We need extra functions to make calling a remote function feel same as regular one
-	- In client have function that sends code to server
+	- In client have function that sends code to server (*stub function*)
 	- In server have rpc_server that receives code
 - *Serialization and Deserialization*: converts information to/from bytes
 
