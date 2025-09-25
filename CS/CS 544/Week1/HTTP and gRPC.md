@@ -96,4 +96,6 @@ python3 -m grpc_tools.protoc \
 echo "math.proto compiled successfully"
 ```
 - Creates math_pb2.py , math_pb2_grpc.py,math_pb2.pyi
-	- math_pb2.py is used for serializing 
+	- math_pb2.py is used for serializing and deserializing messages
+	- math_pb2_grpc.py provides a servicer (a class to be inherited from) and stub for making remote procedure calls
+- 
