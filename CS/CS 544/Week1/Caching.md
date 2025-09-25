@@ -64,4 +64,21 @@ spark_df.unpersists() # free up memory
 
 ## Demo
 ?
-- 
+```py
+import random
+import requests
+import pandas as pd
+
+r = requests.get("https://pages.cs.wisc.edu/~harter/cs544/data/wi-stations/stations.txt")
+r.raise_for_status()
+stations = r.text.strip().split("\n")
+stations = random.sample(stations, k=10)
+workload = random.choices(stations, k=100, weights=[0.3, 0.2] + [0.5/8]*8)
+
+def get_station(station):
+
+	df = pd.read_csv(f"https://pages.cs.wisc.edu/~harter/cs544/data/wi-stations/{station}.csv.gz",
+	            names=["station", "date", "element", "value", "m", "q", "s", "obs"], low_memory=False)
+	            
+
+```
