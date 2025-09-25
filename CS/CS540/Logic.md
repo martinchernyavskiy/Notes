@@ -14,6 +14,7 @@
 - Validity: argument is valid iff all premises are true and conclusion is true
 - Soundness: argument is sound iff valid & premises true
 - Entailment: when valid argument, premises entail conclusion
+<!--SR:!2025-09-29,4,270-->
 
 ## Propositional Logic Basics
 ?
@@ -41,6 +42,7 @@
 ## Inference
 ?
 - Logical inference creates new sentences from a set of sentences in knowledge base
+<!--SR:!2025-09-29,4,270-->
 
 ## Methods of Inference
 - Enumeration
