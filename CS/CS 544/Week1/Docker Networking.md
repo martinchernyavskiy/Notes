@@ -44,7 +44,7 @@ CMD["python3", "-m", "jupyterlab", "--no-browser", "--ip=0.0.0.0", "--port=7], "
 .
 ```
 docker build . -t jupyter
-docker run -d -p 127.0.0.1:13:7
+docker run -d -p 127.0.0.1:13:7 jupyter
 ```
 
 ## Docker Compose 
