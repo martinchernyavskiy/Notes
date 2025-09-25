@@ -32,7 +32,7 @@
 - *Bayes' Rule*
 	- $P(A|B) = \frac{P(B|A) \times P(A)}{P(B)}$
 	- To proof, we apply chain rule two different times
-		- P(A,B) = P(A|B) * P(B) 
+		- P(A,B) = P(A|B) * P(B)
 				= P(B|A) * P(A)
 - *Bayesian Inference*
 	- P(H|E) = (P(E|H)P(H))/P(E)
@@ -42,6 +42,7 @@
 	- Posterior: P(H|E): probability of hypothesis given evidence
 - *Naive Bayes*
 	- Conditional Probability follows bayes rule
+<!--SR:!2025-09-28,3,252-->
 
 ## Statistics
 ?

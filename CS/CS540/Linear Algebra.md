@@ -60,13 +60,14 @@
 - We want to preserve data, minimize projection error
 - Vectors like this are called *principal components*
 - In a 2d example, the goal is to find a line that minimizes the sum of squared distances to xi's
-	- the *optimal* line is called principal component 1 
+	- the *optimal* line is called principal component 1
 - Given arbitrary input of vectors
 	- We center data so that the mean of these vectors is equal to 0
-- We obtain as an output the principal components which are orthogonal 
-	- We also obtain covariance matrix (dxd) which describes how the different dimensions of the data vary together $S=\frac{1}{n-1}\sum_{i=1}^{n}x_{i}x_{i}^T$ 
+- We obtain as an output the principal components which are orthogonal
+	- We also obtain covariance matrix (dxd) which describes how the different dimensions of the data vary together $S=\frac{1}{n-1}\sum_{i=1}^{n}x_{i}x_{i}^T$
 	- Principal components are the top-m eigenvectors of this covariance matrix
 	- Each vector is projected to a principal component that is given by: $\sum_{j=1}^{m}(u_{j}^Tx_{i})u_{j}$
+<!--SR:!2025-09-28,3,257-->
 
 ## Dimensionality Reduction Variations
 ?
