@@ -14,6 +14,7 @@
 	- Can easily index into matrix
 - Transposition
 	- Flips rows and columns
+<!--SR:!2025-09-29,4,270-->
 
 ## Matrix & Vector Operations
 ?
