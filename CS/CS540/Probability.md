@@ -81,3 +81,4 @@
 	- Bias / Variance Decomposition
 		- $MSE[\bar{\theta}]=E[(\bar{\theta}-E[\bar{\theta}])^2+(E[\bar{\theta}]-\theta)^2$
 			- Where first part is variance and second part is bias
+<!--SR:!2025-09-29,4,272-->
