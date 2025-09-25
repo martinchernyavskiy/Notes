@@ -70,7 +70,7 @@ message MultRequest{
 }
 
 message ResultResponse {
-	int32 result = 1;
+	int32 result = 3;
 }
 
 // SERVICES (RPC calls)
