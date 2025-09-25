@@ -45,6 +45,7 @@
 
 ## gRPC demo
 ?
+- protobufs, compile, pb2.py, pb2_grpc.py for compiling and providing servicer and stub classes, server.py for overriding the servicer and mult.py to act as a client that overrides the stub.
 - We use Aider in p2
 - export Gemini api key as an environment variable
 - Install aider and launch gemini 2.5 flash (aider-install && aider --model gemini/gemini-2.5-flash)

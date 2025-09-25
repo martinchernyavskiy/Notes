@@ -61,3 +61,7 @@ spark_df.unpersists() # free up memory
 		- Evict whichever has been in cache the longest
 	- LRU (least recently used)
 		- Evict entry that has been used the least recently
+
+## Demo
+?
+- 
