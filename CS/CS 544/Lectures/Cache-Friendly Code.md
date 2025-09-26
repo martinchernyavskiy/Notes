@@ -26,8 +26,12 @@
 	- String array
 		- Length
 		- Null count
-		- Offsets Buffer
-		- Value buffer
+		- Validity Bitmap
+			- For byte 0 contains 1 bits to denote that string data exists and 0 for null
+			- Contains 63 bytes of padding 
+		- Offsets Buffer: list of indices that point to the start of each string in value buffer
+		- Value buffer: contains non-null strings contiguously
+			- Data is packed into fewest possible cache lines
 
 ## Demo
 ?
