@@ -6,9 +6,11 @@
 		- If too much, wasteful load data to cache that might never be accessed
 - Cache Lines: cache data in united for L1-L3
 	- If we access element of the integer array and reading the following bytes of data (granularity)
-	- 
 
-##
+
+## Ordered Collections of Strings
+?
+- Compacted data has a more efficient cache line access
 
 ##
 
