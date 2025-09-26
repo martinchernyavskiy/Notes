@@ -86,6 +86,7 @@ def get_station(station):
 		if (len(cache) == cache_size):
 		#EVICT
 		victim = evict_order.pop()
+		cache.pop(victim)
 		#MISS
 	df = pd.read_csv(f"https://pages.cs.wisc.edu/~harter/cs544/data/wi-stations/{station}.csv.gz", names=["station", "date", "element", "value", "m", "q", "s", "obs"], low_memory=False)
 	cache[station] = df
