@@ -73,3 +73,8 @@
 		- Constants or functions of constants
 	- *Atom*: smallest T/F expression
 		- Predicate
+			- Is like a function but maps >= 1 objects to a truth value
+	- *Sentences*: T/F expression
+		- Atom
+		- Use connectives
+	- *Quantifiers*: for all / there exists
