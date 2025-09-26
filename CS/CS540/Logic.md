@@ -14,14 +14,14 @@
 - *Argument*: a set of sentences (premises) + a concluding sentence
 - *Validity*: argument is valid iff all premises are true and conclusion is true
 - *Soundness*: argument is sound iff valid & premises true
-- Entailment: when valid argument, premises entail conclusion
+- *Entailment*: when valid argument, premises entail conclusion
 <!--SR:!2025-09-29,4,270-->
 
 ## Propositional Logic Basics
 ?
 - Sentences, symbols, connectives, parentheses
 - P,Q,R atomic sentences
-- Connectives include (conjunction, disjunction, implication, biconditional, negation)
+- *Connectives* include (conjunction, disjunction, implication, biconditional, negation)
 	- Precedence follows: not --> and --> or --> imply --> biconditional
 	- Parentheses when needed
 
