@@ -35,7 +35,16 @@
 
 ## Demo
 ?
-```
+- Run a jupyterlab on a docker container and connect to it through local browser
+```python
+import numpy as np
+import time
+
+A = np.random.randint(0, 10, (1_000_000, 8))
+print(A.dtype)
+print(A.shape)
+
+result = A[:, 0].sum() 
 ```
 
 ## OS Page Cache
