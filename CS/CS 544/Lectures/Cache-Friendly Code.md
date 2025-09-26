@@ -4,12 +4,12 @@
 	- If process reads 1 byte and misses, how much data should CPU bring into cache?
 		- If too little, we have more misses
 		- If too much, wasteful load data to cache that might never be accessed
-- Cache Lines: cache data in united for L1-L3
-	- Most common 
+- Cache Lines: cache data units for CPU, granularity
+	- Most common size of 64 bytes for modern CPUs
 	- If we access element of the integer array and reading the following bytes of data (granularity)
 
 
-## Ordered Collections of Strings
+## Cache Lines and Misses
 ?
 - Compacted data has a more efficient cache line access
 
