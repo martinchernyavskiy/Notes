@@ -16,6 +16,7 @@
 - DELETE: delete a resource
 - others...
 - REST API (application program interface) provide ability to use the http methods using official APIs from servers
+<!--SR:!2025-09-30,4,270-->
 
 ## RPC
 ?

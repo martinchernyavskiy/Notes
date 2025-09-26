@@ -15,7 +15,8 @@
 - Command in linux
 - Lists 2 interfaces:
 	- Loop back interface (allows for creation of network for device to itself), virtual
-	- ens4 interface, physical 
+	- ens4 interface, physical
+<!--SR:!2025-09-30,4,272--> 
 
 ## Networks
 ?
@@ -39,6 +40,7 @@
 - Packets (which are some bytes with address and other info) can be forwarded along path from point A to point B (using routers and switches)
 - Routers contain forwarding tables that help to decide which direction to send along a packet
 	- Such tables would be too big if a router had to know where every MAC existed in the internet
+<!--SR:!2025-09-30,4,272-->
 
 ## Internet Protocol (IP address)
 ?
@@ -46,6 +48,7 @@
 - 4 billion possible IP addresses (IPv4), where IPv6 are 4x longer
 - Forwarding tables only need to know which way to send for a given network number (ip address is 4 bytes total where part of it is that network number and another part is the unique ID)
 - 127.0.0.1 is the loopback interface
+<!--SR:!2025-09-30,4,272-->
 
 ## Private Networks
 ?
@@ -53,6 +56,7 @@
 - Don't want every machine to be able to receive packets from anywhere
 	- Can be divided into subnetworks to create different networks in a bigger org
 - Creates individual networks within large organization
+<!--SR:!2025-09-30,4,272-->
 
 
 ## Network Address Translation
@@ -94,3 +98,4 @@
 - TCP or UDP (IP Address + Ports)
 - Internet Protocol (IP Address)
 - Ethernet or Wi-Fi (MAC address)
+<!--SR:!2025-09-30,4,272-->

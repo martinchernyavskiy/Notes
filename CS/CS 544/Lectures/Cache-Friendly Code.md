@@ -57,6 +57,7 @@ result = B[:, 0].sum() # Sums every int64 number in the 0th column
 end = time.time()
 print((start-end) * 1000 + "ms")
 ```
+<!--SR:!2025-09-30,4,270-->
 
 ## OS Page Cache
 

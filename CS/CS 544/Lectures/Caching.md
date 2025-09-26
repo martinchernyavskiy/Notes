@@ -26,6 +26,7 @@
 	- RAM
 	- Storage Devices
 	- Cloud Storage (network)
+<!--SR:!2025-09-30,4,270-->
 
 ## Resource Tradeoffs
 ?
@@ -38,6 +39,7 @@
 - Python Dictionary caches return values in a dict
 	- Uses memory space
 	- Avoids repeated compute
+<!--SR:!2025-09-30,4,270-->
 
 ## Manual Caching, Spark
 ?
