@@ -60,6 +60,7 @@
 - NICs can have internal and external IP, eg. Google Console
 	- *Firewall* can limit what traffic is allowed
 	- External IPs are *ephemeral*, meaning they change upon reboot. But can rent static IPs that don't change
+<!--SR:!2025-09-30,4,272-->
 
 ## Port Numbers
 ?
@@ -85,6 +86,7 @@
 	- Packets may be dropped, reordered, split
 - Both build on IP networking and provide port numbers
 - -tlpn, t is for tcp and u is for udp
+<!--SR:!2025-09-30,4,272-->
 
 ## Network Stack
 ?

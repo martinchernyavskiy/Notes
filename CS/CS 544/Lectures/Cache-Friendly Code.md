@@ -7,6 +7,7 @@
 - Cache Lines: cache data units for CPU, granularity
 	- Most common size of 64 bytes for modern CPUs
 	- If we access element of the integer array and reading the following bytes of data (granularity)
+<!--SR:!2025-09-30,4,270-->
 
 
 ## Cache Lines and Misses

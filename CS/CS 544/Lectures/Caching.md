@@ -14,6 +14,7 @@
 - *Storing data in a temporary storage area to enable faster access to that data in the future*
 - CPUs can have small memory built in for data accessed frequently
 	- This decreases the latency it takes to read from RAM
+<!--SR:!2025-09-30,4,270-->
 
 ## Cache Hierarchy
 ?
@@ -48,6 +49,7 @@ spark_df.unpersists() # free up memory
 ```
 - Stale data is deleted after expiration time
 - SSD is large, so freshness is more important than space
+<!--SR:!2025-09-30,4,270-->
 
 ## Cache Policies
 ?

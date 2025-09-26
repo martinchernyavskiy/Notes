@@ -6,6 +6,7 @@
 	- Client sends request to server
 	- Server sends response to client
 	- Contain header information
+<!--SR:!2025-09-30,4,270-->
 
 ## HTTP methods
 ?
@@ -27,6 +28,7 @@
 	- In client have function that sends code to server (*stub function*)
 	- In server have rpc_server that receives code
 - *Serialization and Deserialization*: converts information to/from bytes
+<!--SR:!2025-09-30,4,270-->
 
 ## Serialization and Deserialization (in-depth)
 ?
