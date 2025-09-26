@@ -15,7 +15,7 @@
 - *Matrices*
 	- Logically they are 2-dimensional
 	- Physically each row in arranged along a 1-dimension in virtual address space
-		- Fast for summing over rows, slow for summing over columns 
+		- Fast for summing over rows, slow for summing over columns
 - *Solution with NumPy*
 	- Transpose doesn't move or copy data
 		- Putting column data in rows and transposing provides fast column sum
@@ -28,10 +28,11 @@
 		- Null count
 		- Validity Bitmap
 			- For byte 0 contains 1 bits to denote that string data exists and 0 for null
-			- Contains 63 bytes of padding 
+			- Contains 63 bytes of padding
 		- Offsets Buffer: list of indices that point to the start of each string in value buffer
 		- Value buffer: contains non-null strings contiguously
 			- Data is packed into fewest possible cache lines
+<!--SR:!2025-09-30,4,270-->
 
 ## Demo
 ?

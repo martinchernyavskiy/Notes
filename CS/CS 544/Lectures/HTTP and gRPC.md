@@ -37,10 +37,12 @@
 	- Protobufs use variable-length encoding
 		- Smaller numbers could use less bytes if not necessary
 - *Different CPUs order bytes differently*
+<!--SR:!2025-09-30,4,270-->
 
 ## gRPC
 ?
 - Sits on top of HTTP layer
+<!--SR:!2025-09-30,4,270-->
 
 
 ## gRPC demo

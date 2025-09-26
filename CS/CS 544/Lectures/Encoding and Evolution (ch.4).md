@@ -8,7 +8,7 @@
 	- 28 trillion possible addresses
 	- Some devices dynamically change MAC addr for privacy
 	- MAC address consists of 48 bits total (split into manufacturer and device ID)
-<!--SR:!2025-09-26,4,270-->
+<!--SR:!2025-10-11,15,290-->
 
 ## IP Address
 ?

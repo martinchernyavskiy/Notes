@@ -5,7 +5,7 @@
 - *Applications* (long running / website)
 - Systems (manage resources)
 	- operating system is a backbone of analysis code
-<!--SR:!2025-09-26,12,272-->
+<!--SR:!2025-11-10,45,292-->
 
 ### Resource Categories
 ?
@@ -33,7 +33,7 @@ Servers whose datasets grow may run too slowly or not run at all given there is 
 - Each core can execute instructions for one/two tasks at a time
 	- Each instruction is written in machine code that CPU operates on
 - The more cores available, the more tasks can be ran in *parallel*
-<!--SR:!2025-09-25,11,270-->
+<!--SR:!2025-11-05,40,290-->
 
 
 ## High-Language Translation
@@ -83,7 +83,7 @@ Servers whose datasets grow may run too slowly or not run at all given there is 
 	accesses)
 - *Latency*
 	• how long does it take to do one I/O (e.g., 10 ms)
-<!--SR:!2025-09-24,10,270-->
+<!--SR:!2025-11-04,39,290-->
 
 ## Network
 ?
