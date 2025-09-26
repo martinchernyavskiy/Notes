@@ -23,3 +23,9 @@
 	- Can't estimate reliably for long histories
 - Make assumptions
 	- Markov assumption with shorter history
+		- Probability of a word depends on probability of k of previous ones
+		- We don't need whole past of previous words, instead we can just pick k that are closest to the one we are making assumption for
+
+## Unigram Model (k=0)
+?
+- Full independence assumption (meaning present doesn't depend on the past)
