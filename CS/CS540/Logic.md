@@ -22,14 +22,14 @@
 - Sentences, symbols, connectives, parentheses
 - P,Q,R atomic sentences
 - *Connectives* include (conjunction, disjunction, implication, biconditional, negation)
-	- Precedence follows: not --> and --> or --> imply --> biconditional
+	- Precedence follows: not --> and --> or --> implies --> equivalence
 	- Parentheses when needed
 
 ## Sentences & Semantics
 ?
-- Interpretation: (True/False in truth table)
-- Semantics: Interpretations for which sentences evaluate to true
-- Model: interpretation for which all sentences are true
+- *Interpretation*: (True/False in truth table for symbols)
+- *Semantics*: Interpretations for which sentences evaluate to true
+- *Model*: interpretation for which all sentences are true
 
 ## Knowledge Bases
 ?
