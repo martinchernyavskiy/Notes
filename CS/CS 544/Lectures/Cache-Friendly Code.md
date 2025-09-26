@@ -12,7 +12,13 @@
 ?
 - Compacted data has a more efficient cache line access
 
-##
+## PyArrow
+- Provides cache friendly layouts
+
+## Demo
+?
+```
+```
 
 ## OS Page Cache
 
