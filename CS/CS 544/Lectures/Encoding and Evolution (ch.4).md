@@ -25,12 +25,14 @@
 - Computers can have multiple NICs
 	- Can be on multiple networks
 - Use same physical tech (Wi-Fi, Ethernet, etc.)
+<!--SR:!2025-09-30,4,272-->
 
 ## Routers
 ?
 - We can't send MAC addr to another network without NIC there
 - Connect networks together to form internets
 - Global internet is the "Internet" we use
+<!--SR:!2025-09-30,4,272-->
 
 ## Packet Forwarding
 ?
@@ -71,6 +73,7 @@
 	- Setting IP ranges to all 0 allows for anyone to access the server
 	- tcp are the accessible ports
 - `python3 -m http.server -d ./A -b 10.128.02 5400 &> A_out &`
+<!--SR:!2025-09-30,4,272-->
 
 ## Transport Protocols
 ?

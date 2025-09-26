@@ -14,6 +14,7 @@ docker run -d -p 127.0.0.1:400:80 myimg
 - SSH is used to send commands or forward network traffic
 - SSHDemon program runs on VM which is a server that's looking for incoming connections from SSH client
 	- Uses port 22 by default
+<!--SR:!2025-09-30,4,270-->
 
 ## SSH Tunnel
 ?
@@ -48,7 +49,7 @@ docker build . -t jupyter
 docker run -d -p 127.0.0.1:13:7 jupyter
 ```
 
-## Docker Compose 
+## Docker Compose
 ?
 - *Orchestration*: allows to deploy many cooperating containers across a cluster of Docker workers
 - *Kubernetes (K8s)*: most well known orchestration
@@ -66,6 +67,7 @@ services:
 			replicas: 3
 ```
 - docker compose up
+<!--SR:!2025-09-30,4,270-->
 
 ## Data Placement
 ?
@@ -73,4 +75,5 @@ services:
 - Should we have multiple *replications* of the same data so that we don't lose information if machine fails?
 	- *Simple partitioning*: split up by half directly, however might not know which computer to ask for a given name.
 	- *Range partitioning*: have a set range, easy to know where to find a given name, hard to find a good split point
-	- *Hash Partitioning*: choose key column and then hash it, hash function returns arbitrary number for any input. 
+	- *Hash Partitioning*: choose key column and then hash it, hash function returns arbitrary number for any input.
+<!--SR:!2025-09-30,4,270--> 

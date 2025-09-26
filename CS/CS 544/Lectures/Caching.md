@@ -51,17 +51,18 @@ spark_df.unpersists() # free up memory
 
 ## Cache Policies
 ?
-- For browser visit, when you visit and the page isn't cached 
+- For browser visit, when you visit and the page isn't cached
 - When to load data to cache?
 	- When read something, add it
 	- Exception includes if it won't be read again
 - When to evict data to a cache?
-	- Random 
+	- Random
 		- Select any entry randomly
 	- FIFO
 		- Evict whichever has been in cache the longest
 	- LRU (least recently used)
 		- Evict entry that has been used the least recently
+<!--SR:!2025-09-30,4,270-->
 
 ## Demo
 ?
