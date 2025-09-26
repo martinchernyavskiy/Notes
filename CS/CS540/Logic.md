@@ -49,14 +49,21 @@
 
 ## Methods of Inference
 ?
-- Enumeration
+- *Enumeration*
 	- Enumerate all interpretations and look at the truth table
 	- 2^n interpretations for n symbols
-- Using Rules
+- *Using Rules*
 	- Logical equivalences & (If A then B, A) entails B
-- Resolution
+- *Resolution*
 	- Convert sentences to Conjunctive Normal Form (CNF)
 		- Conjunction of clauses where each clause disjunction of literals
 	- Use single rune (*resolution*)
 		- Selecting 2 clauses where the latter one has a negative of one symbols of the previous clause
 		- Divide over the disjunction of two symbols that were part of the previous clauses
+	- Given KB, to show that KB entails a sentence Beta, we add negative of Beta to KB and show that the resolution leads to empty
+
+## First Order Logic (FOL)
+?
+- Propositional Logic has limitations since we can't say for example that all squares have 4 sides.
+	- *We're limited to binary resolutions*
+- *FOL* is more expressive logic, works over facts, objects, 
