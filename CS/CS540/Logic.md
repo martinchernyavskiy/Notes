@@ -33,7 +33,9 @@
 
 ## Knowledge Bases
 ?
-- A set of sentences A1 to An 
+- A set of sentences A1 to An
+	- Each connected with conjunction
+- Model of KB is interpretations for which all sentences are true
 - Goal: inference to discover new sentences
 
 ## Entailment
@@ -46,6 +48,7 @@
 <!--SR:!2025-09-29,4,270-->
 
 ## Methods of Inference
+?
 - Enumeration
 	- Enumerate all interpretations and look at the truth table
 	- 2^n interpretations for n symbols
