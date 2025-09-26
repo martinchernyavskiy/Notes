@@ -97,3 +97,4 @@ for station in workload[:10]:
 	print(station)
 	df = get_station(station)
 ```
+- Can also implement LRU cache policy
