@@ -3,6 +3,7 @@
 ## Symbolic vs. Connectionist 
 ?
 - Connectionist (showcases relations through arrows and nodes)
+	- Try to represent with vectors and matrices
 - Popular in probabilistic models and neural networks
 - May allow AI to write formally verifiable proofs
 - *Which is the best?*
@@ -10,9 +11,9 @@
 
 ## Basics of Logic
 ?
-- Argument: a set of sentences (premises) + a concluding sentence
-- Validity: argument is valid iff all premises are true and conclusion is true
-- Soundness: argument is sound iff valid & premises true
+- *Argument*: a set of sentences (premises) + a concluding sentence
+- *Validity*: argument is valid iff all premises are true and conclusion is true
+- *Soundness*: argument is sound iff valid & premises true
 - Entailment: when valid argument, premises entail conclusion
 <!--SR:!2025-09-29,4,270-->
 
