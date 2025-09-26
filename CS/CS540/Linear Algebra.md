@@ -67,6 +67,7 @@
 	- For each vector we subtract the sample mean
 - We obtain as an output the principal components which are orthogonal
 	- We also obtain covariance matrix (dxd) which describes how the different dimensions of the data vary together $S=\frac{1}{n-1}\sum_{i=1}^{n}x_{i}x_{i}^T$
+		- Gives eigenvectors and each of these eigenvectors is our principal components
 	- Principal components are the top-m eigenvectors of this covariance matrix
 	- Each vector is projected to a principal component that is given by: $\sum_{j=1}^{m}(u_{j}^Tx_{i})u_{j}$
 <!--SR:!2025-09-28,3,257-->
