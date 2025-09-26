@@ -109,3 +109,4 @@ echo "math.proto compiled successfully"
 - For debugging purposes, python3 -u server.py &> log.txt &
 	- Force the stdout and stderr streams to be unbuffered
 - For implementing client, we write a mult.py that uses Calc stub to ask the server to multiply. It shall use argv to get the arguments
+<!--SR:!2025-09-30,4,270-->

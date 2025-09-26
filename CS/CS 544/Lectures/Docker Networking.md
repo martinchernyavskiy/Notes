@@ -26,6 +26,7 @@ docker run -d -p 127.0.0.1:400:80 myimg
 	- If we don't specify the the IP address in docker run command, then it defaults to 0 and anyone from anywhere can talk to port 300 of the VM and run code inside the jupyterlab
 - Port forwarding nevers goes to lo inside container
 	- Instead use 0.0.0.0 inside container
+<!--SR:!2025-09-30,4,270-->
 
 ### Demo
 ```Bash

@@ -7,6 +7,7 @@
 - Loading a value from RAM takes about 60ns or 200 cycles
 	- Slow but not long enough to switch to a different process
 	- Time indicates latency, throughout shows how many bytes per second can be loaded
+<!--SR:!2025-09-30,4,270-->
 
 ## Cache
 ?
