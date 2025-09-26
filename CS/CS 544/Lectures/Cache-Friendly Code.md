@@ -21,7 +21,13 @@
 		- Putting column data in rows and transposing provides fast column sum
 - The layout where data is contiguous is most cache friendly since we have less misses and only need to read one cache line
 ## PyArrow
-- Provides cache friendly layouts
+?
+- Provides cache friendly layouts (data structures)
+	- String array
+		- Length
+		- Null count
+		- Offsets Buffer
+		- Value buffer
 
 ## Demo
 ?
