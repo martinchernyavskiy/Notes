@@ -55,4 +55,8 @@
 - Using Rules
 	- Logical equivalences & (If A then B, A) entails B
 - Resolution
-	- 
+	- Convert sentences to Conjunctive Normal Form (CNF)
+		- Conjunction of clauses where each clause disjunction of literals
+	- Use single rune (*resolution*)
+		- Selecting 2 clauses where the latter one has a negative of one symbols of the previous clause
+		- Divide over the disjunction of two symbols that were part of the previous clauses
