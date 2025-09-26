@@ -42,7 +42,7 @@ Servers whose datasets grow may run too slowly or not run at all given there is 
 - Another approach is for compiler to create *bytecode* and VM running on CPU will run the bytecode
 - Python VM (*PVM*) runs bytecode after *python3* is executed which compiles python code into a bytecode file
 	- This is similar to JVM that runs class bytecode files after compilation, however *JVM*'s bytecode is closer to machine code
-<!--SR:!2025-09-24,11,270-->
+<!--SR:!2025-11-06,41,290-->
 
 
 ## GPUs
@@ -92,7 +92,7 @@ Servers whose datasets grow may run too slowly or not run at all given there is 
 ### Metrics
 - *Latency*: how long to send message between two points
 - *Bandwidth / Throughput*: how many bits can be sent per second
-<!--SR:!2025-09-24,10,270-->
+<!--SR:!2025-11-03,38,290-->
 
 ## Deployment
 ?

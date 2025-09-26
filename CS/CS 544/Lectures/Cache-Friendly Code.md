@@ -44,7 +44,16 @@ A = np.random.randint(0, 10, (1_000_000, 8))
 print(A.dtype)
 print(A.shape)
 
-result = A[:, 0].sum() 
+start = time.time()
+result = A[:, 0].sum() # Sums every int64 number in the 0th column
+end = time.time()
+print((start-end) * 1000 + "ms")
+
+B = A.T.copy().T # Same data, but different memory layout, allows for much faster column sum per what we described about memory layouts and cache lines
+start = time.time()
+result = B[:, 0].sum() # Sums every int64 number in the 0th column
+end = time.time()
+print((start-end) * 1000 + "ms")
 ```
 
 ## OS Page Cache

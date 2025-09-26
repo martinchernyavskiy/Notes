@@ -21,7 +21,7 @@
 ## Batch Processing with Unix tools
 ?
 - Ngix default access log format: `$remote_addr - $remote_user [$time_local] "$request" $status $body_bytes_sent "$http_referer" "$http_user_agent"
-<!--SR:!2025-09-23,10,274-->
+<!--SR:!2025-11-02,37,294-->
 
 ### Simple Log Analysis
 ?
@@ -64,7 +64,7 @@ Enumerated steps:
 	3. Increment counter for the URL in the current line of log, repeat until the end of log file
 	4. Sort the hash table contents by descending counter values and obtain top 5 entries
 	5. Print the top five entries
-<!--SR:!2025-09-25,11,274-->
+<!--SR:!2025-11-07,42,294-->
 
 ### Sorting vs. In-memory aggregation
 ?
@@ -73,7 +73,7 @@ Enumerated steps:
 - If number of distinct URLs is small eough, using in-memory hashtable works fine, however if there is a bigger website with a lot of distinct URLs, this depletes memory
 	- Instead, using sorting approach via Unix pipeline can take advantage of efficient use of disks
 ...
-<!--SR:!2025-09-26,12,274-->
+<!--SR:!2025-11-11,46,294-->
 
 ### Unix Philosophy
 ?
