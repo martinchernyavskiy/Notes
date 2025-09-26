@@ -61,7 +61,7 @@
 - Vectors like this are called *principal components*
 - In a 2d example, the goal is to find a line that minimizes the sum of squared distances to xi's
 	- the *optimal* line is called principal component 1
-	- the variance is maximized, so  important data remainds
+	- the variance is maximized, so  important data remains
 - Given arbitrary input of vectors
 	- We center data so that the mean of these vectors is equal to 0
 	- For each vector we subtract the sample mean
