@@ -14,7 +14,11 @@
 - As K step gets larger, we skip over more elements in the array, the cache line is given by the K value (end of plateau) times size of data (int32 in the class example), so 64 bytes
 - *Matrices*
 	- Logically they are 2-dimensional
-	- Physically each row in arranged along a 1-dimension in 
+	- Physically each row in arranged along a 1-dimension in virtual address space
+		- Fast for summing over rows, slow for summing over columns 
+- *Solution with NumPy*
+	- Transpose doesn't move or copy data
+		- Putting column data in rows and transposing provides fast column sum
 ## PyArrow
 - Provides cache friendly layouts
 
