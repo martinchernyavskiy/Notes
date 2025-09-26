@@ -11,8 +11,10 @@
 
 ## Cache Lines and Misses
 ?
-- Compacted data has a more efficient cache line access
-
+- As K step gets larger, we skip over more elements in the array, the cache line is given by the K value (end of plateau) times size of data (int32 in the class example), so 64 bytes
+- *Matrices*
+	- Logically they are 2-dimensional
+	- Physically each row in arranged along a 1-dimension in 
 ## PyArrow
 - Provides cache friendly layouts
 
