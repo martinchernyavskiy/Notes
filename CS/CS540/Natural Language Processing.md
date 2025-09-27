@@ -43,3 +43,8 @@
 	- Allows for more expressive sentence
 	- Harder to estimate
 	- Training --> count 
+
+## n-gram Training
+?
+- The issue with just counting is that we have to multiply tiny numbers
+	- For this we use logs and add instead of multiplying
