@@ -54,7 +54,12 @@
 
 ## Language Model Evaluation
 ?
+- Observation
 - We train/test on separate data & measure metrics
 	- Metrics include:
 		- Extrinsic Evaluation
-		- Perplexity
+			- Pick a task and use model to do the task
+			- For two models M1, M2, compare the accuracy for each task
+				- Slow, may change relatively
+		- Intrinsic Evaluation: Perplexity
+			- 
