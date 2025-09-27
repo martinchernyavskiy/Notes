@@ -50,5 +50,11 @@
 	- For this we use logs and add instead of multiplying
 - For n-grams with zero probability
 	- We solve by using smoothing, adding 1 to the numerator and V (number of words in vocabulary) to denominator
+	- This ensures the probability adds up to 1
 
 ## Language Model Evaluation
+?
+- We train/test on separate data & measure metrics
+	- Metrics include:
+		- Extrinsic Evaluation
+		- Perplexity
