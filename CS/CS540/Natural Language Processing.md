@@ -94,3 +94,7 @@
 		- Where theta is our word vectors
 		- First prod denotes all positions
 		- Second prod represents windows of length 2a
+		- w_t is the word we're focusing in corpus
+			- check a previous words and a words after w_t
+		- Predicts the context words around w_t
+			- t increments each time and it slides the window
