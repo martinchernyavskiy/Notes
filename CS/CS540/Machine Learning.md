@@ -40,3 +40,4 @@
 ?
 - Collection of input instances to the learning algorithm
 - *Experience* given to a learning algorithm
+	- Given this training data, want program to 
