@@ -16,6 +16,9 @@
 - Use probabilistic models to assign a probability to a sentence W
 	- Can calculate probability of a sentence by calculating probability of each word
 	- Given 2 words (evidences), what is the probability of third word being __ ?
+- Used not only for NLP but also:
+	- Parsing, part-of-speech tagging, etc.
+	- Q/A answering, translation, summariz
 
 ## Training The Language Model
 ?
@@ -62,4 +65,7 @@
 			- For two models M1, M2, compare the accuracy for each task
 				- Slow, may change relatively
 		- Intrinsic Evaluation: Perplexity
-			- 
+			- Measures uncertainty
+				- PP(W) = P(w1, ... , wn)^(-1/n)
+				- Compute average PP(W) for all W from dataset
+					- Lower average is better
