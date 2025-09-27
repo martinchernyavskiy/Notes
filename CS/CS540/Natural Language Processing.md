@@ -36,3 +36,10 @@
 ?
 - Present depends on immediate past
 - Given a letter, what's the probability of the next letter being __ ?
+
+## n-gram Model
+?
+- k = n-1
+	- Allows for more expressive sentence
+	- Harder to estimate
+	- Training --> count 
