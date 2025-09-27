@@ -81,4 +81,8 @@
 ?
 - *Distributional Semantics* account for relationships between words
 	- Representation for objects that relate to each other must be similar
-		- 
+		- Dense vectors/Word embeddings
+
+## Training Word Embeddings
+?
+- 
