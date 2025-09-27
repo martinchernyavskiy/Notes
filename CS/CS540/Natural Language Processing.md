@@ -81,8 +81,11 @@
 ?
 - *Distributional Semantics* account for relationships between words
 	- Representation for objects that relate to each other must be similar
-		- Dense vectors/Word embeddings
+		- Dense vectors/*Word embeddings*
+		- Each object is represented by a vector with probability entries per some group
 
 ## Training Word Embeddings
 ?
-- 
+- How do we fine these embeddings?
+	- Based on observed data and applied training
+- On
