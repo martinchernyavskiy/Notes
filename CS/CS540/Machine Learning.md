@@ -34,4 +34,9 @@
 	- Have *continuous* values for the label
 	- x can be of higher dimension and is denoted as *features*
 	- y is denoted as *label*/output and is usually of single dimension
-	- 
+
+
+## Training Data for Supervised Learning
+?
+- Collection of input instances to the learning algorithm
+- *Experience* given to a learning algorithm
