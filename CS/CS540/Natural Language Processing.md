@@ -18,7 +18,7 @@
 	- Given 2 words (evidences), what is the probability of third word being __ ?
 - Used not only for NLP but also:
 	- Parsing, part-of-speech tagging, etc.
-	- Q/A answering, translation, summariz
+	- Q/A answering, translation, summarization, etc.
 
 ## Training The Language Model
 ?
