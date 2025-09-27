@@ -14,6 +14,7 @@
 ## Language Models
 ?
 - Use probabilistic models to assign a probability to a sentence W
+	- Can calculate probability of a sentence by calculating probability of each word
 	- Given 2 words (evidences), what is the probability of third word being __ ?
 
 ## Training The Language Model
