@@ -88,4 +88,9 @@
 ?
 - How do we fine these embeddings?
 	- Based on observed data and applied training
-- On
+- Word2vec was a famous approach
+	- Calculates likelihood*:
+		- $L(\theta)=\prod_{t=1}^T \prod_{-a\leq j\leq a} P(w_{t+j}|w_{t},\theta)$
+		- Where theta is our word vectors
+		- First prod denotes all positions
+		- Second prod represents windows of length 2a
