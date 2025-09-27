@@ -57,7 +57,7 @@
 - *Resolution*
 	- Convert sentences to Conjunctive Normal Form (CNF)
 		- Conjunction of clauses where each clause disjunction of literals
-	- Use single rune (*resolution*)
+	- Use single rule (*resolution*)
 		- Selecting 2 clauses where the latter one has a negative of one symbols of the previous clause
 		- Divide over the disjunction of two symbols that were part of the previous clauses
 	- Given KB, to show that KB entails a sentence Beta, we add negative of Beta to KB and show that the resolution leads to empty
