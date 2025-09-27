@@ -60,12 +60,25 @@
 - Observation
 - We train/test on separate data & measure metrics
 	- Metrics include:
-		- Extrinsic Evaluation
+		- *Extrinsic Evaluation*
 			- Pick a task and use model to do the task
 			- For two models M1, M2, compare the accuracy for each task
 				- Slow, may change relatively
-		- Intrinsic Evaluation: Perplexity
+		- *Intrinsic Evaluation: Perplexity*
 			- Measures uncertainty
 				- PP(W) = P(w1, ... , wn)^(-1/n)
 				- Compute average PP(W) for all W from dataset
 					- Lower average is better
+
+## Representing Words
+?
+- Random Variables 
+- One-hot vectors
+	- Vector of dimension being the number of words in vocabulary
+	- For "dog", a single entry of 1 (rest are zero) represents it within vocabulary
+
+## Smarter Representations
+?
+- *Distributional Semantics* account for relationships between words
+	- Representation for objects that relate to each other must be similar
+		- 
