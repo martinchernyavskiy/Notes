@@ -40,4 +40,9 @@
 ?
 - Collection of input instances to the learning algorithm
 - *Experience* given to a learning algorithm
-	- Given this training data, want program to 
+	- Given this training data, want program to learn a function that predicts label y on future data x
+- Training set error (classification)
+	- If predicting for training data is incorrect, count 1. Else count 0
+		- Sum these and divide by n
+- Training set error (regression)
+	- Since label is continuous, we subtract an expected label from the output of a function and square it. Then we sum these all up for all of the training data points and divide by n
