@@ -98,3 +98,7 @@
 			- check a previous words and a words after w_t
 		- Predicts the context words around w_t
 			- t increments each time and it slides the window
+	- So what is the probability of this?
+		- Let v_w and u_w be two vectors that denote center/context
+			- ![[Pasted image 20250927151802.png]]
+			- If dot product of u and c is large, it means they have a higher similarity
