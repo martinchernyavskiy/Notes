@@ -30,3 +30,9 @@
 ## Unigram Model (k=0)
 ?
 - Full independence assumption (meaning present doesn't depend on the past)
+	- Based on frequencies alone from 
+
+## Bigram Model (k=1)
+?
+- Present depends on immediate past
+- Given a letter, what's the probability of the next letter being __ ?
