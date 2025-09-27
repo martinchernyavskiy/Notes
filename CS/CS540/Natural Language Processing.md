@@ -102,3 +102,8 @@
 		- Let v_w and u_w be two vectors that denote center/context
 			- ![[Pasted image 20250927151802.png]]
 			- If dot product of u and c is large, it means they have a higher similarity
+
+## Transformers
+?
+- Special model architectures based on attention
+	- Sophisticated types of neural networks
