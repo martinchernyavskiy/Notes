@@ -8,8 +8,10 @@
 - Supervised Learning
 	- Has labels and numerical data
 - Unsupervised Learning
+	- Contains no label
 - Reinforcement Learning
 
+# Supervised Learning
 ## Examples
 ?
 - Based on the previous likings of the user, predict whether this user will like a song "A" 
@@ -46,3 +48,44 @@
 		- Sum these and divide by n
 - Training set error (regression)
 	- Since label is continuous, we subtract an expected label from the output of a function and square it. Then we sum these all up for all of the training data points and divide by n
+- Want to find a function that minimizes the loss 
+
+# Unsupervised Learning
+
+## Clustering
+?
+- Given data, divide the data into clusters 
+	- Data within clusters share similarities, but differ from other clusters
+	- Clustering for genes
+	- Clustering for words
+
+### How to perform clustering?
+?
+- K-means clustering
+	- Specify the desired number of clusters and use iterative algorithm to find them
+- Hierarchical clustering
+	- Build a binary tree over a datset
+
+## Self-Supervised Learning
+?
+- Unlabeled dataset
+- Goal is to discover interesting patterns and structures in the data
+- Approach: generate supervision signal from data. Solve *pretext task*
+	- e.g., word embeddings
+	- For LLMs
+		- next-word prediction
+	- For computer vision
+		- image inpainting
+
+# Reinforcement Learning 
+
+## Agent
+?
+- Entity that take actions that reward function evaluates on how good the action was
+	- Goal is to learn to choose actions that maximize future reward total
+
+## RL problems
+?
+- Actions may have delayed effects (not immediate)
+	- Requires *credit-assignment* that denotes which actions from sequence were good or bad
+- Maximal reward action is unknown
