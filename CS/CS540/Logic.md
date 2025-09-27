@@ -65,7 +65,6 @@
 ## First Order Logic (FOL)
 ?
 - Propositional Logic has limitations since we can't say for example that all squares have 4 sides.
-	- *We're limited to binary outcomes*
 - *FOL* is more expressive logic, works over facts, objects, relations, and functions
 	- *Term*: object in the world
 		- Constant, variables, functions
