@@ -6,10 +6,12 @@
 		- Summarize or extract information
 		- Translate between languages
 		- Generate dialogue/language
+<!--SR:!2025-10-02,4,272-->
 
 ## Challenges of NLP
 ?
-- Language can be ambiguous 
+- Language can be ambiguous
+<!--SR:!2025-10-02,4,272--> 
 
 ## Language Models
 ?
@@ -30,6 +32,7 @@
 	- Markov assumption with shorter history
 		- Probability of a word depends on probability of k of previous ones
 		- We don't need whole past of previous words, instead we can just pick k that are closest to the one we are making assumption for
+<!--SR:!2025-10-02,4,272-->
 
 ## Unigram Model (k=0)
 ?

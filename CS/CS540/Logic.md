@@ -25,12 +25,14 @@
 - *Connectives* include (conjunction, disjunction, implication, biconditional, negation)
 	- Precedence follows: not --> and --> or --> implies --> equivalence
 	- Parentheses when needed
+<!--SR:!2025-10-02,4,274-->
 
 ## Sentences & Semantics
 ?
 - *Interpretation*: (True/False in truth table for symbols)
 - *Semantics*: Interpretations for which sentences evaluate to true
 - *Model*: interpretation for which all sentences are true
+<!--SR:!2025-10-02,4,274-->
 
 ## Knowledge Bases
 ?
@@ -38,6 +40,7 @@
 	- Each connected with conjunction
 - Model of KB is interpretations for which all sentences are true
 - Goal: inference to discover new sentences
+<!--SR:!2025-10-02,4,274-->
 
 ## Entailment
 ?

@@ -16,7 +16,7 @@ Resources:
 - *Storage* (long-term data)
 - *Network* (provides communication between computers)
 	- Managed by Network Interface Card (*NIC*)
-<!--SR:!2025-09-28,14,292-->
+<!--SR:!2025-11-24,57,312-->
 
 ## Bid Data Systems
 ?
@@ -51,7 +51,7 @@ Servers whose datasets grow may run too slowly or not run at all given there is 
 .
 - *FLOPS*: floating-point operations per second, way of measuring performance of GPUs
 - *Benchmark*: program for measuring performance
-<!--SR:!2025-09-28,14,292-->
+<!--SR:!2025-11-23,56,312-->
 
 ## RAM
 ?

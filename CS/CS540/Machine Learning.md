@@ -11,11 +11,12 @@
 - Unsupervised Learning
 	- Contains no label
 - Reinforcement Learning
+<!--SR:!2025-10-02,4,272-->
 
 # Supervised Learning
 ## Examples
 ?
-- Based on the previous likings of the user, predict whether this user will like a song "A" 
+- Based on the previous likings of the user, predict whether this user will like a song "A"
 - Image classification
 	- Feed training data to the machine to train it to recognize what class a given image is
 	- Test by providing different data
@@ -24,6 +25,7 @@
 ## Data Representation
 ?
 - Represent data using vectors where the dimension is called a feature dimension
+<!--SR:!2025-10-02,4,272-->
 
 ## Types of Supervised Learning Algorithms
 ?
@@ -50,7 +52,8 @@
 		- Sum these and divide by n
 - Training set error (regression)
 	- Since label is continuous, we subtract an expected label from the output of a function and square it. Then we sum these all up for all of the training data points and divide by n
-- Want to find a function that minimizes the loss 
+- Want to find a function that minimizes the loss
+<!--SR:!2025-10-02,4,272--> 
 
 # Unsupervised Learning
 

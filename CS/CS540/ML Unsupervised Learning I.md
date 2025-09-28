@@ -3,6 +3,7 @@
 ?
 - Allows to make predictions, classify data, perform regression
 - Has features and labels and the goal is to find a function with minimal loss to predict label on future data
+<!--SR:!2025-10-02,4,270-->
 
 ## Unsupervised Learning
 ?
@@ -24,12 +25,14 @@
 - Bayesian
 	- Decision-based
 	- Nonparametric
+<!--SR:!2025-10-02,4,270-->
 
 ## Hierarchical Clustering
 ?
 - Grouping points together based on whether they are similar to each other
 	- Move from specific to general
 	- no need for k
+<!--SR:!2025-10-02,4,270-->
 
 ## Agglomerative Clustering
 ?
@@ -58,6 +61,7 @@
 	- For each point x determine its cluster based on closest center in Euclidean space
 	- Get the mean of points within each cluster and make these as centroids of their respective cluster
 	- Repeat until the centroids no longer move
+<!--SR:!2025-10-02,4,270-->
 
 ## K-means algorithm
 ?
@@ -73,6 +77,7 @@
 ## K-means optimization problem
 ?
 - The goal is to minimize the sum of distances from the points to the corresponding cluster center
+<!--SR:!2025-10-02,4,270-->
 
 ## Does k-means algorithm stop?
 ?
