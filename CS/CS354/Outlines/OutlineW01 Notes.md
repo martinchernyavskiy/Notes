@@ -20,7 +20,7 @@
 - boolean is not a standard data type in C, instead false is a number 0 and true is any number that is non-zero, including character ASCII values and etc.
 	- 0, NULL, '\0' result in false
 - *Dangling else* is an else selection statement for which there are more ifs preceding it
-- Compiler doesn't see indentations, instead it connects the else statement with the closest if 
+- Compiler doesn't see indentations, instead it connects the else statement with the closest if
 	- To address this, we use curly braces to indicate a code block
 - *Basic format specifiers*:
 	- %i for integer
@@ -54,6 +54,7 @@ for (int j = 0; j < 11; j++) {
 	printf("%i\n", j)
 }
 ```
+<!--SR:!2025-10-01,3,250-->
 
 ## C Program Structure
 ?
@@ -163,6 +164,7 @@ Eventually, your `main` function finishes and returns.
     
 3. **Cleanup**: The OS cleans up everything. It reclaims **all** memory associated with the process—the text, data, stack, and heap segments are all wiped away, and the resources are returned to the system for other programs to use.
 ```
+<!--SR:!2025-10-02,4,270-->
 
 ## Variables
 ?
@@ -182,3 +184,4 @@ Eventually, your `main` function finishes and returns.
 - *Endianess*: byte ordering of variable's value when its size is more than one byte
 	- *Little endian*: least significant byte at lowest address
 	- *Big endian*: most significant byte at at lowest address
+<!--SR:!2025-10-01,3,250-->
