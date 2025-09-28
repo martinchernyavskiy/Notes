@@ -19,6 +19,7 @@
 - Dereferencing operator (\*): follow address of the pointee
 .
 - Dereferencing a pointer that is initialized to NULL will try to access memory location 0 which is reserved by OS, results in segmentation fault (no permission to read address)
+<!--SR:!2025-10-01,3,250-->
 
 ## 1D Arrays
 ?
@@ -37,6 +38,7 @@ int a[5];
 - Identifier for stack allocated array is not available to be changed
 - SAA identifier used as a source operand returns array's memory address
 - Using this identifier as a destination operand results in a compiler error
+<!--SR:!2025-10-01,3,250-->
 
 ## 1D Arrays and Pointers
 - Address Arithmetic:

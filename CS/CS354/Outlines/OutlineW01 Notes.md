@@ -6,12 +6,13 @@
 	- gdb `executable file` allows to debug in real-time
 	- b is for setting breakpoints
 	- run or start is for running the program until the break point
-	- list is for listing out more lines of code 
+	- list is for listing out more lines of code
 		- step: does a single line step / steps into the function
 		- next: step over functions
 		- continue: runs the program to the end until the breakpoint is reached
 - *shell-prompt* is the text preceding input cursor ($)
 - *network*: cs.wisc.edu
+<!--SR:!2025-10-02,4,270-->
 
 ## C Logical Control Flow
 ?
@@ -69,7 +70,7 @@ for (int j = 0; j < 11; j++) {
 		- For example, when program starts, some portion of stack memory is allocated for main() function so that it can store local variables, parameters, or information
 		- int x =1; is allocated space on stack memory within *stack frame* of the main function
 		- *control is transferred* to bang function
-		- consists of stack pointer and base pointer 
+		- consists of stack pointer and base pointer
 	  - *heap memory* used for dynamic memory allocation
 		- used to allocate memory at runtime by the user
 		- must be explicitly allocated and deallocated via code
@@ -82,7 +83,7 @@ for (int j = 0; j < 11; j++) {
 - stdio.h header provides printf, fgets
 - stdlib.h provides dynamic memory allocation, malloc
 - string.h for manipulaing c strings (array of characters with a null terminating character at the end of array)
-- *Global variable*: is a variable declared outside of functions and can be freely used from any function. Declared at the top of the file 
+- *Global variable*: is a variable declared outside of functions and can be freely used from any function. Declared at the top of the file
 - int main(int argc, char \*argv[])
 	- *CLA*: command line arguments, allows to pass extra information to program by passing these
 	- ./prog1 arg1 arg2 : name of executable is also counted as one of the CLA, so this command line include 3 command line arguments
@@ -107,6 +108,7 @@ for (int j = 0; j < 11; j++) {
 - gcc (gnu c compiler)
 	- if don't specify the name of the executable, defaults to a.out (assembler output)
 - test harnesses: separate program to test main program
+<!--SR:!2025-10-01,3,250-->
 
 ## Runtime Description
 ?
