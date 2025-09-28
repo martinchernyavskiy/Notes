@@ -70,7 +70,7 @@
 		- Gives eigenvectors and each of these eigenvectors is our principal components
 	- Principal components are the top-m eigenvectors of this covariance matrix
 	- Each vector is projected to a principal component that is given by: $\sum_{j=1}^{m}(u_{j}^Tx_{i})u_{j}$
-<!--SR:!2025-09-28,3,257-->
+<!--SR:!2025-10-05,7,257-->
 
 ## Dimensionality Reduction Variations
 ?

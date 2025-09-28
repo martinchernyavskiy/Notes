@@ -10,6 +10,7 @@
 - Clustering / Hierarchical Clustering / Centroid-based Clustering
 - PCA is also an unsupervised algorithm
 - Estimating probability distributions is too
+<!--SR:!2025-10-02,4,270-->
 
 ## Clustering
 ?
@@ -34,6 +35,7 @@
 ?
 - Given data points, assume each starts within each own cluster
 	- Merge 2 points (clusters) that are closest to each other
+<!--SR:!2025-10-02,4,270-->
 
 ## Merging Criteria of Agglomerative Clustering
 ?
@@ -44,7 +46,8 @@
 		- Opposite of single-linkage
 		- Minimizes the noise by including the outliers
 	- Average-linkage
-		- Get distance between each point from two clusters 
+		- Get distance between each point from two clusters
+<!--SR:!2025-10-02,4,270--> 
 
 ## Center-based clustering
 ?
@@ -65,6 +68,7 @@
 	- Step 3: Update all cluster centers as the centroids:
 		- Meaning get the mean of points within their cluster and assign it to be the new centroid
 	- Repeat steps 2 and 3 until cluster centers no longer change
+<!--SR:!2025-10-02,4,270-->
 
 ## K-means optimization problem
 ?
@@ -75,10 +79,12 @@
 - Yes, for fixed dataset and fixed number of clusters there are only finite number of ways to assign data points to clusters.
 	- Each iteration assigns each data point to the closest centroid and then recomputes centroids as the mean of assigned points
 	- So each iteration reduces the objective function
+<!--SR:!2025-10-02,4,270-->
 
 ## Global vs. Local Optimum
 ?
 - Finding global optimum using k-means algorithm isn't guaranteed, but we may find local
+<!--SR:!2025-10-02,4,270-->
 
 ## How many clusters to use for k-means?
 ?
@@ -86,3 +92,4 @@
 - Elbow Method
 	- Get the within-cluster sum of squares for different values of k
 	- Plot this vs. k and look for elbow point which is basically where reduction in WCSS slows down
+<!--SR:!2025-10-02,4,270-->

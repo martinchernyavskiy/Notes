@@ -2,6 +2,7 @@
 ?
 - Field of study that gives the computer the ability to learn without being explicitly programmed
 	- Parsing data to learn key patterns and/or understand the data to perform inference/reasoning
+<!--SR:!2025-10-02,4,272-->
 
 ## Taxonomy of ML
 ?
@@ -36,6 +37,7 @@
 	- Have *continuous* values for the label
 	- x can be of higher dimension and is denoted as *features*
 	- y is denoted as *label*/output and is usually of single dimension
+<!--SR:!2025-10-02,4,270-->
 
 
 ## Training Data for Supervised Learning
@@ -54,10 +56,11 @@
 
 ## Clustering
 ?
-- Given data, divide the data into clusters 
+- Given data, divide the data into clusters
 	- Data within clusters share similarities, but differ from other clusters
 	- Clustering for genes
 	- Clustering for words
+<!--SR:!2025-10-02,4,272-->
 
 ### How to perform clustering?
 ?
@@ -65,6 +68,7 @@
 	- Specify the desired number of clusters and use iterative algorithm to find them
 - Hierarchical clustering
 	- Build a binary tree over a datset
+<!--SR:!2025-10-02,4,272-->
 
 ## Self-Supervised Learning
 ?
@@ -76,6 +80,7 @@
 		- next-word prediction
 	- For computer vision
 		- image inpainting
+<!--SR:!2025-10-01,3,252-->
 
 # Reinforcement Learning 
 
@@ -83,9 +88,11 @@
 ?
 - Entity that take actions that reward function evaluates on how good the action was
 	- Goal is to learn to choose actions that maximize future reward total
+<!--SR:!2025-10-02,4,272-->
 
 ## RL problems
 ?
 - Actions may have delayed effects (not immediate)
 	- Requires *credit-assignment* that denotes which actions from sequence were good or bad
 - Maximal reward action is unknown
+<!--SR:!2025-10-02,4,272-->

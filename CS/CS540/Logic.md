@@ -1,6 +1,6 @@
 *Important in the AI field, language of knowledge representation, databases, etc.*
 
-## Symbolic vs. Connectionist 
+## Symbolic vs. Connectionist
 ?
 - Connectionist (showcases relations through arrows and nodes)
 	- Try to represent with vectors and matrices
@@ -8,6 +8,7 @@
 - May allow AI to write formally verifiable proofs
 - *Which is the best?*
 	- Combination of the two, like in Markov Logic Networks
+<!--SR:!2025-10-02,4,274-->
 
 ## Basics of Logic
 ?
@@ -41,6 +42,7 @@
 ## Entailment
 ?
 - If sentence B logically follows from A, then we write A|=B, this is the case where whenever A is true, B is also true
+<!--SR:!2025-10-02,4,274-->
 
 ## Inference
 ?
@@ -61,6 +63,7 @@
 		- Selecting 2 clauses where the latter one has a negative of one symbols of the previous clause
 		- Divide over the disjunction of two symbols that were part of the previous clauses
 	- Given KB, to show that KB entails a sentence Beta, we add negative of Beta to KB and show that the resolution leads to empty
+<!--SR:!2025-10-01,3,254-->
 
 ## First Order Logic (FOL)
 ?
@@ -77,3 +80,4 @@
 		- Atom
 		- Use connectives
 	- *Quantifiers*: for all / there exists
+<!--SR:!2025-10-02,4,274-->
