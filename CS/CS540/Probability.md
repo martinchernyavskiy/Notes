@@ -42,7 +42,7 @@
 	- Posterior: P(H|E): probability of hypothesis given evidence
 - *Naive Bayes*
 	- Conditional Probability follows bayes rule
-<!--SR:!2025-09-28,3,252-->
+<!--SR:!2025-10-05,7,252-->
 
 ## Statistics
 ?
