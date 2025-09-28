@@ -88,7 +88,7 @@ service Calc {
 ```sh
 #! /bin/bash
 
-set -3
+set -e
 
 GEN_DIR="."
 

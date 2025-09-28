@@ -13,6 +13,8 @@
 ## Cache Lines and Misses
 ?
 - As K step gets larger, we skip over more elements in the array, the cache line is given by the K value (end of plateau) times size of data (int32 in the class example), so 64 bytes
+	- For k 1 to 16, hardly any difference is noticeable for the runtime of the program, that is because the runtime is dominated by the memory access to the array and we're reading cache lines one by one for this k interval
+		- For the case when k = 32 or any further square, we're skipping over a cache line and accessing only every second one and so on.
 - *Matrices*
 	- Logically they are 2-dimensional
 	- Physically each row in arranged along a 1-dimension in virtual address space
