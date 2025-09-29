@@ -21,7 +21,7 @@
 - Dereferencing a pointer that is initialized to NULL will try to access memory location 0 which is reserved by OS, results in segmentation fault (no permission to read address)
 <!--SR:!2025-10-01,3,250-->
 
-## 1D Arrays
+## 1D Arrays on Stack
 ?
 - Compound unit of storage consisting of elements whose values can change
 - Accessed by identifier and index
@@ -48,3 +48,28 @@ int a[5];
 		- Offset is automatically scaled based on the data type (size) of element by compiler
 		- \*(a+i), dereference has higher precedence than addition, so must enclose in ()
 		- i is known as *scaled index*, since when used in address arithmetic it is automatically adjusted by compiler to be multiplied by the byte count of a given data type of the array
+
+## Passing Addresses
+?
+- Call Stack Tracing
+	- *Manually executing code with fns in a manner that mimics the machine*
+	- Everytime a function is called, it automatically is allocated a memory stack by compiler to store any local variables, parameters, etc.
+		- When function returns, its *stack frame* (memory) is popped from the stack
+		- Top function is executing, the functions below waiting for callee to return (LIFO)
+
+## Pass by value
+?
+- Scalars: scalar parameter that copies the passed in scalar argument
+- Pointers: pointer parameter that copies the passed in memory address as argument
+- Arrays: pointer parameter that gets a copy of array's address
+
+## 1D arrays on heap
+?
+- For stack, there are static memory allocations and allocation size is known during the compile time
+- For heap, memory is dynamically allocated, allocation is made during the runtime
+	- Enables to access more memory than allocated to the program at compile time
+	- Uses stdlib preprocessing directory with malloc and free library function
+		- malloc returns a *generic* *pointer* (void*) that can be assigned to any pointer type
+		- sizeof(operand) returns the number of bytes of an operand
+		- int * a = malloc(sizeof(int) * 5)
+		- For heap, arrays are creates using malloc and it returns an address type which we save to a scalar pointer variable on the stack which is different from stack allocated array since we're able to change the contents of this pointer unlike the label in SAA
