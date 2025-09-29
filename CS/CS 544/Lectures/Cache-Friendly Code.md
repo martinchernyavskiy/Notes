@@ -6,7 +6,7 @@
 		- If too much, wasteful load data to cache that might never be accessed
 - *Cache Lines*: cache data units for CPU, granularity
 	- Most common size of 64 bytes for modern CPUs
-	- If we access element of the integer array and reading the following bytes of data (granularity)
+	- If we access element of the integer array and reading the following bytes of data 
 <!--SR:!2025-09-30,4,270-->
 
 
@@ -37,7 +37,7 @@
 			- Data is packed into fewest possible cache lines
 <!--SR:!2025-09-30,4,270-->
 
-## Demo
+## Demo (NumPy)
 ?
 - Run a jupyterlab on a docker container and connect to it through local browser
 ```python
@@ -58,10 +58,48 @@ start = time.time()
 result = B[:, 0].sum() # Sums every int64 number in the 0th column
 end = time.time()
 print((start-end) * 1000 + "ms")
+
+
 ```
 <!--SR:!2025-09-30,4,270-->
 
+## Demo(PyArrow)
+?
+- Uses WI mortgage loan csv file
+```python
+import pyarrow as pa
+import pandas as pd
+import pyarrow.csv
+import pyarrow.compute as pc
+import time
+
+start_time = time.time()
+t = pyarrow.csv.read_csv("hdma-wi-2021.csv")
+end_time = time.time()
+print((end_time-start_time) * 1000 + "ms")
+
+start_time2 = time.time()
+dt = t.to_pandas(t)
+end_time2 = time.time()
+print((start_time2-end_time2) * 1000 + "ms")
+
+pc.utf8_lower(t["lei"].to_lower())
+t["income"]
+
+pc.mean(t["income"].drop_null().as_py())
+```
+- Using PyArrow schema is faster for parsing through csv
+- Pandas substitutes missing data in columns by NaN (double)
+## Virtual Address Spaces
+?
+- Each process that runs a program has its own *virtual address space*, (also called *pages* which are 4KB)
+- Same virtual address refers to different memory in different processes
+- Regular process *can't* directly access physical memory or other address spaces
+	- Address spaces can have holes 
+	- Physical memory for process doesn't need to be contiguous
 ## OS Page Cache
+?
+- 
 
-
-## 
+## Demo (PyArrow + Docker)
+?
