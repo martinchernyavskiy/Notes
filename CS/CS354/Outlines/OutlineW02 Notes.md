@@ -81,3 +81,32 @@ int a[5];
 - *Dangling Pointer*: pointer variable with address to memory that has been freed
 	- Good practice is to assign the pointer to NULL when we freed its heap memory block
 - *Memory leak*: Heap memory that is unusable since it has not been freed properly
+- Since local variables are temporary in stack frame, we can't return its address in a function as it doesn't exist.
+	- If want to access after function returns, use heap memory
+
+## C Strings
+?
+- Array of characters with last element being a null terminating character (of size strlen + 1)
+- *String literal*: constant source code string
+	- Can't change its contents
+	- Stored in *Code Segment* since it is read only, allocated memory prior to execution of program
+	- Accessing string literal returns its memory address to read from, but we can't write to it
+- char str\[9] = "CS 354"; is a string literal where CS 354 is allocated space on memory segment but also a copy of the data is created on the stack with str label (9 characters)
+- Assignment can't be used for copying character arrays
+
+## string.h library
+?
+- Collection of useful functions to manipulate c strings
+- int strlen(*const* char \*str)
+	- Returns length of string str, not including null character
+- int strcomp(const char \*str1, const char \*str2)
+	- Compares str1 to str2 
+	- <0 if str1 comes before str2
+	- =0 if str1 and str2 are equal
+	- >0 if str1 comes after str2
+- char \*strcpy(char \*destination, const char \*source)
+	- Copies c string from source into destination, terminating with null character
+- char \*strcat(char \*destination, const char \*source)
+	- Appends string pointed to by source to the end of string pointed by destination and terminates with null character
+- *We must ensure that the destination character array is large enough for the result and null character*
+- *Buffer overflow*: exceeding bounds of the array
