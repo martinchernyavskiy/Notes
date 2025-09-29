@@ -5,6 +5,7 @@
 
 ## 2D arrays on Heap
 ?
+- The arrays that array of pointers point to may not be stored next to each other
 ```C
 	int** m; 
 	m = malloc(sizeof(int*) * 2) 
@@ -25,3 +26,13 @@
 (*(m+i))[j] // dereference 
 *(*(m+i)+j) 
 ```
+
+## 2D arrays on Stack
+?
+- All elements are located next to each other unlike in heap
+```C
+int m[2][4] = {{0,1,2,3}, {4,5,6,7}}
+```
+- Laid out in *ROW AMAJOR* order as a single contiguous block of memory
+	- All elements are stored in memory row by row
+- m is once again a label and not a pointer to the array, can't be changed
