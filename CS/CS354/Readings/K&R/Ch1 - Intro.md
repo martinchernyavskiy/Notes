@@ -190,6 +190,7 @@ main() {
 ```
 - Assignments are associated from right to left
 - Expressions connected by logical operators are read from left to right, potentially skipped if a certain condition holds before
+<!--SR:!2025-10-02,4,270-->
 
 ## Arrays
 ?

@@ -41,6 +41,7 @@ int a[5];
 <!--SR:!2025-10-01,3,250-->
 
 ## 1D Arrays and Pointers
+?
 - Address Arithmetic:
 	- Computing address of an ith element is given by:
 		- Adding array's starting address (label) and a byte offset which is i to get to element
