@@ -73,3 +73,11 @@ int a[5];
 		- sizeof(operand) returns the number of bytes of an operand
 		- int * a = malloc(sizeof(int) * 5)
 		- For heap, arrays are creates using malloc and it returns an address type which we save to a scalar pointer variable on the stack which is different from stack allocated array since we're able to change the contents of this pointer unlike the label in SAA
+
+## Pointer Caveats
+?
+- Don't dereference uninitialized or NULL pointers
+	- Intermittent error / segmentation fault
+- *Dangling Pointer*: pointer variable with address to memory that has been freed
+	- Good practice is to assign the pointer to NULL when we freed its heap memory block
+- *Memory leak*: Heap memory that is unusable since it has not been freed properly
