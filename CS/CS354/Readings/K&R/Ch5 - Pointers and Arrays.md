@@ -9,6 +9,7 @@
 ```C
 double *dp, atof(char *);
 ```
+<!--SR:!2025-10-02,4,270-->
 
 ## Pointers and Function Arguments
 

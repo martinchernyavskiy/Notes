@@ -12,6 +12,7 @@ int main() {
 	printf("Hello World!\n)
 }
 ```
+<!--SR:!2025-10-02,4,270-->
 
 ## Variables and Arithmetic Expressions
 ?
