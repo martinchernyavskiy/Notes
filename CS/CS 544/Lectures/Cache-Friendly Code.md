@@ -92,14 +92,48 @@ pc.mean(t["income"].drop_null().as_py())
 - Pandas substitutes missing data in columns by NaN (double)
 ## Virtual Address Spaces
 ?
-- Each process that runs a program has its own *virtual address space*, (also called *pages* which are 4KB)
+- Each process that runs a program has its own *virtual address space*, (also called *pages* which are usually 4KB)
 - Same virtual address refers to different memory in different processes
 - Regular process *can't* directly access physical memory or other address spaces
-	- Address spaces can have holes 
+	- Address spaces can have holes (data that exists in virtual address spaces are called *pages*)
 	- Physical memory for process doesn't need to be contiguous
+
+## What goes in an address space?
+?
+- Code, stack and heap go on virtual address spaces (code and heap not contiguous)
+- Some packages like numpy have code in C and this also goes on virtual address spaces
+	- Uses instruction pointer (cpu attaches to one at and runs code by executing instructions and advancing the instruction pointer)
+
 ## OS Page Cache
 ?
-- 
+- mmap (Memory Map)
+	- Adds new regions to a virtual address space
+		- Anonymous
+			- import mmap
+			- mm = mmap.mmap(-1, 4096*3)
+			- -1 indicates anonymois mmap
+		- Backed by a file
+			- f = open("file.txt", mode="rb")
+			- mm = mmap.mmap(f.fileno(), 0, access=mmap.ACCESS_READ)
+				- 0 means all
+				- automatically reads data from disk and loads it into a physical memory when we read data for the virtual address spaces
 
-## Demo (PyArrow + Docker)
+## Demo (PyArrow + Docker), mmap
 ?
+- docker run -p 301:300 -m 512mb demo
+-  
+```python
+import pyarrow as pa
+import pyarrow.compute as pc
+
+batch = pa.RecordBatch.from_arrays([range(1,1_000_000),
+                                    range(1,1_000_000),
+                                    range(1,1_000_000)],
+                                   names=["x", "y", "z"])
+print(batch.nbytes / 1024**2)
+
+with pa.ipc.new_file("test.arrow", schema=batch.schema) as f:
+    for i in range(50):
+        f.write_batch(batch)
+
+```

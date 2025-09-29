@@ -44,6 +44,7 @@ int a[5];
 ?
 - Address Arithmetic:
 	- Computing address of an ith element is given by:
-		- Adding array's starting address (label) and a byte offset which is i to get to element
+		- Adding array's starting address (label) and a *byte offset* which is i to get to element
 		- Offset is automatically scaled based on the data type (size) of element by compiler
 		- \*(a+i), dereference has higher precedence than addition, so must enclose in ()
+		- i is known as *scaled index*, since when used in address arithmetic it is automatically adjusted by compiler to be multiplied by the byte count of a given data type of the array
