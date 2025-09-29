@@ -36,3 +36,5 @@ int m[2][4] = {{0,1,2,3}, {4,5,6,7}}
 - Laid out in *ROW AMAJOR* order as a single contiguous block of memory
 	- All elements are stored in memory row by row
 - m is once again a label and not a pointer to the array, can't be changed
+- \*m accesses address of start of row 0 and etc.
+	- int * pointer with scale factor being the next item (row of 4 elements times 4 bytes)
