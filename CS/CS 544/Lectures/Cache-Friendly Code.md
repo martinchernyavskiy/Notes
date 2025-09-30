@@ -23,6 +23,7 @@
 	- Transpose doesn't move or copy data
 		- Putting column data in rows and transposing provides fast column sum
 - The layout where data is contiguous is most cache friendly since we have less misses and only need to read one cache line
+
 ## PyArrow
 ?
 - Provides cache friendly layouts (data structures)
@@ -61,7 +62,7 @@ print((start-end) * 1000 + "ms")
 
 
 ```
-<!--SR:!2025-09-30,4,270-->
+<!--SR:!2025-10-10,10,270-->
 
 ## Demo(PyArrow)
 ?

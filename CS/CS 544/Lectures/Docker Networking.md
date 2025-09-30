@@ -76,4 +76,4 @@ services:
 	- *Simple partitioning*: split up by half directly, however might not know which computer to ask for a given name.
 	- *Range partitioning*: have a set range, easy to know where to find a given name, hard to find a good split point
 	- *Hash Partitioning*: choose key column and then hash it, hash function returns arbitrary number for any input.
-<!--SR:!2025-09-30,4,270--> 
+<!--SR:!2025-10-12,12,270--> 

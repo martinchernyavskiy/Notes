@@ -83,7 +83,7 @@ Enumerated steps:
 2. Expect output of each program to become input of the other, one which isn't cluttered with meaningless information for easier use.
 3. Design & Build software early to be tried early.
 4. Use tools to lighted a programming tasks even if you may end up throwing them away after finishing using them.
-<!--SR:!2025-09-29,15,290-->
+<!--SR:!2025-11-29,60,310-->
 
 ### Uniform Interface
 - Transferring input/output values between the programs requires for these to be the same data format --> same input/output interface

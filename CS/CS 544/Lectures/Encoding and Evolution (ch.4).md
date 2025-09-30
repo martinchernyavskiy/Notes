@@ -56,7 +56,7 @@
 - Don't want every machine to be able to receive packets from anywhere
 	- Can be divided into subnetworks to create different networks in a bigger org
 - Creates individual networks within large organization
-<!--SR:!2025-09-30,4,272-->
+<!--SR:!2025-10-11,11,272-->
 
 
 ## Network Address Translation
