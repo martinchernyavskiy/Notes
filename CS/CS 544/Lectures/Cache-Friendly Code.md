@@ -178,3 +178,4 @@ with. pa.ipc.open_file(mm) as f:
 	
 pc.sum(t["x"]) # brings in data from disk and automatically evicts already used data to not exceed memory
 ```
+- ls /proc/
