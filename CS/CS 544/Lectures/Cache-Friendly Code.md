@@ -107,12 +107,14 @@ pc.mean(t["income"].drop_null().as_py())
 - Address spaces are sparse and have a lot of holes (data that exists in virtual address spaces are called *pages*)
 	- Virtual address spaces are usually of much larger N than M of the physical addresses (these refer to number of pages)
 	- Contiguous virtual address spaces may not be contiguous in physical memory addresses
+<!--SR:!2025-10-04,4,278-->
 
 ## What goes in an address space?
 ?
 - Code, stack and heap go on virtual address spaces (code and heap not contiguous)
 - Some packages like numpy have code in C and this also goes on virtual address spaces
 	- Uses instruction pointer (cpu attaches to one at and runs code by executing instructions and advancing the instruction pointer)
+<!--SR:!2025-10-04,4,278-->
 
 ## OS Page Cache
 ?
