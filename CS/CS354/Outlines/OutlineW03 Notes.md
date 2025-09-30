@@ -55,4 +55,3 @@ int m[2][4] = {{0,1,2,3}, {4,5,6,7}}
 ?
 - Arrays have no bounds checking or have return types
 	- Assigning indices outside of the array bounds results in buffer overflow
-	- 
