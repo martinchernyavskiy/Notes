@@ -16,7 +16,7 @@
 - Lists 2 interfaces:
 	- Loop back interface (allows for creation of network for device to itself), virtual
 	- ens4 interface, physical
-<!--SR:!2025-09-30,4,272--> 
+<!--SR:!2025-10-15,15,292--> 
 
 ## Networks
 ?
@@ -26,21 +26,21 @@
 - Computers can have multiple NICs
 	- Can be on multiple networks
 - Use same physical tech (Wi-Fi, Ethernet, etc.)
-<!--SR:!2025-09-30,4,272-->
+<!--SR:!2025-10-14,14,292-->
 
 ## Routers
 ?
 - We can't send MAC addr to another network without NIC there
 - Connect networks together to form internets
 - Global internet is the "Internet" we use
-<!--SR:!2025-09-30,4,272-->
+<!--SR:!2025-10-16,16,292-->
 
 ## Packet Forwarding
 ?
 - Packets (which are some bytes with address and other info) can be forwarded along path from point A to point B (using routers and switches)
 - Routers contain forwarding tables that help to decide which direction to send along a packet
 	- Such tables would be too big if a router had to know where every MAC existed in the internet
-<!--SR:!2025-09-30,4,272-->
+<!--SR:!2025-10-16,16,292-->
 
 ## Internet Protocol (IP address)
 ?
@@ -48,7 +48,7 @@
 - 4 billion possible IP addresses (IPv4), where IPv6 are 4x longer
 - Forwarding tables only need to know which way to send for a given network number (ip address is 4 bytes total where part of it is that network number and another part is the unique ID)
 - 127.0.0.1 is the loopback interface
-<!--SR:!2025-09-30,4,272-->
+<!--SR:!2025-10-14,14,292-->
 
 ## Private Networks
 ?
@@ -64,12 +64,12 @@
 - NICs can have internal and external IP, eg. Google Console
 	- *Firewall* can limit what traffic is allowed
 	- External IPs are *ephemeral*, meaning they change upon reboot. But can rent static IPs that don't change
-<!--SR:!2025-09-30,4,272-->
+<!--SR:!2025-10-16,16,292-->
 
 ## Port Numbers
 ?
 - Specify the process since computers may run multiple on the same network
-<!--SR:!2025-09-30,4,272-->
+<!--SR:!2025-10-15,15,292-->
 
 ## Running a server on GC
 ?
@@ -98,4 +98,4 @@
 - TCP or UDP (IP Address + Ports)
 - Internet Protocol (IP Address)
 - Ethernet or Wi-Fi (MAC address)
-<!--SR:!2025-09-30,4,272-->
+<!--SR:!2025-10-15,15,292-->

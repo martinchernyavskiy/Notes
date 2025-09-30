@@ -105,4 +105,4 @@ Enumerated steps:
 - Can end pipeline whenever you wish, good for debugging
 - Can save output of pipeline to a file and use that file as an input to the next stage.
 - Ran only on a single machine, *Hadoop* solves that
-<!--SR:!2025-09-30,16,290-->
+<!--SR:!2025-12-03,64,310-->

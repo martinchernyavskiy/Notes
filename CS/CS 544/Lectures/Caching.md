@@ -14,7 +14,7 @@
 - *Storing data in a temporary storage area to enable faster access to that data in the future*
 - CPUs can have small memory built in for data accessed frequently
 	- This decreases the latency it takes to read from RAM
-<!--SR:!2025-09-30,4,270-->
+<!--SR:!2025-10-12,12,270-->
 
 ## Cache Hierarchy
 ?
@@ -26,7 +26,7 @@
 	- RAM
 	- Storage Devices
 	- Cloud Storage (network)
-<!--SR:!2025-09-30,4,270-->
+<!--SR:!2025-10-15,15,290-->
 
 ## Resource Tradeoffs
 ?
@@ -39,7 +39,7 @@
 - Python Dictionary caches return values in a dict
 	- Uses memory space
 	- Avoids repeated compute
-<!--SR:!2025-09-30,4,270-->
+<!--SR:!2025-10-11,11,270-->
 
 ## Manual Caching, Spark
 ?
@@ -66,7 +66,7 @@ spark_df.unpersists() # free up memory
 		- Evict whichever has been in cache the longest
 	- LRU (least recently used)
 		- Evict entry that has been used the least recently
-<!--SR:!2025-09-30,4,270-->
+<!--SR:!2025-10-14,14,290-->
 
 ## Demo
 ?
@@ -104,4 +104,4 @@ for station in workload[:10]:
 	df = get_station(station)
 ```
 - Can also implement LRU cache policy
-<!--SR:!2025-09-30,4,270-->
+<!--SR:!2025-10-14,14,290-->

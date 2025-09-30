@@ -24,7 +24,7 @@ Servers whose datasets grow may run too slowly or not run at all given there is 
 - *Scale Up / Out* or *More efficient code*
 - *Distributed* (cluster of machines)
 - *Specialized* (GPUs)
-<!--SR:!2025-09-30,16,292-->
+<!--SR:!2025-12-04,65,312-->
 
 ## Compute
 ?
@@ -59,7 +59,7 @@ Servers whose datasets grow may run too slowly or not run at all given there is 
 - *Byte addressable*
 	- Each byte of data has its own address that the CPU can use to access it
 - *Fast, volatile, small*
-<!--SR:!2025-09-30,16,292-->
+<!--SR:!2025-12-05,66,312-->
 
 ## Storage
 ?

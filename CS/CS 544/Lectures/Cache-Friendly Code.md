@@ -6,8 +6,8 @@
 		- If too much, wasteful load data to cache that might never be accessed
 - *Cache Lines*: cache data units for CPU, granularity
 	- Most common size of 64 bytes for modern CPUs
-	- If we access element of the integer array and reading the following bytes of data 
-<!--SR:!2025-09-30,4,270-->
+	- If we access element of the integer array and reading the following bytes of data
+<!--SR:!2025-10-14,14,290-->
 
 
 ## Cache Lines and Misses
@@ -36,7 +36,7 @@
 		- Offsets Buffer: list of indices that point to the start of each string in value buffer
 		- Value buffer: contains non-null strings contiguously
 			- Data is packed into fewest possible cache lines
-<!--SR:!2025-09-30,4,270-->
+<!--SR:!2025-10-10,10,270-->
 
 ## Demo (NumPy)
 ?
@@ -66,6 +66,7 @@ print((start-end) * 1000 + "ms")
 
 ## Demo(PyArrow)
 ?
+- Useful not just for numerical data but also for string 
 - Uses WI mortgage loan csv file
 ```python
 import pyarrow as pa

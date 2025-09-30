@@ -6,7 +6,7 @@
 - *Density / Mass function (PDF)*: $p_{X}(x)$: basically a derivative of CDF
 - Expectation (average): $E[X] = \sum_{a}^{}a \times P(x=a)$
 - Variance (spread): $Var[X]=E[(X-E[X])^2]$ ; average of squared difference from the mean
-<!--SR:!2025-09-29,4,270-->
+<!--SR:!2025-10-15,15,290-->
 
 ## Probability
 ?
@@ -81,4 +81,4 @@
 	- Bias / Variance Decomposition
 		- $MSE[\bar{\theta}]=E[(\bar{\theta}-E[\bar{\theta}])^2+(E[\bar{\theta}]-\theta)^2$
 			- Where first part is variance and second part is bias
-<!--SR:!2025-09-29,4,272-->
+<!--SR:!2025-10-11,11,272-->

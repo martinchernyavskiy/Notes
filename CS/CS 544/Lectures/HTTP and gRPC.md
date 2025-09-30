@@ -6,7 +6,7 @@
 	- Client sends request to server
 	- Server sends response to client
 	- Contain header information
-<!--SR:!2025-09-30,4,270-->
+<!--SR:!2025-10-15,15,290-->
 
 ## HTTP methods
 ?
@@ -16,7 +16,7 @@
 - DELETE: delete a resource
 - others...
 - REST API (application program interface) provide ability to use the http methods using official APIs from servers
-<!--SR:!2025-09-30,4,270-->
+<!--SR:!2025-10-15,15,290-->
 
 ## RPC
 ?
@@ -29,7 +29,7 @@
 	- In client have function that sends code to server (*stub function*)
 	- In server have rpc_server that receives code
 - *Serialization and Deserialization*: converts information to/from bytes
-<!--SR:!2025-09-30,4,270-->
+<!--SR:!2025-10-16,16,290-->
 
 ## Serialization and Deserialization (in-depth)
 ?
@@ -40,12 +40,12 @@
 	- Protobufs use variable-length encoding
 		- Smaller numbers could use less bytes if not necessary
 - *Different CPUs order bytes differently*
-<!--SR:!2025-09-30,4,270-->
+<!--SR:!2025-10-16,16,290-->
 
 ## gRPC
 ?
 - Sits on top of HTTP layer
-<!--SR:!2025-09-30,4,270-->
+<!--SR:!2025-10-16,16,290-->
 
 
 ## gRPC demo
@@ -112,4 +112,4 @@ echo "math.proto compiled successfully"
 - For debugging purposes, python3 -u server.py &> log.txt &
 	- Force the stdout and stderr streams to be unbuffered
 - For implementing client, we write a mult.py that uses Calc stub to ask the server to multiply. It shall use argv to get the arguments
-<!--SR:!2025-09-30,4,270-->
+<!--SR:!2025-10-14,14,290-->

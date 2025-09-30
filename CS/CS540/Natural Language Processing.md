@@ -113,7 +113,7 @@
 		- Let v_w and u_w be two vectors that denote center/context
 			- ![[Pasted image 20250927151802.png]]
 			- If dot product of u and c is large, it means they have a higher similarity
-<!--SR:!2025-09-29,1,232-->
+<!--SR:!2025-10-03,3,252-->
 
 ## Transformers
 ?
