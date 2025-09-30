@@ -145,20 +145,36 @@ pc.mean(t["income"].drop_null().as_py())
 ## Demo (PyArrow + Docker), mmap
 ?
 - docker run -p 301:300 -m 512mb demo
--  Generates a much bigger file than can be fit in memory
+-  Generates a much bigger file than can be fit in memory with numbers from 1 to a million in each
 ```python
 import pyarrow as pa
 import pyarrow.compute as pc
+import mmap
 
-#
+# Portion of a table with 3 columns
 batch = pa.RecordBatch.from_arrays([range(1,1_000_000),
                                     range(1,1_000_000),
                                     range(1,1_000_000)],
                                    names=["x", "y", "z"])
-print(batch.nbytes / 1024**2)
+print(batch.nbytes / 1024**2) # occupies around 23 mb of data
 
+# Writes batch into a file 50 times >1 GB total which is storage data
 with pa.ipc.new_file("test.arrow", schema=batch.schema) as f:
     for i in range(50):
         f.write_batch(batch)
 
+# reads the 1GB file into a table, exceeds 512 mb cap and crashes container
+with. pa.ipc.open_file("test.arrow") as f:
+	t = f.read_all()
+	
+with open("test.arrow", "rb") as f:
+	print(f.fileno())
+	mm = mmap.mmap(f.fileno(), 0, access=ACCESS_READ)
+	
+	
+## mm is basically an array of bytes and reading from it
+with. pa.ipc.open_file(mm) as f:
+	t = f.read_all() 
+	
+pc.sum(t["x"]) # brings in data from disk and automatically evicts already used data to not exceed memory
 ```
