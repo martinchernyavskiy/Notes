@@ -66,7 +66,7 @@ print((start-end) * 1000 + "ms")
 
 ## Demo(PyArrow)
 ?
-- Useful not just for numerical data but also for string 
+- Useful not just for numerical data but also for string since they are tighly packed contiguously in memory
 - Uses WI mortgage loan csv file
 ```python
 import pyarrow as pa
@@ -76,29 +76,37 @@ import pyarrow.compute as pc
 import time
 
 start_time = time.time()
-t = pyarrow.csv.read_csv("hdma-wi-2021.csv")
+t = pyarrow.csv.read_csv("hdma-wi-2021.csv") # creates a table from the csv file
 end_time = time.time()
-print((end_time-start_time) * 1000 + "ms")
+print((end_time-start_time) * 1000 + "ms") # about 431 ms
 
 start_time2 = time.time()
-dt = t.to_pandas(t)
+dt = t.to_pandas(t) # converting pyarrow table into pandas dataframe
 end_time2 = time.time()
-print((start_time2-end_time2) * 1000 + "ms")
+print((end_time2-start_time2) * 1000 + "ms") # takes about 242 ms
 
-pc.utf8_lower(t["lei"].to_lower())
+pc.utf8_lower(t["lei"]).to_pandas()
 t["income"]
 
 pc.mean(t["income"].drop_null().as_py())
 ```
-- Using PyArrow schema is faster for parsing through csv
-- Pandas substitutes missing data in columns by NaN (double)
+- PyArrow table has some columns that are integers, strings, etc.
+	- CSV has strings only, but PyArrow has schema inference which automatically converts any string that looks like an integer to an integer type
+	- Making such calculation is preferred in a cache-friendly layout
+	- If we were to convert from the csv to pandas dataframe directly, the time it takes is quite slow since it's dominated by that schema inference
+	- *PyArrow is more efficient but Pandas has more features. Converting from PyArrow to pandas is generally much faster*
+- Pandas substitutes missing data in columns by NaN (double). SInce there is no NaN for integers, it's going to convert that to float unnecessarily
+	- Since PyArrow has validity bitmap, it allows for integer operations which is faster than float operations
+
 ## Virtual Address Spaces
 ?
-- Each process that runs a program has its own *virtual address space*, (also called *pages* which are usually 4KB)
+- Each process that runs a program has its own *virtual address space*, (where its locations (*pages*) are usually 4KB)
 - Same virtual address refers to different memory in different processes
 - Regular process *can't* directly access physical memory or other address spaces
-	- Address spaces can have holes (data that exists in virtual address spaces are called *pages*)
-	- Physical memory for process doesn't need to be contiguous
+	- Helps with isolation so that no process can interfere with each others' data
+- Address spaces are sparse and have a lot of holes (data that exists in virtual address spaces are called *pages*)
+	- Virtual address spaces are usually of much larger N than M of the physical addresses (these refer to number of pages)
+	- Contiguous virtual address spaces may not be contiguous in physical memory addresses
 
 ## What goes in an address space?
 ?
@@ -108,26 +116,41 @@ pc.mean(t["income"].drop_null().as_py())
 
 ## OS Page Cache
 ?
-- mmap (Memory Map)
+- mmap (Memory Map) is a system call that:
 	- Adds new regions to a virtual address space
 		- Anonymous
 			- import mmap
-			- mm = mmap.mmap(-1, 4096*3)
-			- -1 indicates anonymois mmap
-		- Backed by a file
+			- mm = mmap.mmap(-1, 4096 * 3)
+			- -1 indicates anonymous mmap, number in that place is associated with open file
+			- 4096 is 4KB which is roughly a page size and * 3 allocates exactly 3 pages to virtual memory that are mapped to physical addresses (contiguous in virtual address memory)
+			- Usually done automatically by python to store objects on a heap
+		- File-backed mmap
 			- f = open("file.txt", mode="rb")
 			- mm = mmap.mmap(f.fileno(), 0, access=mmap.ACCESS_READ)
-				- 0 means all
-				- automatically reads data from disk and loads it into a physical memory when we read data for the virtual address spaces
+				- fileno associates a file with a number
+				- 0 indicates to allocate pages for the whole thing
+				- Access provides protection for the data
+				- Allocates 4kb pages on a virtual memory associated with 4kb chunks on the disk
+					- Doesn't use any memory or does any computationally heavy task like reading from storage
+					- When a program requests the data by indexing into the given virtual address space, the OS automatically reads that piece of data from storage into memory to be read by you.
+					- Data loaded for accesses to file-backed mmap regions are part of the *page cache* 
+						- Could evict data from memory when under memory pressure, but the data is still stored on the disk
+
+## Swap Space
+?
+- Can we evict anonymous mmap from memory?
+	- Usually can't, but can setup a system that permits it
+		- Create a space (swap file) to which OS can evict data from anonymous mappings (so memory data is evicted to storage which is relatively slow)
 
 ## Demo (PyArrow + Docker), mmap
 ?
 - docker run -p 301:300 -m 512mb demo
--  
+-  Generates a much bigger file than can be fit in memory
 ```python
 import pyarrow as pa
 import pyarrow.compute as pc
 
+#
 batch = pa.RecordBatch.from_arrays([range(1,1_000_000),
                                     range(1,1_000_000),
                                     range(1,1_000_000)],
