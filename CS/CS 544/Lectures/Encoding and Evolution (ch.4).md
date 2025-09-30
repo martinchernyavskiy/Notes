@@ -78,7 +78,7 @@
 	- Setting IP ranges to all 0 allows for anyone to access the server
 	- tcp are the accessible ports
 - `python3 -m http.server -d ./A -b 10.128.02 5400 &> A_out &`
-<!--SR:!2025-09-30,4,272-->
+<!--SR:!2025-10-14,14,292-->
 
 ## Transport Protocols
 ?
@@ -90,7 +90,7 @@
 	- Packets may be dropped, reordered, split
 - Both build on IP networking and provide port numbers
 - -tlpn, t is for tcp and u is for udp
-<!--SR:!2025-09-30,4,272-->
+<!--SR:!2025-10-10,10,272-->
 
 ## Network Stack
 ?

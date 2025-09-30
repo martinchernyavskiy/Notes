@@ -14,7 +14,7 @@ docker run -d -p 127.0.0.1:400:80 myimg
 - SSH is used to send commands or forward network traffic
 - SSHDemon program runs on VM which is a server that's looking for incoming connections from SSH client
 	- Uses port 22 by default
-<!--SR:!2025-09-30,4,270-->
+<!--SR:!2025-10-15,15,290-->
 
 ## SSH Tunnel
 ?
@@ -27,7 +27,7 @@ docker run -d -p 127.0.0.1:400:80 myimg
 	- If we don't specify the the IP address in docker run command, then it defaults to 0 and anyone from anywhere can talk to port 300 of the VM and run code inside the jupyterlab
 - Port forwarding nevers goes to lo inside container
 	- Instead use 0.0.0.0 inside container
-<!--SR:!2025-09-30,4,270-->
+<!--SR:!2025-10-16,16,290-->
 
 ### Demo
 ```Bash
@@ -67,7 +67,7 @@ services:
 			replicas: 3
 ```
 - docker compose up
-<!--SR:!2025-09-30,4,270-->
+<!--SR:!2025-10-12,12,270-->
 
 ## Data Placement
 ?

@@ -7,7 +7,7 @@
 - Loading a value from RAM takes about 60ns or 200 cycles
 	- Slow but not long enough to switch to a different process
 	- Time indicates latency, throughout shows how many bytes per second can be loaded
-<!--SR:!2025-09-30,4,270-->
+<!--SR:!2025-10-14,14,290-->
 
 ## Cache
 ?
@@ -51,7 +51,7 @@ spark_df.unpersists() # free up memory
 ```
 - Stale data is deleted after expiration time
 - SSD is large, so freshness is more important than space
-<!--SR:!2025-09-30,4,270-->
+<!--SR:!2025-10-15,15,290-->
 
 ## Cache Policies
 ?

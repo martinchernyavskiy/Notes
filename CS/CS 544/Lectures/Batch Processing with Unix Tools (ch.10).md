@@ -97,7 +97,7 @@ Enumerated steps:
 - Uses standard input/output (stdin/stdout). Default keyboard/screen. *Can specify input/output to be files*
 - Pipes allow to connect stdout of one process to stdin of another process. Uses in-memory buffer, but no intermediate data stream to disk
 - Custom programs can take part of this pipeline by using stdin/stdout directly
-<!--SR:!2025-09-29,15,294-->
+<!--SR:!2025-11-30,61,314-->
 
 ### Transparency and Experimentation
 ?
