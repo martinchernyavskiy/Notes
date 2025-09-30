@@ -33,8 +33,26 @@
 ```C
 int m[2][4] = {{0,1,2,3}, {4,5,6,7}}
 ```
-- Laid out in *ROW AMAJOR* order as a single contiguous block of memory
+- Laid out in *ROW MAJOR* order as a single contiguous block of memory
 	- All elements are stored in memory row by row
 - m is once again a label and not a pointer to the array, can't be changed
-- \*m accesses address of start of row 0 and etc.
-	- int * pointer with scale factor being the next item (row of 4 elements times 4 bytes)
+
+## Stack and Heap 2D array Compatibility
+?
+- Type and scale factor
+- \*\*m gives m00 which is an int and has no scalar factor
+- \*(m+i) gives address of start of row i
+	- Scale factor for heap is 4, for stack it's size of row
+- m is of type int ** and scale factor is to skip to the address of next row
+
+## 2D stack allocated arrays property
+?
+- m and \*m are same addresses but not the same type
+- ![[Pasted image 20250929193815.png]]
+- ![[Pasted image 20250929194056.png]]
+
+## Array Caveats
+?
+- Arrays have no bounds checking or have return types
+	- Assigning indices outside of the array bounds results in buffer overflow
+	- 
