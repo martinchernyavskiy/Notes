@@ -89,4 +89,11 @@ int main(int argc, char *argv[]) {
 
 ## Three Faces of Memory
 ?
-- Use abstraction to manage complexity
+- Use *abstraction* to manage complexity, focus only on relevant details
+- The 3 faces of memory include:
+	- *Process View (Virtual Memory)*
+		- Provides simple view of memory (have more than have physically)
+		- *Virtual Address Space* -> illusion by operating system that each process has its own contiguous memory space
+		- *Virtual Address* -> simulated address that a process generates
+	- *System View (Illusionist)*
+	- *Hardware View (Physical Memory)*
