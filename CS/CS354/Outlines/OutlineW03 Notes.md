@@ -143,4 +143,8 @@ Pokemon pokedex[2] = {
 
 ## Pointers to Structures
 ?
-- Since passing structures to functions copied them as a whole, this is pretty inefficient in terms of memory and instead we can use pointers to the struct declared on stack to change its contents directly
+- Since passing structures to functions copied them as a whole, this is pretty inefficient in terms of memory and instead we can use pointers to the struct declared on stack to change its data members directly
+- Enable heap allocation of structs
+```C
+Pokemon * pmptr = malloc(sizeof(Pokemon))
+```
