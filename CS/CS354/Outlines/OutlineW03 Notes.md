@@ -147,4 +147,7 @@ Pokemon pokedex[2] = {
 - Enable heap allocation of structs
 ```C
 Pokemon * pmptr = malloc(sizeof(Pokemon))
+(*pmptr).weight = 28.6l
 ```
+- *Points to operator `->`*; pmptr -> weight = 28.6
+- strcpy(pmptr -> name, "Pikachu"); // can only set string literal during the initialization, not after declaration
