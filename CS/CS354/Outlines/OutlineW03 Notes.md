@@ -55,8 +55,7 @@ int m[2][4] = {{0,1,2,3}, {4,5,6,7}}
 - m and \*m are same addresses but not the same type
 - `*(*m+cols*i+j) is for accessing m[i][j] for stack allocated array only`
 - *Basic memory diagram of a SA2DA is a rectangular matrix*
-- ![[Pasted image 20250929193815.png]]
-- ![[Pasted image 20250929194056.png]]
+<!--SR:!2025-10-04,3,255-->
 
 ## Array Caveats
 ?
@@ -107,6 +106,7 @@ typedef struct {
 - Unlike for arrays where only address is copied over, every member of struct is copied over
 - struct Date tomorrow;
 - tomorrow = today;
+<!--SR:!2025-10-04,3,255-->
 
 ## Nesting in Structures and Arrays of Structures
 ?

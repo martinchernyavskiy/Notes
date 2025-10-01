@@ -50,6 +50,7 @@
 - fclose(FILE * stream)
 	- flushes output buffer and then closes specified stream
 	- returns 0 or EOF
+<!--SR:!2025-10-04,3,250-->
 
 ## Copying Text Files
 ?
@@ -87,6 +88,7 @@ int main(int argc, char *argv[]) {
 }
 ```
 
+<< --- MIDTERM1 --- >>
 ## Three Faces of Memory
 ?
 - Use *abstraction* to manage complexity, focus only on relevant details
