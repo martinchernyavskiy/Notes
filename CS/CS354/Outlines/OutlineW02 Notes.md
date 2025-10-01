@@ -19,7 +19,7 @@
 - Dereferencing operator (\*): follow address of the pointee
 .
 - Dereferencing a pointer that is initialized to NULL will try to access memory location 0 which is reserved by OS, results in segmentation fault (no permission to read address)
-<!--SR:!2025-10-01,3,250-->
+<!--SR:!2025-10-09,8,250-->
 
 ## 1D Arrays on Stack
 ?
@@ -38,7 +38,7 @@ int a[5];
 - Identifier for stack allocated array is not available to be changed
 - SAA identifier used as a source operand returns array's memory address
 - Using this identifier as a destination operand results in a compiler error
-<!--SR:!2025-10-01,3,250-->
+<!--SR:!2025-10-08,7,250-->
 
 ## 1D Arrays and Pointers
 ?
@@ -48,6 +48,7 @@ int a[5];
 		- Offset is automatically scaled based on the data type (size) of element by compiler
 		- \*(a+i), dereference has higher precedence than addition, so must enclose in ()
 		- i is known as *scaled index*, since when used in address arithmetic it is automatically adjusted by compiler to be multiplied by the byte count of a given data type of the array
+<!--SR:!2025-10-05,4,270-->
 
 ## Passing Addresses
 ?
@@ -56,12 +57,14 @@ int a[5];
 	- Everytime a function is called, it automatically is allocated a memory stack by compiler to store any local variables, parameters, etc.
 		- When function returns, its *stack frame* (memory) is popped from the stack
 		- Top function is executing, the functions below waiting for callee to return (LIFO)
+<!--SR:!2025-10-05,4,270-->
 
 ## Pass by value
 ?
 - Scalars: scalar parameter that copies the passed in scalar argument
 - Pointers: pointer parameter that copies the passed in memory address as argument
 - Arrays: pointer parameter that gets a copy of array's address
+<!--SR:!2025-10-05,4,270-->
 
 ## 1D arrays on heap
 ?
@@ -73,6 +76,7 @@ int a[5];
 		- sizeof(operand) returns the number of bytes of an operand
 		- int * a = malloc(sizeof(int) * 5)
 		- For heap, arrays are creates using malloc and it returns an address type which we save to a scalar pointer variable on the stack which is different from stack allocated array since we're able to change the contents of this pointer unlike the label in SAA
+<!--SR:!2025-10-05,4,270-->
 
 ## Pointer Caveats
 ?
@@ -83,6 +87,7 @@ int a[5];
 - *Memory leak*: Heap memory that is unusable since it has not been freed properly
 - Since local variables are temporary in stack frame, we can't return its address in a function as it doesn't exist.
 	- If want to access after function returns, use heap memory
+<!--SR:!2025-10-05,4,270-->
 
 ## C Strings
 ?
@@ -93,6 +98,7 @@ int a[5];
 	- Accessing string literal returns its memory address to read from, but we can't write to it
 - char str\[9] = "CS 354"; is a string literal where CS 354 is allocated space on memory segment but also a copy of the data is created on the stack with str label (9 characters)
 - Assignment can't be used for copying character arrays
+<!--SR:!2025-10-05,4,270-->
 
 ## string.h library
 ?
@@ -100,7 +106,7 @@ int a[5];
 - int strlen(*const* char \*str)
 	- Returns length of string str, not including null character
 - int strcomp(const char \*str1, const char \*str2)
-	- Compares str1 to str2 
+	- Compares str1 to str2
 	- <0 if str1 comes before str2
 	- =0 if str1 and str2 are equal
 	- >0 if str1 comes after str2
@@ -110,3 +116,4 @@ int a[5];
 	- Appends string pointed to by source to the end of string pointed by destination and terminates with null character
 - *We must ensure that the destination character array is large enough for the result and null character*
 - *Buffer overflow*: exceeding bounds of the array
+<!--SR:!2025-10-05,4,270-->

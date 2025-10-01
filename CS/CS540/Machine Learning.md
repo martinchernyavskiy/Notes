@@ -83,7 +83,7 @@
 		- next-word prediction
 	- For computer vision
 		- image inpainting
-<!--SR:!2025-10-01,3,252-->
+<!--SR:!2025-10-09,8,252-->
 
 # Reinforcement Learning 
 

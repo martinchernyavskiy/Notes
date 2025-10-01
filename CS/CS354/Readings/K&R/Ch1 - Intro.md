@@ -51,6 +51,7 @@ void main() {
 - Indentation emphasizes logical structure of the program, critical for humans, not required for compilers
 - Integer operands --> Integer operation.
 - Floating-point operand + int operand --> floating-point operation since int will be automatically converted to a floating point number
+<!--SR:!2025-10-05,4,274-->
 
 | %d    | print as decimal integer                                  |
 | ----- | --------------------------------------------------------- |
@@ -64,7 +65,7 @@ void main() {
 ## For Statement & Symbolic Constants
 ?
 - Symbolic name is replaced by the corresponding replacement text upon compilation, name has the same format as variable. Convention is to write them in upper case
-- `#define name replacement list` 
+- `#define name replacement list`
 ```C
 #include <stdio.h>
 
@@ -81,6 +82,7 @@ int main() {
 	}
 }
 ```
+<!--SR:!2025-10-05,4,274-->
 
 ## Character Input and Output
 ?
@@ -292,3 +294,4 @@ int getline(char line[], int maxLine) {
 ```
 ## External Variables and Scope
 ?
+<!--SR:!2025-10-05,4,274-->

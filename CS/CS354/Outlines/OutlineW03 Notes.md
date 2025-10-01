@@ -2,6 +2,7 @@
 ?
 - Array of arrays (visualize as a table)
 - A pointer to an array of pointers to __ (eg. void** m)
+<!--SR:!2025-10-05,4,270-->
 
 ## 2D arrays on Heap
 ?
@@ -18,6 +19,7 @@
 ```
 - Must check if the memory was allocated successfully
 - When freeing memory of 2D array, do this in reverse order
+<!--SR:!2025-10-05,4,270-->
 
 ## Address Arithmetic in 2D arrays
 ?
@@ -26,6 +28,7 @@
 (*(m+i))[j] // dereference 
 *(*(m+i)+j) 
 ```
+<!--SR:!2025-10-05,4,270-->
 
 ## 2D arrays on Stack
 ?
@@ -36,6 +39,7 @@ int m[2][4] = {{0,1,2,3}, {4,5,6,7}}
 - Laid out in *ROW MAJOR* order as a single contiguous block of memory
 	- All elements are stored in memory row by row
 - m is once again a label and not a pointer to the array, can't be changed
+<!--SR:!2025-10-04,3,250-->
 
 ## Stack and Heap 2D array Compatibility
 ?
@@ -44,10 +48,12 @@ int m[2][4] = {{0,1,2,3}, {4,5,6,7}}
 - \*(m+i) gives address of start of row i
 	- Scale factor for heap is 4, for stack it's size of row
 - m is of type int ** and scale factor is to skip to the address of next row
+<!--SR:!2025-10-04,3,250-->
 
 ## 2D stack allocated arrays property
 ?
 - m and \*m are same addresses but not the same type
+- `*(*m+cols*i+j) is for accessing mpi`
 - ![[Pasted image 20250929193815.png]]
 - ![[Pasted image 20250929194056.png]]
 

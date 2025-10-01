@@ -55,7 +55,7 @@ for (int j = 0; j < 11; j++) {
 	printf("%i\n", j)
 }
 ```
-<!--SR:!2025-10-01,3,250-->
+<!--SR:!2025-10-08,7,250-->
 
 ## C Program Structure
 ?
@@ -108,7 +108,7 @@ for (int j = 0; j < 11; j++) {
 - gcc (gnu c compiler)
 	- if don't specify the name of the executable, defaults to a.out (assembler output)
 - test harnesses: separate program to test main program
-<!--SR:!2025-10-01,3,250-->
+<!--SR:!2025-10-09,8,250-->
 
 ## Runtime Description
 ?
@@ -186,4 +186,4 @@ Eventually, your `main` function finishes and returns.
 - *Endianess*: byte ordering of variable's value when its size is more than one byte
 	- *Little endian*: least significant byte at lowest address
 	- *Big endian*: most significant byte at at lowest address
-<!--SR:!2025-10-01,3,250-->
+<!--SR:!2025-10-08,7,250-->

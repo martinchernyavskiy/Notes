@@ -66,7 +66,7 @@
 		- Selecting 2 clauses where the latter one has a negative of one symbols of the previous clause
 		- Divide over the disjunction of two symbols that were part of the previous clauses
 	- Given KB, to show that KB entails a sentence Beta, we add negative of Beta to KB and show that the resolution leads to empty
-<!--SR:!2025-10-01,3,254-->
+<!--SR:!2025-10-09,8,254-->
 
 ## First Order Logic (FOL)
 ?
