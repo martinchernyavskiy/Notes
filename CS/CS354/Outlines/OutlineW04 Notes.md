@@ -76,8 +76,17 @@ int main(int argc, char *argv[]) {
 		fprintf(stderr, "Failed to close input file %s\n", argv[1]);
 		exit(1);
 	}
-	c
-
-	while()
+	const int buffsize = 257;
+	char buffer[bufsize];
+	while (fgets(buffer, bufsize, ifp) != NULL) {
+		fputs(buffer, ofp);
+	}
+	fclose(ifp);
+	fclose(ofp);
+	return 0;
 }
 ```
+
+## Three Faces of Memory
+?
+- Use abstraction to manage complexity
