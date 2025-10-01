@@ -53,11 +53,94 @@ int m[2][4] = {{0,1,2,3}, {4,5,6,7}}
 ## 2D stack allocated arrays property
 ?
 - m and \*m are same addresses but not the same type
-- `*(*m+cols*i+j) is for accessing mpi`
+- `*(*m+cols*i+j) is for accessing m[i][j] for stack allocated array only`
+- *Basic memory diagram of a SA2DA is a rectangular matrix*
 - ![[Pasted image 20250929193815.png]]
 - ![[Pasted image 20250929194056.png]]
 
 ## Array Caveats
 ?
 - Arrays have no bounds checking or have return types
-	- Assigning indices outside of the array bounds results in buffer overflow
+	- Assigning indices outside of the array bounds results in *buffer overflow*
+- SAA requires all but their first dimension to be specified in declaration
+	- That is because compiler requires number of columns to find next row
+- printIntArray(a, 2, 4);
+	- Any array that has same number of columns specified is type compatible with a
+
+## Structures
+?
+- Basically objects in Java without function declaring
+- User-defined type
+- A compound unit of storage with data members of different types
+- Accessed using its identifier and member selection gets to a particular member
+- Contiguous fixed block of memory
+```C
+struct <typename> {
+	<data-member-declaratns>;
+};
+
+typedef struct {
+	<data-member-declaratns>;
+} <typename>;
+
+struct Date {
+	// members
+	int month;
+	int day;
+	int year;
+};
+
+typedef struct {
+	// members
+	int month;
+	int day;
+	int year;
+} Date;
+```
+- struct Date today;
+- today.month = 9; *Dot operator is used for member selection*
+- struct Date today = {9, 23, 2025}
+- When using typedef we don't need to specify `struct Date` for declaration, instead can just use `Date`
+- Struct members are uninitialized by default
+- Structure's identifier used as a source operand reads the entire struct
+	- When used as destination operand, writes the entire struct
+- Unlike for arrays where only address is copied over, every member of struct is copied over
+- struct Date tomorrow;
+- tomorrow = today;
+
+## Nesting in Structures and Arrays of Structures
+?
+- Structures can contain other structures within them
+- Remember, structs are contiguous in memory
+```C
+typedef struct {
+	// members
+	int month;
+	int day;
+	int year;
+} Date;
+
+typedef struct {
+	char name[12];
+	char type[12];
+	float weight;
+	Date caught;
+} Pokemon;
+```
+-  *Example of stack allocated array of structures*
+```C
+Pokemon pokedex[2] = {
+{"Pikachu", "electric", 43.0, {12, 27, 2005}},
+{"Charizard", "fire", 40.0, {12, 26, 2005}}
+};
+```
+- `pokedex[1].weight = 22.2;`
+- `pokedex[0].caught.month = 11;`
+
+## Passing Structures
+?
+- Structs are passed-by-value which copies the whole struct into a parameter, so it can be relatively slow
+
+## Pointers to Structures
+?
+- Since passing structures to functions copied them as a whole, this is pretty inefficient in terms of memory and instead we can use pointers to the struct declared on stack to change its contents directly
