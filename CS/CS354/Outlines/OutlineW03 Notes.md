@@ -65,6 +65,7 @@ int m[2][4] = {{0,1,2,3}, {4,5,6,7}}
 	- That is because compiler requires number of columns to find next row
 - printIntArray(a, 2, 4);
 	- Any array that has same number of columns specified is type compatible with a
+<!--SR:!2025-10-04,3,255-->
 
 ## Structures
 ?
@@ -136,10 +137,12 @@ Pokemon pokedex[2] = {
 ```
 - `pokedex[1].weight = 22.2;`
 - `pokedex[0].caught.month = 11;`
+<!--SR:!2025-10-04,3,255-->
 
 ## Passing Structures
 ?
 - Structs are passed-by-value which copies the whole struct into a parameter, so it can be relatively slow
+<!--SR:!2025-10-04,3,255-->
 
 ## Pointers to Structures
 ?
@@ -151,3 +154,4 @@ Pokemon * pmptr = malloc(sizeof(Pokemon))
 ```
 - *Points to operator `->`*; pmptr -> weight = 28.6
 - strcpy(pmptr -> name, "Pikachu"); // can only set string literal during the initialization, not after declaration
+<!--SR:!2025-10-04,3,255-->

@@ -16,6 +16,7 @@
 	- printf(const char * format_string, v1, v2, ...)
 		- writes formatted output to console, returns number of characters written
 	- perror(const char * str)
+<!--SR:!2025-10-04,3,250-->
 
 ## String I/O
 ?
@@ -25,12 +26,13 @@
 - sprintf(char * str, const char * format_string, v1, v2, ...)
 	- writes formatted output to specified str
 	- returns number of characters written, or negative if error
+<!--SR:!2025-10-04,3,250-->
 
-## File I/O 
+## File I/O
 ?
 - Input:
 - fgetc() reads 1 chara at a time
-- fgets() reads 1 string up to a newline 
+- fgets() reads 1 string up to a newline
 - fscaf(FILE * stream, const char * format_string, &v1, &v2, ...)
 	- reads formatted input from specified stream
 	- returns number of inputs stored
@@ -40,6 +42,7 @@
 - int fprintf(FILE * stream, const char * format_string, v1, v2, ...)
 	- writes formatted output to specified stream
 	- returns number of characters written
+<!--SR:!2025-10-04,3,250-->
 
 ## Opening and Closing files
 ?
@@ -87,6 +90,7 @@ int main(int argc, char *argv[]) {
 	return 0;
 }
 ```
+<!--SR:!2025-10-04,3,250-->
 
 << --- MIDTERM1 --- >>
 ## Three Faces of Memory
