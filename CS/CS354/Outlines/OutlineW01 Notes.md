@@ -12,7 +12,7 @@
 		- continue: runs the program to the end until the breakpoint is reached
 - *shell-prompt* is the text preceding input cursor ($)
 - *network*: cs.wisc.edu
-<!--SR:!2025-10-02,4,270-->
+<!--SR:!2025-10-17,14,290-->
 
 ## C Logical Control Flow
 ?
@@ -166,7 +166,7 @@ Eventually, your `main` function finishes and returns.
     
 3. **Cleanup**: The OS cleans up everything. It reclaims **all** memory associated with the process—the text, data, stack, and heap segments are all wiped away, and the resources are returned to the system for other programs to use.
 ```
-<!--SR:!2025-10-02,4,270-->
+<!--SR:!2025-10-18,15,290-->
 
 ## Variables
 ?

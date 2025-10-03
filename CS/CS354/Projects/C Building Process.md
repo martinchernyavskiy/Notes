@@ -1,7 +1,7 @@
 ## Build Process Phases
 ?
 *Build Process (Compiling) is a way to translate source code into machine code (file called executable/EOF).*
-<!--SR:!2025-10-02,4,276-->
+<!--SR:!2025-10-19,16,296-->
 
 ### Pre-Processing
 ?
@@ -17,7 +17,7 @@
 	- Like `#include <stdio.h>`
 	- Specify which header files to include to define macros
 	- Preprocessing adds header files and expands macros to merge that code within the source file to produce an updated source file
-<!--SR:!2025-10-02,4,270-->
+<!--SR:!2025-10-17,14,290-->
 
 ### Compiling Phase (source to assembly)
 ?
@@ -26,7 +26,7 @@
 	- -S indicates to stop after the compilation proper stage and to not assemble
 	- Creates the assembler source file
 	- Replaces the suffix of the file to `.s` by default
-<!--SR:!2025-10-02,4,270-->
+<!--SR:!2025-10-18,15,290-->
 
 ### Assembling Phase (assembly to machine code)
 ?
@@ -35,10 +35,10 @@
 	- compiles/assembles source file, but doesn't link
 	- can view using *objdump tool*: objdump -d decode.o
 		- `objdump` is a disassembler that converts machine code to assembly
-<!--SR:!2025-10-02,4,276-->
+<!--SR:!2025-10-19,16,296-->
 
 ### Linking Phase
 ?
 *Combines/Links object files to create EOF, including these in standard C library*
 - gcc decode.c -Wall -m32 -std=gnu99 -o decode
-<!--SR:!2025-10-02,4,270-->
+<!--SR:!2025-10-18,15,290-->

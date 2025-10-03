@@ -23,6 +23,7 @@
 	- Transpose doesn't move or copy data
 		- Putting column data in rows and transposing provides fast column sum
 - The layout where data is contiguous is most cache friendly since we have less misses and only need to read one cache line
+<!--SR:!2025-10-07,4,281-->
 
 ## PyArrow
 ?
@@ -136,14 +137,16 @@ pc.mean(t["income"].drop_null().as_py())
 				- Allocates 4kb pages on a virtual memory associated with 4kb chunks on the disk
 					- Doesn't use any memory or does any computationally heavy task like reading from storage
 					- When a program requests the data by indexing into the given virtual address space, the OS automatically reads that piece of data from storage into memory to be read by you.
-					- Data loaded for accesses to file-backed mmap regions are part of the *page cache* 
+					- Data loaded for accesses to file-backed mmap regions are part of the *page cache*
 						- Could evict data from memory when under memory pressure, but the data is still stored on the disk
+<!--SR:!2025-10-07,4,281-->
 
 ## Swap Space
 ?
 - Can we evict anonymous mmap from memory?
 	- Usually can't, but can setup a system that permits it
 		- Create a space (swap file) to which OS can evict data from anonymous mappings (so memory data is evicted to storage which is relatively slow)
+<!--SR:!2025-10-07,4,281-->
 
 ## Demo (PyArrow + Docker), mmap
 ?
@@ -182,3 +185,4 @@ with. pa.ipc.open_file(mm) as f:
 pc.sum(t["x"]) # brings in data from disk and automatically evicts already used data to not exceed memory
 ```
 - ls /proc/
+<!--SR:!2025-10-07,4,281-->

@@ -2,6 +2,7 @@
 ?
 - Code section we don't want to get interrupted
 - *Atomicity* (actions taken together, not-disrupted) and *Consistency (invariants)*
+<!--SR:!2025-10-07,4,270-->
 
 ## Locks
 ?
@@ -13,6 +14,7 @@
 - *Lock granularity affects the runtime speed tremendously*
 	- eg if you lock acquire and release each loop iteration is worse than holding the lock outside of the loop (course grained locking vs. fine grained)
 - *Deadlock happens when multiple threads try to acquire multiple locks in a different order. The best practice is for them to acquire locks in the exact same order*
+<!--SR:!2025-10-07,4,270-->
 
 ## Locks Demo
 ?
@@ -41,18 +43,22 @@ transfer("z", "y", 50)
 bank_accounts
 
 ```
+<!--SR:!2025-10-07,4,270-->
 
 ## Python's GIL (Global Interpreter Lock)
 ?
 - Only one thread can be running Python bytecode in a process at once
 	- useful for threads blocked on I/O
+<!--SR:!2025-10-07,4,270-->
 
 ## Why GIL?
 ?
 - If variable gets changed by multiple threads, we want it to be done safely by using locks
 	- PVM has variables within itself that are used for book-keeping for garbage collection
+<!--SR:!2025-10-07,4,270-->
 
 ## Challenged Beyond Interleaving
 ?
 - The order of statement execution can be done in a different order by CPU
 - Caching
+<!--SR:!2025-10-07,4,270-->

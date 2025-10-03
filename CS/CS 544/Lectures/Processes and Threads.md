@@ -5,27 +5,31 @@
 	- One instruction pointer and one stack
 - *Multi-threaded process*
 	- Multiple instruction pointers and multiple stacks
+<!--SR:!2025-10-07,4,270-->
 
 ## Context Switch
 ?
 - Change which thread a CPU is running (CPU rotates its instruction pointer per state of each thread)
 - CPU schedule is a sub system in OS
 - Decides when to context switch between threads
+<!--SR:!2025-10-07,4,270-->
 
 ## Scheduling Restrictions (Blocked Threads)
 ?
 - Threads can have multiple states
 	- Running (CPU is executing it)
 	- Blocked (the thread is waiting for something other than CPU)
-		- Examples could include waiting on network, input, disk, etc. 
+		- Examples could include waiting on network, input, disk, etc.
 	- Ready (scheduler can make a context switch to it)
+<!--SR:!2025-10-07,4,270-->
 
 ## Efficient Use of Compute Resources
 ?
 - if there are not. enough threads or blocked threads, then we aren't utilize the CPU to the max of its capabilities (have idle CPU cores)
 - *Multi-threaded applications* are applications that utilize multiple threads which provide efficiency, but may introduce bugs such as race conditions and deadlocks
-	- All share same virtual address memory 
+	- All share same virtual address memory
 - *Multi-process* applications are easier to program and are better of parallel work
+<!--SR:!2025-10-07,4,270-->
 
 ## Demo
 ?
@@ -50,3 +54,4 @@ t.join()
 - gRPC automatically manages threads
 - Can't pass in arguments direction into the target function
 - Race conditions
+<!--SR:!2025-10-07,4,270-->

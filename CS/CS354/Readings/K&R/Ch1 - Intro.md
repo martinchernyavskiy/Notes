@@ -12,7 +12,7 @@ int main() {
 	printf("Hello World!\n)
 }
 ```
-<!--SR:!2025-10-02,4,270-->
+<!--SR:!2025-10-19,16,290-->
 
 ## Variables and Arithmetic Expressions
 ?
@@ -192,7 +192,7 @@ main() {
 ```
 - Assignments are associated from right to left
 - Expressions connected by logical operators are read from left to right, potentially skipped if a certain condition holds before
-<!--SR:!2025-10-02,4,270-->
+<!--SR:!2025-10-17,14,290-->
 
 ## Arrays
 ?
