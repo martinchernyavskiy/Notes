@@ -42,7 +42,6 @@ def task() {
 }
 
 threading.get_native_id()
-
 t = threading.Thread(target=task, args=[1_000_000])
 t.start()
 t.join() 
