@@ -2,7 +2,7 @@
 ?
 - Field of study that gives the computer the ability to learn without being explicitly programmed
 	- Parsing data to learn key patterns and/or understand the data to perform inference/reasoning
-<!--SR:!2025-10-02,4,272-->
+<!--SR:!2025-10-13,10,272-->
 
 ## Taxonomy of ML
 ?
@@ -11,7 +11,7 @@
 - Unsupervised Learning
 	- Contains no label
 - Reinforcement Learning
-<!--SR:!2025-10-02,4,272-->
+<!--SR:!2025-10-15,12,272-->
 
 # Supervised Learning
 ## Examples
@@ -25,7 +25,7 @@
 ## Data Representation
 ?
 - Represent data using vectors where the dimension is called a feature dimension
-<!--SR:!2025-10-02,4,272-->
+<!--SR:!2025-10-18,15,292-->
 
 ## Types of Supervised Learning Algorithms
 ?
@@ -39,7 +39,7 @@
 	- Have *continuous* values for the label
 	- x can be of higher dimension and is denoted as *features*
 	- y is denoted as *label*/output and is usually of single dimension
-<!--SR:!2025-10-02,4,270-->
+<!--SR:!2025-10-14,11,270-->
 
 
 ## Training Data for Supervised Learning
@@ -53,7 +53,7 @@
 - Training set error (regression)
 	- Since label is continuous, we subtract an expected label from the output of a function and square it. Then we sum these all up for all of the training data points and divide by n
 - Want to find a function that minimizes the loss
-<!--SR:!2025-10-02,4,272--> 
+<!--SR:!2025-10-14,11,272--> 
 
 # Unsupervised Learning
 
@@ -63,7 +63,7 @@
 	- Data within clusters share similarities, but differ from other clusters
 	- Clustering for genes
 	- Clustering for words
-<!--SR:!2025-10-02,4,272-->
+<!--SR:!2025-10-13,10,272-->
 
 ### How to perform clustering?
 ?
@@ -71,7 +71,7 @@
 	- Specify the desired number of clusters and use iterative algorithm to find them
 - Hierarchical clustering
 	- Build a binary tree over a datset
-<!--SR:!2025-10-02,4,272-->
+<!--SR:!2025-10-13,10,272-->
 
 ## Self-Supervised Learning
 ?
@@ -91,11 +91,11 @@
 ?
 - Entity that take actions that reward function evaluates on how good the action was
 	- Goal is to learn to choose actions that maximize future reward total
-<!--SR:!2025-10-02,4,272-->
+<!--SR:!2025-10-13,10,272-->
 
 ## RL problems
 ?
 - Actions may have delayed effects (not immediate)
 	- Requires *credit-assignment* that denotes which actions from sequence were good or bad
 - Maximal reward action is unknown
-<!--SR:!2025-10-02,4,272-->
+<!--SR:!2025-10-13,10,272-->

@@ -3,7 +3,7 @@
 ?
 - Allows to make predictions, classify data, perform regression
 - Has features and labels and the goal is to find a function with minimal loss to predict label on future data
-<!--SR:!2025-10-02,4,270-->
+<!--SR:!2025-10-13,10,270-->
 
 ## Unsupervised Learning
 ?
@@ -11,7 +11,7 @@
 - Clustering / Hierarchical Clustering / Centroid-based Clustering
 - PCA is also an unsupervised algorithm
 - Estimating probability distributions is too
-<!--SR:!2025-10-02,4,270-->
+<!--SR:!2025-10-13,10,270-->
 
 ## Clustering
 ?
@@ -25,20 +25,20 @@
 - Bayesian
 	- Decision-based
 	- Nonparametric
-<!--SR:!2025-10-02,4,270-->
+<!--SR:!2025-10-13,10,270-->
 
 ## Hierarchical Clustering
 ?
 - Grouping points together based on whether they are similar to each other
 	- Move from specific to general
 	- no need for k
-<!--SR:!2025-10-02,4,270-->
+<!--SR:!2025-10-15,12,270-->
 
 ## Agglomerative Clustering
 ?
 - Given data points, assume each starts within each own cluster
 	- Merge 2 points (clusters) that are closest to each other
-<!--SR:!2025-10-02,4,270-->
+<!--SR:!2025-10-14,11,270-->
 
 ## Merging Criteria of Agglomerative Clustering
 ?
@@ -50,7 +50,7 @@
 		- Minimizes the noise by including the outliers
 	- Average-linkage
 		- Get distance between each point from two clusters
-<!--SR:!2025-10-02,4,270--> 
+<!--SR:!2025-10-15,12,270--> 
 
 ## Center-based clustering
 ?
@@ -61,7 +61,7 @@
 	- For each point x determine its cluster based on closest center in Euclidean space
 	- Get the mean of points within each cluster and make these as centroids of their respective cluster
 	- Repeat until the centroids no longer move
-<!--SR:!2025-10-02,4,270-->
+<!--SR:!2025-10-13,10,270-->
 
 ## K-means algorithm
 ?
@@ -72,24 +72,24 @@
 	- Step 3: Update all cluster centers as the centroids:
 		- Meaning get the mean of points within their cluster and assign it to be the new centroid
 	- Repeat steps 2 and 3 until cluster centers no longer change
-<!--SR:!2025-10-02,4,270-->
+<!--SR:!2025-10-13,10,270-->
 
 ## K-means optimization problem
 ?
 - The goal is to minimize the sum of distances from the points to the corresponding cluster center
-<!--SR:!2025-10-02,4,270-->
+<!--SR:!2025-10-14,11,270-->
 
 ## Does k-means algorithm stop?
 ?
 - Yes, for fixed dataset and fixed number of clusters there are only finite number of ways to assign data points to clusters.
 	- Each iteration assigns each data point to the closest centroid and then recomputes centroids as the mean of assigned points
 	- So each iteration reduces the objective function
-<!--SR:!2025-10-02,4,270-->
+<!--SR:!2025-10-15,12,270-->
 
 ## Global vs. Local Optimum
 ?
 - Finding global optimum using k-means algorithm isn't guaranteed, but we may find local
-<!--SR:!2025-10-02,4,270-->
+<!--SR:!2025-10-14,11,270-->
 
 ## How many clusters to use for k-means?
 ?
@@ -97,4 +97,4 @@
 - Elbow Method
 	- Get the within-cluster sum of squares for different values of k
 	- Plot this vs. k and look for elbow point which is basically where reduction in WCSS slows down
-<!--SR:!2025-10-02,4,270-->
+<!--SR:!2025-10-13,10,270-->

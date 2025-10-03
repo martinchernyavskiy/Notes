@@ -8,7 +8,7 @@
 - May allow AI to write formally verifiable proofs
 - *Which is the best?*
 	- Combination of the two, like in Markov Logic Networks
-<!--SR:!2025-10-02,4,274-->
+<!--SR:!2025-10-13,10,274-->
 
 ## Basics of Logic
 ?
@@ -25,14 +25,14 @@
 - *Connectives* include (conjunction, disjunction, implication, biconditional, negation)
 	- Precedence follows: not --> and --> or --> implies --> equivalence
 	- Parentheses when needed
-<!--SR:!2025-10-02,4,274-->
+<!--SR:!2025-10-19,16,294-->
 
 ## Sentences & Semantics
 ?
 - *Interpretation*: (True/False in truth table for symbols)
 - *Semantics*: Interpretations for which sentences evaluate to true
 - *Model*: interpretation for which all sentences are true
-<!--SR:!2025-10-02,4,274-->
+<!--SR:!2025-10-13,10,274-->
 
 ## Knowledge Bases
 ?
@@ -40,12 +40,12 @@
 	- Each connected with conjunction
 - Model of KB is interpretations for which all sentences are true
 - Goal: inference to discover new sentences
-<!--SR:!2025-10-02,4,274-->
+<!--SR:!2025-10-14,11,274-->
 
 ## Entailment
 ?
 - If sentence B logically follows from A, then we write A|=B, this is the case where whenever A is true, B is also true
-<!--SR:!2025-10-02,4,274-->
+<!--SR:!2025-10-13,10,274-->
 
 ## Inference
 ?
@@ -83,4 +83,4 @@
 		- Atom
 		- Use connectives
 	- *Quantifiers*: for all / there exists
-<!--SR:!2025-10-02,4,274-->
+<!--SR:!2025-10-15,12,274-->

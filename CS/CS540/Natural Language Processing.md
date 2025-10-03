@@ -6,12 +6,12 @@
 		- Summarize or extract information
 		- Translate between languages
 		- Generate dialogue/language
-<!--SR:!2025-10-02,4,272-->
+<!--SR:!2025-10-13,10,272-->
 
 ## Challenges of NLP
 ?
 - Language can be ambiguous
-<!--SR:!2025-10-02,4,272--> 
+<!--SR:!2025-10-15,12,272--> 
 
 ## Language Models
 ?
@@ -21,7 +21,7 @@
 - Used not only for NLP but also:
 	- Parsing, part-of-speech tagging, etc.
 	- Q/A answering, translation, summarization, etc.
-<!--SR:!2025-10-02,4,272-->
+<!--SR:!2025-10-14,11,272-->
 
 ## Training The Language Model
 ?
@@ -32,19 +32,19 @@
 	- Markov assumption with shorter history
 		- Probability of a word depends on probability of k of previous ones
 		- We don't need whole past of previous words, instead we can just pick k that are closest to the one we are making assumption for
-<!--SR:!2025-10-02,4,272-->
+<!--SR:!2025-10-13,10,272-->
 
 ## Unigram Model (k=0)
 ?
 - Full independence assumption (meaning present doesn't depend on the past)
 	- Based on frequencies alone from
-<!--SR:!2025-10-02,4,272--> 
+<!--SR:!2025-10-15,12,272--> 
 
 ## Bigram Model (k=1)
 ?
 - Present depends on immediate past
 - Given a letter, what's the probability of the next letter being __ ?
-<!--SR:!2025-10-02,4,272-->
+<!--SR:!2025-10-13,10,272-->
 
 ## n-gram Model
 ?
@@ -52,7 +52,7 @@
 	- Allows for more expressive sentence
 	- Harder to estimate
 	- Training --> count
-<!--SR:!2025-10-02,4,272--> 
+<!--SR:!2025-10-13,10,272--> 
 
 ## n-gram Training
 ?
@@ -61,7 +61,7 @@
 - For n-grams with zero probability
 	- We solve by using smoothing, adding 1 to the numerator and V (number of words in vocabulary) to denominator
 	- This ensures the probability adds up to 1
-<!--SR:!2025-10-02,4,272-->
+<!--SR:!2025-10-13,10,272-->
 
 ## Language Model Evaluation
 ?
@@ -77,7 +77,7 @@
 				- PP(W) = P(w1, ... , wn)^(-1/n)
 				- Compute average PP(W) for all W from dataset
 					- Lower average is better
-<!--SR:!2025-10-02,4,272-->
+<!--SR:!2025-10-14,11,272-->
 
 ## Representing Words
 ?
@@ -85,7 +85,7 @@
 - One-hot vectors
 	- Vector of dimension being the number of words in vocabulary
 	- For "dog", a single entry of 1 (rest are zero) represents it within vocabulary
-<!--SR:!2025-10-02,4,272-->
+<!--SR:!2025-10-15,12,272-->
 
 ## Smarter Representations
 ?
@@ -93,7 +93,7 @@
 	- Representation for objects that relate to each other must be similar
 		- Dense vectors/*Word embeddings*
 		- Each object is represented by a vector with probability entries per some group
-<!--SR:!2025-10-02,4,270-->
+<!--SR:!2025-10-14,11,270-->
 
 ## Training Word Embeddings
 ?
@@ -113,10 +113,10 @@
 		- Let v_w and u_w be two vectors that denote center/context
 			- ![[Pasted image 20250927151802.png]]
 			- If dot product of u and c is large, it means they have a higher similarity
-<!--SR:!2025-10-03,3,252-->
+<!--SR:!2025-10-11,8,252-->
 
 ## Transformers
 ?
 - Special model architectures based on attention
 	- Sophisticated types of neural networks
-<!--SR:!2025-10-02,4,272-->
+<!--SR:!2025-10-14,11,272-->
