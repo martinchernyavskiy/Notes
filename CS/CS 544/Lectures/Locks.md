@@ -12,6 +12,7 @@
 - *Lock can be held only by one thread at a time*
 - *Lock granularity affects the runtime speed tremendously*
 	- eg if you lock acquire and release each loop iteration is worse than holding the lock outside of the loop (course grained locking vs. fine grained)
+- *Deadlock happens when multiple threads try to acquire multiple locks in a different order. The best practice is for them to acquire locks in the exact same order*
 
 ## Locks Demo
 ?
@@ -52,4 +53,4 @@ bank_accounts
 
 ## Challenged Beyond Interleaving
 ?
-- 
+- The order of statement execution can be done in a different order by CPU

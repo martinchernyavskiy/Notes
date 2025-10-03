@@ -32,7 +32,7 @@
 - Some of the thread operations include:
 	- t = threading.Thread()
 	- t.start(target=????, args=`[????]`)
-	- t.join()
+	- t.join() # execution of main is paused and waits until thread t has completed its execution
 	- t.get_native_id()
 ```python
 import threading 
