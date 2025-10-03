@@ -97,6 +97,7 @@ pc.mean(t["income"].drop_null().as_py())
 	- *PyArrow is more efficient but Pandas has more features. Converting from PyArrow to pandas is generally much faster*
 - Pandas substitutes missing data in columns by NaN (double). SInce there is no NaN for integers, it's going to convert that to float unnecessarily
 	- Since PyArrow has validity bitmap, it allows for integer operations which is faster than float operations
+<!--SR:!2025-10-07,4,281-->
 
 ## Virtual Address Spaces
 ?

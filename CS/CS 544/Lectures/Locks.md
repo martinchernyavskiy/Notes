@@ -22,12 +22,12 @@ lock = threading.Lock() # protects bank_accounts
 
 def transfer(src, dst, amount):
     with lock:
-    success = False
-    if bank_accounts[src] >= amount:
-        bank_accounts[src] -= amount
-        bank_accounts[dst] += amount
-        success = True
-    print("transferred" if success else "denied")
+		success = False
+		if bank_accounts[src] >= amount:
+			bank_accounts[src] -= amount
+			bank_accounts[dst] += amount
+			success = True
+		print("transferred" if success else "denied")
     # lock.release() happens automatically even with exception
     
     
@@ -49,8 +49,10 @@ bank_accounts
 
 ## Why GIL?
 ?
-- ...
+- If variable gets changed by multiple threads, we want it to be done safely by using locks
+	- PVM has variables within itself that are used for book-keeping for garbage collection
 
 ## Challenged Beyond Interleaving
 ?
 - The order of statement execution can be done in a different order by CPU
+- Caching

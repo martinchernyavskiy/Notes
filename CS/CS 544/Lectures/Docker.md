@@ -12,7 +12,7 @@
 		- Each container contains different "flavors" of Linux
 		- *Incompatibility*: Can't have Windows container on Linux
 - Virtual Memory
-<!--SR:!2025-10-03,11,272-->
+<!--SR:!2025-11-14,42,292-->
 
 ## Docker
 ### Registries
