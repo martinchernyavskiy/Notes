@@ -14,3 +14,8 @@
 	- Compute k smallest eigenvectors of L
 	- Create U matrix of nxk dimension with each of mentioned eigenvector as column vectors of this matrix
 	- Run k-means to get the final clustering
+
+## Why normalized Laplacian?
+?
+- Minimizing the weight of the cut may result in one of the nodes to be cut off completely. So we need a *balanced* cut
+	- 
