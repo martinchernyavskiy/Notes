@@ -54,4 +54,40 @@
 	- Number l of leaves is at least n factorial
 	- Number of leaves is at most 2^d 
 	- d >= log(l) >= log(n!)
-	- (n/2)^(n/2) <= n! <= n^n so 
+	- (n/2)^(n/2) <= n! <= n^n, so log(n!) = theta (nlogn)
+
+## Counting Inversions
+?
+- Inversion in an array is a pair of elements in the array where one's smaller than the other, but it's position is higher
+- The bounds on Inv(A) is between 0 when array is sorted and n choose 2 when reverse sorted
+### Problem Specification
+- Input: array of n integers
+- Output: Inv(A) = number of inversions in A
+### D&C approach
+- Intuition: Split the array into two by the midpoint
+	- Count number of inversions in each and combine them as a return result
+		- However, this disregards the crossing inversions between both array halves, we need to calculate it linearly
+#### Counting Cross Inversions
+- Input: sorted array halves (L, R)
+- Output: Inv(LR)
+- Intuition: Set up the 2 pointers to beginning of sorted arrays 
+	- Compare elements at the sorted array pointers, if pointer element of the right array is smaller than a pointer value of the left, increment number of inversions by 1 (from pointer) + number of elements to the right of pointer (can do n - i + 1).
+	- If it wasn't smaller or was equal, we don't do anything
+	- Lastly increment the smallest element's array's corresponding pointer
+- To put it in Pseudocode:
+	- procedure Cross-Count(L, R)
+		- i <- 1; j <- 1; c <- 0
+		- for k = 1 to n+m do
+			- if L\[i] <= R\[j] then i <- i + 1
+						else j <- j + 1; c <- c + n - i + 1
+		- return c
+### Count
+- Main algorithm for calculating counting inversions
+- Pseudocode:
+	- procedure Count(A)
+		- if n = 1 then 
+			- return 0
+		- m <- floor (n\2)
+		- L <- A\[1...m]
+		- R <- A\[m+1...n]
+		- return Count(L) + Count(R) + Cross-Count(Merge-Sort(L), Merge-Sort(R))
