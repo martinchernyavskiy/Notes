@@ -91,3 +91,6 @@
 		- L <- A\[1...m]
 		- R <- A\[m+1...n]
 		- return Count(L) + Count(R) + Cross-Count(Merge-Sort(L), Merge-Sort(R))
+	- Merge-Sort dominates the local work with  c * nlog(n) which for depth of log(n) results in Count running in O(nlog(n)^2)
+	- We can change this algorithm to Count and Sort to instead of merge-sort use merge arrays in recursive calls up to main function call
+	- ![[Pasted image 20251004170053.png]]
