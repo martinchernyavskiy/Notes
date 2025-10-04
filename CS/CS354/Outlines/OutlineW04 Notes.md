@@ -113,6 +113,83 @@ int main(int argc, char *argv[]) {
 	- *Hardware View (Physical Memory)*
 		- *PAS*: organized as a multi-level hierarchy that ensures frequently accessed data is close to CPU
 		- *Physical address*: actual address to access machine's memory
-<!--SR:!2025-10-06,3,250-->
 
-## Virtual Address S
+
+## Virtual Address Space
+?
+- VAS consists of:
+	- Reserved section for OS
+		- End address is a magic number for security reasons
+	- Code segment (read-only)
+		- Consists of .rodata and .text sections
+			- String literals are stored in .rodata section
+			- Program instructions are stored in .text section
+	- Data segment
+		- Used for storing global and static local variables
+		- Consists of .bss and .data sections
+	- Heap Memory
+		- Used for dynamic memory allocation, shrinks/grows
+		- OS uses brk variable to keep track of the top of the heap
+	- Memory Mapped
+		- Used by processes to communicate between each other (sharing data/memory)
+		- Virtual pages / pages need to be shared between different processes are stored in this segment
+		- Also used to store DLLs
+			- Contain data and instructions in executable format
+	- Stack
+		- Grows downward while heap grows upward
+- *Address space*: range of valid addressed available to a process
+- *Process*: a running program
+- *Kernel*: memory resident of the OS
+- *User Process*: any process that is not Kernel
+	- Has the above view of memory
+
+## Code Segment
+?
+- Contains the program's instructions
+	- .text contains binary machine code
+	- .rodata used for string literal storage
+- Lifetime: entire program's execution
+- Initialization: from EOF by OS loader
+- Access: READ-ONLY
+
+## Data Segment
+?
+- Contains global and static local variables
+	- global variable is declared outside of any functions to be accessible throughout the program's execution
+	- Static local variables are variables that retain their values, defined inside a function
+- Lifetime: entire program's execution
+- Initialization: from EOF by OS loader
+	- .data section: from code (global and static local variables with non-zero values)
+	- .bss section: from code (uninitialized / zero value global and static local variables)
+- Access: read/write
+
+## Heap
+?
+- Contains: memory allocated and freed by program during execution
+- Lifetime: managed by programmer
+- Initialization: none by default
+- Access: read/write
+
+## Stack
+?
+- Contains memory in stack frames
+	- Stack frames contain parameter, non-static local variables, temporary variables, etc.
+- Lifetime: from declaration until its end of scope
+- Initialization: none by default
+- Access: read/write
+
+## Global and Static Local variables
+?
+- Global variable is variable that is declared outside of any function in the code
+	- Loaded into Data segment before program execution begins
+- Static local variable is a variable that is declared with static modifier inside a function
+	- Accessible only locally to its function (when function returns the variable is kept in .data section of the data segment, so next time the function is called this data is already present and if changed before have kept the changed value).
+	- Loaded into Data segment before program execution begins
+- Using global variables may introduce bugs from functions modifying the value
+- *Shadowing*: when we declare a local variable with the same name as the global variable, the function is no longer able to access the global variable since local one has a higher precedence
+
+## Some linux commands
+?
+- ps, jobs, bg, fg, top
+- size executable , displays memory segments
+- pmap, /proc/pid/maps
