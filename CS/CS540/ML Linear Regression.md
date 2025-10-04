@@ -36,3 +36,28 @@
 - After parameterizing the model, we test it on a reserved test set that wasn't part of the training
 - Allows to detect overfitting (when a mode performs well for training data but very poorly for the test data and thus is unable to generalize well)
 	- A bigger class of functions is more prone to overfit
+
+## Linear Regression
+?
+- Simplest form of regression, we need to find constants a, b such that the label is well-approximated by ax_i + b (line of best fit)
+- Need a linear combination of x components and intercept (need parameters theta)
+
+## Linear Regression Setup
+?
+- The goal is to figure out how to minimize square loss 
+- To simplify $\theta_{0} + x^T\theta$ we can append 1 at the beginning of the x vector and thus we would have f(x) being equal to just the dot product of the two
+.
+- We transpose each entry of x to make it a n \* (d+1) matrix and make y label a vector
+	- This results in empirical risk $\frac{1}{n}||X\theta-y||^2$ 
+	- Can either optimize using Gradient Descent or we can use a closed-form solution
+	- $\theta = (X^TX)^-1X^Ty$
+		- X^T X might not always be invertible
+
+## Classification
+?
+- Label is discrete, for the case where y is either 0 or 1
+- We need to convert the dot product of transposed theta and x to a probability
+- Use logistic function:
+	- $p(y=1|x)= \frac{1}{1+\exp(-\theta^Tx)}$
+		- Where if inside of exponent is large positive value, the probability gets close to 1 and if large negative, then probability gets close to 0
+

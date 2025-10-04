@@ -99,8 +99,20 @@ int main(int argc, char *argv[]) {
 - The 3 faces of memory include:
 	- *Process View (Virtual Memory)*
 		- Provides simple view of memory (have more than have physically)
-		- *Virtual Address Space* -> illusion by operating system that each process has its own contiguous memory space
+		- *Virtual Address Space* -> illusion by operating system that each process has its own contiguous memory space. Since we have limited computer resources, the actual physical memory oftentimes is shared among the processes, it simplifies to the case where there is an illusion of private resources for each process.
+		- The size of the virtual space is 2^32 (since we use a 32 bit computer architecture).
+		- Virtual Address consists of Code --> Data --> Heap --> Stack 
+		- Memory addresses start from 0x000... to 0xFFF .... The start of the virtual memory address is reserved for the operating system
+		- Both Stack and Heap grow/shrink in size
+		- At the top of the virtual address we have kernel (memory of the operating system)
 		- *Virtual Address* -> simulated address that a process generates
 	- *System View (Illusionist)*
+		- Make memory sharable and secure
+		- Deals with *pages* where pages are memory blocks managed by an operating system (4 KibiBytes for IA-32)
+		- *Page table*: OS structure that maps virtual pages to physical pages
 	- *Hardware View (Physical Memory)*
+		- *PAS*: organized as a multi-level hierarchy that ensures frequently accessed data is close to CPU
+		- *Physical address*: actual address to access machine's memory
 <!--SR:!2025-10-06,3,250-->
+
+## Virtual Address S
