@@ -106,3 +106,9 @@
 ### Topological Sort
 ?
 - Specific to directed acyclic graphs
+- *Ordering of vertices on a line such that edge only go in one directions*
+- Want to start with a vertex with no incoming edges
+	- This is possible only if a graph is acyclic
+	- After removing a vertex from acyclic graph, the graph remains acyclic and we repeat the process until none exist
+- In order for above algorithm to work we need to keep track of all vertices and their in-degrees
+	- Use adjacency list to decrement the in-degrees of edges related to a popped vertex
